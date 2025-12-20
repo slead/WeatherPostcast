@@ -8,16 +8,16 @@
   - Set up pytest configuration in `pytest.ini` or `pyproject.toml`
   - _Requirements: 1.1, 2.1_
 
-- [ ] 2. Implement shared utilities and data models
+- [-] 2. Implement shared utilities and data models
 
-  - [ ] 2.1 Create data models and serialization
+  - [x] 2.1 Create data models and serialization
     - Implement `Location` and `ForecastRecord` dataclasses in `src/models.py`
     - Implement JSON serialization/deserialization functions
     - _Requirements: 3.5, 3.6_
   - [ ]\* 2.2 Write property test for round-trip serialization
     - **Property 1: Forecast Data Round-Trip Serialization**
     - **Validates: Requirements 3.5, 3.6**
-  - [ ] 2.3 Implement utility functions
+  - [x] 2.3 Implement utility functions
     - Create `src/utils.py` with logging setup, path generation, and retry decorator
     - Implement `get_data_filepath(state, city)` function
     - Implement `retry_request` decorator with configurable retries
