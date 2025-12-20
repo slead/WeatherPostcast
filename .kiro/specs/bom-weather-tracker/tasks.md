@@ -39,14 +39,14 @@
     - **Property 3: State Name to Abbreviation Mapping**
     - **Validates: Requirements 1.6, 4.3**
 
-- [ ] 4. Implement location discovery script
+- [x] 4. Implement location discovery script
 
-  - [ ] 4.1 Implement places page parsing
+  - [x] 4.1 Implement places page parsing
     - Create `src/discover_locations.py`
     - Implement `fetch_places_page()` to retrieve BOM places page
     - Implement `parse_city_links()` to extract city URLs and names from HTML
     - _Requirements: 1.1_
-  - [ ] 4.2 Implement API URL extraction
+  - [x] 4.2 Implement API URL extraction
     - Implement `extract_api_code()` using Playwright headless browser
     - Capture network requests to identify API endpoint
     - Implement `parse_api_url()` to extract location code from URL
@@ -54,7 +54,7 @@
   - [ ]\* 4.3 Write property test for API URL parsing
     - **Property 2: API URL Location Code Extraction**
     - **Validates: Requirements 1.5**
-  - [ ] 4.4 Implement discovery orchestration
+  - [x] 4.4 Implement discovery orchestration
     - Implement `discover_all_locations()` main function
     - Handle partial failures gracefully
     - Output `locations.json` with all discovered locations
