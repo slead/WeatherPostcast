@@ -29,9 +29,9 @@
     - **Property 9: Retry Mechanism Attempts**
     - **Validates: Requirements 6.4**
 
-- [ ] 3. Implement state name mapping
+- [-] 3. Implement state name mapping
 
-  - [ ] 3.1 Create state abbreviation mapping function
+  - [x] 3.1 Create state abbreviation mapping function
     - Implement `state_name_to_abbrev()` in `src/utils.py`
     - Handle all 8 Australian states/territories
     - _Requirements: 1.6, 4.3_

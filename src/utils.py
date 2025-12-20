@@ -111,3 +111,49 @@ def ensure_directory_exists(filepath: str) -> None:
     directory = os.path.dirname(filepath)
     if directory:
         os.makedirs(directory, exist_ok=True)
+
+
+# Mapping of URL state names to standard Australian state/territory abbreviations
+STATE_ABBREVIATIONS: dict[str, str] = {
+    "new-south-wales": "NSW",
+    "victoria": "VIC",
+    "queensland": "QLD",
+    "south-australia": "SA",
+    "western-australia": "WA",
+    "tasmania": "TAS",
+    "northern-territory": "NT",
+    "australian-capital-territory": "ACT",
+}
+
+
+def state_name_to_abbrev(state_name: str) -> str:
+    """Convert URL state name to standard abbreviation.
+    
+    Converts state names as they appear in BOM URLs (e.g., "new-south-wales")
+    to standard Australian state/territory abbreviations (e.g., "NSW").
+    
+    Args:
+        state_name: State name in URL format (lowercase, hyphen-separated)
+        
+    Returns:
+        Standard state abbreviation (NSW, VIC, QLD, SA, WA, TAS, NT, ACT)
+        
+    Raises:
+        ValueError: If state_name is not a recognized Australian state/territory
+        
+    Examples:
+        >>> state_name_to_abbrev("new-south-wales")
+        'NSW'
+        >>> state_name_to_abbrev("victoria")
+        'VIC'
+    """
+    normalized = state_name.lower().strip()
+    
+    if normalized not in STATE_ABBREVIATIONS:
+        valid_states = ", ".join(sorted(STATE_ABBREVIATIONS.keys()))
+        raise ValueError(
+            f"Unknown state name: '{state_name}'. "
+            f"Valid state names are: {valid_states}"
+        )
+    
+    return STATE_ABBREVIATIONS[normalized]
