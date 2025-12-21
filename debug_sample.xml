@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Northern Territory</region>
+            <office>NTRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDD10161</identifier>
+        <issue-time-utc>2025-12-20T22:50:15Z</issue-time-utc>
+        <issue-time-local tz="CST">2025-12-21T08:20:15+09:30</issue-time-local>
+        <sent-time>2025-12-20T22:50:15Z</sent-time>
+        <expiry-time>2025-12-21T22:50:15Z</expiry-time>
+        <validity-bgn-time-local tz="CST">2025-12-21T00:00:00+09:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2025-12-27T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2025-12-21T05:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CST">2025-12-21T14:50:00+09:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FTW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="NT_FA001" description="Northern Territory" type="region">
+            <forecast-period start-time-local="2025-12-21T08:20:16+09:30" end-time-local="2025-12-21T08:20:16+09:30" start-time-utc="2025-12-20T22:50:16Z" end-time-utc="2025-12-20T22:50:16Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c inc GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="NT_PT004" description="Alice Springs" type="location" parent-aac="NT_FA001">
+            <forecast-period index="0" start-time-local="2025-12-21T00:00:00+09:30" end-time-local="2025-12-22T00:00:00+09:30" start-time-utc="2025-12-20T14:30:00Z" end-time-utc="2025-12-21T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_maximum" units="Celsius">38</element>
+                <text type="forecast">Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm from the late morning. Winds northwesterly 20 to 25 km/h becoming light in the middle of the day.</text>
+                <text type="precis">Possible shower or storm.</text>
+                <text type="probability_of_precipitation">40%</text>
+                <text type="fire_danger">Moderate</text>
+                <text type="uv_alert">Sun protection 8:10am to 4:50pm, UV Index predicted to reach 14 [Extreme]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2025-12-22T00:00:00+09:30" end-time-local="2025-12-23T00:00:00+09:30" start-time-utc="2025-12-21T14:30:00Z" end-time-utc="2025-12-22T14:30:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">22</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="forecast">Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the early morning. Light winds becoming southeasterly 20 to 30 km/h in the morning then tending easterly 15 to 25 km/h in the evening.</text>
+                <text type="precis">Possible early storm.</text>
+                <text type="probability_of_precipitation">20%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2025-12-23T00:00:00+09:30" end-time-local="2025-12-24T00:00:00+09:30" start-time-utc="2025-12-22T14:30:00Z" end-time-utc="2025-12-23T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="forecast">Sunny. Light winds becoming southeasterly 25 to 35 km/h during the morning then becoming light during the evening.</text>
+                <text type="precis">Sunny.</text>
+                <text type="probability_of_precipitation">5%</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2025-12-24T00:00:00+09:30" end-time-local="2025-12-25T00:00:00+09:30" start-time-utc="2025-12-23T14:30:00Z" end-time-utc="2025-12-24T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="forecast">Mostly sunny. Light winds becoming southeasterly 25 to 35 km/h during the morning then becoming light during the evening.</text>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">10%</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2025-12-25T00:00:00+09:30" end-time-local="2025-12-26T00:00:00+09:30" start-time-utc="2025-12-24T14:30:00Z" end-time-utc="2025-12-25T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">21</element>
+                <element type="air_temperature_maximum" units="Celsius">36</element>
+                <text type="forecast">Mostly sunny. Winds southeasterly 15 to 20 km/h increasing to 25 to 35 km/h during the morning.</text>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">5%</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2025-12-26T00:00:00+09:30" end-time-local="2025-12-27T00:00:00+09:30" start-time-utc="2025-12-25T14:30:00Z" end-time-utc="2025-12-26T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">37</element>
+                <text type="forecast">Mostly sunny. Winds southeasterly 15 to 20 km/h increasing to 20 to 30 km/h during the morning.</text>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">10%</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2025-12-27T00:00:00+09:30" end-time-local="2025-12-28T00:00:00+09:30" start-time-utc="2025-12-26T14:30:00Z" end-time-utc="2025-12-27T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">38</element>
+                <text type="forecast">Mostly sunny. Slight chance of a shower. Light winds becoming southeasterly 15 to 25 km/h during the morning.</text>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">20%</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

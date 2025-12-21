@@ -15,6 +15,7 @@ class Location:
     """Represents a BOM weather location."""
     name: str           # City name as displayed on BOM website
     state: str          # State abbreviation (NSW, VIC, etc.)
+    region: str         # Region/district within the state (e.g., "Central Tablelands")
     url: str            # Full BOM city page URL
     api_code: str       # API location code (e.g., "653/225")
     timezone: str       # Timezone for API requests
@@ -29,6 +30,7 @@ class Location:
         return cls(
             name=data["name"],
             state=data["state"],
+            region=data.get("region", ""),
             url=data["url"],
             api_code=data["api_code"],
             timezone=data["timezone"],

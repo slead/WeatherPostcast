@@ -2,32 +2,30 @@
 
 ## Introduction
 
-The BOM Weather Tracker is a system designed to collect and store daily weather predictions from the Australian Bureau of Meteorology (BOM) API. The system enables retrospective analysis by storing 7-day forecasts daily, allowing users to compare what was predicted for any given day against predictions made on previous days. The system consists of two Python scripts: a one-time location discovery script and a daily prediction collection script, with data stored in Git-friendly JSON files.
+The BOM Weather Tracker is a system designed to collect and store daily weather predictions from the Australian Bureau of Meteorology (BOM) via their anonymous FTP service. The system enables retrospective analysis by storing 7-day forecasts daily, allowing users to compare what was predicted for any given day against predictions made on previous days. The system consists of a single Python script that downloads XML forecast files from the BOM FTP server, with location mappings stored in a configuration file and forecast data stored in Git-friendly JSON files.
 
 ## Glossary
 
 - **BOM**: Australian Bureau of Meteorology, the authoritative source for Australian weather data
-- **Location Code**: A unique identifier (e.g., "653/225" for Sydney) used in BOM API requests to identify a specific location
+- **Product ID**: A unique identifier (e.g., "IDD10161" for Alice Springs) used to identify BOM forecast XML files on the FTP server
 - **Prediction Matrix**: A data structure storing forecasts for a location, organized by forecast date and collection date
-- **Collection Date**: The date on which a forecast was retrieved from the BOM API
+- **Collection Date**: The date on which a forecast was retrieved from the BOM FTP server
 - **Forecast Date**: The future date for which a weather prediction applies
-- **Location Discovery Script**: A one-time Python script that extracts location codes from BOM website pages
-- **Daily Collection Script**: A Python script run via cron job to collect and store daily forecasts
+- **Location Configuration**: A JSON file mapping Product IDs to city names and state abbreviations
+- **FTP Endpoint**: The BOM anonymous FTP server at ftp://ftp.bom.gov.au/anon/gen/fwo/
 
 ## Requirements
 
 ### Requirement 1
 
-**User Story:** As a system administrator, I want to discover all Australian city locations and their API codes from the BOM website, so that I can configure the daily collection script with valid location data.
+**User Story:** As a system administrator, I want location mappings stored in a configuration file, so that the collection script knows which XML files to download from the BOM FTP server.
 
 #### Acceptance Criteria
 
-1. WHEN the Location Discovery Script is executed THEN the system SHALL navigate to the BOM places page (https://www.bom.gov.au/location/australia#places) and extract all listed city URLs
-2. WHEN the Location Discovery Script processes a city page THEN the system SHALL use a headless browser to load the page and capture the API endpoint URL containing the location code
-3. WHEN the Location Discovery Script completes THEN the system SHALL output a JSON file containing city names, state abbreviations, URLs, and their corresponding API location codes
-4. IF the Location Discovery Script encounters a page that fails to load THEN the system SHALL log the error and continue processing remaining cities
-5. WHEN the Location Discovery Script parses an API URL THEN the system SHALL extract the location code pattern (e.g., "653/225") from the URL path
-6. WHEN the Location Discovery Script parses a city URL THEN the system SHALL extract the state name from the URL path and convert it to the standard abbreviation (e.g., "new-south-wales" becomes "NSW")
+1. WHEN the system is deployed THEN the system SHALL include a JSON configuration file containing all supported town locations with their Product IDs, city names, and state abbreviations
+2. WHEN the configuration file is read THEN the system SHALL validate that each entry contains a Product ID, city name, and state abbreviation
+3. WHEN the system constructs an FTP URL THEN the system SHALL use the pattern `ftp://ftp.bom.gov.au/anon/gen/fwo/{product_id}.xml` where product_id is the configured Product ID
+4. WHEN the configuration file contains an invalid entry THEN the system SHALL log a warning and skip that entry during processing
 
 ### Requirement 2
 
@@ -35,11 +33,11 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 
 #### Acceptance Criteria
 
-1. WHEN the Daily Collection Script is executed THEN the system SHALL read the location configuration file and iterate through all configured locations
-2. WHEN the Daily Collection Script requests forecast data THEN the system SHALL call the BOM API endpoint for each location and retrieve the 7-day forecast
-3. WHEN the Daily Collection Script receives API response data THEN the system SHALL extract temperature maximums, temperature minimums, precipitation probabilities, and weather icon codes for each forecast day
-4. IF the Daily Collection Script encounters an API error THEN the system SHALL log the error with location details and continue processing remaining locations
-5. WHEN the Daily Collection Script completes successfully THEN the system SHALL have processed all configured locations within a single execution
+1. WHEN the Collection Script is executed THEN the system SHALL read the location configuration file and iterate through all configured locations
+2. WHEN the Collection Script requests forecast data THEN the system SHALL download the XML file from the BOM FTP server for each location
+3. WHEN the Collection Script parses XML response data THEN the system SHALL extract temperature maximums, temperature minimums, precipitation probabilities, forecast icon codes, and precis text for each forecast day
+4. IF the Collection Script encounters an FTP or parsing error THEN the system SHALL log the error with location details and continue processing remaining locations
+5. WHEN the Collection Script completes successfully THEN the system SHALL have processed all configured locations within a single execution
 
 ### Requirement 3
 
@@ -47,10 +45,10 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 
 #### Acceptance Criteria
 
-1. WHEN the Daily Collection Script stores forecast data THEN the system SHALL save data in JSON format with one file per location containing all recent forecasts
-2. WHEN the Daily Collection Script writes forecast data THEN the system SHALL include the collection date, forecast date, location identifier, and all extracted weather metrics
-3. WHEN the Daily Collection Script encounters an existing location file THEN the system SHALL append the new predictions to the existing file rather than overwriting
-4. WHEN the Daily Collection Script updates a location file THEN the system SHALL delete any records where the forecast date is more than 8 days in the past
+1. WHEN the Collection Script stores forecast data THEN the system SHALL save data in JSON format with one file per location containing all recent forecasts
+2. WHEN the Collection Script writes forecast data THEN the system SHALL include the collection date, forecast date, location identifier, and all extracted weather metrics
+3. WHEN the Collection Script encounters an existing location file THEN the system SHALL merge the new predictions with the existing file rather than overwriting
+4. WHEN the Collection Script updates a location file THEN the system SHALL delete any records where the forecast date is more than 8 days in the past
 5. WHEN the system serializes forecast data to JSON THEN the system SHALL use a consistent schema that can be deserialized back to equivalent data structures
 6. WHEN the system deserializes forecast data from JSON THEN the system SHALL reconstruct the original data structure with all fields intact
 
@@ -63,7 +61,7 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 1. WHEN the system creates data files THEN the system SHALL organize files in a directory structure of `data/{state_abbreviation}/{city_name}.json` (e.g., `data/NSW/Sydney.json`)
 2. WHEN the system writes JSON files THEN the system SHALL format the JSON with consistent indentation for readable Git diffs
 3. WHEN the system derives state abbreviations THEN the system SHALL use standard Australian state/territory codes (NSW, VIC, QLD, SA, WA, TAS, NT, ACT)
-4. WHEN the system derives city names THEN the system SHALL match the city name as displayed on the BOM website
+4. WHEN the system derives city names THEN the system SHALL use the city name as specified in the location configuration file
 
 ### Requirement 5
 
@@ -83,6 +81,20 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 #### Acceptance Criteria
 
 1. WHEN any script encounters an error THEN the system SHALL log the error with timestamp, error type, and contextual information
-2. WHEN the Daily Collection Script starts THEN the system SHALL log the execution start time and number of locations to process
-3. WHEN the Daily Collection Script completes THEN the system SHALL log a summary including locations processed, successes, and failures
+2. WHEN the Collection Script starts THEN the system SHALL log the execution start time and number of locations to process
+3. WHEN the Collection Script completes THEN the system SHALL log a summary including locations processed, successes, and failures
 4. IF a network request times out THEN the system SHALL retry the request up to 3 times before logging a failure
+5. WHEN the Collection Script encounters an XML parsing error THEN the system SHALL log the specific parsing failure and the Product ID that caused it
+
+### Requirement 7
+
+**User Story:** As a developer, I want the XML parsing logic to handle the BOM forecast XML schema correctly, so that all relevant forecast data is extracted accurately.
+
+#### Acceptance Criteria
+
+1. WHEN the system parses a BOM XML file THEN the system SHALL extract the location area element with type="location" containing the forecast periods
+2. WHEN the system parses a forecast period THEN the system SHALL extract the start-time-local attribute to determine the forecast date
+3. WHEN the system parses a forecast period THEN the system SHALL extract element values for forecast_icon_code, air_temperature_minimum, and air_temperature_maximum
+4. WHEN the system parses a forecast period THEN the system SHALL extract text values for probability_of_precipitation and precis
+5. WHEN a forecast period is missing optional fields THEN the system SHALL use null values for those fields and continue processing
+6. WHEN the system parses the XML THEN the system SHALL extract the issue-time-local from the amoc section to record when the forecast was issued
