@@ -4,135 +4,145 @@ This module defines the core data structures for storing location
 configuration and forecast data, along with JSON serialization functions.
 """
 
-from dataclasses import dataclass, field, asdict
-from datetime import datetime
-from typing import Any
+from dataclasses import dataclass, field
+from datetime import date
+from typing import Any, Optional
 import json
 
 
 @dataclass
-class Location:
-    """Represents a BOM weather location."""
-    name: str           # City name as displayed on BOM website
-    state: str          # State abbreviation (NSW, VIC, etc.)
-    region: str         # Region/district within the state (e.g., "Central Tablelands")
-    url: str            # Full BOM city page URL
-    api_code: str       # API location code (e.g., "653/225")
-    timezone: str       # Timezone for API requests
-
-    def to_dict(self) -> dict[str, Any]:
-        """Convert to dictionary for JSON serialization."""
-        return asdict(self)
-
-    @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "Location":
-        """Create Location from dictionary."""
-        return cls(
-            name=data["name"],
-            state=data["state"],
-            region=data.get("region", ""),
-            url=data["url"],
-            api_code=data["api_code"],
-            timezone=data["timezone"],
-        )
-
-
-@dataclass
-class DailyPrediction:
-    """Represents a single day's weather prediction."""
-    collection_date: str    # ISO date when forecast was collected
-    temp_max_cel: float     # Maximum temperature in Celsius
-    temp_min_cel: float     # Minimum temperature in Celsius
-    precip_chance: int      # Probability of any precipitation (%)
-    precip_10mm_chance: int # Probability of 10mm+ precipitation (%)
-    weather_icon: int       # BOM weather icon code
+class PredictionEntry:
+    """Represents a single prediction for a specific forecast date.
+    
+    Attributes:
+        icon_code: BOM forecast icon code
+        temp_min: Minimum temperature in Celsius
+        temp_max: Maximum temperature in Celsius
+        precipitation_prob: Probability of precipitation text (e.g., "40%")
+        precis: Short forecast summary text
+        forecast: Detailed forecast text
+    """
+    icon_code: Optional[int] = None
+    temp_min: Optional[int] = None
+    temp_max: Optional[int] = None
+    precipitation_prob: Optional[str] = None
+    precis: Optional[str] = None
+    forecast: Optional[str] = None
 
     def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
         return {
-            "temp_max_cel": self.temp_max_cel,
-            "temp_min_cel": self.temp_min_cel,
-            "precip_chance": self.precip_chance,
-            "precip_10mm_chance": self.precip_10mm_chance,
-            "weather_icon": self.weather_icon,
+            "icon_code": self.icon_code,
+            "temp_min": self.temp_min,
+            "temp_max": self.temp_max,
+            "precipitation_prob": self.precipitation_prob,
+            "precis": self.precis,
+            "forecast": self.forecast,
         }
 
     @classmethod
-    def from_dict(cls, collection_date: str, data: dict[str, Any]) -> "DailyPrediction":
-        """Create DailyPrediction from dictionary."""
+    def from_dict(cls, data: dict[str, Any]) -> "PredictionEntry":
+        """Create PredictionEntry from dictionary."""
         return cls(
-            collection_date=collection_date,
-            temp_max_cel=data["temp_max_cel"],
-            temp_min_cel=data["temp_min_cel"],
-            precip_chance=data["precip_chance"],
-            precip_10mm_chance=data["precip_10mm_chance"],
-            weather_icon=data["weather_icon"],
+            icon_code=data.get("icon_code"),
+            temp_min=data.get("temp_min"),
+            temp_max=data.get("temp_max"),
+            precipitation_prob=data.get("precipitation_prob"),
+            precis=data.get("precis"),
+            forecast=data.get("forecast"),
         )
 
 
 @dataclass
 class ForecastRecord:
-    """Represents all predictions for a specific forecast date."""
-    forecast_date: str                              # ISO date this forecast is for
-    predictions: dict[str, DailyPrediction] = field(default_factory=dict)  # Keyed by collection_date
+    """Represents all predictions for a specific forecast date.
+    
+    Attributes:
+        forecast_date: The date this forecast is for
+        predictions: Dictionary of prediction entries keyed by days_ahead (int as string for JSON)
+    """
+    forecast_date: date
+    predictions: dict[int, PredictionEntry] = field(default_factory=dict)
 
-    def to_dict(self) -> dict[str, dict[str, Any]]:
-        """Convert predictions to dictionary for JSON serialization."""
+    def to_dict(self) -> dict[str, Any]:
+        """Convert to dictionary for JSON serialization.
+        
+        Note: Integer keys are converted to strings for JSON compatibility.
+        """
         return {
-            collection_date: pred.to_dict()
-            for collection_date, pred in self.predictions.items()
+            str(days_ahead): entry.to_dict()
+            for days_ahead, entry in self.predictions.items()
         }
 
     @classmethod
-    def from_dict(cls, forecast_date: str, data: dict[str, dict[str, Any]]) -> "ForecastRecord":
-        """Create ForecastRecord from dictionary."""
+    def from_dict(cls, forecast_date_str: str, data: dict[str, Any]) -> "ForecastRecord":
+        """Create ForecastRecord from dictionary.
+        
+        Args:
+            forecast_date_str: The forecast date as ISO string
+            data: Dictionary with string keys (days_ahead) mapping to prediction data
+        """
+        forecast_date = date.fromisoformat(forecast_date_str)
         predictions = {
-            collection_date: DailyPrediction.from_dict(collection_date, pred_data)
-            for collection_date, pred_data in data.items()
+            int(days_ahead): PredictionEntry.from_dict(entry_data)
+            for days_ahead, entry_data in data.items()
         }
         return cls(forecast_date=forecast_date, predictions=predictions)
 
 
 @dataclass
-class LocationForecastData:
-    """Complete forecast data for a location, as stored in JSON files."""
-    location: Location
-    forecasts: dict[str, ForecastRecord] = field(default_factory=dict)  # Keyed by forecast_date
-    last_updated: str = ""
+class LocationData:
+    """Complete forecast data for a location, as stored in JSON files.
+    
+    Attributes:
+        product_id: BOM Product ID (e.g., "IDD10161")
+        city_name: City name (e.g., "Alice Springs")
+        state: State abbreviation (e.g., "NT")
+        timezone: Timezone abbreviation (e.g., "CST")
+        forecasts: Dictionary of forecast records keyed by forecast_date ISO string
+    """
+    product_id: str
+    city_name: str
+    state: str
+    timezone: str
+    forecasts: dict[str, ForecastRecord] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
         return {
-            "location": self.location.to_dict(),
+            "product_id": self.product_id,
+            "city_name": self.city_name,
+            "state": self.state,
+            "timezone": self.timezone,
             "forecasts": {
                 forecast_date: record.to_dict()
                 for forecast_date, record in self.forecasts.items()
             },
-            "last_updated": self.last_updated,
         }
 
     @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "LocationForecastData":
-        """Create LocationForecastData from dictionary."""
-        location = Location.from_dict(data["location"])
+    def from_dict(cls, data: dict[str, Any]) -> "LocationData":
+        """Create LocationData from dictionary."""
         forecasts = {
             forecast_date: ForecastRecord.from_dict(forecast_date, record_data)
             for forecast_date, record_data in data.get("forecasts", {}).items()
         }
         return cls(
-            location=location,
+            product_id=data["product_id"],
+            city_name=data["city_name"],
+            state=data["state"],
+            timezone=data["timezone"],
             forecasts=forecasts,
-            last_updated=data.get("last_updated", ""),
         )
 
 
 # JSON Serialization/Deserialization Functions
 
-def serialize_forecast_data(data: LocationForecastData) -> str:
-    """Serialize LocationForecastData to JSON string with consistent formatting.
+def serialize_location_data(data: LocationData) -> str:
+    """Serialize LocationData to JSON string with consistent formatting.
     
     Args:
-        data: The forecast data to serialize
+        data: The location data to serialize
         
     Returns:
         JSON string with 2-space indentation for Git-friendly diffs
@@ -140,45 +150,14 @@ def serialize_forecast_data(data: LocationForecastData) -> str:
     return json.dumps(data.to_dict(), indent=2, sort_keys=True)
 
 
-def deserialize_forecast_data(json_str: str) -> LocationForecastData:
-    """Deserialize JSON string to LocationForecastData.
+def deserialize_location_data(json_str: str) -> LocationData:
+    """Deserialize JSON string to LocationData.
     
     Args:
         json_str: JSON string to parse
         
     Returns:
-        LocationForecastData instance with all fields intact
+        LocationData instance with all fields intact
     """
     data = json.loads(json_str)
-    return LocationForecastData.from_dict(data)
-
-
-def serialize_locations(locations: list[Location], discovered_at: str) -> str:
-    """Serialize location list to JSON string for locations.json.
-    
-    Args:
-        locations: List of Location objects
-        discovered_at: ISO timestamp of discovery
-        
-    Returns:
-        JSON string with 2-space indentation
-    """
-    data = {
-        "locations": [loc.to_dict() for loc in locations],
-        "discovered_at": discovered_at,
-    }
-    return json.dumps(data, indent=2, sort_keys=True)
-
-
-def deserialize_locations(json_str: str) -> tuple[list[Location], str]:
-    """Deserialize JSON string to location list.
-    
-    Args:
-        json_str: JSON string to parse
-        
-    Returns:
-        Tuple of (list of Location objects, discovered_at timestamp)
-    """
-    data = json.loads(json_str)
-    locations = [Location.from_dict(loc) for loc in data["locations"]]
-    return locations, data.get("discovered_at", "")
+    return LocationData.from_dict(data)

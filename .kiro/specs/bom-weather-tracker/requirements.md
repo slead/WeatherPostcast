@@ -8,8 +8,9 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 
 - **BOM**: Australian Bureau of Meteorology, the authoritative source for Australian weather data
 - **Product ID**: A unique identifier (e.g., "IDD10161" for Alice Springs) used to identify BOM forecast XML files on the FTP server
-- **Prediction Matrix**: A data structure storing forecasts for a location, organized by forecast date and collection date
-- **Collection Date**: The date on which a forecast was retrieved from the BOM FTP server
+- **Prediction Matrix**: A data structure storing forecasts for a location, organized by forecast date and days ahead
+- **Days Ahead**: The number of days between the collection date and the forecast date (e.g., 0 = same day forecast, 6 = 6-day forecast)
+- **Collection Date**: The date on which a forecast was retrieved from the BOM FTP server (used internally but not stored in output)
 - **Forecast Date**: The future date for which a weather prediction applies
 - **Location Configuration**: A JSON file mapping Product IDs to city names and state abbreviations
 - **FTP Endpoint**: The BOM anonymous FTP server at ftp://ftp.bom.gov.au/anon/gen/fwo/
@@ -46,11 +47,12 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 #### Acceptance Criteria
 
 1. WHEN the Collection Script stores forecast data THEN the system SHALL save data in JSON format with one file per location containing all recent forecasts
-2. WHEN the Collection Script writes forecast data THEN the system SHALL include the collection date, forecast date, location identifier, and all extracted weather metrics
+2. WHEN the Collection Script writes forecast data THEN the system SHALL include the forecast date, days ahead value, location identifier, and all extracted weather metrics (icon_code, temp_min, temp_max, precipitation_prob, precis)
 3. WHEN the Collection Script encounters an existing location file THEN the system SHALL merge the new predictions with the existing file rather than overwriting
 4. WHEN the Collection Script updates a location file THEN the system SHALL delete any records where the forecast date is more than 8 days in the past
 5. WHEN the system serializes forecast data to JSON THEN the system SHALL use a consistent schema that can be deserialized back to equivalent data structures
 6. WHEN the system deserializes forecast data from JSON THEN the system SHALL reconstruct the original data structure with all fields intact
+7. WHEN the system stores a prediction THEN the system SHALL key the prediction by the days ahead value (integer 0-7) directly under the forecast date
 
 ### Requirement 4
 
@@ -69,8 +71,8 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 
 #### Acceptance Criteria
 
-1. WHEN the system stores forecasts THEN the system SHALL organize predictions by forecast date, with each forecast date containing entries keyed by collection date
-2. WHEN the system appends a new prediction THEN the system SHALL maintain chronological order of collection dates within each forecast date group
+1. WHEN the system stores forecasts THEN the system SHALL organize predictions by forecast date, with each forecast date containing entries keyed by days ahead (integer 0-7)
+2. WHEN the system appends a new prediction THEN the system SHALL calculate days ahead as the difference between forecast date and collection date
 3. WHEN the system stores prediction data THEN the system SHALL include sufficient metadata to identify the source location and timezone
 4. WHEN the front-end queries a location file THEN the system SHALL provide up to 8 days of forecast history for each forecast date still within the retention window
 

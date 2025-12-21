@@ -106,9 +106,7 @@ Merges new forecast data with existing JSON files, handling retention.
 
 ```python
 @dataclass
-class CollectionEntry:
-    collection_date: date
-    issue_time: datetime
+class PredictionEntry:
     icon_code: int | None
     temp_min: int | None
     temp_max: int | None
@@ -118,7 +116,7 @@ class CollectionEntry:
 @dataclass
 class ForecastRecord:
     forecast_date: date
-    collections: dict[str, CollectionEntry]  # keyed by collection_date ISO string
+    predictions: dict[int, PredictionEntry]  # keyed by days_ahead (0-7)
 
 @dataclass
 class LocationData:
@@ -130,7 +128,7 @@ class LocationData:
 
 def merge_forecast(existing: LocationData | None, new_forecast: ParsedForecast,
                    collection_date: date, state: str) -> LocationData:
-    """Merge new forecast into existing data, applying retention policy."""
+    """Merge new forecast into existing data, calculating days_ahead for each prediction."""
     pass
 
 def apply_retention(data: LocationData, retention_days: int = 8) -> LocationData:
@@ -207,31 +205,26 @@ class CollectionResult:
   "timezone": "CST",
   "forecasts": {
     "2025-12-21": {
-      "forecast_date": "2025-12-21",
-      "collections": {
-        "2025-12-20": {
-          "collection_date": "2025-12-20",
-          "issue_time": "2025-12-20T22:50:15+09:30",
-          "icon_code": 16,
-          "temp_min": null,
-          "temp_max": 38,
-          "precipitation_prob": "40%",
-          "precis": "Possible shower or storm."
-        },
-        "2025-12-19": {
-          "collection_date": "2025-12-19",
-          "issue_time": "2025-12-19T22:45:00+09:30",
-          "icon_code": 16,
-          "temp_min": null,
-          "temp_max": 37,
-          "precipitation_prob": "50%",
-          "precis": "Shower or storm likely."
-        }
+      "0": {
+        "icon_code": 16,
+        "temp_min": null,
+        "temp_max": 38,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm."
+      },
+      "1": {
+        "icon_code": 16,
+        "temp_min": null,
+        "temp_max": 37,
+        "precipitation_prob": "50%",
+        "precis": "Shower or storm likely."
       }
     }
   }
 }
 ```
+
+Note: The integer keys (0, 1, 2, etc.) represent "days ahead" - how many days in advance the prediction was made. A key of "0" means the prediction was collected on the same day as the forecast date, "1" means it was a 1-day forecast, etc.
 
 ## Correctness Properties
 
@@ -257,13 +250,13 @@ _For any_ valid BOM forecast XML containing a location area with forecast period
 
 ### Property 4: Forecast Data Completeness
 
-_For any_ forecast data written to JSON, the output should contain collection_date, forecast_date, product_id, and all weather metrics from the source forecast.
+_For any_ forecast data written to JSON, the output should contain forecast_date, days_ahead key, and all weather metrics (icon_code, temp_min, temp_max, precipitation_prob, precis) from the source forecast.
 
 **Validates: Requirements 3.2**
 
 ### Property 5: Merge Preserves Existing Data
 
-_For any_ existing LocationData and new ParsedForecast, merging should preserve all existing collection entries that are not being replaced by the new forecast.
+_For any_ existing LocationData and new ParsedForecast, merging should preserve all existing prediction entries that are not being replaced by the new forecast.
 
 **Validates: Requirements 3.3**
 
@@ -293,9 +286,15 @@ _For any_ state string used in the system, it should be one of the valid Austral
 
 ### Property 10: Data Organization Structure
 
-_For any_ LocationData after storing forecasts, predictions should be organized by forecast_date with collection entries keyed by collection_date in chronological order.
+_For any_ LocationData after storing forecasts, predictions should be organized by forecast_date with prediction entries keyed by days_ahead (integer 0-7).
 
 **Validates: Requirements 5.1, 5.2**
+
+### Property 11: Days Ahead Calculation
+
+_For any_ forecast with a known collection_date and forecast_date, the days_ahead value should equal (forecast_date - collection_date).days.
+
+**Validates: Requirements 5.2**
 
 ## Error Handling
 
