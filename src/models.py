@@ -19,14 +19,12 @@ class PredictionEntry:
         temp_min: Minimum temperature in Celsius
         temp_max: Maximum temperature in Celsius
         precipitation_prob: Probability of precipitation text (e.g., "40%")
-        precis: Short forecast summary text
         forecast: Detailed forecast text
     """
     icon_code: Optional[int] = None
     temp_min: Optional[int] = None
     temp_max: Optional[int] = None
     precipitation_prob: Optional[str] = None
-    precis: Optional[str] = None
     forecast: Optional[str] = None
 
     def to_dict(self) -> dict[str, Any]:
@@ -36,7 +34,6 @@ class PredictionEntry:
             "temp_min": self.temp_min,
             "temp_max": self.temp_max,
             "precipitation_prob": self.precipitation_prob,
-            "precis": self.precis,
             "forecast": self.forecast,
         }
 
@@ -48,7 +45,6 @@ class PredictionEntry:
             temp_min=data.get("temp_min"),
             temp_max=data.get("temp_max"),
             precipitation_prob=data.get("precipitation_prob"),
-            precis=data.get("precis"),
             forecast=data.get("forecast"),
         )
 

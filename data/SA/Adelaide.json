@@ -6,7 +6,6 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
         "temp_max": null,
         "temp_min": null
       }
@@ -14,17 +13,15 @@
     "2025-12-22": {
       "0": {
         "forecast": null,
-        "icon_code": 4,
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Cloudy.",
-        "temp_max": 23,
+        "temp_max": null,
         "temp_min": null
       },
       "1": {
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 13
       }
@@ -34,7 +31,6 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Cloud clearing.",
         "temp_max": 24,
         "temp_min": 14
       },
@@ -42,7 +38,6 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Cloud clearing.",
         "temp_max": 24,
         "temp_min": 15
       }
@@ -52,7 +47,6 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 13
       },
@@ -60,7 +54,6 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 12
       }
@@ -69,8 +62,7 @@
       "3": {
         "forecast": null,
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precipitation_prob": "0%",
         "temp_max": 25,
         "temp_min": 13
       },
@@ -78,7 +70,6 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
         "temp_max": 25,
         "temp_min": 13
       }
@@ -88,7 +79,6 @@
         "forecast": null,
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
         "temp_max": 30,
         "temp_min": 12
       },
@@ -96,7 +86,6 @@
         "forecast": null,
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 12
       }
@@ -106,7 +95,6 @@
         "forecast": null,
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
         "temp_max": 35,
         "temp_min": 18
       },
@@ -114,7 +102,6 @@
         "forecast": null,
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
         "temp_max": 34,
         "temp_min": 16
       }
@@ -124,7 +111,6 @@
         "forecast": null,
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
         "temp_max": 37,
         "temp_min": 23
       },
@@ -132,9 +118,17 @@
         "forecast": null,
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
         "temp_max": 38,
         "temp_min": 21
+      }
+    },
+    "2025-12-29": {
+      "7": {
+        "forecast": null,
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "temp_max": 36,
+        "temp_min": 22
       }
     }
   },

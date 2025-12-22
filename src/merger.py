@@ -64,7 +64,6 @@ def merge_forecast(
             temp_min=forecast_day.temp_min,
             temp_max=forecast_day.temp_max,
             precipitation_prob=forecast_day.precipitation_prob,
-            precis=forecast_day.precis,
             forecast=forecast_day.forecast,
         )
         
