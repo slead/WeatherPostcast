@@ -1,29 +1,14 @@
 {
   "city_name": "Darwin",
   "forecasts": {
-    "2025-12-21": {
-      "0": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "40%",
-        "temp_max": null,
-        "temp_min": null
-      }
-    },
     "2025-12-22": {
       "0": {
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "50%",
+        "precis": "Shower or two. Storm.",
         "temp_max": null,
         "temp_min": null
-      },
-      "1": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "80%",
-        "temp_max": 31,
-        "temp_min": 27
       }
     },
     "2025-12-23": {
@@ -31,15 +16,9 @@
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "90%",
+        "precis": "Showers. Storm.",
         "temp_max": 32,
         "temp_min": 27
-      },
-      "2": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "90%",
-        "temp_max": 30,
-        "temp_min": 26
       }
     },
     "2025-12-24": {
@@ -47,14 +26,8 @@
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "90%",
+        "precis": "Showers. Storm.",
         "temp_max": 32,
-        "temp_min": 26
-      },
-      "3": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "90%",
-        "temp_max": 30,
         "temp_min": 26
       }
     },
@@ -63,14 +36,8 @@
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "90%",
+        "precis": "Showers. Storm developing.",
         "temp_max": 32,
-        "temp_min": 26
-      },
-      "4": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "90%",
-        "temp_max": 30,
         "temp_min": 26
       }
     },
@@ -79,14 +46,8 @@
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "90%",
+        "precis": "Showers. Storm clearing.",
         "temp_max": 32,
-        "temp_min": 26
-      },
-      "5": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "80%",
-        "temp_max": 33,
         "temp_min": 26
       }
     },
@@ -95,14 +56,8 @@
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "80%",
+        "precis": "Showers. Possible storm.",
         "temp_max": 32,
-        "temp_min": 26
-      },
-      "6": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "80%",
-        "temp_max": 33,
         "temp_min": 26
       }
     },
@@ -111,14 +66,8 @@
         "forecast": null,
         "icon_code": 16,
         "precipitation_prob": "80%",
+        "precis": "Showers. Possible storm.",
         "temp_max": 33,
-        "temp_min": 26
-      },
-      "7": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "70%",
-        "temp_max": 34,
         "temp_min": 26
       }
     },
@@ -127,6 +76,7 @@
         "forecast": null,
         "icon_code": 11,
         "precipitation_prob": "60%",
+        "precis": "Shower or two.",
         "temp_max": 33,
         "temp_min": 26
       }

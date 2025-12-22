@@ -1,29 +1,14 @@
 {
   "city_name": "Coffs Harbour",
   "forecasts": {
-    "2025-12-21": {
-      "0": {
-        "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "temp_max": null,
-        "temp_min": null
-      }
-    },
     "2025-12-22": {
       "0": {
         "forecast": "Cloudy. Medium chance of showers. The chance of a thunderstorm, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Winds easterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
+        "precis": "Shower or two.",
         "temp_max": null,
         "temp_min": null
-      },
-      "1": {
-        "forecast": null,
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "temp_max": 35,
-        "temp_min": 23
       }
     },
     "2025-12-23": {
@@ -31,15 +16,9 @@
         "forecast": "Partly cloudy. High chance of showers, most likely in the early morning. The chance of a thunderstorm in the afternoon and evening, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 16,
         "precipitation_prob": "70%",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 29,
         "temp_min": 22
-      },
-      "2": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "80%",
-        "temp_max": 30,
-        "temp_min": 23
       }
     },
     "2025-12-24": {
@@ -47,13 +26,7 @@
         "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. The chance of a thunderstorm in the afternoon and early evening. Light winds becoming east to northeasterly 15 to 20 km/h in the middle of the day then tending northwest to northeasterly in the evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "temp_max": 28,
-        "temp_min": 21
-      },
-      "3": {
-        "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 28,
         "temp_min": 21
       }
@@ -63,14 +36,8 @@
         "forecast": "Mostly sunny morning. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds west to northwesterly and light tending southerly 15 to 25 km/h during the morning then increasing to 25 to 40 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 29,
-        "temp_min": 20
-      },
-      "4": {
-        "forecast": null,
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "temp_max": 28,
         "temp_min": 20
       }
     },
@@ -79,14 +46,8 @@
         "forecast": "Cloudy. High chance of showers. Winds south to southeasterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 22,
-        "temp_min": 18
-      },
-      "5": {
-        "forecast": null,
-        "icon_code": 11,
-        "precipitation_prob": "70%",
-        "temp_max": 24,
         "temp_min": 18
       }
     },
@@ -95,15 +56,9 @@
         "forecast": "Cloudy. Medium chance of showers. Winds south to southwesterly 15 to 20 km/h tending south to southeasterly 20 to 30 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
+        "precis": "Shower or two.",
         "temp_max": 24,
         "temp_min": 16
-      },
-      "6": {
-        "forecast": null,
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "temp_max": 24,
-        "temp_min": 17
       }
     },
     "2025-12-28": {
@@ -111,15 +66,9 @@
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds south to southwesterly 15 to 20 km/h tending south to southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 25,
         "temp_min": 16
-      },
-      "7": {
-        "forecast": null,
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "temp_max": 25,
-        "temp_min": 17
       }
     },
     "2025-12-29": {
@@ -127,6 +76,7 @@
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming east to southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 17
       }

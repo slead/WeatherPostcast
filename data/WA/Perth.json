@@ -1,77 +1,44 @@
 {
-  "city_name": "Broome",
+  "city_name": "Perth",
   "forecasts": {
-    "2025-12-21": {
-      "0": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "20%",
-        "temp_max": null,
-        "temp_min": null
-      }
-    },
     "2025-12-22": {
       "0": {
         "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "30%",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
         "temp_max": null,
         "temp_min": null
-      },
-      "1": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "50%",
-        "temp_max": 35,
-        "temp_min": 28
       }
     },
     "2025-12-23": {
       "1": {
         "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "70%",
-        "temp_max": 35,
-        "temp_min": 28
-      },
-      "2": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "70%",
-        "temp_max": 35,
-        "temp_min": 29
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 36,
+        "temp_min": 18
       }
     },
     "2025-12-24": {
       "2": {
         "forecast": null,
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "temp_max": 35,
-        "temp_min": 29
-      },
-      "3": {
-        "forecast": null,
-        "icon_code": 16,
-        "precipitation_prob": "40%",
-        "temp_max": 36,
-        "temp_min": 27
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 40,
+        "temp_min": 21
       }
     },
     "2025-12-25": {
       "3": {
         "forecast": null,
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 35,
-        "temp_min": 29
-      },
-      "4": {
-        "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 35,
-        "temp_min": 29
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 41,
+        "temp_min": 26
       }
     },
     "2025-12-26": {
@@ -79,60 +46,43 @@
         "forecast": null,
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "temp_max": 35,
-        "temp_min": 29
-      },
-      "5": {
-        "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 36,
-        "temp_min": 29
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 22
       }
     },
     "2025-12-27": {
       "5": {
         "forecast": null,
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 36,
-        "temp_min": 29
-      },
-      "6": {
-        "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 36,
-        "temp_min": 29
+        "precipitation_prob": "5%",
+        "precis": "Cloud clearing.",
+        "temp_max": 29,
+        "temp_min": 15
       }
     },
     "2025-12-28": {
       "6": {
         "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 35,
-        "temp_min": 29
-      },
-      "7": {
-        "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 35,
-        "temp_min": 29
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 31,
+        "temp_min": 15
       }
     },
     "2025-12-29": {
       "7": {
         "forecast": null,
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "temp_max": 33,
-        "temp_min": 28
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 32,
+        "temp_min": 16
       }
     }
   },
-  "product_id": "IDW14199",
+  "product_id": "IDW12300",
   "state": "WA",
   "timezone": "WST"
 }

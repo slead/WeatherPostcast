@@ -25,6 +25,7 @@ class ForecastDay:
         temp_min: Minimum temperature in Celsius (air_temperature_minimum)
         temp_max: Maximum temperature in Celsius (air_temperature_maximum)
         precipitation_prob: Probability of precipitation text (e.g., "40%")
+        precis: Short summary forecast text (text type="precis")
         forecast: Detailed forecast text (text type="forecast")
     """
     forecast_date: date
@@ -32,6 +33,7 @@ class ForecastDay:
     temp_min: Optional[int] = None
     temp_max: Optional[int] = None
     precipitation_prob: Optional[str] = None
+    precis: Optional[str] = None
     forecast: Optional[str] = None
 
 
@@ -102,8 +104,9 @@ def _parse_forecast_period(period_elem: ET.Element) -> Optional[ForecastDay]:
             except ValueError:
                 logger.warning(f"Invalid temp_max value: {elem_text}")
     
-    # Extract text values (precipitation_prob, forecast)
+    # Extract text values (precipitation_prob, precis, forecast)
     precipitation_prob: Optional[str] = None
+    precis: Optional[str] = None
     forecast: Optional[str] = None
     
     for text_elem in period_elem.findall("text"):
@@ -112,6 +115,8 @@ def _parse_forecast_period(period_elem: ET.Element) -> Optional[ForecastDay]:
         
         if text_type == "probability_of_precipitation" and text_content:
             precipitation_prob = text_content.strip()
+        elif text_type == "precis" and text_content:
+            precis = text_content.strip()
         elif text_type == "forecast" and text_content:
             forecast = text_content.strip()
     
@@ -121,6 +126,7 @@ def _parse_forecast_period(period_elem: ET.Element) -> Optional[ForecastDay]:
         temp_min=temp_min,
         temp_max=temp_max,
         precipitation_prob=precipitation_prob,
+        precis=precis,
         forecast=forecast
     )
 
