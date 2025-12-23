@@ -63,6 +63,13 @@ Examples:
         help="Enable verbose (debug) logging",
     )
     
+    parser.add_argument(
+        "--city",
+        type=str,
+        default=None,
+        help="Filter to a single city name (e.g., 'Sydney')",
+    )
+    
     return parser.parse_args()
 
 
@@ -83,6 +90,7 @@ def main() -> int:
     result = collect_forecasts(
         config_path=args.config,
         data_dir=args.data,
+        city_filter=args.city,
     )
     
     # Report results

@@ -137,6 +137,10 @@ def parse_forecast_xml(xml_content: str) -> Optional[ParsedForecast]:
     Extracts the location area with type="location", parses all forecast
     periods, and extracts the issue time and timezone from the amoc section.
     
+    For capital cities, the XML has separate "metropolitan" and "location" areas.
+    The metropolitan area contains the detailed forecast text, while the location
+    area contains icon codes, temperatures, and precis. This function merges both.
+    
     Args:
         xml_content: Raw XML content as string
         
@@ -176,17 +180,22 @@ def parse_forecast_xml(xml_content: str) -> Optional[ParsedForecast]:
         logger.error(f"Invalid issue-time-local format: {issue_time_str} - {e}")
         return None
     
-    # Find the location area (type="location")
+    # Find the forecast section
     forecast_section = root.find("forecast")
     if forecast_section is None:
         logger.error("XML missing forecast section")
         return None
     
+    # Find location and metropolitan areas
     location_area = None
+    metropolitan_area = None
+    
     for area in forecast_section.findall("area"):
-        if area.get("type") == "location":
+        area_type = area.get("type")
+        if area_type == "location" and location_area is None:
             location_area = area
-            break
+        elif area_type == "metropolitan":
+            metropolitan_area = area
     
     if location_area is None:
         logger.error("XML missing location area (type='location')")
@@ -198,11 +207,31 @@ def parse_forecast_xml(xml_content: str) -> Optional[ParsedForecast]:
         logger.error("Location area missing description attribute")
         return None
     
-    # Parse all forecast periods
+    # Build a map of forecast text from metropolitan area (for capital cities)
+    metro_forecasts: dict[date, str] = {}
+    if metropolitan_area is not None:
+        for period in metropolitan_area.findall("forecast-period"):
+            start_time_str = period.get("start-time-local")
+            if not start_time_str:
+                continue
+            try:
+                forecast_date = datetime.fromisoformat(start_time_str).date()
+            except ValueError:
+                continue
+            
+            for text_elem in period.findall("text"):
+                if text_elem.get("type") == "forecast" and text_elem.text:
+                    metro_forecasts[forecast_date] = text_elem.text.strip()
+                    break
+    
+    # Parse all forecast periods from location area
     forecasts: list[ForecastDay] = []
     for period in location_area.findall("forecast-period"):
         forecast_day = _parse_forecast_period(period)
         if forecast_day is not None:
+            # Merge forecast text from metropolitan area if location doesn't have it
+            if not forecast_day.forecast and forecast_day.forecast_date in metro_forecasts:
+                forecast_day.forecast = metro_forecasts[forecast_day.forecast_date]
             forecasts.append(forecast_day)
     
     if not forecasts:

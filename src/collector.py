@@ -99,6 +99,7 @@ def collect_forecasts(
     config_path: Path,
     data_dir: Path,
     collection_date: Optional[date] = None,
+    city_filter: Optional[str] = None,
 ) -> CollectionResult:
     """Main entry point for forecast collection.
     
@@ -110,6 +111,7 @@ def collect_forecasts(
         config_path: Path to the locations.json configuration file
         data_dir: Base directory for data files (e.g., Path("data"))
         collection_date: Date of this collection (defaults to today)
+        city_filter: Optional city name to filter to a single location
         
     Returns:
         CollectionResult with summary of processed locations
@@ -138,6 +140,15 @@ def collect_forecasts(
         logger.error(error_msg)
         result.errors.append(error_msg)
         return result
+    
+    # Apply city filter if specified
+    if city_filter:
+        locations = [loc for loc in locations if loc.city_name.lower() == city_filter.lower()]
+        if not locations:
+            error_msg = f"No location found matching city: {city_filter}"
+            logger.error(error_msg)
+            result.errors.append(error_msg)
+            return result
     
     result.total = len(locations)
     

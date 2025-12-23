@@ -18,6 +18,35 @@ from src.utils import setup_logging
 logger = setup_logging()
 
 
+def _merge_prediction_entry(
+    existing: Optional[PredictionEntry],
+    new: PredictionEntry,
+) -> PredictionEntry:
+    """Merge a new prediction entry with an existing one.
+    
+    Preserves existing non-null values when the new entry has null/empty values.
+    New non-null values will overwrite existing values.
+    
+    Args:
+        existing: Existing prediction entry, or None
+        new: New prediction entry from current collection
+        
+    Returns:
+        Merged PredictionEntry with preserved values
+    """
+    if existing is None:
+        return new
+    
+    return PredictionEntry(
+        icon_code=new.icon_code if new.icon_code is not None else existing.icon_code,
+        temp_min=new.temp_min if new.temp_min is not None else existing.temp_min,
+        temp_max=new.temp_max if new.temp_max is not None else existing.temp_max,
+        precipitation_prob=new.precipitation_prob if new.precipitation_prob else existing.precipitation_prob,
+        precis=new.precis if new.precis else existing.precis,
+        forecast=new.forecast if new.forecast else existing.forecast,
+    )
+
+
 def merge_forecast(
     existing: Optional[LocationData],
     new_forecast: ParsedForecast,
@@ -59,7 +88,7 @@ def merge_forecast(
         days_ahead = (forecast_day.forecast_date - collection_date).days
         
         # Create prediction entry from forecast day
-        prediction_entry = PredictionEntry(
+        new_prediction = PredictionEntry(
             icon_code=forecast_day.icon_code,
             temp_min=forecast_day.temp_min,
             temp_max=forecast_day.temp_max,
@@ -78,8 +107,11 @@ def merge_forecast(
             )
             existing.forecasts[forecast_date_str] = forecast_record
         
-        # Add prediction entry keyed by days_ahead (will overwrite if same days_ahead)
-        forecast_record.predictions[days_ahead] = prediction_entry
+        # Merge with existing prediction if present, preserving non-null values
+        existing_prediction = forecast_record.predictions.get(days_ahead)
+        forecast_record.predictions[days_ahead] = _merge_prediction_entry(
+            existing_prediction, new_prediction
+        )
         
         # Sort predictions by days_ahead to maintain consistent order
         forecast_record.predictions = dict(
