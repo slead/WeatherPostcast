@@ -31,10 +31,10 @@
     },
     "2025-12-24": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. A thunderstorm likely. Light winds becoming northwesterly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "forecast": "Cloudy. Medium chance of rain. A thunderstorm likely. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "90%",
-        "precis": "Rain. Storm.",
+        "precipitation_prob": "50%",
+        "precis": "Rain at times. Storm.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -57,11 +57,11 @@
     },
     "2025-12-25": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. A thunderstorm likely. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. A thunderstorm likely. Winds northwesterly 20 to 30 km/h turning westerly 15 to 20 km/h in the evening.",
         "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Rain. Storm.",
-        "temp_max": 32,
+        "precis": "Showers. Storm.",
+        "temp_max": 30,
         "temp_min": 26
       },
       "2": {
@@ -83,12 +83,12 @@
     },
     "2025-12-26": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain. A thunderstorm likely. Winds northwesterly 15 to 25 km/h turning westerly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Winds westerly 20 to 30 km/h.",
         "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Rain. Storm.",
-        "temp_max": 32,
-        "temp_min": 26
+        "precis": "Showers. Storm.",
+        "temp_max": 29,
+        "temp_min": 25
       },
       "3": {
         "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm. Winds northwesterly 20 to 30 km/h turning westerly 15 to 20 km/h during the afternoon.",
@@ -109,7 +109,7 @@
     },
     "2025-12-27": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely in the morning and afternoon. Winds westerly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely in the morning and afternoon. Winds westerly 20 to 30 km/h.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Storm clearing.",
@@ -135,11 +135,11 @@
     },
     "2025-12-28": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Winds westerly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds westerly 15 to 25 km/h.",
         "icon_code": 16,
         "precipitation_prob": "60%",
         "precis": "Showers. Possible afternoon storm.",
-        "temp_max": 34,
+        "temp_max": 33,
         "temp_min": 26
       },
       "5": {
@@ -162,10 +162,10 @@
     "2025-12-29": {
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds westerly 15 to 25 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 34,
+        "icon_code": 16,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
+        "temp_max": 35,
         "temp_min": 27
       },
       "6": {
@@ -188,9 +188,9 @@
     "2025-12-30": {
       "6": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds westerly 15 to 25 km/h.",
-        "icon_code": 11,
+        "icon_code": 16,
         "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 34,
         "temp_min": 27
       },
@@ -201,6 +201,16 @@
         "precis": "Shower or two.",
         "temp_max": 34,
         "temp_min": 26
+      }
+    },
+    "2025-12-31": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds westerly 15 to 25 km/h.",
+        "icon_code": 16,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Possible storm.",
+        "temp_max": 34,
+        "temp_min": 27
       }
     }
   },

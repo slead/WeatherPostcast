@@ -1,8 +1,8 @@
 # Implementation Plan
 
-- [ ] 1. Set up React project with Vite and TypeScript
+- [-] 1. Set up React project with Vite and TypeScript
 
-  - [ ] 1.1 Initialize Vite React TypeScript project in `dashboard/` directory
+  - [-] 1.1 Initialize Vite React TypeScript project in `dashboard/` directory
     - Run `npm create vite@latest dashboard -- --template react-ts`
     - Install dependencies: react-router-dom, leaflet, react-leaflet, @types/leaflet
     - Install dev dependencies: vitest, fast-check, @testing-library/react, jsdom

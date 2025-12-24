@@ -31,10 +31,10 @@
     },
     "2025-12-24": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds westerly 30 to 40 km/h increasing to 40 to 50 km/h in the morning then tending southwesterly 30 to 45 km/h in the late afternoon.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower. Windy.",
+        "forecast": "Partly cloudy. Winds southwesterly 30 to 35 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -57,9 +57,9 @@
     },
     "2025-12-25": {
       "1": {
-        "forecast": "Partly cloudy. Winds southwesterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southwesterly 25 to 40 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 7
@@ -83,12 +83,12 @@
     },
     "2025-12-26": {
       "2": {
-        "forecast": "Partly cloudy. Winds southwesterly 20 to 30 km/h tending southerly 20 to 25 km/h during the evening.",
+        "forecast": "Partly cloudy. Winds southwesterly 15 to 25 km/h increasing to 25 to 30 km/h in the early afternoon then tending southerly 20 to 25 km/h in the late evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 19,
-        "temp_min": 7
+        "temp_max": 18,
+        "temp_min": 5
       },
       "3": {
         "forecast": "Partly cloudy. Winds southwesterly 20 to 30 km/h tending southerly 20 to 25 km/h during the evening.",
@@ -109,12 +109,12 @@
     },
     "2025-12-27": {
       "3": {
-        "forecast": "Sunny. Winds southeast to southwesterly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Winds southerly 15 to 25 km/h tending northwest to northeasterly during the morning then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 19,
-        "temp_min": 6
+        "temp_min": 7
       },
       "4": {
         "forecast": "Sunny. Winds southerly 15 to 20 km/h becoming light during the morning then becoming northerly 15 to 20 km/h during the afternoon.",
@@ -135,7 +135,7 @@
     },
     "2025-12-28": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -163,7 +163,7 @@
       "5": {
         "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending northeast to southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 10
@@ -187,10 +187,10 @@
     },
     "2025-12-30": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds northeast to southeasterly 20 to 30 km/h becoming southeasterly 20 to 25 km/h later.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds east to southeasterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": 12
       },
@@ -201,6 +201,16 @@
         "precis": "Possible shower.",
         "temp_max": 21,
         "temp_min": 12
+      }
+    },
+    "2025-12-31": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds south to southeasterly 20 to 30 km/h turning west to southwesterly 25 to 35 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 18,
+        "temp_min": 10
       }
     }
   },

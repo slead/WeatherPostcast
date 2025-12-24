@@ -31,10 +31,10 @@
     },
     "2025-12-24": {
       "0": {
-        "forecast": "Sunny. Light winds becoming westerly 15 to 20 km/h in the early afternoon then becoming light in the late evening.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -57,7 +57,7 @@
     },
     "2025-12-25": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the late evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late afternoon and evening. Light winds becoming easterly 15 to 25 km/h in the early afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -83,12 +83,12 @@
     },
     "2025-12-26": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds becoming southeasterly 15 to 25 km/h during the afternoon.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 15,
-        "temp_min": 8
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Winds easterly 15 to 25 km/h becoming light before dawn then becoming southeasterly 15 to 25 km/h in the early afternoon.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 14,
+        "temp_min": 7
       },
       "3": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h during the afternoon.",
@@ -109,9 +109,9 @@
     },
     "2025-12-27": {
       "3": {
-        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h becoming light during the morning then becoming easterly 15 to 20 km/h during the afternoon.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h becoming light during the morning then becoming east to southeasterly 15 to 20 km/h during the afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 6
@@ -135,10 +135,10 @@
     },
     "2025-12-28": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
         "temp_max": 20,
         "temp_min": 7
       },
@@ -161,12 +161,12 @@
     },
     "2025-12-29": {
       "5": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Cloud clearing. Light winds becoming easterly 15 to 20 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Cloud clearing.",
         "temp_max": 22,
-        "temp_min": 8
+        "temp_min": 7
       },
       "6": {
         "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the day.",
@@ -187,12 +187,12 @@
     },
     "2025-12-30": {
       "6": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 27,
-        "temp_min": 9
+        "temp_min": 8
       },
       "7": {
         "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h during the day.",
@@ -201,6 +201,16 @@
         "precis": "Sunny.",
         "temp_max": 27,
         "temp_min": 9
+      }
+    },
+    "2025-12-31": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Light winds becoming northwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 12
       }
     }
   },

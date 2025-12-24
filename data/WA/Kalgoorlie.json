@@ -31,10 +31,10 @@
     },
     "2025-12-24": {
       "0": {
-        "forecast": "Sunny. Winds east to southeasterly 15 to 25 km/h.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds east to southeasterly 15 to 25 km/h.",
+        "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -57,7 +57,7 @@
     },
     "2025-12-25": {
       "1": {
-        "forecast": "Sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming easterly 15 to 25 km/h in the evening.",
+        "forecast": "Sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the early afternoon then becoming easterly 15 to 25 km/h in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -83,11 +83,11 @@
     },
     "2025-12-26": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 25 km/h tending northwest to northeasterly 20 to 25 km/h during the morning then tending south to southwesterly 20 to 30 km/h during the afternoon.",
+        "forecast": "Partly cloudy. Winds northeasterly 20 to 30 km/h tending northwesterly in the middle of the day then tending south to southwesterly in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 40,
+        "temp_max": 41,
         "temp_min": 23
       },
       "3": {
@@ -109,11 +109,11 @@
     },
     "2025-12-27": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Winds southerly 25 to 30 km/h tending southeasterly 20 to 30 km/h during the morning.",
-        "icon_code": 3,
+        "forecast": "Sunny day. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds southerly 25 to 30 km/h tending southeasterly 20 to 30 km/h during the day.",
+        "icon_code": 1,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 33,
+        "precis": "Sunny.",
+        "temp_max": 32,
         "temp_min": 16
       },
       "4": {
@@ -135,12 +135,12 @@
     },
     "2025-12-28": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds southeasterly 20 to 30 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the afternoon and evening. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 16,
+        "precipitation_prob": "50%",
+        "precis": "Showers. Possible late storm.",
         "temp_max": 28,
-        "temp_min": 15
+        "temp_min": 14
       },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. The chance of a thunderstorm. Winds southeasterly 20 to 30 km/h.",
@@ -161,12 +161,12 @@
     },
     "2025-12-29": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Slight chance of a shower during the morning. The chance of a thunderstorm during the morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 27,
-        "temp_min": 16
+        "temp_max": 29,
+        "temp_min": 15
       },
       "6": {
         "forecast": "Slight chance of a shower during the morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
@@ -187,10 +187,10 @@
     },
     "2025-12-30": {
       "6": {
-        "forecast": "Cloud clearing. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Cloud clearing.",
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 13
       },
@@ -201,6 +201,16 @@
         "precis": "Cloud clearing.",
         "temp_max": 28,
         "temp_min": 13
+      }
+    },
+    "2025-12-31": {
+      "7": {
+        "forecast": "Mostly sunny. Winds easterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 27,
+        "temp_min": 12
       }
     }
   },
