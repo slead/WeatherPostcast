@@ -49,3 +49,17 @@ pip install -e ".[dev]"
 - `pyproject.toml` - Project metadata, dependencies, pytest/hypothesis settings
 - `requirements.txt` - Pinned dependencies for reproducibility
 - `data/locations.json` - Location configuration (product IDs, city names, states)
+
+## Dev Server Management
+
+### Prevent Hanging Dev Server
+
+When the agent is about to run `npm run dev`, do not start the server.
+
+Instead:
+
+- Print a reminder: "⚠️ Please start the dev server yourself in a separate terminal using `npm run dev`."
+- Do not execute the command.
+- Continue with the rest of the agent's work as normal.
+
+If the agent needs a running server to test something, just assume the developer has already started it.

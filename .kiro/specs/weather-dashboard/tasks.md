@@ -1,23 +1,23 @@
 # Implementation Plan
 
-- [-] 1. Set up React project with Vite and TypeScript
+- [x] 1. Set up React project with Vite and TypeScript
 
-  - [-] 1.1 Initialize Vite React TypeScript project in `dashboard/` directory
+  - [x] 1.1 Initialize Vite React TypeScript project in `dashboard/` directory
     - Run `npm create vite@latest dashboard -- --template react-ts`
     - Install dependencies: react-router-dom, leaflet, react-leaflet, @types/leaflet
     - Install dev dependencies: vitest, fast-check, @testing-library/react, jsdom
     - _Requirements: 5.1_
-  - [ ] 1.2 Set up Tailwind CSS
+  - [x] 1.2 Set up Tailwind CSS
     - Install tailwindcss, postcss, autoprefixer
     - Initialize tailwind config with `npx tailwindcss init -p`
     - Configure content paths in tailwind.config.js
     - Add Tailwind directives to index.css
     - _Requirements: 7.1, 7.2_
-  - [ ] 1.3 Set up shadcn/ui
+  - [x] 1.3 Set up shadcn/ui
     - Run `npx shadcn@latest init` to initialize shadcn/ui
     - Add required components: Card, Button, Skeleton, Alert
     - _Requirements: 5.3, 5.4_
-  - [ ] 1.4 Configure Vite and TypeScript settings
+  - [x] 1.4 Configure Vite and TypeScript settings
     - Set up path aliases for clean imports (@/ prefix)
     - Configure vitest in vite.config.ts
     - _Requirements: 5.1_
