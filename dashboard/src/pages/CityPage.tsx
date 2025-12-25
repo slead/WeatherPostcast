@@ -101,14 +101,11 @@ function ErrorDisplay({ error, onRetry, cityName, state }: ErrorDisplayProps) {
 }
 
 /**
- * Get sorted forecast dates from location data
- * Returns dates sorted from most recent to oldest
+ * Get today's date in ISO format (YYYY-MM-DD)
  */
-function getSortedForecastDates(forecasts: Record<string, unknown>): string[] {
-  return Object.keys(forecasts).sort((a, b) => {
-    // Sort descending (most recent first)
-    return b.localeCompare(a);
-  });
+function getTodayDateString(): string {
+  const today = new Date();
+  return today.toISOString().split('T')[0];
 }
 
 /**
@@ -116,7 +113,7 @@ function getSortedForecastDates(forecasts: Record<string, unknown>): string[] {
  *
  * Displays forecast data for a specific city with:
  * - Mini-map centered on the city (Requirements 2.1, 2.2)
- * - Reverse forecast for each date (Requirements 3.1, 4.1)
+ * - Reverse forecast for today's date (Requirements 3.1, 4.1)
  * - Loading state with skeletons (Requirement 5.3)
  * - Error state with retry (Requirement 5.4)
  */
@@ -177,10 +174,9 @@ export function CityPage() {
   // Get city coordinates for mini-map
   const city = getCityByName(state, decodedCityName);
 
-  // Get sorted forecast dates (Requirement 3.1)
-  const forecastDates = forecastData
-    ? getSortedForecastDates(forecastData.forecasts)
-    : [];
+  // Get today's date and its predictions
+  const todayDate = getTodayDateString();
+  const todayPredictions = forecastData?.forecasts[todayDate];
 
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-6">
@@ -221,28 +217,22 @@ export function CityPage() {
           </div>
         </aside>
 
-        {/* Forecast section (Requirements 3.1, 4.1) */}
+        {/* Forecast section - Today only */}
         <main className="lg:col-span-2">
-          <h2 className="text-lg font-semibold mb-4">Forecast History</h2>
+          <h2 className="text-lg font-semibold mb-4">Today's Forecast</h2>
 
-          {forecastDates.length === 0 ? (
+          {!todayPredictions ? (
             <Alert>
               <AlertTitle>No forecast data</AlertTitle>
               <AlertDescription>
-                No forecast data is available for this city yet.
+                No forecast data is available for today yet.
               </AlertDescription>
             </Alert>
           ) : (
-            <div className="space-y-8">
-              {/* Render ReverseForecast for each date (Requirements 3.1, 4.1) */}
-              {forecastDates.map((date) => (
-                <ReverseForecast
-                  key={date}
-                  forecastDate={date}
-                  predictions={forecastData!.forecasts[date]}
-                />
-              ))}
-            </div>
+            <ReverseForecast
+              forecastDate={todayDate}
+              predictions={todayPredictions}
+            />
           )}
         </main>
       </div>

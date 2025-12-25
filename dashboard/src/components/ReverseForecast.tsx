@@ -66,6 +66,7 @@ interface PredictionCardProps {
 
 /**
  * Individual prediction card within the reverse forecast
+ * Shows full forecast text on hover via custom tooltip
  */
 const PredictionCard: React.FC<PredictionCardProps> = ({
   daysAhead,
@@ -89,49 +90,57 @@ const PredictionCard: React.FC<PredictionCardProps> = ({
     );
   }
 
-  const { icon_code, temp_min, temp_max, precipitation_prob, forecast } =
+  const { icon_code, temp_min, temp_max, precipitation_prob, precis, forecast } =
     prediction;
 
+  // Build tooltip text from available forecast info
+  const tooltipText = forecast || precis || null;
+
   return (
-    <Card>
-      <CardHeader className="pb-2 pt-3 px-3">
-        <CardTitle className="text-xs font-medium text-muted-foreground">
-          {formatDaysAhead(daysAhead)}
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="px-3 pb-3 space-y-2">
-        {/* Weather Icon */}
-        <div className="flex justify-center">
-          <WeatherIcon iconCode={icon_code} size="medium" />
+    <div className="group relative">
+      <Card className="cursor-pointer transition-shadow hover:shadow-md">
+        <CardHeader className="pb-2 pt-3 px-3">
+          <CardTitle className="text-xs font-medium text-muted-foreground">
+            {formatDaysAhead(daysAhead)}
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="px-3 pb-3 space-y-2">
+          {/* Weather Icon */}
+          <div className="flex justify-center">
+            <WeatherIcon iconCode={icon_code} size="medium" />
+          </div>
+
+          {/* Temperature Range */}
+          <div className="text-center">
+            <span className="text-sm font-semibold">
+              {formatTemperatureRange(temp_min, temp_max)}
+            </span>
+          </div>
+
+          {/* Precipitation Probability */}
+          <div className="text-center text-xs text-muted-foreground">
+            <span className="font-medium">Rain: </span>
+            {formatPrecipitation(precipitation_prob)}
+          </div>
+
+          {/* Precis (short description) - truncated */}
+          {precis !== null && precis !== '' && (
+            <p className="text-xs text-center text-muted-foreground line-clamp-2">
+              {precis}
+            </p>
+          )}
+        </CardContent>
+      </Card>
+      
+      {/* Custom tooltip - appears on hover */}
+      {tooltipText && (
+        <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-gray-900 text-white text-xs rounded-lg shadow-lg max-w-xs opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none">
+          <div className="text-center">{tooltipText}</div>
+          {/* Arrow */}
+          <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
         </div>
-
-        {/* Temperature Range */}
-        <div className="text-center">
-          <span className="text-sm font-semibold">
-            {formatTemperatureRange(temp_min, temp_max)}
-          </span>
-        </div>
-
-        {/* Precipitation Probability */}
-        <div className="text-center text-xs text-muted-foreground">
-          <span className="font-medium">Rain: </span>
-          {formatPrecipitation(precipitation_prob)}
-        </div>
-
-        {/* Precis (short description) */}
-        {/* {precis !== null && precis !== '' && (
-          <p className="text-xs text-center text-muted-foreground line-clamp-2">
-            {precis}
-          </p>
-        )} */}
-
-        {forecast !== null && forecast !== '' && (
-          <p className="text-xs text-center text-muted-foreground line-clamp-2">
-            {forecast}
-          </p>
-        )}
-      </CardContent>
-    </Card>
+      )}
+    </div>
   );
 };
 
