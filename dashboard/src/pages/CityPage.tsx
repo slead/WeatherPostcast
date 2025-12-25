@@ -1,0 +1,253 @@
+/**
+ * CityPage - City forecast page with mini-map and reverse forecast display
+ * Feature: weather-dashboard
+ *
+ * Requirements:
+ * - 2.1, 2.2: Display mini-map centered on current city
+ * - 3.1: Display forecasts for all available dates
+ * - 4.1: Display reverse forecast organized by days-ahead
+ * - 5.2: Fetch city's forecast data on demand
+ * - 5.3: Display loading indicator
+ * - 5.4: Display error message with retry
+ */
+
+import { useParams, Link } from 'react-router-dom';
+import { useForecast } from '../hooks/useForecast';
+import { useCities } from '../context';
+import { MiniMap } from '../components/MiniMap';
+import { ReverseForecast } from '../components/ReverseForecast';
+import { Skeleton } from '../components/ui/skeleton';
+import { Alert, AlertTitle, AlertDescription } from '../components/ui/alert';
+import { Button } from '../components/ui/button';
+
+/**
+ * Loading skeleton for the city page
+ * Requirement 5.3: Display loading indicator
+ */
+function CityPageSkeleton() {
+  return (
+    <div className="min-h-screen bg-gray-50 p-4 md:p-6">
+      {/* Header skeleton */}
+      <div className="mb-6">
+        <Skeleton className="h-8 w-48 mb-2" />
+        <Skeleton className="h-4 w-32" />
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Mini-map skeleton */}
+        <div className="lg:col-span-1">
+          <Skeleton className="h-64 w-full rounded-lg" />
+        </div>
+
+        {/* Forecast skeleton */}
+        <div className="lg:col-span-2 space-y-6">
+          {[1, 2, 3].map((i) => (
+            <div key={i} className="space-y-3">
+              <Skeleton className="h-6 w-32" />
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {[1, 2, 3, 4].map((j) => (
+                  <Skeleton key={j} className="h-40 w-full rounded-lg" />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+/**
+ * Error display component with retry functionality
+ * Requirement 5.4: Display error message and allow retry
+ */
+interface ErrorDisplayProps {
+  error: Error;
+  onRetry: () => void;
+  cityName: string;
+  state: string;
+}
+
+function ErrorDisplay({ error, onRetry, cityName, state }: ErrorDisplayProps) {
+  return (
+    <div className="min-h-screen bg-gray-50 p-4 md:p-6">
+      {/* Back link */}
+      <Link
+        to="/"
+        className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6"
+      >
+        ← Back to map
+      </Link>
+
+      {/* City header */}
+      <h1 className="text-2xl font-bold mb-2">
+        {decodeURIComponent(cityName)}
+      </h1>
+      <p className="text-gray-600 mb-6">{state}</p>
+
+      {/* Error alert */}
+      <Alert variant="destructive" className="max-w-lg">
+        <AlertTitle>Error loading forecast</AlertTitle>
+        <AlertDescription className="mt-2">
+          <p className="mb-4">{error.message}</p>
+          <Button onClick={onRetry} variant="outline" size="sm">
+            Try again
+          </Button>
+        </AlertDescription>
+      </Alert>
+    </div>
+  );
+}
+
+/**
+ * Get sorted forecast dates from location data
+ * Returns dates sorted from most recent to oldest
+ */
+function getSortedForecastDates(forecasts: Record<string, unknown>): string[] {
+  return Object.keys(forecasts).sort((a, b) => {
+    // Sort descending (most recent first)
+    return b.localeCompare(a);
+  });
+}
+
+/**
+ * CityPage component
+ *
+ * Displays forecast data for a specific city with:
+ * - Mini-map centered on the city (Requirements 2.1, 2.2)
+ * - Reverse forecast for each date (Requirements 3.1, 4.1)
+ * - Loading state with skeletons (Requirement 5.3)
+ * - Error state with retry (Requirement 5.4)
+ */
+export function CityPage() {
+  // Extract state and cityName from URL params
+  const { state, cityName } = useParams<{ state: string; cityName: string }>();
+
+  // Get city info from context
+  const { getCityByName, loading: citiesLoading } = useCities();
+
+  // Fetch forecast data on demand (Requirement 5.2)
+  const {
+    data: forecastData,
+    loading: forecastLoading,
+    error: forecastError,
+    refetch,
+  } = useForecast(state || '', cityName || '');
+
+  // Handle missing URL params
+  if (!state || !cityName) {
+    return (
+      <div className="min-h-screen bg-gray-50 p-4 md:p-6">
+        <Alert variant="destructive">
+          <AlertTitle>Invalid URL</AlertTitle>
+          <AlertDescription>
+            <p className="mb-4">City or state not specified in URL.</p>
+            <Link to="/">
+              <Button variant="outline" size="sm">
+                Go to map
+              </Button>
+            </Link>
+          </AlertDescription>
+        </Alert>
+      </div>
+    );
+  }
+
+  // Decode city name from URL
+  const decodedCityName = decodeURIComponent(cityName);
+
+  // Show loading skeleton (Requirement 5.3)
+  if (forecastLoading || citiesLoading) {
+    return <CityPageSkeleton />;
+  }
+
+  // Show error with retry (Requirement 5.4)
+  if (forecastError) {
+    return (
+      <ErrorDisplay
+        error={forecastError}
+        onRetry={refetch}
+        cityName={cityName}
+        state={state}
+      />
+    );
+  }
+
+  // Get city coordinates for mini-map
+  const city = getCityByName(state, decodedCityName);
+
+  // Get sorted forecast dates (Requirement 3.1)
+  const forecastDates = forecastData
+    ? getSortedForecastDates(forecastData.forecasts)
+    : [];
+
+  return (
+    <div className="min-h-screen bg-gray-50 p-4 md:p-6">
+      {/* Back link */}
+      <Link
+        to="/"
+        className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-4"
+      >
+        ← Back to map
+      </Link>
+
+      {/* City header */}
+      <header className="mb-6">
+        <h1 className="text-2xl md:text-3xl font-bold">
+          {forecastData?.city_name || decodedCityName}
+        </h1>
+        <p className="text-gray-600">
+          {forecastData?.state || state}
+        </p>
+      </header>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Mini-map section (Requirements 2.1, 2.2) */}
+        <aside className="lg:col-span-1">
+          <div className="sticky top-4">
+            <h2 className="text-lg font-semibold mb-3">Location</h2>
+            {city ? (
+              <MiniMap
+                currentCityName={decodedCityName}
+                currentState={state}
+                className="h-64 rounded-lg overflow-hidden shadow-md"
+              />
+            ) : (
+              <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
+                <p className="text-gray-500">City location not found</p>
+              </div>
+            )}
+          </div>
+        </aside>
+
+        {/* Forecast section (Requirements 3.1, 4.1) */}
+        <main className="lg:col-span-2">
+          <h2 className="text-lg font-semibold mb-4">Forecast History</h2>
+
+          {forecastDates.length === 0 ? (
+            <Alert>
+              <AlertTitle>No forecast data</AlertTitle>
+              <AlertDescription>
+                No forecast data is available for this city yet.
+              </AlertDescription>
+            </Alert>
+          ) : (
+            <div className="space-y-8">
+              {/* Render ReverseForecast for each date (Requirements 3.1, 4.1) */}
+              {forecastDates.map((date) => (
+                <ReverseForecast
+                  key={date}
+                  forecastDate={date}
+                  predictions={forecastData!.forecasts[date]}
+                />
+              ))}
+            </div>
+          )}
+        </main>
+      </div>
+    </div>
+  );
+}
+
+export default CityPage;

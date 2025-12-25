@@ -1,38 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/**
+ * App Component - Root component with routing and context providers
+ * Feature: weather-dashboard
+ *
+ * Requirements:
+ * - 1.3: Navigate to city's forecast page on marker click
+ * - 2.3: Navigate to city's forecast page from mini-map
+ * - 5.1: Load cities.geojson on app initialization
+ */
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CitiesProvider } from './context';
+import { HomePage, CityPage, NotFoundPage } from './pages';
+import './App.css';
+
+/**
+ * App component
+ * Sets up routing and wraps the application in CitiesProvider
+ *
+ * Routes:
+ * - / : HomePage with full Australia map
+ * - /city/:state/:cityName : CityPage with forecast data
+ * - * : NotFoundPage for 404/unknown routes
+ */
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      <div className="flex gap-8 mb-8">
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="h-24 p-6 transition-all hover:drop-shadow-[0_0_2em_#646cffaa]" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="h-24 p-6 transition-all hover:drop-shadow-[0_0_2em_#61dafbaa]" alt="React logo" />
-        </a>
-      </div>
-      <h1 className="text-4xl font-bold text-gray-800 mb-8">Vite + React + Tailwind</h1>
-      <div className="bg-white rounded-lg shadow-md p-8 text-center">
-        <button 
-          onClick={() => setCount((count) => count + 1)}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors"
-        >
-          count is {count}
-        </button>
-        <p className="mt-4 text-gray-600">
-          Edit <code className="bg-gray-100 px-1 rounded">src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="mt-8 text-gray-500">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <CitiesProvider>
+      <BrowserRouter>
+        <Routes>
+          {/* Home page with interactive map (Requirement 1.3) */}
+          <Route path="/" element={<HomePage />} />
+
+          {/* City forecast page (Requirements 1.3, 2.3) */}
+          <Route path="/city/:state/:cityName" element={<CityPage />} />
+
+          {/* 404 handler for unknown routes */}
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </BrowserRouter>
+    </CitiesProvider>
+  );
 }
 
-export default App
+export default App;

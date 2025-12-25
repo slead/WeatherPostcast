@@ -111,9 +111,9 @@
 
   - Ensure all tests pass, ask the user if questions arise.
 
-- [-] 10. Implement MapComponent
+- [x] 10. Implement MapComponent
 
-  - [-] 10.1 Create MapComponent with Leaflet
+  - [x] 10.1 Create MapComponent with Leaflet
     - Render interactive map with OpenStreetMap tiles
     - Display city markers at GeoJSON coordinates
     - Support click handler for marker selection
@@ -123,9 +123,9 @@
     - **Property 1: Marker Position Accuracy**
     - **Validates: Requirements 1.2**
 
-- [ ] 11. Implement MiniMap component
+- [x] 11. Implement MiniMap component
 
-  - [ ] 11.1 Create MiniMap component
+  - [x] 11.1 Create MiniMap component
     - Extend MapComponent with mini-map specific features
     - Center map on current city coordinates
     - Highlight current city marker differently
@@ -135,22 +135,22 @@
     - **Property 2: Mini-map Center Position**
     - **Validates: Requirements 2.2**
 
-- [ ] 12. Implement HomePage
+- [x] 12. Implement HomePage
 
-  - [ ] 12.1 Create HomePage component
+  - [x] 12.1 Create HomePage component
     - Render full-screen MapComponent
     - Navigate to city page on marker click
     - _Requirements: 1.1, 1.3_
 
-- [ ] 13. Implement CityPage
+- [x] 13. Implement CityPage
 
-  - [ ] 13.1 Create CityPage component
+  - [x] 13.1 Create CityPage component
     - Extract state and cityName from URL params
     - Fetch forecast data using useForecast hook
     - Use shadcn/ui Skeleton for loading state
     - Use shadcn/ui Alert for error message with retry Button
     - _Requirements: 5.2, 5.3, 5.4_
-  - [ ] 13.2 Integrate MiniMap and forecast display
+  - [x] 13.2 Integrate MiniMap and forecast display
     - Render MiniMap centered on current city
     - Render forecast dates with ReverseForecast components
     - _Requirements: 2.1, 2.2, 3.1, 4.1_
@@ -158,13 +158,13 @@
     - **Property 4: All Forecast Dates Rendered**
     - **Validates: Requirements 3.1**
 
-- [ ] 14. Set up routing and App component
+- [x] 14. Set up routing and App component
 
-  - [ ] 14.1 Configure React Router
+  - [x] 14.1 Configure React Router
     - Set up routes for HomePage and CityPage
     - Handle 404/unknown routes
     - _Requirements: 1.3, 2.3_
-  - [ ] 14.2 Create App component with CitiesProvider
+  - [x] 14.2 Create App component with CitiesProvider
     - Wrap app in CitiesContext provider
     - Set up router with routes
     - _Requirements: 5.1_

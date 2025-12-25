@@ -89,7 +89,7 @@ const PredictionCard: React.FC<PredictionCardProps> = ({
     );
   }
 
-  const { icon_code, temp_min, temp_max, precipitation_prob, precis } =
+  const { icon_code, temp_min, temp_max, precipitation_prob, forecast } =
     prediction;
 
   return (
@@ -119,9 +119,15 @@ const PredictionCard: React.FC<PredictionCardProps> = ({
         </div>
 
         {/* Precis (short description) */}
-        {precis !== null && precis !== '' && (
+        {/* {precis !== null && precis !== '' && (
           <p className="text-xs text-center text-muted-foreground line-clamp-2">
             {precis}
+          </p>
+        )} */}
+
+        {forecast !== null && forecast !== '' && (
+          <p className="text-xs text-center text-muted-foreground line-clamp-2">
+            {forecast}
           </p>
         )}
       </CardContent>
