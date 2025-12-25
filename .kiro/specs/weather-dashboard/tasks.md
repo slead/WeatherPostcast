@@ -22,21 +22,21 @@
     - Configure vitest in vite.config.ts
     - _Requirements: 5.1_
 
-- [ ] 2. Create TypeScript type definitions
+- [x] 2. Create TypeScript type definitions
 
-  - [ ] 2.1 Define GeoJSON and city types
+  - [x] 2.1 Define GeoJSON and city types
     - Create `src/types/index.ts` with CityFeature, CitiesGeoJSON interfaces
     - _Requirements: 1.1, 1.2_
-  - [ ] 2.2 Define forecast data types
+  - [x] 2.2 Define forecast data types
     - Add LocationData, ForecastRecord, PredictionEntry interfaces
     - _Requirements: 8.1, 8.2_
   - [ ]\* 2.3 Write property test for JSON parsing completeness
     - **Property 7: JSON Parsing Completeness**
     - **Validates: Requirements 8.1, 8.2, 8.3**
 
-- [ ] 3. Implement data parsing utilities
+- [x] 3. Implement data parsing utilities
 
-  - [ ] 3.1 Create dataParser utility
+  - [x] 3.1 Create dataParser utility
     - Implement parseLocationData function to parse JSON to LocationData
     - Handle null values gracefully
     - Validate schema structure
@@ -44,7 +44,7 @@
   - [ ]\* 3.2 Write property test for schema validation
     - **Property 8: Schema Validation**
     - **Validates: Requirements 8.4**
-  - [ ] 3.3 Create dateFormatter utility
+  - [x] 3.3 Create dateFormatter utility
     - Implement formatDate function for human-readable dates
     - _Requirements: 8.5_
   - [ ]\* 3.4 Write property test for date formatting
@@ -55,26 +55,26 @@
 
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 5. Implement custom hooks for data fetching
+- [x] 5. Implement custom hooks for data fetching
 
-  - [ ] 5.1 Create CitiesContext and useCities hook
+  - [x] 5.1 Create CitiesContext and useCities hook
     - Load cities.geojson on app initialization
     - Provide getCityByName helper function
     - Handle loading and error states
     - _Requirements: 5.1, 1.1_
-  - [ ] 5.2 Create useForecast hook
+  - [x] 5.2 Create useForecast hook
     - Fetch city forecast data on demand
     - Parse JSON using dataParser
     - Handle loading, error, and refetch states
     - _Requirements: 5.2, 5.3, 5.4_
 
-- [ ] 6. Implement WeatherIcon component
+- [x] 6. Implement WeatherIcon component
 
-  - [ ] 6.1 Create icon mapping utility
-    - Map BOM icon_codes (1-18) to weather icon representations
+  - [x] 6.1 Create icon mapping utility
+    - Map BOM icon_codes (1-18) to weather icon representations (use icons named icon_code.png in the public folder)
     - Define default icon for unknown codes
     - _Requirements: 6.1, 6.2_
-  - [ ] 6.2 Implement WeatherIcon component
+  - [x] 6.2 Implement WeatherIcon component
     - Render appropriate icon based on iconCode prop
     - Support size variants (small, medium, large)
     - _Requirements: 6.1, 6.2, 6.3_
@@ -82,9 +82,9 @@
     - **Property 6: Icon Code Mapping**
     - **Validates: Requirements 6.1**
 
-- [ ] 7. Implement ForecastDisplay component
+- [x] 7. Implement ForecastDisplay component
 
-  - [ ] 7.1 Create ForecastDisplay component
+  - [x] 7.1 Create ForecastDisplay component
     - Use shadcn/ui Card component for layout
     - Display weather icon, temperature range, precipitation, precis
     - Format temperatures with °C symbol
@@ -94,9 +94,9 @@
     - **Property 3: Forecast Display Completeness**
     - **Validates: Requirements 3.2, 3.3, 3.4**
 
-- [ ] 8. Implement ReverseForecast component
+- [x] 8. Implement ReverseForecast component
 
-  - [ ] 8.1 Create ReverseForecast component
+  - [x] 8.1 Create ReverseForecast component
     - Use shadcn/ui Card for each prediction entry
     - Display all predictions for a date organized by days-ahead
     - Order predictions from highest to lowest days-ahead
@@ -111,9 +111,9 @@
 
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 10. Implement MapComponent
+- [-] 10. Implement MapComponent
 
-  - [ ] 10.1 Create MapComponent with Leaflet
+  - [-] 10.1 Create MapComponent with Leaflet
     - Render interactive map with OpenStreetMap tiles
     - Display city markers at GeoJSON coordinates
     - Support click handler for marker selection
