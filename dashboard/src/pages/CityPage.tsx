@@ -27,29 +27,21 @@ import { Button } from '../components/ui/button';
 function CityPageSkeleton() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-6">
-      {/* Header skeleton */}
-      <div className="mb-6">
-        <Skeleton className="h-8 w-48 mb-2" />
-        <Skeleton className="h-4 w-32" />
+      {/* Header skeleton with map */}
+      <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6">
+        <div>
+          <Skeleton className="h-8 w-48 mb-2" />
+          <Skeleton className="h-4 w-32" />
+        </div>
+        <Skeleton className="h-40 w-full lg:w-64 rounded-lg" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Mini-map skeleton */}
-        <div className="lg:col-span-1">
-          <Skeleton className="h-64 w-full rounded-lg" />
-        </div>
-
-        {/* Forecast skeleton */}
-        <div className="lg:col-span-2 space-y-6">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="space-y-3">
-              <Skeleton className="h-6 w-32" />
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                {[1, 2, 3, 4].map((j) => (
-                  <Skeleton key={j} className="h-40 w-full rounded-lg" />
-                ))}
-              </div>
-            </div>
+      {/* Forecast skeleton - full width grid */}
+      <div className="space-y-3">
+        <Skeleton className="h-6 w-32" />
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
+          {[...Array(8)].map((_, i) => (
+            <Skeleton key={i} className="h-44 w-full rounded-lg" />
           ))}
         </div>
       </div>
@@ -188,54 +180,53 @@ export function CityPage() {
         ← Back to map
       </Link>
 
-      {/* City header */}
+      {/* Header with city info */}
       <header className="mb-6">
-        <h1 className="text-2xl md:text-3xl font-bold">
-          {forecastData?.city_name || decodedCityName}
-        </h1>
-        <p className="text-gray-600">
-          {forecastData?.state || state}
-        </p>
+        {/* City info */}
+        <div>
+          <h1 className="text-2xl md:text-3xl font-bold">
+            {forecastData?.city_name || decodedCityName}
+          </h1>
+          <p className="text-gray-600">
+            {forecastData?.state || state}
+          </p>
+        </div>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Mini-map section (Requirements 2.1, 2.2) */}
-        <aside className="lg:col-span-1">
-          <div className="sticky top-4">
-            <h2 className="text-lg font-semibold mb-3">Location</h2>
-            {city ? (
-              <MiniMap
-                currentCityName={decodedCityName}
-                currentState={state}
-                className="h-64 rounded-lg overflow-hidden shadow-md"
-              />
-            ) : (
-              <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-                <p className="text-gray-500">City location not found</p>
-              </div>
-            )}
-          </div>
-        </aside>
+      {/* Forecast section - full width for maximum card space */}
+      <main className="space-y-6">
+        {/* <h2 className="text-lg font-semibold mb-4">Today's Forecast</h2> */}
 
-        {/* Forecast section - Today only */}
-        <main className="lg:col-span-2">
-          <h2 className="text-lg font-semibold mb-4">Today's Forecast</h2>
+        {!todayPredictions ? (
+          <Alert>
+            <AlertTitle>No forecast data</AlertTitle>
+            <AlertDescription>
+              No forecast data is available for today yet.
+            </AlertDescription>
+          </Alert>
+        ) : (
+          <ReverseForecast
+            forecastDate={todayDate}
+            predictions={todayPredictions}
+            maxDaysAhead={7}
+          />
+        )}
 
-          {!todayPredictions ? (
-            <Alert>
-              <AlertTitle>No forecast data</AlertTitle>
-              <AlertDescription>
-                No forecast data is available for today yet.
-              </AlertDescription>
-            </Alert>
-          ) : (
-            <ReverseForecast
-              forecastDate={todayDate}
-              predictions={todayPredictions}
+        {/* Mini-map section (Requirements 2.1, 2.2) - full width below predictions */}
+        <section>
+          {city ? (
+            <MiniMap
+              currentCityName={decodedCityName}
+              currentState={state}
+              className="h-[32rem] w-full rounded-lg overflow-hidden shadow-md blah"
             />
+          ) : (
+            <div className="h-[32rem] bg-gray-200 rounded-lg flex items-center justify-center">
+              <p className="text-gray-500 text-sm">Location not found</p>
+            </div>
           )}
-        </main>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }

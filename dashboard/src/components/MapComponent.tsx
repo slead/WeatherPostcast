@@ -110,7 +110,7 @@ export function MapComponent({
   // Determine container class based on size
   const containerClass = size === 'full' 
     ? 'w-full h-full min-h-[400px]' 
-    : 'w-full h-64 rounded-lg';
+    : 'w-full h-[32rem] rounded-lg';
 
   return (
     <MapContainer
