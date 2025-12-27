@@ -80,6 +80,7 @@ export function useForecast(
       try {
         setLoading(true);
         setError(null);
+        // Don't clear data here - keep previous data visible during transition
 
         // Construct the URL for the city's forecast data
         // Format: /data/{state}/{cityName}.json
@@ -108,6 +109,7 @@ export function useForecast(
           setError(
             err instanceof Error ? err : new Error('Unknown error loading forecast')
           );
+          // Only clear data on error
           setData(null);
         }
       } finally {

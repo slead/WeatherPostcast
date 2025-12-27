@@ -9,23 +9,27 @@
  * - 1.4: Display city name and state as tooltip on hover
  */
 
-import { useEffect } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   MapContainer,
   TileLayer,
   Marker,
   Tooltip,
   useMap,
+  useMapEvents,
 } from 'react-leaflet';
 import L from 'leaflet';
 import type { CityFeature } from '../types';
+import { getIconPath } from '@/utils/iconMapping';
+import type { CityIconMap } from '@/hooks/useCityWeatherIcons';
+import { getCityKey } from '@/hooks/useCityWeatherIcons';
 
 // Fix for default marker icons in Leaflet with bundlers
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 
-// Configure default icon
+// Configure default icon (fallback when no weather data)
 const DefaultIcon = L.icon({
   iconUrl: markerIcon,
   iconRetinaUrl: markerIcon2x,
@@ -37,20 +41,71 @@ const DefaultIcon = L.icon({
   shadowSize: [41, 41],
 });
 
-// Highlighted icon for current city (used in mini-map)
-const HighlightedIcon = L.icon({
-  iconUrl: markerIcon,
-  iconRetinaUrl: markerIcon2x,
-  shadowUrl: markerShadow,
-  iconSize: [30, 49],
-  iconAnchor: [15, 49],
-  popupAnchor: [1, -34],
-  tooltipAnchor: [16, -28],
-  shadowSize: [41, 41],
-  className: 'highlighted-marker',
-});
-
 L.Marker.prototype.options.icon = DefaultIcon;
+
+/** Zoom constraints */
+const MIN_ZOOM = 3;
+const MAX_ZOOM = 10;
+
+/** Australia bounds with ~100% padding */
+const AUSTRALIA_BOUNDS = L.latLngBounds(
+  L.latLng(-50, 100), // Southwest corner (with padding)
+  L.latLng(0, 165) // Northeast corner (with padding)
+);
+
+/** Base icon size at zoom level 4 */
+const BASE_ICON_SIZE = 24;
+const BASE_ZOOM = 4;
+
+/**
+ * Calculate icon size based on zoom level
+ * Icons scale proportionally with zoom
+ * @param zoom - Current zoom level
+ * @param highlighted - Whether this is the current/highlighted city
+ * @param hovered - Whether this marker is being hovered (mini-map only)
+ */
+function getIconSizeForZoom(
+  zoom: number,
+  highlighted: boolean = false,
+  hovered: boolean = false
+): [number, number] {
+  // Scale factor: doubles every 2 zoom levels
+  const scale = Math.pow(2, (zoom - BASE_ZOOM) / 2);
+  let baseSize = BASE_ICON_SIZE;
+  if (highlighted) {
+    baseSize = BASE_ICON_SIZE * 1.5;
+  } else if (hovered) {
+    baseSize = BASE_ICON_SIZE * 1.25;
+  }
+  const size = Math.round(baseSize * scale);
+  // Clamp between 16 and 96 pixels (higher max for highlighted)
+  const maxSize = highlighted ? 96 : 64;
+  const clampedSize = Math.max(16, Math.min(maxSize, size));
+  return [clampedSize, clampedSize];
+}
+
+/**
+ * Create a Leaflet icon from a weather icon code with zoom-based sizing
+ */
+function createWeatherIcon(
+  iconCode: number | null,
+  zoom: number,
+  highlighted: boolean = false,
+  hovered: boolean = false
+): L.Icon {
+  const size = getIconSizeForZoom(zoom, highlighted, hovered);
+
+  const iconPath = getIconPath(iconCode);
+  const icon = L.icon({
+    iconUrl: iconPath,
+    iconSize: size,
+    iconAnchor: [size[0] / 2, size[1] / 2],
+    popupAnchor: [0, -size[1] / 2],
+    tooltipAnchor: [size[0] / 2, 0],
+  });
+
+  return icon;
+}
 
 /**
  * Props for the MapComponent
@@ -68,6 +123,8 @@ export interface MapComponentProps {
   highlightedCity?: string;
   /** Map size variant */
   size?: 'full' | 'mini';
+  /** Optional map of city keys to weather icon codes */
+  weatherIcons?: CityIconMap;
 }
 
 // Default center of Australia
@@ -89,6 +146,23 @@ function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }
 }
 
 /**
+ * Helper component to track zoom level changes
+ */
+function ZoomTracker({ onZoomChange }: { onZoomChange: (zoom: number) => void }) {
+  const map = useMapEvents({
+    zoomend: () => {
+      onZoomChange(map.getZoom());
+    },
+  });
+
+  useEffect(() => {
+    onZoomChange(map.getZoom());
+  }, [map, onZoomChange]);
+
+  return null;
+}
+
+/**
  * MapComponent - Renders an interactive Leaflet map with city markers
  *
  * Requirements:
@@ -104,13 +178,34 @@ export function MapComponent({
   zoom,
   highlightedCity,
   size = 'full',
+  weatherIcons,
 }: MapComponentProps) {
   const effectiveZoom = zoom ?? (size === 'mini' ? MINI_MAP_ZOOM : DEFAULT_ZOOM);
+  const [currentZoom, setCurrentZoom] = useState(effectiveZoom);
+  const [hoveredCity, setHoveredCity] = useState<string | null>(null);
 
   // Determine container class based on size
-  const containerClass = size === 'full' 
-    ? 'w-full h-full min-h-[400px]' 
-    : 'w-full h-[32rem] rounded-lg';
+  const containerClass =
+    size === 'full'
+      ? 'w-full h-full min-h-[400px]'
+      : 'w-full h-[32rem] rounded-lg';
+
+  // Memoize icon lookup - now includes zoom level for dynamic sizing
+  const getMarkerIcon = useMemo(() => {
+    return (
+      state: string,
+      cityName: string,
+      isHighlighted: boolean,
+      isHovered: boolean
+    ) => {
+      if (weatherIcons) {
+        const key = getCityKey(state, cityName);
+        const iconCode = weatherIcons.get(key) ?? null;
+        return createWeatherIcon(iconCode, currentZoom, isHighlighted, isHovered);
+      }
+      return DefaultIcon;
+    };
+  }, [weatherIcons, currentZoom]);
 
   return (
     <MapContainer
@@ -119,29 +214,49 @@ export function MapComponent({
       className={containerClass}
       scrollWheelZoom={true}
       style={{ zIndex: 0 }}
+      minZoom={MIN_ZOOM}
+      maxZoom={MAX_ZOOM}
+      maxBounds={AUSTRALIA_BOUNDS}
+      maxBoundsViscosity={1.0}
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
       />
       <MapUpdater center={center} zoom={effectiveZoom} />
-      
+      <ZoomTracker onZoomChange={setCurrentZoom} />
+
       {cities.map((city) => {
         // GeoJSON coordinates are [longitude, latitude]
         // Leaflet expects [latitude, longitude]
         const [lng, lat] = city.geometry.coordinates;
         const position: [number, number] = [lat, lng];
-        
+
+        const cityKey = `${city.properties.state}-${city.properties.city_name}`;
         const isHighlighted = highlightedCity === city.properties.city_name;
-        const icon = isHighlighted ? HighlightedIcon : DefaultIcon;
+        const isHovered = size === 'mini' && hoveredCity === cityKey;
+        const icon = getMarkerIcon(
+          city.properties.state,
+          city.properties.city_name,
+          isHighlighted,
+          isHovered
+        );
+
+        // Apply reduced opacity to non-highlighted markers in mini-map mode
+        // Full opacity when highlighted or hovered
+        const markerOpacity =
+          size === 'mini' && !isHighlighted && !isHovered ? 0.5 : 1;
 
         return (
           <Marker
-            key={`${city.properties.state}-${city.properties.city_name}`}
+            key={cityKey}
             position={position}
             icon={icon}
+            opacity={markerOpacity}
             eventHandlers={{
               click: () => onCityClick(city),
+              mouseover: () => size === 'mini' && setHoveredCity(cityKey),
+              mouseout: () => size === 'mini' && setHoveredCity(null),
             }}
           >
             {/* Requirement 1.4: Display city name and state as tooltip on hover */}

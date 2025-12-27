@@ -65,9 +65,9 @@ function formatPrecipitation(precipitationProb: string | null): string {
  */
 function formatHistoricalLabel(daysAhead: number): string {
   if (daysAhead === 1) {
-    return 'Predicted yesterday';
+    return `Yesterday, the BOM predicted today's weather would be`;
   }
-  return `Predicted ${daysAhead} days ago`;
+  return `${daysAhead} days ago, the BOM predicted today's weather would be:`;
 }
 
 /**
@@ -256,13 +256,12 @@ export const ReverseForecast: React.FC<ReverseForecastProps> = ({
       {/* Date Header */}
       <h3 className="text-lg font-semibold">{formattedDate}</h3>
 
-      {/* Today's Actual Weather - full width prominent card */}
-      <TodayWeatherCard prediction={todayPrediction} />
+      
 
       {/* Historical Predictions Section */}
       <div className="space-y-3">
         <h4 className="text-sm font-medium text-gray-600">
-          How accurate were the predictions for today's weather?
+          Historical predictions for today's weather:
         </h4>
 
         {/* Historical predictions grid - 7 columns on desktop */}
@@ -276,6 +275,9 @@ export const ReverseForecast: React.FC<ReverseForecastProps> = ({
           ))}
         </div>
       </div>
+
+{/* Today's Actual Weather - full width prominent card */}
+      <TodayWeatherCard prediction={todayPrediction} />
     </div>
   );
 };

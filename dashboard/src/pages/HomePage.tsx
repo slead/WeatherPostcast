@@ -10,6 +10,7 @@
 import { useNavigate } from 'react-router-dom';
 import { MapComponent } from '../components';
 import { useCities } from '../context';
+import { useCityWeatherIcons } from '../hooks/useCityWeatherIcons';
 import type { CityFeature } from '../types';
 
 /**
@@ -20,6 +21,7 @@ import type { CityFeature } from '../types';
 export function HomePage() {
   const navigate = useNavigate();
   const { cities, loading, error } = useCities();
+  const { iconMap: weatherIcons, loading: iconsLoading } = useCityWeatherIcons(cities);
 
   /**
    * Handle city marker click - navigate to city page
@@ -62,11 +64,18 @@ export function HomePage() {
 
   return (
     <div className="h-screen w-screen">
+      {/* Show subtle loading indicator while weather icons load */}
+      {iconsLoading && (
+        <div className="absolute top-4 right-4 z-10 bg-white/80 px-3 py-1 rounded-full text-sm text-gray-600">
+          Loading weather...
+        </div>
+      )}
       {/* Requirement 1.1: Display interactive map showing all city locations */}
       <MapComponent
         cities={cities}
         onCityClick={handleCityClick}
         size="full"
+        weatherIcons={weatherIcons}
       />
     </div>
   );
