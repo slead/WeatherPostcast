@@ -13,6 +13,7 @@ import { MapComponent, WeatherIcon } from '../components';
 import { useCities } from '../context';
 import { useCityWeatherIcons } from '../hooks/useCityWeatherIcons';
 import { useForecast } from '../hooks/useForecast';
+import { DATA_BASE_PATH } from '../config';
 import { Card, CardContent } from '../components/ui/card';
 import { Skeleton } from '../components/ui/skeleton';
 import type { CityFeature } from '../types';
@@ -46,7 +47,7 @@ function getTodayDateString(): string {
  * Hook to fetch forecast for a single capital city
  */
 function useCapitalForecast(city: string, state: string) {
-  return useForecast(state, city);
+  return useForecast(state, city, { basePath: DATA_BASE_PATH });
 }
 
 /**
@@ -217,7 +218,7 @@ function CitySearch({ cities, onSelect }: CitySearchProps) {
 export function HomePage() {
   const navigate = useNavigate();
   const { cities, loading, error } = useCities();
-  const { iconMap: weatherIcons, loading: iconsLoading } = useCityWeatherIcons(cities);
+  const { iconMap: weatherIcons, loading: iconsLoading } = useCityWeatherIcons(cities, DATA_BASE_PATH);
 
   const handleCityClick = (city: CityFeature) => {
     const { state, city_name } = city.properties;

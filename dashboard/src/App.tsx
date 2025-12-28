@@ -11,6 +11,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CitiesProvider } from './context';
 import { HomePage, CityPage, NotFoundPage } from './pages';
+import { DATA_BASE_PATH } from './config';
 import './App.css';
 
 /**
@@ -24,8 +25,8 @@ import './App.css';
  */
 function App() {
   return (
-    <CitiesProvider>
-      <BrowserRouter>
+    <CitiesProvider basePath={DATA_BASE_PATH}>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           {/* Home page with interactive map (Requirement 1.3) */}
           <Route path="/" element={<HomePage />} />

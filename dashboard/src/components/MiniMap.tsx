@@ -14,6 +14,7 @@ import { useNavigate } from 'react-router-dom';
 import { MapComponent } from './MapComponent';
 import { useCities } from '../context';
 import { useCityWeatherIcons } from '../hooks/useCityWeatherIcons';
+import { DATA_BASE_PATH } from '../config';
 import type { CityFeature } from '../types';
 
 /**
@@ -52,7 +53,7 @@ export function MiniMap({
 }: MiniMapProps) {
   const navigate = useNavigate();
   const { cities, getCityByName } = useCities();
-  const { iconMap: weatherIcons } = useCityWeatherIcons(cities);
+  const { iconMap: weatherIcons } = useCityWeatherIcons(cities, DATA_BASE_PATH);
 
   // Get the current city's coordinates for centering the map
   // Requirement 2.2: Center the map on the currently selected city's coordinates

@@ -15,6 +15,7 @@ import { useEffect, useState, useMemo } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useForecast } from '../hooks/useForecast';
 import { useCities } from '../context';
+import { DATA_BASE_PATH } from '../config';
 import { MiniMap } from '../components/MiniMap';
 import { ReverseForecast } from '../components/ReverseForecast';
 import { Skeleton } from '../components/ui/skeleton';
@@ -217,7 +218,7 @@ export function CityPage() {
     loading: forecastLoading,
     error: forecastError,
     refetch,
-  } = useForecast(state || '', cityName || '');
+  } = useForecast(state || '', cityName || '', { basePath: DATA_BASE_PATH });
 
   // Handle missing URL params
   if (!state || !cityName) {
