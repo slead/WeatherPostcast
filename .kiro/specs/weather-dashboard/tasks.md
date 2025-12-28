@@ -169,7 +169,7 @@
     - Set up router with routes
     - _Requirements: 5.1_
 
-- [ ] 15. Add responsive styling
+- [-] 15. Add responsive styling
 
   - [ ] 15.1 Implement responsive layout with Tailwind
     - Use Tailwind responsive prefixes (sm:, md:, lg:) for breakpoints

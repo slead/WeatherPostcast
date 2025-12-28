@@ -11,6 +11,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CitiesProvider } from './context';
 import { HomePage, CityPage, NotFoundPage } from './pages';
+import { Footer } from './components/Footer';
 import { DATA_BASE_PATH } from './config';
 import './App.css';
 
@@ -27,16 +28,21 @@ function App() {
   return (
     <CitiesProvider basePath={DATA_BASE_PATH}>
       <BrowserRouter basename={import.meta.env.BASE_URL}>
-        <Routes>
-          {/* Home page with interactive map (Requirement 1.3) */}
-          <Route path="/" element={<HomePage />} />
+        <div className="min-h-screen flex flex-col">
+          <div className="flex-1">
+            <Routes>
+              {/* Home page with interactive map (Requirement 1.3) */}
+              <Route path="/" element={<HomePage />} />
 
-          {/* City forecast page (Requirements 1.3, 2.3) */}
-          <Route path="/city/:state/:cityName" element={<CityPage />} />
+              {/* City forecast page (Requirements 1.3, 2.3) */}
+              <Route path="/city/:state/:cityName" element={<CityPage />} />
 
-          {/* 404 handler for unknown routes */}
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
+              {/* 404 handler for unknown routes */}
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+          </div>
+          <Footer />
+        </div>
       </BrowserRouter>
     </CitiesProvider>
   );
