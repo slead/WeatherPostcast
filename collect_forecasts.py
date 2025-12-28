@@ -46,15 +46,15 @@ Examples:
     parser.add_argument(
         "--config",
         type=Path,
-        default=Path("data/locations.json"),
-        help="Path to locations.json configuration file (default: data/locations.json)",
+        default=Path("dashboard/public/data/locations.json"),
+        help="Path to locations.json configuration file (default: dashboard/public/data/locations.json)",
     )
     
     parser.add_argument(
         "--data",
         type=Path,
-        default=Path("data"),
-        help="Base directory for data files (default: data)",
+        default=Path("dashboard/public/data"),
+        help="Base directory for data files (default: dashboard/public/data)",
     )
     
     parser.add_argument(
