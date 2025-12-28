@@ -34,6 +34,9 @@ jobs:
         working-directory: dashboard
         run: npm run build
 
+      - name: Copy data files
+        run: cp -r data dashboard/dist/data
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dashboard/dist
