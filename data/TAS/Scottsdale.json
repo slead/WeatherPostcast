@@ -241,11 +241,11 @@
     },
     "2025-12-29": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds.",
+        "forecast": "Mostly sunny. The chance of fog early this morning. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 24,
+        "temp_max": 23,
         "temp_min": 7
       },
       "2": {
@@ -299,10 +299,10 @@
     },
     "2025-12-30": {
       "2": {
-        "forecast": "Partly cloudy. The chance of morning fog. Medium chance of showers in the evening. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible late shower.",
+        "forecast": "Partly cloudy. The chance of fog in the early morning. Medium chance of showers in the evening. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Late shower or two.",
         "temp_max": 23,
         "temp_min": 10
       },
@@ -391,9 +391,9 @@
     },
     "2026-01-01": {
       "4": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": 8
@@ -421,8 +421,8 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 23,
-        "temp_min": 8
+        "temp_max": 22,
+        "temp_min": 9
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -435,12 +435,22 @@
     },
     "2026-01-03": {
       "6": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "30%",
-        "precis": "Cloudy.",
-        "temp_max": 23,
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 22,
         "temp_min": 11
+      }
+    },
+    "2026-01-04": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 25,
+        "temp_min": 12
       }
     }
   },
