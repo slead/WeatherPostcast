@@ -11,6 +11,7 @@
  * - 5.4: Display error message with retry
  */
 
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useForecast } from '../hooks/useForecast';
 import { useCities } from '../context';
@@ -106,7 +107,7 @@ function ErrorDisplay({ error, onRetry, cityName, state }: ErrorDisplayProps) {
             </Button>
             <Link to="/">
               <Button variant="secondary" size="sm">
-                Back to map
+                Return to home page
               </Button>
             </Link>
           </div>
@@ -173,6 +174,16 @@ export function CityPage() {
   // Decode city name from URL
   const decodedCityName = decodeURIComponent(cityName);
 
+  // Update document title with city name
+  useEffect(() => {
+    const cityDisplayName = forecastData?.city_name || decodedCityName;
+    document.title = `${cityDisplayName} - Weather Reporter`;
+    
+    return () => {
+      document.title = 'Weather Reporter';
+    };
+  }, [forecastData?.city_name, decodedCityName]);
+
   // Show loading skeleton only on initial load (no data yet)
   // Requirement 5.3 - but avoid flash when transitioning between cities
   if ((forecastLoading || citiesLoading) && !forecastData) {
@@ -205,7 +216,7 @@ export function CityPage() {
         to="/"
         className="inline-block text-blue-600 hover:text-blue-800 mb-4"
       >
-        ← Back to map
+        ← Home
       </Link>
 
       {/* Header with city info */}

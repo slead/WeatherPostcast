@@ -27,7 +27,7 @@ export function NotFoundPage() {
         </p>
         <Link to="/">
           <Button>
-            Back to Map
+            Return to home page
           </Button>
         </Link>
       </div>
