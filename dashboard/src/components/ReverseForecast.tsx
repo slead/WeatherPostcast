@@ -60,14 +60,14 @@ function formatPrecipitation(precipitationProb: string | null): string {
 }
 
 /**
- * Formats the historical prediction label
- * e.g., "Predicted 3 days ago"
+ * Formats the days-ahead label
+ * e.g., "3 days ago" or "Yesterday"
  */
-function formatHistoricalLabel(daysAhead: number): string {
+function formatDaysAgoLabel(daysAhead: number): string {
   if (daysAhead === 1) {
-    return `Yesterday, the BOM predicted today's weather would be`;
+    return 'Yesterday';
   }
-  return `${daysAhead} days ago, the BOM predicted today's weather would be:`;
+  return `${daysAhead} days ago`;
 }
 
 /**
@@ -94,16 +94,16 @@ const TodayWeatherCard: React.FC<TodayWeatherCardProps> = ({ prediction }) => {
     prediction;
 
   return (
-    <Card className="bg-gradient-to-r from-blue-50 to-sky-50 border-blue-200">
+    <Card>
       <CardHeader className="pb-2">
-        <CardTitle className="text-lg font-semibold text-blue-900">
+        <CardTitle className="text-lg font-semibold text-slate-800">
           Today's Actual Weather
         </CardTitle>
       </CardHeader>
       <CardContent className="flex flex-col md:flex-row items-center gap-6 pb-6">
         {/* Weather Icon - larger */}
         <div className="flex-shrink-0">
-          <WeatherIcon iconCode={icon_code} size="large" />
+          <WeatherIcon iconCode={icon_code} size="xlarge" />
         </div>
 
         {/* Weather details */}
@@ -147,9 +147,12 @@ const HistoricalPredictionCard: React.FC<HistoricalPredictionCardProps> = ({
     return (
       <Card className="bg-muted/50 border-dashed">
         <CardHeader className="pb-2 pt-3 px-3">
-          <CardTitle className="text-xs font-medium text-muted-foreground">
-            {formatHistoricalLabel(daysAhead)}
+          <CardTitle className="text-xl font-bold text-slate-500 text-center">
+            {formatDaysAgoLabel(daysAhead)}
           </CardTitle>
+          <p className="text-xs text-slate-400 text-center mt-1">
+            BOM predicted today's weather would be:
+          </p>
         </CardHeader>
         <CardContent className="px-3 pb-3">
           <div className="flex flex-col items-center justify-center h-24 text-muted-foreground">
@@ -170,9 +173,12 @@ const HistoricalPredictionCard: React.FC<HistoricalPredictionCardProps> = ({
     <div className="group relative">
       <Card className="cursor-pointer transition-shadow hover:shadow-md h-full">
         <CardHeader className="pb-2 pt-3 px-3">
-          <CardTitle className="text-xs font-medium text-amber-700">
-            {formatHistoricalLabel(daysAhead)}
+          <CardTitle className="text-xl font-bold text-slate-700 text-center">
+            {formatDaysAgoLabel(daysAhead)}
           </CardTitle>
+          <p className="text-xs text-slate-500 text-center mt-1">
+            BOM predicted today's weather would be:
+          </p>
         </CardHeader>
         <CardContent className="px-3 pb-3 space-y-2">
           {/* Weather Icon */}

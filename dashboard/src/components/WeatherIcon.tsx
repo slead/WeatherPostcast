@@ -12,7 +12,7 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 import { getIconPath, getIconAltText } from '@/utils/iconMapping';
 
-export type WeatherIconSize = 'small' | 'medium' | 'large';
+export type WeatherIconSize = 'small' | 'medium' | 'large' | 'xlarge';
 
 export interface WeatherIconProps {
   /** BOM icon code (1-18) or null for unknown weather */
@@ -28,6 +28,7 @@ const sizeClasses: Record<WeatherIconSize, string> = {
   small: 'w-8 h-8',
   medium: 'w-12 h-12',
   large: 'w-16 h-16',
+  xlarge: 'w-24 h-24',
 };
 
 /**
