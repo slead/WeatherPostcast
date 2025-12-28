@@ -222,6 +222,7 @@ export function MapComponent({
       <TileLayer
         attribution='&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        opacity={0.9}
       />
       <MapUpdater center={center} zoom={effectiveZoom} />
       <ZoomTracker onZoomChange={setCurrentZoom} />

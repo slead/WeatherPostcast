@@ -11,8 +11,8 @@
  * - 5.4: Display error message with retry
  */
 
-import { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useEffect, useState, useMemo } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useForecast } from '../hooks/useForecast';
 import { useCities } from '../context';
 import { MiniMap } from '../components/MiniMap';
@@ -20,6 +20,7 @@ import { ReverseForecast } from '../components/ReverseForecast';
 import { Skeleton } from '../components/ui/skeleton';
 import { Alert, AlertTitle, AlertDescription } from '../components/ui/alert';
 import { Button } from '../components/ui/button';
+import type { CityFeature } from '../types';
 
 /**
  * Loading skeleton for the city page
@@ -118,6 +119,71 @@ function ErrorDisplay({ error, onRetry, cityName, state }: ErrorDisplayProps) {
 }
 
 /**
+ * City search component
+ */
+interface CitySearchProps {
+  cities: CityFeature[];
+  onSelect: (city: CityFeature) => void;
+}
+
+function CitySearch({ cities, onSelect }: CitySearchProps) {
+  const [query, setQuery] = useState('');
+  const [isOpen, setIsOpen] = useState(false);
+
+  const filteredCities = useMemo(() => {
+    if (!query.trim()) return [];
+    const lowerQuery = query.toLowerCase();
+    return cities
+      .filter((city) =>
+        city.properties.city_name.toLowerCase().includes(lowerQuery)
+      )
+      .slice(0, 8);
+  }, [cities, query]);
+
+  const handleSelect = (city: CityFeature) => {
+    setQuery('');
+    setIsOpen(false);
+    onSelect(city);
+  };
+
+  return (
+    <div className="relative w-full max-w-md mx-auto">
+      <input
+        type="text"
+        placeholder="Search for a city..."
+        value={query}
+        onChange={(e) => {
+          setQuery(e.target.value);
+          setIsOpen(true);
+        }}
+        onFocus={() => setIsOpen(true)}
+        onBlur={() => setTimeout(() => setIsOpen(false), 200)}
+        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+      />
+      {isOpen && filteredCities.length > 0 && (
+        <ul className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
+          {filteredCities.map((city) => (
+            <li
+              key={`${city.properties.state}-${city.properties.city_name}`}
+              className="px-4 py-2 hover:bg-blue-50 cursor-pointer"
+              onMouseDown={() => handleSelect(city)}
+            >
+              <span className="font-medium">{city.properties.city_name}</span>
+              <span className="text-gray-500 ml-2">{city.properties.state}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {isOpen && query.trim() && filteredCities.length === 0 && (
+        <div className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg p-4 text-center text-gray-500">
+          No cities found
+        </div>
+      )}
+    </div>
+  );
+}
+
+/**
  * Get today's date in ISO format (YYYY-MM-DD) using local timezone
  */
 function getTodayDateString(): string {
@@ -140,9 +206,10 @@ function getTodayDateString(): string {
 export function CityPage() {
   // Extract state and cityName from URL params
   const { state, cityName } = useParams<{ state: string; cityName: string }>();
+  const navigate = useNavigate();
 
   // Get city info from context
-  const { getCityByName, loading: citiesLoading } = useCities();
+  const { getCityByName, cities, loading: citiesLoading } = useCities();
 
   // Fetch forecast data on demand (Requirement 5.2)
   const {
@@ -209,6 +276,12 @@ export function CityPage() {
   const todayDate = getTodayDateString();
   const todayPredictions = forecastData?.forecasts[todayDate];
 
+  // Handle city search selection
+  const handleCityClick = (city: CityFeature) => {
+    const { state, city_name } = city.properties;
+    navigate(`/city/${state}/${encodeURIComponent(city_name)}`);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-6">
       {/* Back link */}
@@ -263,11 +336,14 @@ export function CityPage() {
           {city ? (
             <>
             <h4 className='pb-4'>Explore other locations</h4>
-            <MiniMap
-              currentCityName={decodedCityName}
-              currentState={state}
-              className="h-[32rem] w-full rounded-lg overflow-hidden shadow-md blah"
-            />
+            <CitySearch cities={cities} onSelect={handleCityClick} />
+            <div className="mt-4">
+              <MiniMap
+                currentCityName={decodedCityName}
+                currentState={state}
+                className="h-[32rem] w-full rounded-lg overflow-hidden shadow-md blah"
+              />
+            </div>
             </>
           ) : (
             <div className="h-[32rem] bg-gray-200 rounded-lg flex items-center justify-center">
