@@ -8,7 +8,7 @@
  * - 5.1: Load cities.geojson on app initialization
  */
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { CitiesProvider } from './context';
 import { HomePage, CityPage, NotFoundPage } from './pages';
 import { Footer } from './components/Footer';
@@ -19,6 +19,10 @@ import './App.css';
  * App component
  * Sets up routing and wraps the application in CitiesProvider
  *
+ * Uses HashRouter for GitHub Pages compatibility - URLs will be like:
+ * - /#/ : HomePage
+ * - /#/city/QLD/Birdsville : CityPage
+ *
  * Routes:
  * - / : HomePage with full Australia map
  * - /city/:state/:cityName : CityPage with forecast data
@@ -27,7 +31,7 @@ import './App.css';
 function App() {
   return (
     <CitiesProvider basePath={DATA_BASE_PATH}>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <HashRouter>
         <div className="min-h-screen flex flex-col">
           <div className="flex-1">
             <Routes>
@@ -43,7 +47,7 @@ function App() {
           </div>
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </CitiesProvider>
   );
 }
