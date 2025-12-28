@@ -52,6 +52,7 @@ function useCapitalForecast(city: string, state: string) {
 
 /**
  * Capital city forecast row component - shows 7 days of predictions ending with today
+ * Responsive: Shows all 8 days on desktop, condensed view on mobile
  */
 interface CapitalCityRowProps {
   city: string;
@@ -69,77 +70,145 @@ function CapitalCityRow({ city, state, onClick }: CapitalCityRowProps) {
   // Days ahead from 7 to 0 (7 days ago prediction → today's actual)
   const daysAheadRange = [7, 6, 5, 4, 3, 2, 1, 0];
 
+  // Mobile view: show only key days (7, 3, 1, 0)
+  const mobileDaysAheadRange = [7, 3, 1, 0];
+
   return (
     <Card
-      className="cursor-pointer hover:shadow-md transition-shadow"
+      className="cursor-pointer hover:shadow-md transition-shadow active:shadow-lg touch-manipulation"
       onClick={onClick}
     >
-      <CardContent className="p-4">
-        <div className="flex items-center gap-4">
+      <CardContent className="p-3 lg:p-4">
+        <div className="flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-4">
           {/* City name */}
-          <div className="w-32 flex-shrink-0">
-            <h3 className="font-semibold text-lg">{city}</h3>
-            <p className="text-sm text-gray-500">{state}</p>
+          <div className="flex items-center justify-between lg:block lg:w-32 flex-shrink-0">
+            <div>
+              <h3 className="font-semibold text-base lg:text-lg">{city}</h3>
+              <p className="text-xs lg:text-sm text-gray-500">{state}</p>
+            </div>
+            {/* Mobile: Show today's weather prominently */}
+            <div className="lg:hidden">
+              {loading && !data ? (
+                <Skeleton className="h-10 w-10 rounded" />
+              ) : predictions?.['0'] ? (
+                <div className="flex items-center gap-2">
+                  <WeatherIcon iconCode={predictions['0'].icon_code} size="small" />
+                  <span className="text-lg font-bold">
+                    {predictions['0'].temp_max !== null ? `${predictions['0'].temp_max}°` : '--'}
+                  </span>
+                </div>
+              ) : null}
+            </div>
           </div>
 
-          {/* Forecast cells */}
-          <div className="flex-1 grid grid-cols-8 gap-2">
-            {loading && !data ? (
-              // Loading skeleton
-              daysAheadRange.map((day) => (
-                <div key={day} className="flex flex-col items-center p-2">
-                  <Skeleton className="h-12 w-12 rounded" />
-                  <Skeleton className="h-4 w-10 mt-2" />
-                </div>
-              ))
-            ) : error ? (
-              <p className="text-sm text-red-500 col-span-8 text-center">Unable to load</p>
-            ) : (
-              daysAheadRange.map((daysAhead) => {
-                const forecast = predictions?.[daysAhead.toString()];
-                const isToday = daysAhead === 0;
-                const tooltipText = forecast?.forecast || forecast?.precis || null;
-
-                return (
-                  <div
-                    key={daysAhead}
-                    className={`group relative flex flex-col items-center p-2 rounded-lg ${
-                      isToday ? 'bg-blue-50 border border-blue-200' : 'bg-gray-50'
-                    }`}
-                  >
-                    {forecast ? (
-                      <>
-                        <WeatherIcon iconCode={forecast.icon_code} size="medium" />
-                        <span className="text-sm font-semibold mt-1">
-                          {forecast.temp_max !== null ? `${forecast.temp_max}°` : '--'}
-                        </span>
-                      </>
-                    ) : (
-                      <>
-                        <div className="w-12 h-12 bg-gray-200 rounded flex items-center justify-center">
-                          <span className="text-gray-400 text-sm">--</span>
-                        </div>
-                        <span className="text-sm text-gray-400 mt-1">--</span>
-                      </>
-                    )}
-                    {/* Tooltip */}
-                    {tooltipText && (
-                      <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-gray-900 text-white text-xs rounded-lg shadow-lg w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none">
-                        <div className="text-center">
-                          <p className="font-medium mb-1">
-                            {isToday
-                              ? `Today's actual weather in ${city}:`
-                              : `${daysAhead} day${daysAhead > 1 ? 's' : ''} ago, BOM predicted today's weather in ${city} would be:`}
-                          </p>
-                          <p>{tooltipText}</p>
-                        </div>
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
-                      </div>
-                    )}
+          {/* Forecast cells - Desktop: all 8 days, Mobile: 4 key days */}
+          <div className="flex-1">
+            {/* Desktop view - all days */}
+            <div className="hidden lg:grid lg:grid-cols-8 gap-1 xl:gap-2">
+              {loading && !data ? (
+                // Loading skeleton
+                daysAheadRange.map((day) => (
+                  <div key={day} className="flex flex-col items-center p-1 xl:p-2">
+                    <Skeleton className="h-10 w-10 xl:h-12 xl:w-12 rounded" />
+                    <Skeleton className="h-3 xl:h-4 w-8 xl:w-10 mt-1 xl:mt-2" />
                   </div>
-                );
-              })
-            )}
+                ))
+              ) : error ? (
+                <p className="text-sm text-red-500 col-span-8 text-center">Unable to load</p>
+              ) : (
+                daysAheadRange.map((daysAhead) => {
+                  const forecast = predictions?.[daysAhead.toString()];
+                  const isToday = daysAhead === 0;
+                  const tooltipText = forecast?.forecast || forecast?.precis || null;
+
+                  return (
+                    <div
+                      key={daysAhead}
+                      className={`group relative flex flex-col items-center p-1 xl:p-2 rounded-lg ${
+                        isToday ? 'bg-blue-50 border border-blue-200' : 'bg-gray-50'
+                      }`}
+                    >
+                      {forecast ? (
+                        <>
+                          <WeatherIcon iconCode={forecast.icon_code} size="medium" />
+                          <span className="text-xs xl:text-sm font-semibold mt-1">
+                            {forecast.temp_max !== null ? `${forecast.temp_max}°` : '--'}
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <div className="w-10 h-10 xl:w-12 xl:h-12 bg-gray-200 rounded flex items-center justify-center">
+                            <span className="text-gray-400 text-xs xl:text-sm">--</span>
+                          </div>
+                          <span className="text-xs xl:text-sm text-gray-400 mt-1">--</span>
+                        </>
+                      )}
+                      {/* Tooltip - desktop only */}
+                      {tooltipText && (
+                        <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-gray-900 text-white text-xs rounded-lg shadow-lg w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none">
+                          <div className="text-center">
+                            <p className="font-medium mb-1">
+                              {isToday
+                                ? `Today's actual weather in ${city}:`
+                                : `${daysAhead} day${daysAhead > 1 ? 's' : ''} ago, BOM predicted today's weather in ${city} would be:`}
+                            </p>
+                            <p>{tooltipText}</p>
+                          </div>
+                          <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })
+              )}
+            </div>
+
+            {/* Mobile view - condensed 4 key days */}
+            <div className="grid grid-cols-4 gap-2 lg:hidden">
+              {loading && !data ? (
+                mobileDaysAheadRange.map((day) => (
+                  <div key={day} className="flex flex-col items-center p-1">
+                    <Skeleton className="h-8 w-8 rounded" />
+                    <Skeleton className="h-3 w-6 mt-1" />
+                  </div>
+                ))
+              ) : error ? (
+                <p className="text-xs text-red-500 col-span-4 text-center">Unable to load</p>
+              ) : (
+                mobileDaysAheadRange.map((daysAhead) => {
+                  const forecast = predictions?.[daysAhead.toString()];
+                  const isToday = daysAhead === 0;
+
+                  return (
+                    <div
+                      key={daysAhead}
+                      className={`flex flex-col items-center p-1 rounded-lg ${
+                        isToday ? 'bg-blue-50 border border-blue-200' : 'bg-gray-50'
+                      }`}
+                    >
+                      <span className="text-[10px] text-gray-500 mb-0.5">
+                        {isToday ? 'Today' : `${daysAhead}d`}
+                      </span>
+                      {forecast ? (
+                        <>
+                          <WeatherIcon iconCode={forecast.icon_code} size="small" />
+                          <span className="text-xs font-semibold">
+                            {forecast.temp_max !== null ? `${forecast.temp_max}°` : '--'}
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <div className="w-8 h-8 bg-gray-200 rounded flex items-center justify-center">
+                            <span className="text-gray-400 text-xs">--</span>
+                          </div>
+                          <span className="text-xs text-gray-400">--</span>
+                        </>
+                      )}
+                    </div>
+                  );
+                })
+              )}
+            </div>
           </div>
         </div>
       </CardContent>
@@ -260,19 +329,19 @@ export function HomePage() {
     <div className="min-h-screen bg-gray-50">
       {/* Header Section */}
       <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-8 text-center">
-          <div className="flex items-center justify-center gap-3 mb-3">
-            <img src={stormLogo} alt="Storm icon" className="h-10 w-10" />
-            <h1 className="text-3xl font-bold text-gray-900">
+        <div className="max-w-7xl mx-auto px-4 py-6 lg:py-8 text-center">
+          <div className="flex items-center justify-center gap-2 lg:gap-3 mb-3">
+            <img src={stormLogo} alt="Storm icon" className="h-8 w-8 lg:h-10 lg:w-10" />
+            <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">
               Weather Reporter
             </h1>
-            <img src={lightRainLogo} alt="Light rain icon" className="h-10 w-10" />
+            <img src={lightRainLogo} alt="Light rain icon" className="h-8 w-8 lg:h-10 lg:w-10" />
           </div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto">
             The traditional weather report predicts the weather a week in advance. Many times we change our 
             plans based on these predictions - only to find that the promised rain never came, or the threatened heatwave
             was actually a cool day. And by then we've forgotten what the forecast for this day actually said.</p>
-            <p className="text-gray-600 max-w-2xl mx-auto mt-5">
+            <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto mt-3 lg:mt-5">
             <strong>Weather Reporter</strong> allows you to revisit the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a>'s predictions for today's weather, over the past 7 days,
             and compare their predictions to actual conditions today. Use this to decide how much faith to place in future predictions!
           </p>
@@ -280,13 +349,13 @@ export function HomePage() {
       </header>
 
       {/* Search Section */}
-      <section className="max-w-7xl mx-auto px-4 py-6">
+      <section className="max-w-7xl mx-auto px-4 py-4 lg:py-6">
         <CitySearch cities={cities} onSelect={handleCityClick} />
       </section>
 
-      {/* Map Section */}
+      {/* Map Section - responsive height */}
       <section className="max-w-7xl mx-auto px-4 pb-4">
-        <div className="relative h-[500px] rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-md touch-manipulation">
           {iconsLoading && (
             <div className="absolute top-4 right-4 z-10 bg-white/80 px-3 py-1 rounded-full text-sm text-gray-600">
               Loading weather...
@@ -302,18 +371,18 @@ export function HomePage() {
       </section>
 
       {/* Capital Cities Section */}
-      <section className="max-w-7xl mx-auto px-4 py-6">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">
+      <section className="max-w-7xl mx-auto px-4 py-4 lg:py-6">
+        <h2 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3 lg:mb-4">
           Here are the predictions for today's weather, over the past 7 days:
         </h2>
 
         <div className="space-y-2">
-          {/* Column headers */}
-          <div className="flex items-center gap-4 px-4">
+          {/* Column headers - hidden on mobile, visible on lg+ */}
+          <div className="hidden lg:flex items-center gap-4 px-4">
             <div className="w-32 flex-shrink-0" />
-            <div className="flex-1 grid grid-cols-8 gap-2">
+            <div className="flex-1 grid grid-cols-8 gap-1 xl:gap-2">
               {[7, 6, 5, 4, 3, 2, 1, 0].map((daysAhead) => (
-                <div key={daysAhead} className="text-center text-xs text-gray-500 font-medium">
+                <div key={daysAhead} className="text-center text-[10px] xl:text-xs text-gray-500 font-medium">
                   {daysAhead === 0 ? "Today" : `${daysAhead}d ago`}
                 </div>
               ))}

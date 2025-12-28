@@ -73,6 +73,9 @@ function formatPrecipitation(precipitationProb: string | null): string {
  * - Displays weather icon, temperature range, precipitation, and precis
  * - Handles null values with appropriate placeholders
  * - Shows days-ahead label for context
+ * - Responsive: Adapts padding and text sizes for mobile (breakpoint at 1024px/lg)
+ *
+ * Requirements: 3.2, 3.3, 3.4, 7.1, 7.2
  */
 export const ForecastDisplay: React.FC<ForecastDisplayProps> = ({
   forecastDate: _forecastDate, // Available for future use (e.g., accessibility labels)
@@ -90,12 +93,12 @@ export const ForecastDisplay: React.FC<ForecastDisplayProps> = ({
 
   return (
     <Card className={className}>
-      <CardHeader className="pb-2">
-        <CardTitle className="text-sm font-medium text-muted-foreground">
+      <CardHeader className="pb-1 lg:pb-2 px-2 lg:px-4 pt-2 lg:pt-4">
+        <CardTitle className="text-xs lg:text-sm font-medium text-muted-foreground">
           {formatDaysAhead(daysAhead)}
         </CardTitle>
       </CardHeader>
-      <CardContent className="space-y-3">
+      <CardContent className="space-y-2 lg:space-y-3 px-2 lg:px-4 pb-2 lg:pb-4">
         {/* Weather Icon */}
         <div className="flex justify-center">
           <WeatherIcon iconCode={icon_code} size="large" />
@@ -103,20 +106,20 @@ export const ForecastDisplay: React.FC<ForecastDisplayProps> = ({
 
         {/* Temperature Range */}
         <div className="text-center">
-          <span className="text-lg font-semibold">
+          <span className="text-base lg:text-lg font-semibold">
             {formatTemperatureRange(temp_min, temp_max)}
           </span>
         </div>
 
         {/* Precipitation Probability */}
-        <div className="text-center text-sm text-muted-foreground">
+        <div className="text-center text-xs lg:text-sm text-muted-foreground">
           <span className="font-medium">Rain: </span>
           {formatPrecipitation(precipitation_prob)}
         </div>
 
         {/* Precis (short description) */}
         {precis !== null && precis !== '' && (
-          <p className="text-sm text-center text-muted-foreground line-clamp-2">
+          <p className="text-xs lg:text-sm text-center text-muted-foreground line-clamp-2">
             {precis}
           </p>
         )}

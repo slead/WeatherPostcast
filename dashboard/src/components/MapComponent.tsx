@@ -142,6 +142,26 @@ function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }
     map.setView(center, zoom);
   }, [map, center, zoom]);
 
+  // Invalidate map size when container might have resized
+  // This fixes centering issues on mobile when the container size changes
+  useEffect(() => {
+    // Small delay to ensure container has finished resizing
+    const timeoutId = setTimeout(() => {
+      map.invalidateSize();
+    }, 100);
+
+    // Also listen for window resize events
+    const handleResize = () => {
+      map.invalidateSize();
+    };
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      clearTimeout(timeoutId);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [map]);
+
   return null;
 }
 
@@ -185,10 +205,11 @@ export function MapComponent({
   const [hoveredCity, setHoveredCity] = useState<string | null>(null);
 
   // Determine container class based on size
+  // touch-manipulation enables smooth touch interactions on mobile
   const containerClass =
     size === 'full'
-      ? 'w-full h-full min-h-[400px]'
-      : 'w-full h-[32rem] rounded-lg';
+      ? 'w-full h-full min-h-[300px] touch-manipulation'
+      : 'w-full h-[32rem] rounded-lg touch-manipulation';
 
   // Memoize icon lookup - now includes zoom level for dynamic sizing
   const getMarkerIcon = useMemo(() => {
