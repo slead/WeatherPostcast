@@ -272,8 +272,8 @@ export function HomePage() {
             plans based on these predictions - only to find that the promised rain never came, or the threatened heatwave
             was actually a cool day. And by then we've forgotten what the forecast for this day actually said.</p>
             <p className="text-gray-600 max-w-2xl mx-auto mt-5">
-            Weather Reporter allows you to see how the BOM's predictions for today's weather, gathered over the past 7 days,
-            compare to actual conditions today. Use this to decide how much faith to place in future predictions!
+            <strong>Weather Reporter</strong> allows you to revisit the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a>'s predictions for today's weather, over the past 7 days,
+            and compare their predictions to actual conditions today. Use this to decide how much faith to place in future predictions!
           </p>
         </div>
       </header>
