@@ -338,12 +338,9 @@ export function HomePage() {
             <img src={lightRainLogo} alt="Light rain icon" className="h-8 w-8 lg:h-10 lg:w-10" />
           </div>
           <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto">
-            The traditional weather report predicts the weather a week in advance. Many times we change our 
-            plans based on these predictions - only to find that the promised rain never came, or the threatened heatwave
-            was actually a cool day. And by then we've forgotten what the forecast for this day actually said.</p>
+            Weather forecasts predict a week ahead. We change plans based on them - only to find the promised rain never came, or the heatwave was actually mild.</p>
             <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto mt-3 lg:mt-5">
-            <strong>Weather Reporter</strong> allows you to revisit the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a>'s predictions for today's weather, over the past 7 days,
-            and compare their predictions to actual conditions today. Use this to decide how much faith to place in future predictions!
+            <strong>Weather Reporter</strong> lets you see what the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a> predicted for today's weather, over the past 7 days, and compare those predictions to actual conditions. Use this to decide how much faith to place in future long-term predictions!
           </p>
         </div>
       </header>
