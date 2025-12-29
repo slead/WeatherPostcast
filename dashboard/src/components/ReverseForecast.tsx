@@ -84,7 +84,7 @@ const TodayWeatherCard: React.FC<TodayWeatherCardProps> = ({ prediction }) => {
       <Card className="bg-muted/50 border-dashed">
         <CardContent className="p-4 lg:p-6">
           <div className="flex items-center justify-center h-20 lg:h-24 text-muted-foreground">
-            <span className="text-base lg:text-lg">No weather data available yet</span>
+            <span className="text-base lg:text-lg">Sorry, today's weather is not available yet</span>
           </div>
         </CardContent>
       </Card>
