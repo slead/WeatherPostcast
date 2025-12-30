@@ -69,10 +69,10 @@
     },
     "2025-12-31": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h shifting east to southeasterly 15 to 25 km/h in the late afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Cloudy. Medium chance of showers, most likely during this afternoon and early evening. Winds west to southwesterly 15 to 20 km/h shifting east to southeasterly 15 to 25 km/h in the late afternoon.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 21,
         "temp_min": 13
       },
@@ -127,12 +127,12 @@
     },
     "2026-01-01": {
       "2": {
-        "forecast": "Mostly sunny. Light winds becoming east to southeasterly 15 to 25 km/h during the day then becoming light during the evening.",
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then tending easterly in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 22,
-        "temp_min": 11
+        "temp_min": 10
       },
       "3": {
         "forecast": "Mostly sunny. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
@@ -169,12 +169,12 @@
     },
     "2026-01-02": {
       "3": {
-        "forecast": "Sunny. Light winds becoming southeasterly 20 to 30 km/h during the morning then tending easterly 15 to 20 km/h during the evening.",
+        "forecast": "Sunny. Light winds becoming southeasterly 20 to 30 km/h during the morning then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 10
+        "temp_min": 9
       },
       "4": {
         "forecast": "Mostly sunny. Light winds becoming southeasterly 20 to 30 km/h during the morning then becoming light during the evening.",
@@ -203,7 +203,7 @@
     },
     "2026-01-03": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the morning and afternoon. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "40%",
         "precis": "Possible shower or storm.",
@@ -229,10 +229,10 @@
     },
     "2026-01-04": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming south to southeasterly 15 to 20 km/h during the day.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds northwest to southwesterly 15 to 20 km/h tending southeast to southwesterly during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 16
       },
@@ -255,12 +255,12 @@
     },
     "2026-01-05": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds becoming southeast to southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 23,
-        "temp_min": 16
+        "temp_min": 15
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeast to southwesterly 15 to 20 km/h during the day.",
@@ -269,6 +269,16 @@
         "precis": "Possible shower.",
         "temp_max": 26,
         "temp_min": 16
+      }
+    },
+    "2026-01-06": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 26,
+        "temp_min": 13
       }
     }
   },
