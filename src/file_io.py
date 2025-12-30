@@ -35,6 +35,26 @@ def get_location_file_path(base_dir: Path, state: str, city_name: str) -> Path:
     return base_dir / state / f"{city_name}.json"
 
 
+def get_archive_file_path(base_dir: Path, state: str, city_name: str) -> Path:
+    """Generate file path for a location's archived forecast data.
+    
+    Creates a path in the format: {base_dir}/archive/{state}/{city_name}.json
+    
+    Args:
+        base_dir: Base directory for data files (e.g., Path("dashboard/public/data"))
+        state: State abbreviation (e.g., "NSW", "VIC")
+        city_name: City name (e.g., "Sydney", "Melbourne")
+        
+    Returns:
+        Path object for the location's archived JSON file
+        
+    Examples:
+        >>> get_archive_file_path(Path("dashboard/public/data"), "NSW", "Sydney")
+        PosixPath('dashboard/public/data/archive/NSW/Sydney.json')
+    """
+    return base_dir / "archive" / state / f"{city_name}.json"
+
+
 def read_location_file(file_path: Path) -> Optional[LocationData]:
     """Read existing location JSON file.
     
@@ -60,6 +80,41 @@ def read_location_file(file_path: Path) -> Optional[LocationData]:
         return None
 
 
+def merge_archive_data(existing_archive: Optional[LocationData], new_archive: LocationData) -> LocationData:
+    """Merge new archived data with existing archived data.
+    
+    Combines forecast records from both datasets, preserving all historical data.
+    
+    Args:
+        existing_archive: Existing archived data, or None if no archive exists
+        new_archive: New archived data to merge
+        
+    Returns:
+        Merged LocationData with all archived forecast records
+    """
+    if existing_archive is None:
+        return new_archive
+    
+    # Merge forecasts from both archives
+    merged_forecasts = existing_archive.forecasts.copy()
+    
+    for forecast_date_str, forecast_record in new_archive.forecasts.items():
+        if forecast_date_str in merged_forecasts:
+            # Merge predictions for the same forecast date
+            existing_record = merged_forecasts[forecast_date_str]
+            for days_ahead, prediction in forecast_record.predictions.items():
+                existing_record.predictions[days_ahead] = prediction
+            # Sort predictions by days_ahead
+            existing_record.predictions = dict(sorted(existing_record.predictions.items()))
+        else:
+            merged_forecasts[forecast_date_str] = forecast_record
+    
+    # Sort forecasts by date
+    existing_archive.forecasts = dict(sorted(merged_forecasts.items()))
+    
+    return existing_archive
+
+
 def write_location_file(file_path: Path, data: LocationData) -> None:
     """Write location data to JSON file with consistent formatting.
     
@@ -80,3 +135,25 @@ def write_location_file(file_path: Path, data: LocationData) -> None:
     file_path.write_text(json_content, encoding="utf-8")
     
     logger.debug(f"Successfully wrote location file: {file_path}")
+
+
+def write_archive_file(file_path: Path, data: LocationData) -> None:
+    """Write archived location data to JSON file.
+    
+    Reads existing archive data, merges with new data, and writes back.
+    Creates parent directories as needed.
+    
+    Args:
+        file_path: Path to write the archived JSON file
+        data: LocationData to archive
+    """
+    # Read existing archive data if it exists
+    existing_archive = read_location_file(file_path)
+    
+    # Merge with existing archive data
+    merged_archive = merge_archive_data(existing_archive, data)
+    
+    # Write merged archive data
+    write_location_file(file_path, merged_archive)
+    
+    logger.debug(f"Successfully wrote archive file: {file_path}")

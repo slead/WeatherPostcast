@@ -6,6 +6,7 @@ and applying retention policies to remove old forecast records.
 
 from datetime import date
 from typing import Optional
+from pathlib import Path
 
 from src.models import (
     PredictionEntry,
@@ -129,6 +130,62 @@ def merge_forecast(
     return existing
 
 
+def archive_old_records(
+    data: LocationData,
+    archive_dir: Path,
+    reference_date: Optional[date] = None,
+) -> tuple[LocationData, Optional[LocationData]]:
+    """Archive forecast records with dates earlier than today.
+    
+    Moves any forecast records where the forecast_date is before the
+    reference date (defaults to today) to archive data structure.
+    
+    Args:
+        data: Location data to process
+        archive_dir: Base directory for archived data
+        reference_date: Date to compare against (default: today)
+        
+    Returns:
+        Tuple of (current_data, archived_data) where archived_data is None
+        if no records were archived
+        
+    Requirements: 3.4 (updated to archive instead of delete)
+    """
+    if reference_date is None:
+        reference_date = date.today()
+    
+    # Separate current and archived forecast records
+    current_forecasts: dict[str, ForecastRecord] = {}
+    archived_forecasts: dict[str, ForecastRecord] = {}
+    
+    for forecast_date_str, forecast_record in data.forecasts.items():
+        if forecast_record.forecast_date >= reference_date:
+            current_forecasts[forecast_date_str] = forecast_record
+        else:
+            archived_forecasts[forecast_date_str] = forecast_record
+    
+    # Update current data
+    data.forecasts = current_forecasts
+    
+    # Create archived data if there are records to archive
+    archived_data = None
+    if archived_forecasts:
+        archived_data = LocationData(
+            product_id=data.product_id,
+            city_name=data.city_name,
+            state=data.state,
+            timezone=data.timezone,
+            forecasts=archived_forecasts,
+        )
+        
+        logger.debug(
+            f"Archived {len(archived_forecasts)} forecast records "
+            f"older than {reference_date} for {data.city_name}"
+        )
+    
+    return data, archived_data
+
+
 def apply_retention(
     data: LocationData,
     retention_days: int = 8,
@@ -136,8 +193,9 @@ def apply_retention(
 ) -> LocationData:
     """Remove forecast records older than retention_days.
     
-    Removes any forecast records where the forecast_date is more than
-    retention_days before the reference date (defaults to today).
+    This function is kept for backward compatibility but now only
+    filters records based on retention_days. Use archive_old_records()
+    for the new archiving behavior.
     
     Args:
         data: Location data to apply retention to

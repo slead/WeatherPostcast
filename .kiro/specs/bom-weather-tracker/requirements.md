@@ -49,7 +49,7 @@ The BOM Weather Tracker is a system designed to collect and store daily weather 
 1. WHEN the Collection Script stores forecast data THEN the system SHALL save data in JSON format with one file per location containing all recent forecasts
 2. WHEN the Collection Script writes forecast data THEN the system SHALL include the forecast date, days ahead value, location identifier, and all extracted weather metrics (icon_code, temp_min, temp_max, precipitation_prob, precis)
 3. WHEN the Collection Script encounters an existing location file THEN the system SHALL merge the new predictions with the existing file rather than overwriting
-4. WHEN the Collection Script updates a location file THEN the system SHALL delete any records where the forecast date is more than 8 days in the past
+4. WHEN the Collection Script updates a location file THEN the system SHALL archive any records where the forecast date is earlier than today's date to the archive directory structure
 5. WHEN the system serializes forecast data to JSON THEN the system SHALL use a consistent schema that can be deserialized back to equivalent data structures
 6. WHEN the system deserializes forecast data from JSON THEN the system SHALL reconstruct the original data structure with all fields intact
 7. WHEN the system stores a prediction THEN the system SHALL key the prediction by the days ahead value (integer 0-7) directly under the forecast date

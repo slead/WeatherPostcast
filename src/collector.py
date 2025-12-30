@@ -12,8 +12,8 @@ from typing import Optional
 from src.config import load_config, LocationConfig
 from src.ftp_fetcher import fetch_forecast_xml
 from src.xml_parser import parse_forecast_xml
-from src.merger import merge_forecast, apply_retention
-from src.file_io import get_location_file_path, read_location_file, write_location_file
+from src.merger import merge_forecast, archive_old_records
+from src.file_io import get_location_file_path, get_archive_file_path, read_location_file, write_location_file, write_archive_file
 from src.utils import setup_logging
 
 logger = setup_logging()
@@ -82,14 +82,23 @@ def collect_single_location(
         state=state,
     )
     
-    # Step 5: Apply retention policy
-    merged_data = apply_retention(merged_data)
+    # Step 5: Archive old records and get current data
+    current_data, archived_data = archive_old_records(merged_data)
     
-    # Step 6: Write to JSON file
+    # Step 6: Write current data to JSON file
     try:
-        write_location_file(file_path, merged_data)
+        write_location_file(file_path, current_data)
     except Exception as e:
         return f"Failed to write file for {city_name} ({product_id}): {e}"
+    
+    # Step 7: Write archived data if any
+    if archived_data is not None:
+        archive_file_path = get_archive_file_path(data_dir, state, city_name)
+        try:
+            write_archive_file(archive_file_path, archived_data)
+        except Exception as e:
+            logger.warning(f"Failed to write archive file for {city_name} ({product_id}): {e}")
+            # Don't fail the entire collection if archive write fails
     
     logger.debug(f"Successfully collected forecast for {city_name}")
     return None
