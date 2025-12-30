@@ -152,7 +152,12 @@ def archive_old_records(
     Requirements: 3.4 (updated to archive instead of delete)
     """
     if reference_date is None:
-        reference_date = date.today()
+        # Use AEDT timezone for consistent date handling
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        
+        aedt_tz = ZoneInfo("Australia/Sydney")
+        reference_date = datetime.now(aedt_tz).date()
     
     # Separate current and archived forecast records
     current_forecasts: dict[str, ForecastRecord] = {}
@@ -208,7 +213,12 @@ def apply_retention(
     Requirements: 3.4
     """
     if reference_date is None:
-        reference_date = date.today()
+        # Use AEDT timezone for consistent date handling
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        
+        aedt_tz = ZoneInfo("Australia/Sydney")
+        reference_date = datetime.now(aedt_tz).date()
     
     # Calculate cutoff date
     cutoff_date = date.fromordinal(reference_date.toordinal() - retention_days)

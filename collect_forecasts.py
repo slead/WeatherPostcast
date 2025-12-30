@@ -17,25 +17,27 @@ Requirements: 2.1
 
 import argparse
 import logging
-import os
 import sys
-import time
+from datetime import date
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from src.collector import collect_forecasts
 from src.utils import setup_logging
 
 
-def setup_timezone():
-    """Set timezone to Australia/Sydney (AEDT) for consistent date handling."""
-    try:
-        os.environ['TZ'] = 'Australia/Sydney'
-        # Call tzset() if available (Unix systems)
-        if hasattr(time, 'tzset'):
-            time.tzset()
-    except Exception:
-        # If timezone setting fails, continue with system timezone
-        pass
+def get_aedt_date() -> date:
+    """Get current date in Australian Eastern Daylight Time (AEDT).
+    
+    Returns:
+        Current date in AEDT timezone
+    """
+    from datetime import datetime
+    
+    # Get current time in AEDT
+    aedt_tz = ZoneInfo("Australia/Sydney")
+    aedt_now = datetime.now(aedt_tz)
+    return aedt_now.date()
 
 
 def parse_args() -> argparse.Namespace:
@@ -93,9 +95,6 @@ def main() -> int:
     Returns:
         Exit code: 0 for success, 1 for partial failure, 2 for complete failure
     """
-    # Set timezone to AEDT for consistent date handling
-    setup_timezone()
-    
     args = parse_args()
     
     # Configure logging level
@@ -103,10 +102,15 @@ def main() -> int:
     if args.verbose:
         logger.setLevel(logging.DEBUG)
     
-    # Run collection
+    # Get current date in AEDT
+    aedt_date = get_aedt_date()
+    logger.info(f"Using AEDT date: {aedt_date}")
+    
+    # Run collection with explicit AEDT date
     result = collect_forecasts(
         config_path=args.config,
         data_dir=args.data,
+        collection_date=aedt_date,
         city_filter=args.city,
     )
     
