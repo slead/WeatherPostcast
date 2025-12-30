@@ -69,10 +69,10 @@
     },
     "2025-12-31": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and early evening. Winds west to northwesterly 20 to 30 km/h shifting southeasterly 15 to 20 km/h in the middle of the day then tending easterly in the evening.",
+        "forecast": "Cloudy. High chance of showers, becoming less likely this morning. A thunderstorm likely during the morning and afternoon, possibly severe with damaging winds. Winds north to northeasterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h in the morning then tending east to southeasterly 15 to 20 km/h in the early afternoon.",
         "icon_code": 16,
         "precipitation_prob": "70%",
-        "precis": "Showers. Possible afternoon storm.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 15,
         "temp_min": 7
       },
@@ -127,12 +127,12 @@
     },
     "2026-01-01": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Winds northeast to southeasterly 15 to 20 km/h tending southeasterly during the afternoon then tending easterly 15 to 25 km/h during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the early morning. Winds east to northeasterly 15 to 20 km/h turning southeasterly 15 to 25 km/h in the morning then tending northeast to southeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 14,
-        "temp_min": 4
+        "temp_max": 15,
+        "temp_min": 3
       },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Winds northeast to southeasterly 15 to 20 km/h tending southeasterly during the afternoon then tending easterly during the evening.",
@@ -169,10 +169,10 @@
     },
     "2026-01-02": {
       "3": {
-        "forecast": "Sunny morning. Slight chance of a shower in the morning and afternoon. Winds northeasterly 15 to 20 km/h becoming light during the morning then becoming east to northeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Sunny morning. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 4
       },
@@ -203,11 +203,11 @@
     },
     "2026-01-03": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds north to northwesterly 15 to 20 km/h increasing to 30 km/h before tending west to northwesterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. A thunderstorm likely in the afternoon and evening. Winds northerly 15 to 20 km/h tending northwesterly 20 to 30 km/h during the morning then becoming light during the evening.",
         "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Shower or two. Possible storm.",
-        "temp_max": 17,
+        "precis": "Showers. Storm developing.",
+        "temp_max": 18,
         "temp_min": 8
       },
       "5": {
@@ -229,11 +229,11 @@
     },
     "2026-01-04": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northwesterly 25 to 35 km/h tending northerly 15 to 25 km/h later.",
+        "forecast": "Partly cloudy. Medium chance of showers. A thunderstorm likely. Winds northwesterly 25 to 35 km/h turning westerly 15 to 25 km/h during the day.",
         "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Shower or two. Possible storm.",
-        "temp_max": 20,
+        "precis": "Showers. Storm developing.",
+        "temp_max": 19,
         "temp_min": 9
       },
       "6": {
@@ -255,12 +255,12 @@
     },
     "2026-01-05": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds west to northwesterly 20 to 30 km/h shifting east to northeasterly 15 to 20 km/h later.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 16,
-        "temp_min": 9
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds north to northwesterly 20 to 30 km/h shifting south to southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 8
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northerly 20 to 30 km/h turning west to northwesterly 25 to 40 km/h during the morning.",
@@ -269,6 +269,16 @@
         "precis": "Shower or two. Wind easing.",
         "temp_max": 15,
         "temp_min": 9
+      }
+    },
+    "2026-01-06": {
+      "7": {
+        "forecast": "Sunny. Winds north to northwesterly 15 to 20 km/h turning west to southwesterly during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 20,
+        "temp_min": 7
       }
     }
   },

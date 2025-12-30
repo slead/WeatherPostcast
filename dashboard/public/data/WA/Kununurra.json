@@ -69,11 +69,11 @@
     },
     "2025-12-31": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of showers, most likely during this afternoon and evening. A thunderstorm likely during this afternoon and evening. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "80%",
-        "precis": "Showers increasing.",
-        "temp_max": 35,
+        "precis": "Showers. Storm developing.",
+        "temp_max": 34,
         "temp_min": 25
       },
       "2": {
@@ -127,11 +127,11 @@
     },
     "2026-01-01": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon. A thunderstorm likely in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon. A thunderstorm likely. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "80%",
-        "precis": "Showers. Storm developing.",
-        "temp_max": 33,
+        "precipitation_prob": "90%",
+        "precis": "Showers. Storm.",
+        "temp_max": 31,
         "temp_min": 24
       },
       "3": {
@@ -169,10 +169,10 @@
     },
     "2026-01-02": {
       "3": {
-        "forecast": "Cloudy. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "80%",
-        "precis": "Showers increasing. Storm.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 31,
         "temp_min": 24
       },
@@ -203,11 +203,11 @@
     },
     "2026-01-03": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two. Possible storm.",
-        "temp_max": 32,
+        "temp_max": 33,
         "temp_min": 24
       },
       "5": {
@@ -229,11 +229,11 @@
     },
     "2026-01-04": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 35,
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. The chance of a thunderstorm later in the day. Light winds.",
+        "icon_code": 16,
+        "precipitation_prob": "30%",
+        "precis": "Possible storm.",
+        "temp_max": 36,
         "temp_min": 24
       },
       "6": {
@@ -255,11 +255,11 @@
     },
     "2026-01-05": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Light winds.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely later in the day. The chance of a thunderstorm later in the day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 37,
+        "temp_max": 38,
         "temp_min": 25
       },
       "7": {
@@ -267,6 +267,16 @@
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
+        "temp_max": 39,
+        "temp_min": 25
+      }
+    },
+    "2026-01-06": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
         "temp_max": 39,
         "temp_min": 25
       }
