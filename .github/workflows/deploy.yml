@@ -3,7 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - "dashboard/**"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Collect Weather Forecasts"]
+    types:
+      - completed
 
 permissions:
   contents: read
