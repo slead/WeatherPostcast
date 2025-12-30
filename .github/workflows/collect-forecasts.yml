@@ -27,6 +27,8 @@ jobs:
 
       - name: Collect forecasts
         run: python collect_forecasts.py -v
+        env:
+          TZ: Australia/Sydney
 
       - name: Commit and push changes
         run: |

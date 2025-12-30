@@ -17,11 +17,25 @@ Requirements: 2.1
 
 import argparse
 import logging
+import os
 import sys
+import time
 from pathlib import Path
 
 from src.collector import collect_forecasts
 from src.utils import setup_logging
+
+
+def setup_timezone():
+    """Set timezone to Australia/Sydney (AEDT) for consistent date handling."""
+    try:
+        os.environ['TZ'] = 'Australia/Sydney'
+        # Call tzset() if available (Unix systems)
+        if hasattr(time, 'tzset'):
+            time.tzset()
+    except Exception:
+        # If timezone setting fails, continue with system timezone
+        pass
 
 
 def parse_args() -> argparse.Namespace:
@@ -79,6 +93,9 @@ def main() -> int:
     Returns:
         Exit code: 0 for success, 1 for partial failure, 2 for complete failure
     """
+    # Set timezone to AEDT for consistent date handling
+    setup_timezone()
+    
     args = parse_args()
     
     # Configure logging level
