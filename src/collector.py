@@ -83,7 +83,7 @@ def collect_single_location(
     )
     
     # Step 5: Archive old records and get current data
-    current_data, archived_data = archive_old_records(merged_data)
+    current_data, archived_data = archive_old_records(merged_data, data_dir)
     
     # Step 6: Write current data to JSON file
     try:
