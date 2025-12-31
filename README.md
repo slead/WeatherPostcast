@@ -10,6 +10,10 @@ Traditional weather forecasts predict 7 days ahead, but we rarely remember what 
 2. **Storing** predictions indexed by "days ahead" (7 days ago prediction → today's actual)
 3. **Visualizing** how predictions evolved over time via an interactive dashboard
 
+Below is a representative example. On Xmas day 2025, the BOM were predicting that NYE would be rainy in Melbourne, so people might reasonably have avoided holding that garden party, especially given the continued predictions for rain over the next few days. In actuality, the weather on NYE turned out fine:
+
+![Melbourne Weather Dashboard](Melbourne.png)
+
 ## Project Structure
 
 ```
