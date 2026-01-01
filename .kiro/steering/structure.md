@@ -16,8 +16,11 @@
 ├── data/                   # Forecast data (Git-tracked)
 │   ├── locations.json      # Location configuration
 │   ├── cities.geojson      # City coordinates
-│   └── {STATE}/            # State folders (NSW, VIC, QLD, etc.)
-│       └── {City}.json     # Per-city forecast files
+│   ├── {STATE}/            # State folders (NSW, VIC, QLD, etc.)
+│   │   └── {City}.json     # Per-city current forecast files
+│   └── archive/            # Archived forecast data
+│       └── {STATE}/        # State folders for archives
+│           └── {City}.json # Historical forecasts (dates before today)
 ```
 
 ## Code Conventions
@@ -37,6 +40,6 @@
 | `config.py`      | Loads `locations.json`, validates entries              |
 | `ftp_fetcher.py` | Downloads XML with exponential backoff retry           |
 | `xml_parser.py`  | Parses BOM XML format, extracts forecast periods       |
-| `merger.py`      | Merges new forecasts, applies retention policy         |
+| `merger.py`      | Merges new forecasts, archives old records             |
 | `file_io.py`     | Reads/writes location JSON files                       |
 | `models.py`      | Data structures and JSON serialization                 |

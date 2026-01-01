@@ -16,5 +16,5 @@ A Python application that collects and stores daily weather forecasts from the A
 2. Fetch XML forecasts from `ftp://ftp.bom.gov.au/anon/gen/fwo/{product_id}.xml`
 3. Parse XML to extract forecast periods
 4. Merge new forecasts with existing data (preserving historical predictions)
-5. Apply 8-day retention policy
-6. Write to `data/{state}/{city}.json`
+5. Archive old forecast records (dates before today) to separate archive files
+6. Write current forecasts to `data/{state}/{city}.json`
