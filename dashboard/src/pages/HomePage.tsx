@@ -342,6 +342,7 @@ export function HomePage() {
             <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto mt-3 lg:mt-5">
             <strong>Weather Reporter</strong> lets you see what the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a> predicted for today's weather, over the past 7 days, and compare those predictions to actual conditions. Use this to decide how much faith to place in future long-term predictions!
           </p>
+          <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto mt-3 lg:mt-5">This tool isn't meant to criticise the BOM's weather forecasts — it's about understanding forecast reliability. By comparing predictions made at different time horizons, you can see how accuracy changes as forecasts get closer to the actual date.</p>
         </div>
       </header>
 

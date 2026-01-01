@@ -14,6 +14,8 @@ Below is a representative example. On Xmas day 2025, the BOM were predicting tha
 
 ![Melbourne Weather Dashboard](Melbourne.png)
 
+This tool isn't meant to criticise the BOM's weather forecasts — it's about understanding forecast reliability. By comparing predictions made at different time horizons, you can see how accuracy changes as forecasts get closer to the actual date
+
 ## Project Structure
 
 ```
