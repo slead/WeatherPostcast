@@ -8,7 +8,7 @@ A Python application that collects and stores daily weather forecasts from the A
 - Parses forecast data (temperatures, precipitation, conditions) for 7-day forecasts
 - Stores forecasts in Git-friendly JSON files organized by state/city
 - Tracks prediction accuracy by preserving historical forecasts with days-ahead indexing
-- Applies retention policies to manage data growth
+- Archives old forecast records to separate files for historical analysis
 
 ## Data Flow
 

@@ -38,7 +38,9 @@ This tool isn't meant to criticise the BOM's weather forecasts — it's about un
 ├── data/                   # Forecast data (Git-tracked)
 │   ├── locations.json      # Location configuration
 │   ├── cities.geojson      # City coordinates for map
-│   └── {STATE}/{City}.json # Per-city forecast files
+│   ├── {STATE}/{City}.json # Per-city current forecast files
+│   └── archive/            # Archived forecast data
+│       └── {STATE}/{City}.json # Historical forecasts (dates before today)
 └── tests/                  # Python test suite
 ```
 
@@ -76,8 +78,9 @@ python collect_forecasts.py -v
 2. Fetch XML from `ftp://ftp.bom.gov.au/anon/gen/fwo/{product_id}.xml`
 3. Parse forecast periods (temps, precipitation, conditions)
 4. Merge with existing data, preserving historical predictions
-5. Apply 8-day retention policy
-6. Write to `data/{state}/{city}.json`
+5. Archive old forecast records (dates before today) to `data/archive/{state}/{city}.json`
+6. Write current forecasts to `data/{state}/{city}.json`
+7. The `collect_forecasts` script needs to run every day in order to build up the records, so is best scheduled as a cron job.
 
 ## Frontend (React + TypeScript)
 
