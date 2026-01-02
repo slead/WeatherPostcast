@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-02": {
       "0": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northeasterly 15 to 25 km/h tending easterly 20 to 25 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -63,8 +63,8 @@
       "1": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 25 km/h tending northwest to northeasterly in the morning then becoming northeasterly 15 to 20 km/h in the evening.",
         "icon_code": 16,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 28,
         "temp_min": 9
       },
@@ -111,11 +111,11 @@
     },
     "2026-01-04": {
       "2": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon. A thunderstorm likely in the afternoon and evening. Winds northwest to northeasterly 15 to 25 km/h tending northwest to southwesterly 15 to 20 km/h during the day then tending east to northeasterly during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. A thunderstorm likely in the morning and afternoon. Winds northwest to northeasterly 15 to 25 km/h tending northwest to southwesterly 15 to 20 km/h during the day then tending east to northeasterly during the evening.",
         "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Showers. Storm developing.",
-        "temp_max": 30,
+        "precis": "Shower or two. Storm.",
+        "temp_max": 28,
         "temp_min": 13
       },
       "3": {
@@ -161,12 +161,12 @@
     },
     "2026-01-05": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon. A thunderstorm likely in the morning and afternoon. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly during the morning then turning northeasterly during the afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. A thunderstorm likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 16,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two. Storm.",
-        "temp_max": 28,
-        "temp_min": 14
+        "precipitation_prob": "60%",
+        "precis": "Showers. Storm developing.",
+        "temp_max": 27,
+        "temp_min": 13
       },
       "4": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northwest to northeasterly 15 to 20 km/h tending easterly during the day.",
@@ -203,11 +203,11 @@
     },
     "2026-01-06": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h later.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 29,
+        "temp_max": 28,
         "temp_min": 13
       },
       "5": {
@@ -241,8 +241,8 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 33,
-        "temp_min": 13
+        "temp_max": 32,
+        "temp_min": 14
       },
       "6": {
         "forecast": "Sunny. Light winds.",
@@ -259,7 +259,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 35,
+        "temp_max": 34,
         "temp_min": 16
       }
     }
