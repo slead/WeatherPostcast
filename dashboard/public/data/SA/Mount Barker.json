@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-03": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h tending southerly 20 to 30 km/h in the middle of the day.",
+        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -61,12 +61,12 @@
     },
     "2026-01-04": {
       "1": {
-        "forecast": "Partly cloudy. Winds southerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds south to southeasterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 24,
-        "temp_min": 12
+        "temp_max": 25,
+        "temp_min": 11
       },
       "2": {
         "forecast": "Partly cloudy. Winds south to southeasterly 25 to 35 km/h.",
@@ -119,12 +119,12 @@
     },
     "2026-01-05": {
       "2": {
-        "forecast": "Sunny. Winds south to southeasterly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Sunny. Winds south to southeasterly 15 to 20 km/h becoming light in the early morning then becoming south to southeasterly 15 to 25 km/h in the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 28,
-        "temp_min": 10
+        "temp_max": 29,
+        "temp_min": 11
       },
       "3": {
         "forecast": "Mostly sunny. Winds south to southeasterly 15 to 25 km/h becoming light during the evening.",
@@ -174,7 +174,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 37,
-        "temp_min": 11
+        "temp_min": 12
       },
       "4": {
         "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the day.",
@@ -211,9 +211,9 @@
     },
     "2026-01-07": {
       "4": {
-        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h increasing to 25 km/h before shifting west to southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Winds northwest to northeasterly 15 to 25 km/h tending northwest to southwesterly during the day then tending southeast to southwesterly 15 to 20 km/h during the evening.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 41,
         "temp_min": 19
@@ -237,11 +237,11 @@
     },
     "2026-01-08": {
       "5": {
-        "forecast": "Sunny. Winds northeast to southeasterly 15 to 20 km/h tending south to southwesterly during the day.",
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 25 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 39,
+        "temp_max": 41,
         "temp_min": 19
       },
       "6": {
@@ -255,12 +255,22 @@
     },
     "2026-01-09": {
       "6": {
-        "forecast": "Mostly sunny day. Slight chance of a shower, most likely later in the day. Light winds becoming south to southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Winds northwest to northeasterly 25 to 35 km/h tending southeast to southwesterly 20 to 30 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
-        "temp_max": 37,
-        "temp_min": 18
+        "temp_max": 39,
+        "temp_min": 20
+      }
+    },
+    "2026-01-10": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds southeasterly 15 to 20 km/h tending southerly 20 to 30 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 23,
+        "temp_min": 15
       }
     }
   },
