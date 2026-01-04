@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-04": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northerly 15 to 25 km/h tending northeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 16,
         "precipitation_prob": "40%",
         "precis": "Possible shower or storm.",
@@ -127,10 +127,10 @@
     },
     "2026-01-06": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h during the day then tending easterly 15 to 25 km/h during the afternoon.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the late afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light before dawn then becoming northeast to southeasterly 15 to 25 km/h in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 39,
         "temp_min": 22
       },
@@ -177,10 +177,10 @@
     },
     "2026-01-07": {
       "3": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the day.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Winds northeasterly 15 to 20 km/h tending easterly 20 to 30 km/h during the day.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 39,
         "temp_min": 24
       },
@@ -211,7 +211,7 @@
     },
     "2026-01-08": {
       "4": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the day.",
+        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h tending easterly 20 to 30 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -269,6 +269,16 @@
         "precis": "Sunny.",
         "temp_max": 39,
         "temp_min": 23
+      }
+    },
+    "2026-01-11": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds northeasterly 15 to 20 km/h tending northeast to southeasterly during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "30%",
+        "precis": "Sunny.",
+        "temp_max": 40,
+        "temp_min": 24
       }
     }
   },

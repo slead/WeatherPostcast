@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-04": {
       "0": {
-        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h becoming light in the late evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds southwesterly 15 to 20 km/h becoming light in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-05": {
       "1": {
-        "forecast": "Mostly sunny. Light winds becoming southwesterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Mostly sunny. Light winds becoming southwesterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
@@ -127,10 +127,10 @@
     },
     "2026-01-06": {
       "2": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 24,
         "temp_min": 11
       },
@@ -177,7 +177,7 @@
     },
     "2026-01-07": {
       "3": {
-        "forecast": "Sunny. Light winds becoming northwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming west to northwesterly 15 to 25 km/h during the day then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -211,9 +211,9 @@
     },
     "2026-01-08": {
       "4": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 28,
         "temp_min": 17
@@ -241,7 +241,7 @@
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 31,
+        "temp_max": 30,
         "temp_min": 16
       },
       "6": {
@@ -269,6 +269,16 @@
         "precis": "Shower or two.",
         "temp_max": 22,
         "temp_min": 15
+      }
+    },
+    "2026-01-11": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 21,
+        "temp_min": 12
       }
     }
   },

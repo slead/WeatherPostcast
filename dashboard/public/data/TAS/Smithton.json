@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-04": {
       "0": {
-        "forecast": "Mostly sunny. Winds west to southwesterly 25 to 35 km/h.",
+        "forecast": "Mostly clear. Winds southwesterly 25 to 35 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "0%",
+        "precis": "Mostly clear.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-05": {
       "1": {
-        "forecast": "Sunny. Winds southwesterly 25 to 35 km/h.",
+        "forecast": "Sunny. Winds southwesterly 15 to 25 km/h tending westerly 25 to 35 km/h in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-01-06": {
       "2": {
-        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h tending westerly 20 to 30 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Winds westerly 15 to 20 km/h tending southwesterly before dawn then tending northwest to southwesterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -211,7 +211,7 @@
     },
     "2026-01-08": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds becoming southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Light winds becoming southwesterly 15 to 25 km/h during the morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -269,6 +269,16 @@
         "precis": "Shower or two.",
         "temp_max": 21,
         "temp_min": 12
+      }
+    },
+    "2026-01-11": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 20 to 30 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 20,
+        "temp_min": 9
       }
     }
   },

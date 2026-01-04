@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-04": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers in the afternoon and early evening. A thunderstorm likely in the afternoon and early evening. Winds westerly 15 to 25 km/h becoming light in the evening.",
+        "forecast": "Mostly clear. Slight chance of a shower early this evening. The chance of a thunderstorm early this evening. Winds west to southwesterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 16,
-        "precipitation_prob": "60%",
-        "precis": "Showers. Storm developing.",
+        "precipitation_prob": "20%",
+        "precis": "Possible storm.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-01-05": {
       "1": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon and early evening. The chance of a thunderstorm in the afternoon and early evening. Winds northwesterly 20 to 30 km/h turning west to southwesterly in the middle of the day then becoming light in the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and early evening. The chance of a thunderstorm in the afternoon and early evening. Winds west to northwesterly 20 to 30 km/h shifting east to southeasterly 15 to 20 km/h in the evening.",
         "icon_code": 16,
-        "precipitation_prob": "30%",
-        "precis": "Possible storm.",
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
         "temp_max": 17,
-        "temp_min": 8
+        "temp_min": 7
       },
       "2": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and early evening. The chance of a thunderstorm in the afternoon and early evening. Winds northwesterly 20 to 30 km/h turning west to southwesterly 15 to 25 km/h in the early afternoon then becoming light in the late afternoon.",
@@ -127,12 +127,12 @@
     },
     "2026-01-06": {
       "2": {
-        "forecast": "Sunny. Winds north to northwesterly 15 to 25 km/h tending west to northwesterly during the morning then becoming light during the day.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Winds north to northwesterly 15 to 25 km/h tending west to northwesterly in the early morning then becoming light in the middle of the day.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 21,
-        "temp_min": 7
+        "temp_min": 8
       },
       "3": {
         "forecast": "Sunny. Winds northwest to northeasterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h during the morning then becoming light during the afternoon.",
@@ -211,12 +211,12 @@
     },
     "2026-01-08": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northwesterly 35 to 50 km/h.",
-        "icon_code": 9,
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Winds northwesterly 35 to 50 km/h.",
+        "icon_code": 16,
         "precipitation_prob": "20%",
-        "precis": "Windy. Mostly sunny.",
+        "precis": "Possible storm. Windy.",
         "temp_max": 26,
-        "temp_min": 15
+        "temp_min": 14
       },
       "5": {
         "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northwesterly 30 to 45 km/h.",
@@ -269,6 +269,16 @@
         "precis": "Possible shower. Very windy.",
         "temp_max": 25,
         "temp_min": 15
+      }
+    },
+    "2026-01-11": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Winds northwesterly 20 to 30 km/h turning northeasterly 15 to 25 km/h later.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
+        "temp_min": 9
       }
     }
   },
