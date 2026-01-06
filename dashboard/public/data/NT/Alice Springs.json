@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-06": {
       "0": {
-        "forecast": "Sunny. Winds easterly 15 to 20 km/h tending southeasterly in the middle of the day then becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds becoming southeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 41,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-07": {
       "1": {
-        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 25 km/h in the early morning then turning east to northeasterly in the morning.",
+        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 25 km/h in the early morning then turning east to northeasterly 15 to 20 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -119,7 +119,7 @@
     },
     "2026-01-08": {
       "2": {
-        "forecast": "Mostly sunny. Winds north to northeasterly 15 to 20 km/h tending east to northeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny. Winds north to northeasterly 15 to 20 km/h turning easterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -195,7 +195,7 @@
     },
     "2026-01-10": {
       "4": {
-        "forecast": "Sunny. Light winds becoming southeasterly 20 to 30 km/h during the day.",
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning then turning southeasterly 20 to 30 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -269,6 +269,16 @@
         "precis": "Sunny.",
         "temp_max": 41,
         "temp_min": 24
+      }
+    },
+    "2026-01-13": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming southeasterly 25 to 35 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 39,
+        "temp_min": 23
       }
     }
   },
