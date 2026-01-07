@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-07": {
       "0": {
-        "forecast": "Sunny. Winds easterly 15 to 25 km/h turning northeasterly in the evening.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Winds easterly 15 to 25 km/h turning northeasterly in the evening.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -61,7 +61,7 @@
     },
     "2026-01-08": {
       "1": {
-        "forecast": "Sunny. Light winds becoming east to northeasterly 20 to 30 km/h in the middle of the day.",
+        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h tending east to northeasterly 20 to 30 km/h in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -111,7 +111,7 @@
     },
     "2026-01-09": {
       "2": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light during the morning then becoming northeasterly 20 to 30 km/h during the day.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light before dawn then becoming northeasterly 20 to 30 km/h in the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -153,12 +153,12 @@
     },
     "2026-01-10": {
       "3": {
-        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 25 to 35 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 38,
-        "temp_min": 22
+        "temp_max": 39,
+        "temp_min": 23
       },
       "4": {
         "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 20 to 30 km/h during the morning.",
@@ -195,7 +195,7 @@
     },
     "2026-01-11": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely later in the day. Winds northwesterly 15 to 25 km/h shifting south to southeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northwesterly 15 to 25 km/h shifting south to southeasterly 20 to 30 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -229,7 +229,7 @@
     },
     "2026-01-12": {
       "5": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely during the morning. Winds southeasterly 15 to 20 km/h increasing to 25 km/h before turning east to northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely during the morning. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the day.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -255,7 +255,7 @@
     },
     "2026-01-13": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds northeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northeasterly 15 to 20 km/h turning easterly 15 to 25 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -268,6 +268,16 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 28,
+        "temp_min": 20
+      }
+    },
+    "2026-01-14": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. The chance of a thunderstorm. Winds easterly 15 to 20 km/h turning south to southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 24,
         "temp_min": 20
       }
     }

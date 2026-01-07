@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-07": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers in the evening. The chance of a thunderstorm at night. Winds northeasterly 20 to 25 km/h tending northwest to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the late evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later this evening. The chance of a thunderstorm later tonight. Winds north to northeasterly 15 to 20 km/h turning northwesterly in the evening then becoming light in the late evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Possible late shower.",
+        "precis": "Possible shower.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -61,7 +61,7 @@
     },
     "2026-01-08": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. The chance of a thunderstorm in the late afternoon and evening. Winds westerly 15 to 20 km/h becoming light before dawn then becoming southwesterly 20 to 30 km/h in the early morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. The chance of a thunderstorm in the morning and afternoon. Winds westerly 15 to 20 km/h tending southwesterly 20 to 30 km/h in the early morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -111,7 +111,7 @@
     },
     "2026-01-09": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds southeast to southwesterly 15 to 20 km/h tending northeast to southeasterly 20 to 30 km/h during the morning then tending northeasterly during the afternoon.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and early evening. Winds southeast to southwesterly 15 to 20 km/h tending northeast to southeasterly 25 to 35 km/h in the early morning then tending northwest to northeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -153,12 +153,12 @@
     },
     "2026-01-10": {
       "3": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. Winds westerly 20 to 30 km/h increasing to 30 to 45 km/h during the morning then tending southwesterly 25 to 40 km/h during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. Winds northwesterly 20 to 25 km/h tending westerly 35 to 50 km/h during the morning then tending southwesterly 30 to 45 km/h during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "70%",
-        "precis": "Shower or two. Becoming windy.",
+        "precis": "Shower or two. Windy.",
         "temp_max": 19,
-        "temp_min": 13
+        "temp_min": 12
       },
       "4": {
         "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. Winds westerly 20 to 30 km/h increasing to 30 to 45 km/h during the morning then tending southwesterly 25 to 40 km/h during the evening.",
@@ -231,7 +231,7 @@
       "5": {
         "forecast": "Partly cloudy. Winds south to southwesterly 15 to 25 km/h tending northwest to southwesterly 20 to 30 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": 8
@@ -269,6 +269,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": 10
+      }
+    },
+    "2026-01-14": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 20 to 25 km/h tending southerly during the morning.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 21,
+        "temp_min": 8
       }
     }
   },

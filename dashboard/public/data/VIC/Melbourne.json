@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-07": {
       "0": {
-        "forecast": "Partly cloudy. Winds northerly 25 to 40 km/h tending northwesterly 25 to 35 km/h in the early afternoon then becoming light in the late evening.",
+        "forecast": "Partly cloudy. Winds northwesterly 20 to 30 km/h tending cooler southeast to southwesterly 15 to 20 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -61,7 +61,7 @@
     },
     "2026-01-08": {
       "1": {
-        "forecast": "Partly cloudy. The chance of a thunderstorm in the evening, possibly severe with damaging winds in the northeast suburbs. Light winds becoming north to northeasterly 15 to 25 km/h in the early morning then shifting southerly 20 to 30 km/h in the morning.",
+        "forecast": "Partly cloudy. The chance of a thunderstorm in the northeast suburbs in the afternoon and evening, possibly severe with damaging winds. Light winds becoming northwest to northeasterly 15 to 20 km/h in the early morning then tending southerly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -111,11 +111,11 @@
     },
     "2026-01-09": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening, possibly severe with damaging winds. Winds northwest to northeasterly 25 to 35 km/h tending west to northwesterly 25 to 40 km/h during the day then turning south to southwesterly 15 to 25 km/h during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Damaging winds possible. Winds northwest to northeasterly 35 to 50 km/h tending west to northwesterly in the early afternoon then turning south to southwesterly 20 to 30 km/h in the evening.",
         "icon_code": 16,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
-        "temp_max": 40,
+        "precipitation_prob": "30%",
+        "precis": "Possible storm. Windy.",
+        "temp_max": 41,
         "temp_min": 17
       },
       "3": {
@@ -153,7 +153,7 @@
     },
     "2026-01-10": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds west to southwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds west to southwesterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -195,7 +195,7 @@
     },
     "2026-01-11": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower during the morning. Winds south to southwesterly 15 to 25 km/h tending south to southeasterly 20 to 30 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower in the morning. Winds south to southwesterly 15 to 25 km/h tending south to southeasterly 20 to 30 km/h during the day.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -231,7 +231,7 @@
       "5": {
         "forecast": "Sunny. Winds south to southeasterly 15 to 25 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 22,
         "temp_min": 12
@@ -256,9 +256,9 @@
     "2026-01-13": {
       "6": {
         "forecast": "Cloudy. Slight chance of a shower. Winds southerly 20 to 30 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
         "temp_max": 20,
         "temp_min": 14
       },
@@ -269,6 +269,16 @@
         "precis": "Cloudy.",
         "temp_max": 21,
         "temp_min": 14
+      }
+    },
+    "2026-01-14": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Winds southerly 20 to 30 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 20,
+        "temp_min": 13
       }
     }
   },
