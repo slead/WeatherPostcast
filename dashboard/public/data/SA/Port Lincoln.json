@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-08": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 20 to 30 km/h.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -66,7 +66,7 @@
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 29,
-        "temp_min": 17
+        "temp_min": 18
       },
       "2": {
         "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h turning southwesterly 20 to 25 km/h in the morning then increasing to 25 to 35 km/h in the middle of the day.",
@@ -111,7 +111,7 @@
     },
     "2026-01-10": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 25 to 35 km/h tending southerly during the day.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 25 to 35 km/h tending southerly in the early afternoon.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -237,7 +237,7 @@
     },
     "2026-01-13": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 15 to 25 km/h tending southerly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 15 to 25 km/h tending southerly 20 to 30 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -267,7 +267,7 @@
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
-        "temp_max": 23,
+        "temp_max": 24,
         "temp_min": 15
       },
       "7": {
@@ -277,6 +277,16 @@
         "precis": "Cloudy.",
         "temp_max": 22,
         "temp_min": 15
+      }
+    },
+    "2026-01-15": {
+      "7": {
+        "forecast": "Partly cloudy. Winds southeasterly 25 to 35 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 23,
+        "temp_min": 16
       }
     }
   },

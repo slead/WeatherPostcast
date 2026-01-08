@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-08": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h turning south to southwesterly 25 to 40 km/h in the morning.",
+        "forecast": "Mostly sunny. Winds southwesterly 25 to 40 km/h turning southerly 20 to 30 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
@@ -61,7 +61,7 @@
     },
     "2026-01-09": {
       "1": {
-        "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h early in the morning then increasing to 25 to 35 km/h in the late evening.",
+        "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h before dawn then increasing to 25 to 35 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
@@ -111,7 +111,7 @@
     },
     "2026-01-10": {
       "2": {
-        "forecast": "Mostly sunny. Winds southeasterly 25 to 40 km/h turning easterly 30 to 45 km/h during the morning then decreasing to 25 to 35 km/h during the afternoon.",
+        "forecast": "Mostly sunny. Winds southeasterly 25 to 35 km/h turning easterly 30 to 45 km/h early in the morning then decreasing to 20 to 30 km/h in the early afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -161,9 +161,9 @@
     },
     "2026-01-11": {
       "3": {
-        "forecast": "Mostly sunny. Winds easterly 25 to 40 km/h decreasing to 20 to 30 km/h during the morning then turning southeasterly 15 to 25 km/h during the afternoon.",
+        "forecast": "Mostly sunny. Winds easterly 30 to 45 km/h turning south to southeasterly 15 to 20 km/h during the afternoon then tending east to southeasterly during the evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 18
@@ -203,7 +203,7 @@
     },
     "2026-01-12": {
       "4": {
-        "forecast": "Mostly sunny. Winds east to southeasterly 15 to 25 km/h turning southerly 20 to 30 km/h during the morning.",
+        "forecast": "The chance of a thunderstorm in the morning. Sunny afternoon. Winds east to southeasterly 20 to 30 km/h turning southerly during the morning then tending southeasterly 15 to 25 km/h during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -277,6 +277,16 @@
         "precis": "Sunny.",
         "temp_max": 35,
         "temp_min": 20
+      }
+    },
+    "2026-01-15": {
+      "7": {
+        "forecast": "Sunny. Winds easterly 20 to 30 km/h tending southeast to southwesterly 15 to 25 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 38,
+        "temp_min": 21
       }
     }
   },
