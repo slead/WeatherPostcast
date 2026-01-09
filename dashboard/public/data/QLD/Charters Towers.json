@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-09": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds easterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -61,10 +61,10 @@
     },
     "2026-01-10": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the evening, possibly severe with heavy rain which may lead to flash flooding. Winds southeasterly 15 to 25 km/h tending southerly 20 to 25 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds southeasterly 30 to 45 km/h.",
         "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Rain. Heavy falls possible.",
+        "precis": "Rain. Becoming windy.",
         "temp_max": 27,
         "temp_min": 21
       },
@@ -119,10 +119,10 @@
     },
     "2026-01-11": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. The chance of a thunderstorm in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds south to southeasterly 20 to 25 km/h tending east to southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
-        "icon_code": 12,
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds east to southeasterly 45 to 60 km/h becoming easterly 25 to 35 km/h in the morning then becoming southeasterly and light in the early afternoon. Damaging wind gusts to 100 km/h possible depending on movement and development of Tropical Low.",
+        "icon_code": 9,
         "precipitation_prob": "90%",
-        "precis": "Rain easing.",
+        "precis": "Windy. Rain.",
         "temp_max": 29,
         "temp_min": 22
       },
@@ -169,7 +169,7 @@
     },
     "2026-01-12": {
       "3": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -211,7 +211,7 @@
     },
     "2026-01-13": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -246,9 +246,9 @@
     "2026-01-14": {
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
-        "icon_code": 11,
+        "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 32,
         "temp_min": 23
       },
@@ -284,6 +284,16 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two. Possible storm.",
         "temp_max": 33,
+        "temp_min": 23
+      }
+    },
+    "2026-01-16": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 31,
         "temp_min": 23
       }
     }

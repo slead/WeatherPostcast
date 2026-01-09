@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-09": {
       "0": {
-        "forecast": "Partly cloudy. The chance of a thunderstorm in the afternoon and early evening. Winds northeasterly 15 to 20 km/h shifting southwesterly 25 to 35 km/h in the middle of the day then tending westerly in the late afternoon.",
+        "forecast": "Partly cloudy. The chance of a thunderstorm. Winds southwesterly 25 to 35 km/h tending westerly in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -61,10 +61,10 @@
     },
     "2026-01-10": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds west to northwesterly 35 to 55 km/h turning southwesterly 30 to 45 km/h in the late afternoon then decreasing to 25 to 35 km/h in the evening.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. Medium chance of showers. Winds west to northwesterly 35 to 55 km/h increasing to 60 km/h before turning southwesterly 35 to 50 km/h in the late afternoon.",
+        "icon_code": 9,
         "precipitation_prob": "50%",
-        "precis": "Shower or two. Windy.",
+        "precis": "Shower or two. Very windy.",
         "temp_max": 21,
         "temp_min": 14
       },
@@ -119,7 +119,7 @@
     },
     "2026-01-11": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower in the morning. Winds southwesterly 20 to 25 km/h tending southerly during the morning then tending southeasterly 15 to 25 km/h during the evening.",
+        "forecast": "Cloudy. Slight chance of a shower in the early morning. Winds southwesterly 15 to 20 km/h tending southerly 20 to 30 km/h before dawn then tending southeasterly in the evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -284,6 +284,16 @@
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
         "temp_max": 20,
+        "temp_min": 12
+      }
+    },
+    "2026-01-16": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 25 to 35 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 21,
         "temp_min": 12
       }
     }
