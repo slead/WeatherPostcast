@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-10": {
       "0": {
-        "forecast": "Sunny. Winds southerly 20 to 30 km/h tending southwesterly 25 to 40 km/h in the early afternoon then decreasing to 20 to 25 km/h in the late evening.",
+        "forecast": "Sunny. Winds southerly 20 to 25 km/h tending southwesterly 25 to 40 km/h in the early afternoon then decreasing to 20 to 25 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -69,9 +69,9 @@
     },
     "2026-01-11": {
       "1": {
-        "forecast": "Sunny. Winds south to southwesterly 15 to 25 km/h turning westerly 20 to 25 km/h in the middle of the day then tending southwesterly 25 to 40 km/h in the early afternoon.",
+        "forecast": "Sunny. Winds south to southwesterly 15 to 25 km/h turning westerly 20 to 30 km/h in the middle of the day then tending southwesterly 25 to 40 km/h in the early afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 37,
         "temp_min": 24
@@ -127,7 +127,7 @@
     },
     "2026-01-12": {
       "2": {
-        "forecast": "Sunny. Winds southwesterly 15 to 25 km/h tending southeast to southwesterly during the morning then becoming southwesterly 25 to 35 km/h during the afternoon.",
+        "forecast": "Sunny. Winds southwesterly 15 to 25 km/h tending southeast to southwesterly in the early morning then becoming southwesterly 25 to 35 km/h in the early afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Mostly sunny. Winds south to southwesterly 25 to 35 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 39,
         "temp_min": 25
@@ -279,9 +279,9 @@
     },
     "2026-01-16": {
       "6": {
-        "forecast": "Mostly sunny. Winds south to southwesterly 25 to 40 km/h becoming southwesterly 20 to 25 km/h later.",
+        "forecast": "Mostly sunny. Winds south to southwesterly 25 to 35 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 39,
         "temp_min": 26
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 39,
+        "temp_min": 26
+      }
+    },
+    "2026-01-17": {
+      "7": {
+        "forecast": "Sunny. Winds south to southwesterly 25 to 40 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 40,
         "temp_min": 26
       }
     }
