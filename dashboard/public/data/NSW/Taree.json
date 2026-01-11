@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-11": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the late afternoon and evening. Winds southeast to southwesterly 25 to 35 km/h becoming southeasterly 20 to 30 km/h in the evening then tending southerly 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Medium chance of showers. Winds south to southeasterly 20 to 30 km/h decreasing to 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -69,10 +69,10 @@
     },
     "2026-01-12": {
       "1": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm at night. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.",
-        "icon_code": 11,
+        "forecast": "Cloudy. High chance of rain, most likely in the morning. Winds southeast to southwesterly 15 to 20 km/h becoming southeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
+        "icon_code": 12,
         "precipitation_prob": "80%",
-        "precis": "Showers easing.",
+        "precis": "Rain easing.",
         "temp_max": 26,
         "temp_min": 18
       },
@@ -127,10 +127,10 @@
     },
     "2026-01-13": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning and early afternoon. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 29,
         "temp_min": 19
       },
@@ -178,9 +178,9 @@
     "2026-01-14": {
       "3": {
         "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the evening. Light winds becoming easterly 15 to 25 km/h during the day then becoming light during the evening.",
-        "icon_code": 16,
+        "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Showers. Possible late storm.",
+        "precis": "Shower or two.",
         "temp_max": 29,
         "temp_min": 19
       },
@@ -219,7 +219,7 @@
     },
     "2026-01-15": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds becoming east to northeasterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming east to northeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 16,
         "precipitation_prob": "70%",
         "precis": "Shower or two. Possible storm.",
@@ -279,7 +279,7 @@
     },
     "2026-01-17": {
       "6": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds becoming southerly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds southwesterly 15 to 20 km/h tending southerly 20 to 30 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 23,
         "temp_min": 17
+      }
+    },
+    "2026-01-18": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming southeast to southwesterly 20 to 30 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 24,
+        "temp_min": 16
       }
     }
   },

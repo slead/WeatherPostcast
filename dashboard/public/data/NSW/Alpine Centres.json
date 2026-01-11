@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-11": {
       "0": {
-        "forecast": "Partly cloudy. Patchy smoke haze. Winds southeasterly 15 to 20 km/h turning easterly 20 to 30 km/h in the afternoon.",
-        "icon_code": 6,
+        "forecast": "Partly cloudy. The chance of smoke haze. Winds easterly 20 to 30 km/h.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Smoke.",
+        "precis": "Mostly clear.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-01-13": {
       "2": {
-        "forecast": "Sunny morning. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds west to northwesterly 15 to 25 km/h becoming light during the afternoon then becoming east to northeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the late afternoon and evening. Winds northwesterly 15 to 20 km/h tending westerly in the early morning then shifting easterly in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-01-14": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers. A thunderstorm likely in the afternoon and evening. Winds north to northeasterly 15 to 20 km/h turning northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers. A thunderstorm likely in the afternoon and evening. Winds north to northeasterly 15 to 25 km/h tending northwesterly during the morning then tending east to northeasterly during the evening.",
         "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Showers. Storm developing.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 18,
         "temp_min": 8
       },
@@ -219,7 +219,7 @@
     },
     "2026-01-15": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm. Winds north to northwesterly 20 to 30 km/h shifting south to southeasterly 30 to 45 km/h during the day.",
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm. Winds north to northeasterly 20 to 30 km/h tending north to northwesterly during the morning then shifting south to southeasterly 30 to 45 km/h during the afternoon.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Possible storm.",
@@ -253,7 +253,7 @@
     },
     "2026-01-16": {
       "5": {
-        "forecast": "Cloudy. High chance of showers. Winds southeasterly 30 to 45 km/h.",
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm. Winds southeasterly 30 to 45 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two. Wind easing.",
@@ -279,12 +279,12 @@
     },
     "2026-01-17": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 25 to 40 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southeasterly 25 to 35 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 11,
-        "temp_min": 2
+        "temp_min": 3
       },
       "7": {
         "forecast": "Cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds southeasterly 25 to 40 km/h decreasing to 20 to 30 km/h during the morning.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Wind easing. Cloudy.",
         "temp_max": 11,
+        "temp_min": 2
+      }
+    },
+    "2026-01-18": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southeasterly 25 to 35 km/h decreasing to 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 13,
         "temp_min": 2
       }
     }
