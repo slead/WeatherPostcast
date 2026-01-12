@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-12": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Winds southeasterly 20 to 30 km/h decreasing to 15 to 20 km/h in the late evening.",
         "icon_code": 12,
         "precipitation_prob": "90%",
         "precis": "Rain.",
@@ -69,10 +69,10 @@
     },
     "2026-01-13": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening, possibly severe with heavy rain which may lead to flash flooding. Winds south to southeasterly 15 to 25 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm in the evening, possibly severe with heavy rain which may lead to flash flooding in the north. Winds south to southeasterly 20 to 30 km/h.",
+        "icon_code": 12,
+        "precipitation_prob": "80%",
+        "precis": "Rain easing.",
         "temp_max": 28,
         "temp_min": 21
       },
@@ -127,7 +127,7 @@
     },
     "2026-01-14": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds south to southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the morning and afternoon. Winds south to southeasterly 15 to 20 km/h becoming light before dawn then becoming southeasterly 20 to 30 km/h in the morning.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -177,9 +177,9 @@
     },
     "2026-01-15": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds south to southeasterly 15 to 20 km/h tending east to southeasterly during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds south to southeasterly 15 to 20 km/h tending east to southeasterly during the morning then becoming light during the evening.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 30,
         "temp_min": 22
@@ -219,7 +219,7 @@
     },
     "2026-01-16": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-01-18": {
       "6": {
-        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 28,
         "temp_min": 20
+      }
+    },
+    "2026-01-19": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southeasterly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 28,
+        "temp_min": 21
       }
     }
   },
