@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-01-15": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers. Winds easterly 15 to 25 km/h tending southeasterly 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Medium chance of showers. Winds easterly 20 to 25 km/h tending southeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": null
@@ -177,7 +177,7 @@
     },
     "2026-01-18": {
       "3": {
-        "forecast": "Cloudy. High chance of showers. Winds easterly 20 to 30 km/h.",
+        "forecast": "Cloudy. High chance of showers. Winds easterly 20 to 30 km/h tending northeasterly 20 to 25 km/h during the evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-01-19": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. Winds easterly 20 to 25 km/h tending northeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. High chance of showers. Winds northeasterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 25,
+        "temp_min": 13
+      }
+    },
+    "2026-01-22": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming northeast to southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 24,
         "temp_min": 13
       }
     }
