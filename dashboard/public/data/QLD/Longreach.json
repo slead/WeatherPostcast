@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-16": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Mostly clear. Slight chance of a shower. The chance of a thunderstorm. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
+        "precipitation_prob": "30%",
+        "precis": "Possible storm.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -219,7 +219,7 @@
     },
     "2026-01-20": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Sunny day. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -279,10 +279,10 @@
     },
     "2026-01-22": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds north to northeasterly 15 to 20 km/h.",
-        "icon_code": 1,
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds north to northeasterly 15 to 20 km/h.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 39,
         "temp_min": 25
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 34,
         "temp_min": 23
+      }
+    },
+    "2026-01-23": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds north to northeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 37,
+        "temp_min": 24
       }
     }
   },
