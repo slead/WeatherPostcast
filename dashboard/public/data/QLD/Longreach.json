@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-17": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 40,
         "temp_min": null
       },
@@ -71,9 +71,9 @@
       "1": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 40,
+        "temp_max": 41,
         "temp_min": 24
       },
       "2": {
@@ -177,10 +177,10 @@
     },
     "2026-01-20": {
       "3": {
-        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Sunny morning. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Possible shower developing.",
+        "precis": "Possible shower.",
         "temp_max": 38,
         "temp_min": 26
       },
@@ -219,7 +219,7 @@
     },
     "2026-01-21": {
       "4": {
-        "forecast": "Sunny morning. Medium chance of showers, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming north to northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny morning. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light during the morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -253,7 +253,7 @@
     },
     "2026-01-22": {
       "5": {
-        "forecast": "Sunny day. Slight chance of a shower later in the day. The chance of a thunderstorm later in the day. Winds northeasterly 15 to 20 km/h tending northerly during the morning.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northeasterly 15 to 20 km/h tending northerly during the morning.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -279,10 +279,10 @@
     },
     "2026-01-23": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds north to northeasterly 15 to 20 km/h.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 37,
         "temp_min": 24
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 37,
+        "temp_min": 24
+      }
+    },
+    "2026-01-24": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 36,
         "temp_min": 24
       }
     }

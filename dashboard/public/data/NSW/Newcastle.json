@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-01-17": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Winds southerly 25 to 35 km/h.",
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Winds southeasterly 25 to 35 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 24,
         "temp_min": null
@@ -69,10 +69,10 @@
     },
     "2026-01-18": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the morning and early afternoon. Winds southerly 25 to 35 km/h.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the morning and early afternoon, possibly severe with heavy rain which may lead to flash flooding. Winds southeasterly 25 to 35 km/h.",
+        "icon_code": 12,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 23,
         "temp_min": 19
       },
@@ -127,9 +127,9 @@
     },
     "2026-01-19": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southeasterly 15 to 25 km/h tending southerly 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 20 to 30 km/h tending southerly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 24,
         "temp_min": 19
@@ -177,11 +177,11 @@
     },
     "2026-01-20": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the evening. Light winds becoming south to southeasterly 20 to 30 km/h during the morning.",
-        "icon_code": 16,
+        "forecast": "Partly cloudy. Medium chance of showers. Winds south to southeasterly 20 to 30 km/h.",
+        "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Showers. Possible late storm.",
-        "temp_max": 25,
+        "precis": "Shower or two.",
+        "temp_max": 24,
         "temp_min": 18
       },
       "4": {
@@ -219,10 +219,10 @@
     },
     "2026-01-21": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. The chance of a thunderstorm. Winds southeast to southwesterly 20 to 30 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 15 to 20 km/h tending southerly 20 to 30 km/h during the morning then becoming light during the evening.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 24,
         "temp_min": 17
       },
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
-        "temp_max": 27,
+        "temp_max": 26,
         "temp_min": 16
       },
       "6": {
@@ -281,7 +281,7 @@
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 18
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 26,
+        "temp_min": 19
+      }
+    },
+    "2026-01-24": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 28,
         "temp_min": 19
       }
     }

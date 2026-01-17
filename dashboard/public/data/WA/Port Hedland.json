@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-17": {
       "0": {
-        "forecast": "Sunny. Winds west to northwesterly 25 to 40 km/h.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Winds west to northwesterly 30 to 40 km/h decreasing to 25 to 30 km/h in the late evening.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-18": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and early evening. Winds westerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-01-21": {
       "4": {
-        "forecast": "Mostly sunny. Winds west to southwesterly 15 to 25 km/h turning north to northwesterly 25 to 35 km/h during the day.",
+        "forecast": "Mostly sunny. Winds west to southwesterly 15 to 20 km/h tending north to northeasterly 20 to 30 km/h during the morning then tending west to northwesterly 25 to 35 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-01-23": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northwesterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two. Becoming windy.",
         "temp_max": 37,
         "temp_min": 27
+      }
+    },
+    "2026-01-24": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northwesterly 25 to 40 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower. Windy.",
+        "temp_max": 36,
+        "temp_min": 28
       }
     }
   },
