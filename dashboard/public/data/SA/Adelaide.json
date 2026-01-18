@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-18": {
       "0": {
-        "forecast": "Sunny. Winds northwest to northeasterly 20 to 30 km/h tending southeast to southwesterly 15 to 25 km/h in the evening then tending easterly in the late evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northwest to northeasterly 15 to 20 km/h tending southeast to southwesterly 15 to 25 km/h in the evening then tending easterly in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-19": {
       "1": {
-        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h shifting south to southwesterly 25 to 35 km/h in the late morning.",
+        "forecast": "Sunny. Winds north to northeasterly 15 to 25 km/h shifting south to southwesterly 25 to 35 km/h in the late morning and afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-01-22": {
       "4": {
-        "forecast": "Mostly sunny. Winds south to southeasterly 20 to 30 km/h.",
+        "forecast": "Mostly sunny. Winds south to southeasterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Mostly sunny. Winds east to southeasterly 15 to 25 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 32,
         "temp_min": 15
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 39,
+        "temp_min": 20
+      }
+    },
+    "2026-01-25": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds south to southwesterly 15 to 20 km/h increasing to 25 km/h before turning southeasterly 15 to 20 km/h later.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 32,
         "temp_min": 20
       }
     }
