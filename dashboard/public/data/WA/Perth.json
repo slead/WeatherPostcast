@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-20": {
       "0": {
-        "forecast": "Sunny. Winds easterly 25 to 40 km/h tending southeast to southwesterly 15 to 25 km/h in the late afternoon then becoming southeasterly 20 to 30 km/h in the evening. Gusts to 70 km/h are possible about the hills and foothills in the morning.",
+        "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h tending southeasterly in the evening then tending easterly 25 to 35 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -69,12 +69,12 @@
     },
     "2026-01-21": {
       "1": {
-        "forecast": "Sunny. Winds easterly 25 to 40 km/h becoming light in the evening then becoming easterly 15 to 25 km/h in the late evening. Gusts to 70 km/h are possible about the hills and foothills in the morning.",
+        "forecast": "The chance of smoke haze in the morning. Sunny afternoon. Winds easterly 30 to 45 km/h tending northeasterly 15 to 25 km/h in the middle of the day then tending northeast to southeasterly in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 38,
-        "temp_min": 22
+        "temp_max": 40,
+        "temp_min": 23
       },
       "2": {
         "forecast": "Sunny. Winds easterly 25 to 40 km/h becoming light in the evening then becoming easterly 15 to 25 km/h in the late evening. Wind gusts to 70km/h possible about the Perth hills during the early morning.",
@@ -127,12 +127,12 @@
     },
     "2026-01-22": {
       "2": {
-        "forecast": "Sunny. Winds east to northeasterly 25 to 40 km/h shifting southwesterly 15 to 25 km/h during the day then becoming light during the evening.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Winds northeasterly 20 to 30 km/h shifting southwesterly 25 to 35 km/h in the middle of the day.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
-        "temp_max": 38,
-        "temp_min": 23
+        "precis": "Mostly sunny.",
+        "temp_max": 35,
+        "temp_min": 25
       },
       "3": {
         "forecast": "Sunny. Winds east to northeasterly 25 to 40 km/h shifting southwesterly 15 to 25 km/h during the day then becoming light during the evening.",
@@ -177,7 +177,7 @@
     },
     "2026-01-23": {
       "3": {
-        "forecast": "Partly cloudy. Winds southerly 15 to 20 km/h tending southwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower near the coast in the morning. Near zero chance of rain elsewhere. Winds southwesterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-01-24": {
       "4": {
-        "forecast": "Sunny. Winds south to southeasterly 15 to 20 km/h turning west to southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Sunny. Winds southerly 15 to 20 km/h becoming light during the morning then becoming southwesterly 15 to 25 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-01-26": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower during the morning. Winds southwesterly 20 to 30 km/h turning southerly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Slight chance of a shower during the morning. Winds southwesterly 20 to 30 km/h tending southerly 15 to 20 km/h later.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 17
+      }
+    },
+    "2026-01-27": {
+      "7": {
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h turning southerly 20 to 30 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 28,
+        "temp_min": 13
       }
     }
   },
