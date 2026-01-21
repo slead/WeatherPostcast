@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-21": {
       "0": {
-        "forecast": "Partly cloudy. The chance of smoke haze in the early afternoon. Medium chance of showers. Winds westerly 15 to 20 km/h becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later tonight. Winds westerly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-22": {
       "1": {
-        "forecast": "Medium chance of showers in the early morning. Mostly sunny afternoon. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then tending east to southeasterly in the evening.",
+        "forecast": "Medium chance of showers in the early morning. Mostly sunny afternoon. Light winds becoming southerly 15 to 20 km/h in the morning then tending southeasterly in the evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-01-23": {
       "2": {
-        "forecast": "Sunny. Winds north to northwesterly 15 to 20 km/h becoming light during the morning then becoming north to northwesterly 15 to 20 km/h during the evening.",
+        "forecast": "Sunny. Winds north to northwesterly 15 to 20 km/h becoming light in the morning then becoming north to northwesterly 15 to 20 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -219,12 +219,12 @@
     },
     "2026-01-25": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds west to northwesterly 35 to 50 km/h.",
+        "forecast": "Sunny morning. The chance of a thunderstorm with little or no rainfall in the afternoon. Winds west to northwesterly 35 to 50 km/h.",
         "icon_code": 9,
-        "precipitation_prob": "20%",
-        "precis": "Windy. Sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Windy. Mostly sunny.",
         "temp_max": 25,
-        "temp_min": 12
+        "temp_min": 11
       },
       "5": {
         "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds west to northwesterly 35 to 50 km/h.",
@@ -253,7 +253,7 @@
     },
     "2026-01-26": {
       "5": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds west to northwesterly 25 to 35 km/h tending north to northwesterly 15 to 20 km/h later.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds west to northwesterly 25 to 35 km/h shifting south to southeasterly 15 to 25 km/h later.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-01-27": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northwesterly 15 to 20 km/h turning westerly 20 to 30 km/h during the morning.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northwesterly 15 to 20 km/h turning westerly 15 to 25 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 13
+      }
+    },
+    "2026-01-28": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds west to northwesterly 20 to 30 km/h turning northerly 15 to 20 km/h later.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 26,
+        "temp_min": 16
       }
     }
   },
