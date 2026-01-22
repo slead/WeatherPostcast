@@ -252,10 +252,10 @@ export function CityPage() {
   // Update document title with city name
   useEffect(() => {
     const cityDisplayName = forecastData?.city_name || decodedCityName;
-    document.title = `${cityDisplayName} - Weather Reporter`;
+    document.title = `${cityDisplayName} - Weather Postcast`;
     
     return () => {
-      document.title = 'Weather Reporter';
+      document.title = 'Weather Postcast';
     };
   }, [forecastData?.city_name, decodedCityName]);
 

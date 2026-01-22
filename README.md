@@ -1,4 +1,4 @@
-# BOM Weather Reporter
+# BOM Weather Postcast
 
 A full-stack application that tracks weather forecast accuracy from the Australian Bureau of Meteorology (BOM). It collects daily forecasts and lets you compare what was predicted vs what actually happened.
 

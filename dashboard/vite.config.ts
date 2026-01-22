@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/WeatherReporter/',
+  base: '/WeatherPostcast/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

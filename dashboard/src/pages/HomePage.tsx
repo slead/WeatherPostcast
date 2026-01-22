@@ -333,14 +333,14 @@ export function HomePage() {
           <div className="flex items-center justify-center gap-2 lg:gap-3 mb-3">
             <img src={stormLogo} alt="Storm icon" className="h-8 w-8 lg:h-10 lg:w-10" />
             <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">
-              Weather Reporter
+              Weather Postcast
             </h1>
             <img src={lightRainLogo} alt="Light rain icon" className="h-8 w-8 lg:h-10 lg:w-10" />
           </div>
           <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto">
             Weather forecasts predict a week ahead. We change plans based on them - only to find the promised rain never came, or the heatwave was actually mild.</p>
             <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto mt-3 lg:mt-5">
-            <strong>Weather Reporter</strong> lets you see what the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a> predicted for today's weather, over the past 7 days, and compare those predictions to actual conditions. Use this to decide how much faith to place in future long-term predictions!
+            <strong>Weather Postcast</strong> lets you see what the <a target="_blank" href="https://www.bom.gov.au/" className="text-blue-600 font-bold hover:underline">Bureau of Meteorology</a> predicted for today's weather, over the past 7 days, and compare those predictions to actual conditions. Use this to decide how much faith to place in future long-term predictions!
           </p>
           <p className="text-sm lg:text-base text-gray-600 max-w-2xl mx-auto mt-3 lg:mt-5">This tool isn't meant to criticise the BOM's weather forecasts — it's about understanding forecast reliability. By comparing predictions made at different time horizons, you can see how accuracy changes as forecasts get closer to the actual date.</p>
         </div>
