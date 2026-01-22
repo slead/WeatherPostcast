@@ -4,7 +4,7 @@ A full-stack application that tracks weather forecast accuracy from the Australi
 
 ## Overview
 
-Traditional weather forecasts predict 7 days ahead, but we rarely remember what was predicted when the day arrives. This app solves that by:
+Traditional weather forecasts predict 7 days ahead, but we rarely remember what was predicted when the day arrives. The "postcast" app solves that by:
 
 1. **Collecting** daily forecasts from BOM's FTP server for ~100 Australian cities
 2. **Storing** predictions indexed by "days ahead" (7 days ago prediction → today's actual)
