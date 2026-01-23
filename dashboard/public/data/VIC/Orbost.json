@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-23": {
       "0": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds southeasterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -131,7 +131,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 28,
+        "temp_max": 29,
         "temp_min": 18
       },
       "3": {
@@ -257,7 +257,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 30,
+        "temp_max": 31,
         "temp_min": 19
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Cloudy.",
         "temp_max": 24,
         "temp_min": 15
+      }
+    },
+    "2026-01-30": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 29,
+        "temp_min": 17
       }
     }
   },
