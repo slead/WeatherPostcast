@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-24": {
       "0": {
-        "forecast": "Mostly sunny. The chance of raised dust in the late morning and afternoon. Winds north to northwesterly 35 to 45 km/h becoming northwesterly 25 to 35 km/h in the early afternoon then shifting southerly 25 to 30 km/h in the late evening.",
-        "icon_code": 9,
+        "forecast": "Partly cloudy. The chance of raised dust early this evening. Winds northwesterly 25 to 35 km/h shifting southerly 25 to 30 km/h in the late evening.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Late cool change. Windy.",
+        "precis": "Partly cloudy.",
         "temp_max": 46,
         "temp_min": null
       },
@@ -73,7 +73,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 31,
+        "temp_max": 30,
         "temp_min": 20
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-01-26": {
       "2": {
-        "forecast": "Sunny. Winds south to southwesterly 15 to 25 km/h shifting north to northeasterly 20 to 25 km/h during the morning.",
+        "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h tending northeast to southeasterly in the morning then tending north to northeasterly 20 to 25 km/h in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -177,12 +177,12 @@
     },
     "2026-01-27": {
       "3": {
-        "forecast": "Mostly sunny. Winds north to northwesterly 20 to 30 km/h shifting southerly 25 to 40 km/h during the afternoon.",
+        "forecast": "Mostly sunny. Winds north to northwesterly 20 to 25 km/h shifting southerly 25 to 40 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 41,
-        "temp_min": 28
+        "temp_max": 42,
+        "temp_min": 29
       },
       "4": {
         "forecast": "Mostly sunny. Winds north to northwesterly 20 to 30 km/h shifting southerly 25 to 40 km/h during the afternoon.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 22
+      }
+    },
+    "2026-01-31": {
+      "7": {
+        "forecast": "Partly cloudy. Winds southerly 30 to 45 km/h.",
+        "icon_code": 9,
+        "precipitation_prob": "10%",
+        "precis": "Becoming windy. Partly cloudy.",
+        "temp_max": 28,
+        "temp_min": 20
       }
     }
   },
