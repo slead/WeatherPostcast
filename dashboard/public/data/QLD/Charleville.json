@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-25": {
       "0": {
-        "forecast": "Mostly sunny day. The chance of a thunderstorm in the late afternoon and evening. Winds northwesterly 15 to 20 km/h becoming light in the middle of the day then becoming northerly 15 to 20 km/h in the late evening.",
+        "forecast": "Mostly clear. The chance of a thunderstorm. Light winds becoming northerly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 41,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-01-27": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northwesterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
         "icon_code": 16,
         "precipitation_prob": "20%",
         "precis": "Sunny morning. Possible storm.",
@@ -219,7 +219,7 @@
     },
     "2026-01-29": {
       "4": {
-        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h tending northeast to southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h becoming light during the morning then becoming northeast to southeasterly 15 to 25 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -291,6 +291,16 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
+        "temp_max": 41,
+        "temp_min": 25
+      }
+    },
+    "2026-02-01": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
         "temp_max": 41,
         "temp_min": 25
       }
