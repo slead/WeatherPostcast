@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-26": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the evening. Winds northerly 15 to 20 km/h tending northeasterly 15 to 25 km/h in the early afternoon then shifting south to southeasterly 15 to 20 km/h in the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northeasterly 15 to 20 km/h becoming light in the evening then becoming southerly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-01-28": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds south to southwesterly 15 to 25 km/h tending south to southeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southerly 15 to 20 km/h tending southwesterly in the early morning then turning south to southeasterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-01-30": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Winds south to southeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds south to southeasterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 29,
         "temp_min": 21
+      }
+    },
+    "2026-02-02": {
+      "7": {
+        "forecast": "Becoming cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northwesterly 15 to 20 km/h shifting east to southeasterly 20 to 25 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Sunny morning. Shower or two.",
+        "temp_max": 32,
+        "temp_min": 23
       }
     }
   },
