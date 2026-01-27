@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-27": {
       "0": {
-        "forecast": "Mostly sunny. Winds northwesterly 15 to 25 km/h increasing to 25 to 40 km/h in the middle of the day then tending westerly 30 to 40 km/h in the evening.",
+        "forecast": "Mostly sunny. Winds northwesterly 25 to 40 km/h tending westerly 30 to 40 km/h in the evening.",
         "icon_code": 9,
-        "precipitation_prob": "0%",
-        "precis": "Becoming windy. Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Windy. Mostly sunny.",
         "temp_max": 38,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-01-28": {
       "1": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the early morning. Winds westerly 25 to 35 km/h tending northwesterly in the morning.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "forecast": "Sunny. Winds westerly 25 to 35 km/h tending northwesterly in the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
         "temp_max": 34,
         "temp_min": 27
       },
@@ -177,7 +177,7 @@
     },
     "2026-01-30": {
       "3": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 25 to 40 km/h during the morning.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Winds west to southwesterly 15 to 25 km/h turning northwesterly 25 to 40 km/h during the day then tending westerly 30 to 40 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-01-31": {
       "4": {
-        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. The chance of a thunderstorm later in the day. Winds northwest to southwesterly 25 to 35 km/h.",
+        "forecast": "Mostly sunny day. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds west to southwesterly 20 to 30 km/h tending northwest to northeasterly during the day then tending northwest to southwesterly 25 to 35 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-02-01": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds south to southwesterly 15 to 25 km/h tending northwest to southwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. The chance of a thunderstorm. Winds southeast to southwesterly 15 to 25 km/h tending northwest to southwesterly 20 to 30 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-02-02": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds south to southwesterly 15 to 20 km/h turning west to northwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds southeasterly 15 to 25 km/h shifting west to northwesterly 20 to 30 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 39,
+        "temp_min": 28
+      }
+    },
+    "2026-02-03": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southeast to southwesterly 15 to 25 km/h tending north to northwesterly 20 to 30 km/h during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 38,
         "temp_min": 28
       }
     }
