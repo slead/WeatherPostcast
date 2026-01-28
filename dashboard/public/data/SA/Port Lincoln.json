@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-28": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 25 to 35 km/h.",
+        "forecast": "Mostly clear. Winds southeasterly 30 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-29": {
       "1": {
-        "forecast": "Partly cloudy. Winds southeasterly 25 to 35 km/h tending easterly 25 to 30 km/h in the late evening.",
+        "forecast": "Partly cloudy. Winds southeasterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-01-30": {
       "2": {
-        "forecast": "Partly cloudy. Winds easterly 20 to 25 km/h tending southeasterly 20 to 30 km/h during the morning then tending southerly during the evening.",
+        "forecast": "Partly cloudy. Winds easterly 20 to 25 km/h tending southeasterly 20 to 30 km/h before dawn then tending southerly in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -177,9 +177,9 @@
     },
     "2026-01-31": {
       "3": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southerly 25 to 40 km/h.",
+        "forecast": "Cloudy. Winds southerly 25 to 40 km/h.",
         "icon_code": 4,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Cloudy.",
         "temp_max": 24,
         "temp_min": 18
@@ -253,7 +253,7 @@
     },
     "2026-02-02": {
       "5": {
-        "forecast": "Partly cloudy. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Winds east to southeasterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 25,
+        "temp_min": 14
+      }
+    },
+    "2026-02-04": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southerly 20 to 30 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 26,
         "temp_min": 14
       }
     }

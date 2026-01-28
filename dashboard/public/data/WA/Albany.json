@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-28": {
       "0": {
-        "forecast": "Cloudy. Winds easterly 15 to 25 km/h.",
-        "icon_code": 4,
-        "precipitation_prob": "5%",
-        "precis": "Cloudy.",
+        "forecast": "Sunny. Winds easterly 15 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-01-29": {
       "1": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light before dawn then becoming east to northeasterly 25 to 35 km/h in the morning.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds easterly 15 to 20 km/h becoming light before dawn then becoming northeast to southeasterly 25 to 35 km/h in the morning.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 25,
         "temp_min": 13
       },
@@ -127,12 +127,12 @@
     },
     "2026-01-30": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds east to northeasterly 15 to 20 km/h turning southeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds northeasterly 15 to 25 km/h turning southeasterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
-        "temp_min": 16
+        "temp_min": 15
       },
       "3": {
         "forecast": "Mostly sunny. Winds northeasterly 15 to 25 km/h turning southeasterly 20 to 30 km/h during the day.",
@@ -177,7 +177,7 @@
     },
     "2026-01-31": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Winds southeasterly 20 to 25 km/h increasing to 25 to 35 km/h during the morning then tending easterly 25 to 30 km/h during the evening.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southeasterly 20 to 30 km/h increasing to 30 to 40 km/h during the morning then tending easterly 25 to 35 km/h during the evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -219,10 +219,10 @@
     },
     "2026-02-01": {
       "4": {
-        "forecast": "Partly cloudy. Winds easterly 30 to 45 km/h tending northeasterly 30 to 35 km/h later.",
+        "forecast": "Cloudy. Winds easterly 25 to 35 km/h increasing to 30 to 45 km/h during the day then tending northeasterly 30 to 35 km/h during the evening.",
         "icon_code": 9,
         "precipitation_prob": "10%",
-        "precis": "Becoming windy. Partly cloudy.",
+        "precis": "Becoming windy. Cloudy.",
         "temp_max": 23,
         "temp_min": 16
       },
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 23,
         "temp_min": 18
+      }
+    },
+    "2026-02-04": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "20%",
+        "precis": "Cloudy.",
+        "temp_max": 21,
+        "temp_min": 15
       }
     }
   },
