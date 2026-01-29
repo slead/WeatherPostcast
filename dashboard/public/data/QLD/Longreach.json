@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-29": {
       "0": {
-        "forecast": "Partly cloudy. The chance of a thunderstorm in the afternoon and evening. Light winds becoming easterly 15 to 25 km/h in the middle of the day then tending northeasterly 15 to 20 km/h in the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "forecast": "Mostly clear. Slight chance of a shower. The chance of a thunderstorm early this evening. Winds easterly 15 to 25 km/h tending northeasterly 15 to 20 km/h in the evening.",
+        "icon_code": 2,
+        "precipitation_prob": "20%",
+        "precis": "Clear.",
         "temp_max": 42,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-01-30": {
       "1": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending northeast to southeasterly 15 to 25 km/h in the morning then becoming light in the late evening.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light before dawn then becoming east to northeasterly 20 to 30 km/h in the early morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-01-31": {
       "2": {
-        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light before dawn then becoming east to northeasterly 15 to 20 km/h in the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,10 +219,10 @@
     },
     "2026-02-02": {
       "4": {
-        "forecast": "Sunny morning. Slight chance of a shower later in the day. The chance of a thunderstorm later in the day. Light winds becoming easterly 15 to 20 km/h during the day.",
-        "icon_code": 3,
+        "forecast": "Sunny morning. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northwest to northeasterly 15 to 20 km/h during the morning then tending east to northeasterly during the day.",
+        "icon_code": 16,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Sunny morning. Possible storm.",
         "temp_max": 43,
         "temp_min": 27
       },
@@ -254,9 +254,9 @@
     "2026-02-03": {
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. The chance of a thunderstorm. Winds northeasterly 20 to 30 km/h tending easterly 15 to 20 km/h during the day.",
-        "icon_code": 16,
+        "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Shower or two. Possible storm.",
+        "precis": "Shower or two.",
         "temp_max": 38,
         "temp_min": 26
       },
@@ -279,10 +279,10 @@
     },
     "2026-02-04": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h.",
-        "icon_code": 16,
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h.",
+        "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
+        "precis": "Possible shower.",
         "temp_max": 37,
         "temp_min": 25
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Possible storm.",
         "temp_max": 38,
+        "temp_min": 25
+      }
+    },
+    "2026-02-05": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h.",
+        "icon_code": 16,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
+        "temp_max": 36,
         "temp_min": 25
       }
     }
