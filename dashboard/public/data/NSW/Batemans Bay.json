@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-30": {
       "0": {
-        "forecast": "Sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds east to northeasterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -177,7 +177,7 @@
     },
     "2026-02-02": {
       "3": {
-        "forecast": "Becoming cloudy. Winds south to southwesterly 15 to 20 km/h turning southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Becoming cloudy. Winds south to southwesterly 15 to 20 km/h turning southeasterly 15 to 25 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Becoming cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-02-03": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming north to northeasterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 25 km/h during the day then tending northerly 15 to 20 km/h during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-02-05": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming southeasterly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 25,
         "temp_min": 17
+      }
+    },
+    "2026-02-06": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 27,
+        "temp_min": 16
       }
     }
   },

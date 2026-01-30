@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-30": {
       "0": {
-        "forecast": "Mostly sunny. Slight chance of a shower in the afternoon and early evening. The chance of a thunderstorm in the afternoon and early evening. Winds west to northwesterly 15 to 20 km/h tending west to southwesterly in the early afternoon then becoming light in the evening.",
+        "forecast": "Mostly clear. Slight chance of a shower early this evening. The chance of a thunderstorm early this evening. Winds west to southwesterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 16,
         "precipitation_prob": "20%",
         "precis": "Possible storm.",
@@ -69,7 +69,7 @@
     },
     "2026-01-31": {
       "1": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely at night. A thunderstorm likely in the afternoon and evening. Winds southwesterly 15 to 20 km/h tending westerly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening, possibly severe with damaging winds and large hail. Winds southwesterly 15 to 20 km/h turning west to northwesterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 16,
         "precipitation_prob": "60%",
         "precis": "Showers. Storm developing.",
@@ -127,12 +127,12 @@
     },
     "2026-02-01": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds westerly 15 to 20 km/h tending southwesterly during the morning then tending southerly 20 to 25 km/h during the afternoon.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the early morning. Winds southwesterly 15 to 20 km/h becoming light in the morning then becoming south to southwesterly 20 to 30 km/h in the middle of the day.",
         "icon_code": 16,
         "precipitation_prob": "70%",
         "precis": "Possible early storm. Showers.",
         "temp_max": 16,
-        "temp_min": 11
+        "temp_min": 12
       },
       "3": {
         "forecast": "Partly cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds westerly 15 to 20 km/h tending southwesterly during the morning then tending southerly 20 to 25 km/h during the afternoon.",
@@ -177,12 +177,12 @@
     },
     "2026-02-02": {
       "3": {
-        "forecast": "Mostly sunny. Winds southeast to southwesterly 15 to 25 km/h becoming light during the day then becoming easterly 15 to 20 km/h during the evening.",
+        "forecast": "Mostly sunny. Winds south to southeasterly 20 to 30 km/h becoming light during the afternoon then becoming easterly 15 to 20 km/h during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 15,
-        "temp_min": 3
+        "temp_min": 2
       },
       "4": {
         "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h becoming light during the day then becoming easterly 15 to 20 km/h during the evening.",
@@ -219,7 +219,7 @@
     },
     "2026-02-03": {
       "4": {
-        "forecast": "Mostly sunny. Winds northeasterly 15 to 20 km/h tending northwest to northeasterly during the morning then tending northwesterly during the day.",
+        "forecast": "Mostly sunny. Light winds becoming north to northwesterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 11
+      }
+    },
+    "2026-02-06": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds east to southeasterly 15 to 20 km/h shifting north to northwesterly during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 21,
+        "temp_min": 9
       }
     }
   },

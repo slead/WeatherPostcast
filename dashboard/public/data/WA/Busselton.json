@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-01-30": {
       "0": {
-        "forecast": "Sunny. Winds southerly 15 to 25 km/h increasing to 25 to 35 km/h in the middle of the day then tending southeasterly 20 to 25 km/h in the late evening.",
+        "forecast": "Sunny. Winds southerly 25 to 35 km/h tending southeasterly 20 to 25 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-02-01": {
       "2": {
-        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h becoming light during the day then becoming south to southeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h tending easterly in the morning then becoming light in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -177,9 +177,9 @@
     },
     "2026-02-02": {
       "3": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Light winds becoming westerly 15 to 25 km/h during the morning then tending southeast to southwesterly 25 to 35 km/h during the day.",
+        "forecast": "Mostly sunny. Light winds becoming north to northwesterly 15 to 25 km/h during the morning then tending southeast to southwesterly 20 to 25 km/h during the evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 33,
         "temp_min": 20
@@ -221,10 +221,10 @@
       "4": {
         "forecast": "Cloud clearing. Winds south to southeasterly 25 to 35 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
         "temp_max": 29,
-        "temp_min": 16
+        "temp_min": 15
       },
       "5": {
         "forecast": "Cloud clearing. Winds south to southeasterly 25 to 35 km/h.",
@@ -279,9 +279,9 @@
     },
     "2026-02-05": {
       "6": {
-        "forecast": "Sunny. Winds south to southeasterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 35,
         "temp_min": 13
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 35,
         "temp_min": 14
+      }
+    },
+    "2026-02-06": {
+      "7": {
+        "forecast": "Sunny. Winds south to southeasterly 25 to 35 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 35,
+        "temp_min": 17
       }
     }
   },

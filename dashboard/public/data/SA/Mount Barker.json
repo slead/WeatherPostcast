@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-01-30": {
       "0": {
-        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h tending southerly in the late afternoon.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds southeasterly 20 to 25 km/h tending southerly 15 to 25 km/h in the late afternoon.",
+        "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-01": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Winds southerly 25 to 35 km/h tending southeasterly 25 to 30 km/h during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the early morning. Winds southerly 25 to 35 km/h tending southeasterly 25 to 30 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Sunny. Winds east to southeasterly 15 to 25 km/h turning southerly during the evening.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 25,
         "temp_min": 8
@@ -219,7 +219,7 @@
     },
     "2026-02-03": {
       "4": {
-        "forecast": "Sunny. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds becoming southwesterly 15 to 20 km/h during the afternoon then tending southerly during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 12
+      }
+    },
+    "2026-02-06": {
+      "7": {
+        "forecast": "Sunny. Winds south to southeasterly 15 to 20 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 28,
+        "temp_min": 10
       }
     }
   },
