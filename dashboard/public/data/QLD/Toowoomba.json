@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-02": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds easterly 30 to 45 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, becoming less likely later this evening. The chance of a thunderstorm early this evening, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds easterly 30 to 40 km/h increasing to 45 to 55 km/h in the late afternoon.",
         "icon_code": 16,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two. Possible storm.",
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm. Windy.",
         "temp_max": 29,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-03": {
       "1": {
-        "forecast": "Partly cloudy. Winds easterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Winds easterly 45 to 55 km/h decreasing to 30 to 45 km/h in the early morning.",
         "icon_code": 9,
         "precipitation_prob": "5%",
         "precis": "Wind easing. Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-02-04": {
       "2": {
-        "forecast": "Partly cloudy. Winds easterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Winds easterly 30 to 35 km/h decreasing to 15 to 25 km/h before dawn.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
+        "temp_max": 32,
+        "temp_min": 18
+      }
+    },
+    "2026-02-09": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Winds east to northeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 32,
         "temp_min": 18
       }

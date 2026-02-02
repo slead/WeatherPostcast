@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-02": {
       "0": {
-        "forecast": "Mostly sunny day. Slight chance of a shower, most likely at night. Light winds becoming easterly 15 to 20 km/h in the late evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later tonight. Light winds becoming easterly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-02-04": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds southeasterly 20 to 30 km/h.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the late afternoon and evening. Winds east to southeasterly 20 to 25 km/h.",
+        "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Showers. Possible late storm.",
         "temp_max": 30,
         "temp_min": 24
       },
@@ -219,7 +219,7 @@
     },
     "2026-02-06": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds southeasterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -288,6 +288,16 @@
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds east to southeasterly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 31,
+        "temp_min": 25
+      }
+    },
+    "2026-02-09": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 15 to 20 km/h tending easterly during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",

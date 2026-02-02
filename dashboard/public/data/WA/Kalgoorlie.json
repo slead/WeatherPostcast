@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-02-02": {
       "0": {
-        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late evening.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-02-04": {
       "2": {
-        "forecast": "Cloud clearing. Winds southerly 20 to 30 km/h tending southeasterly during the morning then increasing to 25 to 35 km/h during the evening.",
+        "forecast": "Cloud clearing. Winds southerly 20 to 30 km/h tending southeasterly 25 to 35 km/h in the early morning.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Cloud clearing.",
@@ -177,10 +177,10 @@
     },
     "2026-02-05": {
       "3": {
-        "forecast": "Mostly sunny. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Cloud clearing. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Cloud clearing.",
         "temp_max": 34,
         "temp_min": 17
       },
@@ -279,7 +279,7 @@
     },
     "2026-02-08": {
       "6": {
-        "forecast": "Sunny. Winds easterly 15 to 25 km/h.",
+        "forecast": "Sunny. Winds east to northeasterly 15 to 25 km/h.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 38,
         "temp_min": 22
+      }
+    },
+    "2026-02-09": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds east to northeasterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 37,
+        "temp_min": 23
       }
     }
   },
