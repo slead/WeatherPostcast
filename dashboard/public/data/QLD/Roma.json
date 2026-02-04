@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-04": {
       "0": {
-        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h tending northeasterly in the evening then becoming light in the late evening.",
+        "forecast": "Mostly clear. Winds easterly 15 to 20 km/h tending northeasterly in the evening then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-06": {
       "2": {
-        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h tending northeast to southeasterly during the day.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending northeast to southeasterly 15 to 25 km/h in the middle of the day then becoming northeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 40,
+        "temp_min": 25
+      }
+    },
+    "2026-02-11": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h turning northwesterly during the morning.",
+        "icon_code": 16,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Possible storm.",
+        "temp_max": 38,
         "temp_min": 25
       }
     }
