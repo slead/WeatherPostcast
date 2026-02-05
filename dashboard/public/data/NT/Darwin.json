@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-05": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm early this evening. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -69,9 +69,9 @@
     },
     "2026-02-06": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 32,
         "temp_min": 24
@@ -127,10 +127,10 @@
     },
     "2026-02-07": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon. A thunderstorm likely. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "70%",
-        "precis": "Shower or two. Storm clearing.",
+        "precis": "Showers. Possible afternoon storm.",
         "temp_max": 32,
         "temp_min": 24
       },
@@ -177,10 +177,10 @@
     },
     "2026-02-08": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon. A thunderstorm likely in the afternoon and evening. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Showers. Possible afternoon storm.",
         "temp_max": 32,
         "temp_min": 24
       },
@@ -219,10 +219,10 @@
     },
     "2026-02-09": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. A thunderstorm likely later in the day. Light winds.",
-        "icon_code": 16,
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "icon_code": 11,
         "precipitation_prob": "80%",
-        "precis": "Showers. Afternoon storm.",
+        "precis": "Showers.",
         "temp_max": 32,
         "temp_min": 24
       },
@@ -253,10 +253,10 @@
     },
     "2026-02-10": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of showers. A thunderstorm likely. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 32,
         "temp_min": 24
       },
@@ -291,6 +291,16 @@
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
+        "temp_max": 31,
+        "temp_min": 24
+      }
+    },
+    "2026-02-12": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. A thunderstorm likely. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "icon_code": 16,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Storm.",
         "temp_max": 31,
         "temp_min": 24
       }

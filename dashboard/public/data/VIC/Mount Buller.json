@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-05": {
       "0": {
-        "forecast": "Sunny. Winds westerly 15 to 25 km/h shifting south to southeasterly 15 to 20 km/h in the late evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds westerly 15 to 25 km/h shifting south to southeasterly 15 to 20 km/h in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-06": {
       "1": {
-        "forecast": "Sunny. Winds northeast to southeasterly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h before dawn then tending west to northwesterly in the morning.",
+        "forecast": "Sunny. Winds north to northwesterly 15 to 25 km/h tending northwest to southwesterly in the middle of the day then tending northerly 15 to 20 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -127,9 +127,9 @@
     },
     "2026-02-07": {
       "2": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Winds north to northwesterly 25 to 35 km/h tending west to northwesterly 25 to 40 km/h during the morning then turning southwesterly 20 to 30 km/h during the evening.",
+        "forecast": "Sunny. Winds north to northwesterly 25 to 40 km/h tending northwest to southwesterly 20 to 30 km/h in the middle of the day then tending northeasterly 15 to 25 km/h in the evening.",
         "icon_code": 1,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 23,
         "temp_min": 12
@@ -177,7 +177,7 @@
     },
     "2026-02-08": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Winds northerly 25 to 35 km/h tending northwesterly 15 to 25 km/h during the day then turning north to northeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Winds northeasterly 20 to 25 km/h turning north to northwesterly 20 to 30 km/h during the morning then tending north to northeasterly 15 to 20 km/h during the evening.",
         "icon_code": 16,
         "precipitation_prob": "70%",
         "precis": "Showers. Storm developing.",
@@ -219,10 +219,10 @@
     },
     "2026-02-09": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers, most likely during the morning. The chance of a thunderstorm. Winds northerly 15 to 25 km/h.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds north to northeasterly 15 to 20 km/h becoming light during the morning.",
+        "icon_code": 16,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Showers. Possible afternoon storm.",
         "temp_max": 20,
         "temp_min": 12
       },
@@ -279,7 +279,7 @@
     },
     "2026-02-11": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds northerly 15 to 25 km/h turning west to northwesterly 20 to 30 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northerly 20 to 30 km/h turning west to northwesterly during the day.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 18,
         "temp_min": 13
+      }
+    },
+    "2026-02-12": {
+      "7": {
+        "forecast": "Slight chance of a shower during the morning. Sunny afternoon. Winds west to southwesterly 15 to 25 km/h tending southeast to southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Cloud clearing.",
+        "temp_max": 15,
+        "temp_min": 8
       }
     }
   },
