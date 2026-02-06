@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-06": {
       "0": {
-        "forecast": "Partly cloudy. Winds northwesterly 15 to 25 km/h becoming light in the late evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds northwesterly 15 to 25 km/h becoming light in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Clear.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-02-07": {
       "1": {
-        "forecast": "Mostly sunny. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 25,
+        "temp_max": 24,
         "temp_min": 8
       },
       "2": {
@@ -127,12 +127,12 @@
     },
     "2026-02-08": {
       "2": {
-        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm in the afternoon. Light winds.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the early afternoon. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 23,
-        "temp_min": 12
+        "temp_min": 13
       },
       "3": {
         "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-02-10": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning fog. Medium chance of showers. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 9
+      }
+    },
+    "2026-02-13": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 21,
+        "temp_min": 8
       }
     }
   },
