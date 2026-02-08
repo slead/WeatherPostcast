@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-08": {
       "0": {
-        "forecast": "Becoming cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds east to southeasterly 25 to 35 km/h increasing to 30 to 40 km/h in the late evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds southeasterly 20 to 25 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers increasing.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 38,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-02-09": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the afternoon and early evening. Heavy falls possible in the morning and afternoon. Damaging wind gusts exceeding 90 km/h possible depending on movement and development of Severe Tropical Cyclone Mitchell.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Damaging wind gusts to 120 km/h possible depending on movement and development of Tropical Cyclone Mitchell.",
         "icon_code": 19,
         "precipitation_prob": "95%",
         "precis": "Cyclone possible.",
-        "temp_max": 28,
+        "temp_max": 26,
         "temp_min": 25
       },
       "2": {
@@ -127,10 +127,10 @@
     },
     "2026-02-10": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Winds southwesterly 20 to 30 km/h tending southerly during the evening.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm. Damaging wind gusts to 110 km/h possible depending on movement and development of Tropical Cyclone Mitchell.",
+        "icon_code": 9,
+        "precipitation_prob": "60%",
+        "precis": "Windy. Shower or two.",
         "temp_max": 25,
         "temp_min": 24
       },
@@ -219,11 +219,11 @@
     },
     "2026-02-12": {
       "4": {
-        "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h.",
+        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly during the morning then tending southeast to southwesterly 20 to 25 km/h during the day.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 29,
+        "temp_max": 28,
         "temp_min": 23
       },
       "5": {
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 31,
+        "temp_max": 30,
         "temp_min": 24
       },
       "6": {
@@ -279,9 +279,9 @@
     },
     "2026-02-14": {
       "6": {
-        "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h.",
+        "forecast": "Sunny. Winds south to southwesterly 15 to 25 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": 25
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 32,
+        "temp_min": 25
+      }
+    },
+    "2026-02-15": {
+      "7": {
+        "forecast": "Sunny. Winds south to southwesterly 20 to 30 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 30,
         "temp_min": 25
       }
     }
