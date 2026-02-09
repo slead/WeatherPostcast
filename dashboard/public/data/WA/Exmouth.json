@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-09": {
       "0": {
-        "forecast": "Cloudy. High chance of rain, becoming less likely in the late afternoon and evening. The chance of a thunderstorm in the morning, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds northwesterly 35 to 55 km/h decreasing to 20 to 25 km/h in the late evening.",
-        "icon_code": 12,
-        "precipitation_prob": "70%",
-        "precis": "Rain at times. Windy.",
+        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely later this evening. Winds northwesterly 30 to 45 km/h decreasing to 20 to 25 km/h in the late evening.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Windy.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-02-10": {
       "1": {
-        "forecast": "Partly cloudy. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h before dawn then tending southwesterly in the late afternoon.",
+        "forecast": "Mostly sunny. Winds northwesterly 20 to 25 km/h tending northwest to southwesterly 20 to 30 km/h before dawn then tending southwesterly in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 29,
         "temp_min": 24
       },
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 33,
         "temp_min": 24
+      }
+    },
+    "2026-02-16": {
+      "7": {
+        "forecast": "Sunny. Winds south to southwesterly 25 to 35 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 33,
+        "temp_min": 23
       }
     }
   },

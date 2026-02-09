@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-09": {
       "0": {
-        "forecast": "Partly cloudy. High chance of rain, becoming less likely in the late afternoon and evening. The chance of a thunderstorm in the afternoon and early evening. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late evening.",
-        "icon_code": 12,
-        "precipitation_prob": "70%",
-        "precis": "Rain at times.",
+        "forecast": "Mostly clear. Slight chance of a shower. The chance of a thunderstorm early this evening. Winds northerly 15 to 20 km/h becoming light in the late evening.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly clear.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-10": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-02-11": {
       "2": {
-        "forecast": "The chance of morning fog. Mostly sunny day. Light winds becoming northeasterly 15 to 25 km/h during the day then tending northerly 15 to 20 km/h during the evening.",
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -177,7 +177,7 @@
     },
     "2026-02-12": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northwest to southwesterly 15 to 20 km/h during the morning then tending southerly 25 to 35 km/h during the day.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds north to northwesterly 15 to 20 km/h shifting southerly 25 to 35 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers increasing.",
@@ -219,7 +219,7 @@
     },
     "2026-02-13": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely during the morning. The chance of a thunderstorm later in the day. Winds south to southeasterly 15 to 25 km/h tending east to southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning. Winds south to southeasterly 15 to 25 km/h tending east to southeasterly 15 to 20 km/h during the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -288,6 +288,16 @@
       },
       "7": {
         "forecast": "Cloudy. Medium chance of showers. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 26,
+        "temp_min": 18
+      }
+    },
+    "2026-02-16": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Winds easterly 15 to 20 km/h turning northeasterly later.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
