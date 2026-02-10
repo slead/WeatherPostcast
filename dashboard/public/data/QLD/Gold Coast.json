@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-10": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds becoming east to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-12": {
       "2": {
-        "forecast": "Mostly sunny morning. The chance of morning fog about the hinterland. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the evening. Light winds becoming northwest to northeasterly 15 to 25 km/h during the day then becoming light during the evening.",
+        "forecast": "Mostly sunny morning. The chance of fog about the hinterland in the early morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming northwest to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -284,7 +284,7 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 27,
-        "temp_min": 19
+        "temp_min": 20
       },
       "7": {
         "forecast": "Partly cloudy. High chance of showers. Winds southeasterly 15 to 25 km/h.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 27,
+        "temp_min": 20
+      }
+    },
+    "2026-02-17": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 28,
         "temp_min": 20
       }
     }

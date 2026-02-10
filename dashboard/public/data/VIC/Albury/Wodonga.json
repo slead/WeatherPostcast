@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-10": {
       "0": {
-        "forecast": "Sunny. Winds northwesterly 15 to 20 km/h tending westerly 15 to 25 km/h in the early afternoon then becoming light in the evening.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Winds westerly 15 to 25 km/h becoming light in the evening.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-02-11": {
       "1": {
-        "forecast": "Mostly sunny morning. High chance of showers, most likely in the late afternoon and evening. Light winds becoming northwesterly 20 to 30 km/h in the middle of the day then turning west to southwesterly 15 to 20 km/h in the late evening.",
+        "forecast": "Sunny morning. High chance of showers in the late afternoon and evening. Light winds becoming north to northwesterly 20 to 30 km/h in the middle of the day then shifting south to southwesterly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Late shower or two.",
         "temp_max": 38,
         "temp_min": 16
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-12": {
       "2": {
-        "forecast": "Medium chance of showers in the morning. Sunny day. Winds west to southwesterly 15 to 25 km/h turning south to southeasterly during the evening.",
+        "forecast": "Medium chance of showers in the early morning. Sunny day. Winds westerly 15 to 20 km/h tending southwesterly 20 to 25 km/h in the morning then turning south to southeasterly 15 to 25 km/h in the evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Early shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-02-13": {
       "3": {
-        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h becoming light during the morning.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -291,6 +291,16 @@
         "icon_code": 1,
         "precipitation_prob": "30%",
         "precis": "Sunny.",
+        "temp_max": 34,
+        "temp_min": 17
+      }
+    },
+    "2026-02-17": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 34,
         "temp_min": 17
       }

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-10": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 38,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-11": {
       "1": {
-        "forecast": "Mostly sunny day. Slight chance of a shower, most likely at night. Light winds becoming west to northwesterly 20 to 30 km/h in the morning then turning south to southwesterly 25 to 35 km/h in the evening.",
+        "forecast": "Mostly sunny day. Slight chance of a shower, most likely at night. Light winds becoming northwest to northeasterly 20 to 30 km/h in the morning then tending southerly 25 to 40 km/h in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-02-12": {
       "2": {
-        "forecast": "Slight chance of a shower in the morning. Sunny day. Winds southerly 25 to 35 km/h becoming light during the evening.",
+        "forecast": "Slight chance of a shower in the early morning. Sunny day. Winds southerly 25 to 35 km/h becoming light in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "30%",
         "precis": "Sunny.",
@@ -177,7 +177,7 @@
     },
     "2026-02-13": {
       "3": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h increasing to 15 to 25 km/h during the morning then becoming south to southeasterly and light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-02-14": {
       "4": {
-        "forecast": "Mostly sunny. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then tending easterly during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 37,
         "temp_min": 21
+      }
+    },
+    "2026-02-17": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming west to northwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 37,
+        "temp_min": 22
       }
     }
   },

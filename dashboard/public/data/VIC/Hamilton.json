@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-10": {
       "0": {
-        "forecast": "Sunny. Winds easterly 15 to 20 km/h becoming light in the middle of the day then becoming southeast to southwesterly 15 to 20 km/h in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds south to southwesterly 15 to 20 km/h becoming light in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -69,9 +69,9 @@
     },
     "2026-02-11": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and early evening. Winds north to northwesterly 15 to 20 km/h tending northwest to southwesterly 20 to 30 km/h in the morning then becoming southwesterly 25 to 35 km/h in the late afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and early evening. Winds north to northwesterly 15 to 20 km/h turning westerly 20 to 30 km/h in the morning then tending southwesterly 25 to 35 km/h in the late afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 25,
         "temp_min": 14
@@ -127,12 +127,12 @@
     },
     "2026-02-12": {
       "2": {
-        "forecast": "Cloudy. Winds southwesterly 20 to 30 km/h tending southerly during the day.",
+        "forecast": "Cloudy. Winds southwesterly 25 to 35 km/h tending southerly in the middle of the day then decreasing to 15 to 25 km/h in the late evening.",
         "icon_code": 4,
         "precipitation_prob": "10%",
         "precis": "Cloudy.",
         "temp_max": 19,
-        "temp_min": 8
+        "temp_min": 9
       },
       "3": {
         "forecast": "Cloudy. Winds southwesterly 20 to 30 km/h tending southerly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 34,
         "temp_min": 16
+      }
+    },
+    "2026-02-17": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds north to northwesterly 15 to 25 km/h turning west to southwesterly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 32,
+        "temp_min": 19
       }
     }
   },
