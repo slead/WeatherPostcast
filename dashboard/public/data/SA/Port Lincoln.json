@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-11": {
       "0": {
-        "forecast": "Cloudy. High chance of showers in the late morning and afternoon. Winds southerly 25 to 35 km/h.",
+        "forecast": "Cloudy. Medium chance of showers early this evening. Winds southerly 30 to 35 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two clearing.",
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -129,7 +129,7 @@
       "2": {
         "forecast": "Cloudy. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 4,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Cloudy.",
         "temp_max": 22,
         "temp_min": 15
@@ -253,7 +253,7 @@
     },
     "2026-02-16": {
       "5": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds east to southeasterly 15 to 20 km/h shifting north to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds easterly 15 to 20 km/h shifting north to northwesterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-02-17": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds westerly 15 to 20 km/h tending southwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds easterly 15 to 20 km/h shifting southwesterly 20 to 30 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 28,
         "temp_min": 19
+      }
+    },
+    "2026-02-18": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southwesterly 20 to 25 km/h tending southerly 20 to 30 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 25,
+        "temp_min": 17
       }
     }
   },
