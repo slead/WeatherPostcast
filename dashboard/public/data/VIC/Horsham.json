@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-12": {
       "0": {
-        "forecast": "Partly cloudy. Winds southwesterly 30 to 35 km/h tending southerly 25 to 40 km/h in the middle of the day then decreasing to 20 to 30 km/h in the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "forecast": "Clear. Winds southerly 25 to 35 km/h decreasing to 15 to 25 km/h in the late evening.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-02-13": {
       "1": {
-        "forecast": "Mostly sunny. Winds southerly 15 to 20 km/h tending southeasterly 20 to 30 km/h in the morning.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds southerly 15 to 25 km/h tending southeasterly 20 to 30 km/h in the morning.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 26,
         "temp_min": 7
       },
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 29,
         "temp_min": 16
+      }
+    },
+    "2026-02-19": {
+      "7": {
+        "forecast": "Mostly sunny. Winds southwesterly 15 to 20 km/h tending southerly later.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 30,
+        "temp_min": 12
       }
     }
   },

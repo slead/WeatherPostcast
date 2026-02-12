@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-12": {
       "0": {
-        "forecast": "Sunny. Winds southerly 25 to 35 km/h.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds southerly 20 to 30 km/h decreasing to 15 to 20 km/h in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-13": {
       "1": {
-        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h before dawn then becoming light in the late evening.",
+        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly 20 to 30 km/h before dawn.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-02-14": {
       "2": {
-        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -177,7 +177,7 @@
     },
     "2026-02-15": {
       "3": {
-        "forecast": "Mostly sunny. Winds east to southeasterly 15 to 20 km/h turning northeasterly during the morning then tending easterly during the day.",
+        "forecast": "Mostly sunny. Winds east to southeasterly 15 to 20 km/h turning northeasterly during the morning then tending easterly 15 to 25 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-02-17": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h shifting south to southwesterly 20 to 25 km/h during the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 34,
         "temp_min": 19
+      }
+    },
+    "2026-02-19": {
+      "7": {
+        "forecast": "Sunny. Winds southerly 15 to 20 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 34,
+        "temp_min": 14
       }
     }
   },

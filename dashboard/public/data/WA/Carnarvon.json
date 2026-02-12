@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-12": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 25 km/h turning south to southwesterly 20 to 30 km/h in the early afternoon.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds south to southwesterly 20 to 30 km/h.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-13": {
       "1": {
-        "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h becoming southwesterly 20 to 30 km/h in the early afternoon then tending southerly 20 to 25 km/h in the late evening.",
+        "forecast": "Sunny. Winds southerly 20 to 25 km/h tending southeasterly 15 to 25 km/h before dawn then turning south to southwesterly 20 to 30 km/h in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-02-15": {
       "3": {
-        "forecast": "Cloud clearing. Winds southerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds southerly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 22
       },
@@ -253,7 +253,7 @@
     },
     "2026-02-17": {
       "5": {
-        "forecast": "Sunny. Winds southerly 25 to 35 km/h.",
+        "forecast": "Sunny. Winds southeast to southwesterly 25 to 35 km/h.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 36,
         "temp_min": 25
+      }
+    },
+    "2026-02-19": {
+      "7": {
+        "forecast": "Mostly sunny. Winds southeast to southwesterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 37,
+        "temp_min": 27
       }
     }
   },
