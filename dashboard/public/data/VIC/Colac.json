@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": null
@@ -127,11 +127,11 @@
     },
     "2026-02-15": {
       "2": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds becoming easterly 15 to 20 km/h during the evening.",
+        "forecast": "The chance of fog in the early morning. Sunny day. Light winds becoming easterly 15 to 20 km/h in the evening then becoming light in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 28,
+        "temp_max": 29,
         "temp_min": 12
       },
       "3": {
@@ -219,7 +219,7 @@
     },
     "2026-02-17": {
       "4": {
-        "forecast": "Sunny morning. High chance of showers, most likely later in the day. The chance of a thunderstorm later in the day. Winds north to northeasterly 15 to 20 km/h turning west to northwesterly 15 to 25 km/h during the day.",
+        "forecast": "Sunny morning. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming north to northwesterly 25 to 35 km/h during the morning then tending northwest to southwesterly 15 to 25 km/h during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers increasing.",
@@ -279,7 +279,7 @@
     },
     "2026-02-19": {
       "6": {
-        "forecast": "Cloudy. Slight chance of a shower during the morning. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 12
+      }
+    },
+    "2026-02-20": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 27,
+        "temp_min": 11
       }
     }
   },

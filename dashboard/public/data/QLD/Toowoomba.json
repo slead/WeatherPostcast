@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-13": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late morning and afternoon, possibly severe with heavy rain which may lead to flash flooding. Winds east to southeasterly 30 to 45 km/h.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening. Winds easterly 30 to 45 km/h.",
         "icon_code": 12,
         "precipitation_prob": "90%",
-        "precis": "Rain. Becoming windy.",
+        "precis": "Rain. Windy.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-02-14": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. Winds easterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of rain. Winds easterly 25 to 40 km/h.",
         "icon_code": 12,
         "precipitation_prob": "90%",
         "precis": "Rain.",
-        "temp_max": 21,
+        "temp_max": 19,
         "temp_min": 18
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-02-15": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Winds easterly 25 to 40 km/h.",
+        "forecast": "Cloudy. Very high chance of rain. Winds easterly 25 to 40 km/h.",
         "icon_code": 12,
         "precipitation_prob": "90%",
         "precis": "Rain.",
@@ -177,7 +177,7 @@
     },
     "2026-02-16": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds easterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds easterly 25 to 40 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 28,
         "temp_min": 16
+      }
+    },
+    "2026-02-20": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds easterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 29,
+        "temp_min": 17
       }
     }
   },
