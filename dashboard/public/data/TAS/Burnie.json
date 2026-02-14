@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-14": {
       "0": {
-        "forecast": "Partly cloudy. Winds easterly 20 to 25 km/h turning north to northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds northerly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-15": {
       "1": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 25 km/h turning east to northeasterly 20 to 25 km/h in the late morning and early afternoon.",
+        "forecast": "Mostly sunny. Winds southeasterly 15 to 25 km/h tending easterly 20 to 25 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-02-16": {
       "2": {
-        "forecast": "Partly cloudy. Winds easterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds easterly 25 to 30 km/h tending southeasterly in the early morning then tending northeast to southeasterly 25 to 35 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-02-18": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds westerly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds westerly 25 to 40 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 22,
+        "temp_min": 12
+      }
+    },
+    "2026-02-21": {
+      "7": {
+        "forecast": "Mostly sunny. Winds northwest to southwesterly 15 to 25 km/h becoming southwesterly 15 to 20 km/h later.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 23,
         "temp_min": 12
       }
     }

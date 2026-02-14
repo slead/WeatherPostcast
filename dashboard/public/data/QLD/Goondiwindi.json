@@ -5,8 +5,8 @@
       "0": {
         "forecast": "Cloudy. High chance of showers. Winds easterly 15 to 25 km/h becoming light in the late evening.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -73,7 +73,7 @@
         "icon_code": 12,
         "precipitation_prob": "90%",
         "precis": "Rain.",
-        "temp_max": 23,
+        "temp_max": 22,
         "temp_min": 18
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-02-16": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Light winds becoming northeast to southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h in the early morning then tending easterly in the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-02-18": {
       "4": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -253,9 +253,9 @@
     },
     "2026-02-19": {
       "5": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 35,
         "temp_min": 20
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 37,
         "temp_min": 22
+      }
+    },
+    "2026-02-21": {
+      "7": {
+        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Winds northeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 35,
+        "temp_min": 20
       }
     }
   },

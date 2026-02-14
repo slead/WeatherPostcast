@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Sunny. Winds southwesterly 25 to 40 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": null
@@ -177,10 +177,10 @@
     },
     "2026-02-17": {
       "3": {
-        "forecast": "Sunny. Winds south to southwesterly 25 to 40 km/h.",
-        "icon_code": 1,
+        "forecast": "Sunny. Winds south to southwesterly 30 to 45 km/h.",
+        "icon_code": 9,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Becoming windy. Sunny.",
         "temp_max": 37,
         "temp_min": 23
       },
@@ -219,7 +219,7 @@
     },
     "2026-02-18": {
       "4": {
-        "forecast": "Mostly sunny. Winds south to southeasterly 25 to 35 km/h tending northwest to southwesterly 20 to 30 km/h during the day.",
+        "forecast": "Mostly sunny. Winds south to southeasterly 25 to 35 km/h tending northwest to northeasterly 20 to 30 km/h during the day then tending northwest to southwesterly during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-02-20": {
       "6": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely later in the day. Winds west to southwesterly 20 to 30 km/h.",
+        "forecast": "Mostly sunny morning. Medium chance of showers, most likely later in the day. Winds southwesterly 20 to 25 km/h shifting east to southeasterly 20 to 30 km/h during the morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 33,
+        "temp_min": 25
+      }
+    },
+    "2026-02-21": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southeast to southwesterly 15 to 20 km/h becoming southwesterly 20 to 30 km/h during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 32,
         "temp_min": 25
       }
     }
