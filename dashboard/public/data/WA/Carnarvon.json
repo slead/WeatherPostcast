@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-15": {
       "0": {
-        "forecast": "Partly cloudy. Winds southeast to southwesterly 25 to 35 km/h becoming southwesterly 30 to 35 km/h in the late afternoon then tending southerly 25 to 35 km/h in the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "forecast": "Sunny. Winds south to southwesterly 25 to 35 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -177,7 +177,7 @@
     },
     "2026-02-18": {
       "3": {
-        "forecast": "Sunny. Winds south to southeasterly 20 to 30 km/h tending northeast to southeasterly 15 to 25 km/h during the morning then tending southeast to southwesterly during the afternoon.",
+        "forecast": "Sunny. Winds south to southeasterly 20 to 30 km/h tending northeast to southeasterly during the morning then tending southeast to southwesterly during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-02-19": {
       "4": {
-        "forecast": "Sunny. Winds east to southeasterly 15 to 20 km/h turning south to southwesterly 25 to 30 km/h during the day.",
+        "forecast": "Sunny. Winds south to southeasterly 15 to 25 km/h tending east to southeasterly 15 to 20 km/h during the morning then turning south to southwesterly 25 to 35 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-02-21": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds southeast to southwesterly 15 to 25 km/h.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds southeast to southwesterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 34,
+        "temp_min": 25
+      }
+    },
+    "2026-02-22": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds south to southwesterly 20 to 30 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
+        "temp_max": 32,
         "temp_min": 25
       }
     }
