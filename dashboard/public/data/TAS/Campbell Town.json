@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-16": {
       "0": {
-        "forecast": "Sunny. Winds north to northwesterly 15 to 25 km/h.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northwesterly 15 to 25 km/h tending northerly 15 to 20 km/h in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Mostly sunny day. Very high chance of showers in the late afternoon and evening. The chance of a thunderstorm in the evening. Winds northerly 15 to 20 km/h tending northwesterly 25 to 35 km/h in the morning.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Late showers.",
         "temp_max": 29,
         "temp_min": 11
@@ -127,7 +127,7 @@
     },
     "2026-02-18": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 15 to 20 km/h becoming light before dawn then becoming northwesterly 25 to 35 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-02-20": {
       "4": {
-        "forecast": "Mostly sunny. The chance of morning fog. Light winds becoming north to northwesterly 25 to 35 km/h during the day.",
+        "forecast": "The chance of morning fog. Sunny day. Light winds becoming north to northwesterly 25 to 35 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-02-21": {
       "5": {
-        "forecast": "Cloud clearing. Winds north to northwesterly 15 to 25 km/h.",
+        "forecast": "Cloud clearing. Winds northerly 15 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Cloud clearing.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 9
+      }
+    },
+    "2026-02-23": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds north to northwesterly 15 to 20 km/h tending west to northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 22,
+        "temp_min": 10
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-16": {
       "0": {
-        "forecast": "Mostly sunny. The chance of a thunderstorm in the late afternoon and evening. Winds northerly 20 to 30 km/h tending northeasterly 15 to 20 km/h in the evening.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. The chance of a thunderstorm early this evening. Winds northerly 15 to 25 km/h tending northeasterly 15 to 20 km/h in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 35,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-02-17": {
       "1": {
-        "forecast": "Mostly sunny morning. Very high chance of showers in the afternoon and early evening. A thunderstorm likely in the afternoon and early evening. Winds north to northeasterly 25 to 40 km/h turning northwesterly 30 to 40 km/h in the middle of the day then tending northwest to southwesterly 25 to 40 km/h in the early afternoon.",
+        "forecast": "Mostly sunny morning. Very high chance of showers in the afternoon and early evening. A thunderstorm likely in the afternoon and early evening, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds north to northeasterly 20 to 30 km/h tending north to northwesterly 30 to 45 km/h in the early morning then tending northwest to southwesterly in the early afternoon.",
         "icon_code": 16,
         "precipitation_prob": "90%",
         "precis": "Showers. Storm developing.",
         "temp_max": 32,
-        "temp_min": 21
+        "temp_min": 22
       },
       "2": {
         "forecast": "Mostly sunny morning. Very high chance of showers in the afternoon and early evening. The chance of a thunderstorm in the afternoon and early evening. Winds north to northeasterly 25 to 40 km/h turning northwesterly 30 to 40 km/h in the middle of the day then tending northwest to southwesterly 25 to 40 km/h in the early afternoon.",
@@ -127,7 +127,7 @@
     },
     "2026-02-18": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming westerly 20 to 30 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h becoming light before dawn then becoming west to southwesterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -177,7 +177,7 @@
     },
     "2026-02-19": {
       "3": {
-        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h during the morning then tending southeast to southwesterly during the afternoon.",
+        "forecast": "Partly cloudy. Winds westerly 15 to 20 km/h tending southwesterly during the morning then tending southeast to southwesterly 15 to 25 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-02-20": {
       "4": {
-        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Sunny. Light winds becoming northwest to northeasterly 15 to 25 km/h during the morning then tending south to southwesterly 20 to 30 km/h during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Partly cloudy. Slight chance of a shower later in the day. Light winds becoming westerly 15 to 20 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 11
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 29,
         "temp_min": 13
+      }
+    },
+    "2026-02-23": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Winds southwesterly 15 to 25 km/h tending southerly later.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 24,
+        "temp_min": 12
       }
     }
   },

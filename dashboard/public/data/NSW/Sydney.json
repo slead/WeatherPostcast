@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-16": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower, becoming less likely in the afternoon. Winds east to southeasterly 15 to 20 km/h becoming light in the late evening.",
+        "forecast": "Mostly clear. Winds east to southeasterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "10%",
+        "precis": "Mostly clear.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-02-17": {
       "1": {
-        "forecast": "Mostly sunny. The chance of fog in the early morning, mainly in the west. Light winds becoming northeasterly 20 to 30 km/h in the early afternoon then tending northerly 15 to 20 km/h in the late evening.",
+        "forecast": "Mostly sunny. The chance of fog in the early morning, mainly in the west. Light winds becoming northeasterly 15 to 25 km/h in the early afternoon then tending northerly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-02-18": {
       "2": {
-        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the outer west in the afternoon and evening. Winds west to northwesterly 15 to 25 km/h shifting south to southeasterly 20 to 30 km/h during the afternoon.",
+        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the west in the late afternoon and evening. Winds west to northwesterly 15 to 25 km/h shifting south to southeasterly 20 to 30 km/h in the early afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower developing.",
@@ -177,7 +177,7 @@
     },
     "2026-02-19": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon. Winds southerly 15 to 20 km/h becoming light during the morning then becoming easterly 15 to 20 km/h during the afternoon.",
+        "forecast": "Cloudy. Medium chance of showers. Winds southerly 15 to 20 km/h becoming light during the morning then becoming easterly 15 to 25 km/h during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-02-20": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds east to northeasterly 15 to 20 km/h increasing to 25 km/h before tending north to northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower in the morning and afternoon. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 20 to 30 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-02-21": {
       "5": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds northwest to northeasterly 15 to 20 km/h tending easterly during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 32,
         "temp_min": 22
+      }
+    },
+    "2026-02-23": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds north to northeasterly 15 to 25 km/h shifting southeasterly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 32,
+        "temp_min": 23
       }
     }
   },

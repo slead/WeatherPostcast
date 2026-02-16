@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-16": {
       "0": {
-        "forecast": "Cloudy. High chance of showers. A thunderstorm likely in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Light winds.",
+        "forecast": "Cloudy. High chance of showers. A thunderstorm likely, possibly severe with heavy rain which may lead to flash flooding. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "80%",
-        "precis": "Showers. Storm developing.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Storm.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-18": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely in the afternoon and evening. Light winds.",
+        "forecast": "Cloudy. High chance of showers, most likely in the late morning and afternoon. A thunderstorm likely in the afternoon and evening. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Storm developing.",
@@ -219,10 +219,10 @@
     },
     "2026-02-20": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm later in the day. Light winds.",
-        "icon_code": 16,
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "icon_code": 11,
         "precipitation_prob": "80%",
-        "precis": "Showers. Possible storm.",
+        "precis": "Showers.",
         "temp_max": 28,
         "temp_min": 22
       },
@@ -291,6 +291,16 @@
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
+        "temp_max": 31,
+        "temp_min": 21
+      }
+    },
+    "2026-02-23": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 31,
         "temp_min": 21
       }
