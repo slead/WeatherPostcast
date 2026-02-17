@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-02-17": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Winds easterly 25 to 35 km/h tending east to northeasterly 15 to 25 km/h in the early afternoon then shifting westerly 25 to 30 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers, becoming less likely later tonight. The chance of a thunderstorm. Winds east to northeasterly 15 to 20 km/h shifting westerly 25 to 30 km/h in the late evening.",
         "icon_code": 16,
         "precipitation_prob": "95%",
         "precis": "Showers. Possible storm.",
@@ -127,11 +127,11 @@
     },
     "2026-02-19": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 25 to 40 km/h tending southwesterly 15 to 25 km/h during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 25 to 40 km/h tending southwesterly 20 to 30 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 21,
+        "temp_max": 22,
         "temp_min": 13
       },
       "3": {
@@ -219,7 +219,7 @@
     },
     "2026-02-21": {
       "4": {
-        "forecast": "Sunny. Winds northwest to southwesterly 15 to 25 km/h tending northwest to northeasterly during the day.",
+        "forecast": "Sunny. Winds northwest to southwesterly 15 to 25 km/h tending northwest to northeasterly during the day then tending east to northeasterly 15 to 20 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -253,9 +253,9 @@
     },
     "2026-02-22": {
       "5": {
-        "forecast": "Partly cloudy. Very high chance of showers. Winds east to southeasterly 15 to 25 km/h shifting northwesterly 20 to 25 km/h later.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds east to southeasterly 15 to 25 km/h shifting north to northwesterly 20 to 25 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers increasing.",
         "temp_max": 23,
         "temp_min": 12
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": 12
+      }
+    },
+    "2026-02-24": {
+      "7": {
+        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h tending northwest to southwesterly 20 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
+        "temp_min": 9
       }
     }
   },

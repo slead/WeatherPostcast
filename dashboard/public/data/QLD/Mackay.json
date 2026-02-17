@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-02-17": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. Winds southeasterly 25 to 30 km/h tending easterly 20 to 30 km/h in the early afternoon.",
+        "forecast": "Cloudy. High chance of showers. Winds easterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 29,
         "temp_min": null
@@ -69,10 +69,10 @@
     },
     "2026-02-18": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm at night. Winds easterly 15 to 25 km/h becoming light in the evening.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds northeast to southeasterly 15 to 25 km/h becoming northeasterly 15 to 20 km/h in the early afternoon then tending easterly in the late afternoon.",
+        "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 28,
         "temp_min": 24
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-19": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening. Light winds becoming easterly 15 to 20 km/h during the afternoon then tending southeasterly during the evening.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening. Light winds becoming easterly 15 to 20 km/h in the early afternoon.",
         "icon_code": 16,
         "precipitation_prob": "90%",
         "precis": "Showers. Possible late storm.",
@@ -177,7 +177,7 @@
     },
     "2026-02-20": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Winds southeasterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers easing.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 30,
         "temp_min": 23
+      }
+    },
+    "2026-02-24": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 30,
+        "temp_min": 24
       }
     }
   },

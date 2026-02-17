@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-17": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower about the hinterland in the late morning and afternoon. Near zero chance of rain elsewhere. Winds east to southeasterly 15 to 20 km/h becoming light in the evening.",
+        "forecast": "Mostly clear. Winds east to southeasterly 15 to 20 km/h becoming light in the late evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -127,9 +127,9 @@
     },
     "2026-02-19": {
       "2": {
-        "forecast": "Mostly sunny. The chance of morning fog about the hinterland. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Sunny. The chance of fog about the hinterland in the early morning. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 32,
         "temp_min": 20
@@ -177,7 +177,7 @@
     },
     "2026-02-20": {
       "3": {
-        "forecast": "Mostly sunny. The chance of morning fog about the hinterland. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny. The chance of morning fog about the hinterland. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -219,12 +219,12 @@
     },
     "2026-02-21": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. The chance of morning fog about the hinterland. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
         "temp_max": 30,
-        "temp_min": 21
+        "temp_min": 20
       },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds becoming easterly 15 to 20 km/h during the day.",
@@ -253,7 +253,7 @@
     },
     "2026-02-22": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming easterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds becoming easterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 30,
+        "temp_min": 20
+      }
+    },
+    "2026-02-24": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 29,
         "temp_min": 20
       }
     }
