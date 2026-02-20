@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-20": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -127,11 +127,11 @@
     },
     "2026-02-22": {
       "2": {
-        "forecast": "Mostly sunny morning. Very high chance of showers in the afternoon and evening. The chance of a thunderstorm in the evening. Light winds.",
+        "forecast": "Mostly sunny morning. Very high chance of showers in the afternoon and evening. The chance of a thunderstorm at night. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers developing.",
-        "temp_max": 34,
+        "temp_max": 35,
         "temp_min": 13
       },
       "3": {
@@ -177,10 +177,10 @@
     },
     "2026-02-23": {
       "3": {
-        "forecast": "Cloudy. High chance of showers in the morning. The chance of a thunderstorm in the morning. Winds southwesterly 15 to 20 km/h becoming light during the morning.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds west to southwesterly 15 to 20 km/h becoming light during the morning.",
         "icon_code": 11,
         "precipitation_prob": "80%",
-        "precis": "Morning showers.",
+        "precis": "Showers easing.",
         "temp_max": 21,
         "temp_min": 14
       },
@@ -219,10 +219,10 @@
     },
     "2026-02-24": {
       "4": {
-        "forecast": "Sunny morning. Medium chance of showers later in the day. The chance of a thunderstorm later in the day. Light winds.",
-        "icon_code": 11,
+        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Shower or two developing.",
+        "precis": "Showers. Storm developing.",
         "temp_max": 30,
         "temp_min": 12
       },
@@ -258,7 +258,7 @@
         "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 20,
-        "temp_min": 16
+        "temp_min": 15
       },
       "6": {
         "forecast": "Cloudy. High chance of showers, most likely during the morning. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 23,
         "temp_min": 13
+      }
+    },
+    "2026-02-27": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 12
       }
     }
   },
