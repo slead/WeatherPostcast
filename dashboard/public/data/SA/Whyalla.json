@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-02-21": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower in the evening. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h in the middle of the day then turning south to southeasterly 20 to 25 km/h in the evening.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely later tonight. Winds easterly 20 to 25 km/h turning southerly in the evening.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -69,12 +69,12 @@
     },
     "2026-02-22": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Winds southerly 25 to 40 km/h.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and early afternoon, possibly severe with heavy rain which may lead to flash flooding. Winds south to southwesterly 15 to 25 km/h becoming light before dawn then becoming southerly 30 to 45 km/h in the early morning.",
         "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Rain.",
+        "precis": "Rain. Becoming windy.",
         "temp_max": 26,
-        "temp_min": 21
+        "temp_min": 20
       },
       "2": {
         "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Winds southerly 25 to 40 km/h.",
@@ -127,7 +127,7 @@
     },
     "2026-02-23": {
       "2": {
-        "forecast": "Cloud clearing. Winds southeast to southwesterly 25 to 40 km/h.",
+        "forecast": "Cloud clearing. Winds southeast to southwesterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
@@ -177,7 +177,7 @@
     },
     "2026-02-24": {
       "3": {
-        "forecast": "Cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon. Winds southerly 30 to 45 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southerly 30 to 45 km/h.",
         "icon_code": 9,
         "precipitation_prob": "20%",
         "precis": "Becoming windy. Cloudy.",
@@ -219,9 +219,9 @@
     },
     "2026-02-25": {
       "4": {
-        "forecast": "Cloudy. Winds southerly 30 to 40 km/h.",
+        "forecast": "Cloudy. Winds southerly 30 to 45 km/h.",
         "icon_code": 9,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Becoming windy. Cloudy.",
         "temp_max": 27,
         "temp_min": 18
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Partly cloudy. Winds southerly 25 to 35 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 29,
         "temp_min": 21
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
+        "temp_max": 31,
+        "temp_min": 22
+      }
+    },
+    "2026-02-28": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 15 to 25 km/h tending easterly later.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 31,
         "temp_min": 22
       }

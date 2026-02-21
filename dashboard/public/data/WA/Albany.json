@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-02-21": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the afternoon. Winds southwesterly 25 to 40 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 25 to 40 km/h.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 21,
         "temp_min": null
@@ -127,7 +127,7 @@
     },
     "2026-02-23": {
       "2": {
-        "forecast": "Sunny. Light winds becoming south to southeasterly 15 to 25 km/h during the day then becoming light during the evening.",
+        "forecast": "Sunny. Light winds becoming south to southeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-02-26": {
       "5": {
-        "forecast": "Mostly sunny. Winds northeasterly 15 to 25 km/h turning east to southeasterly 25 to 35 km/h during the morning.",
+        "forecast": "Mostly sunny. Winds east to northeasterly 15 to 25 km/h turning south to southeasterly 25 to 35 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-02-27": {
       "6": {
-        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h tending southwesterly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Winds northeasterly 15 to 20 km/h shifting southerly 20 to 30 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 27,
+        "temp_min": 18
+      }
+    },
+    "2026-02-28": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to southwesterly 25 to 35 km/h turning southerly 25 to 40 km/h later.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 22,
         "temp_min": 18
       }
     }

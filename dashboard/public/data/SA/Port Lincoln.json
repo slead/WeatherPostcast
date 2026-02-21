@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-02-21": {
       "0": {
-        "forecast": "Becoming cloudy. Medium chance of showers, most likely in the evening. Winds easterly 15 to 20 km/h tending northeasterly in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Cloudy. Medium chance of showers, most likely later this evening. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -69,9 +69,9 @@
     },
     "2026-02-22": {
       "1": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and early afternoon. The chance of a thunderstorm in the morning. Light winds becoming southwesterly 20 to 30 km/h in the morning then tending southerly 25 to 35 km/h in the early afternoon.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and early afternoon. The chance of a thunderstorm in the morning. Winds northwest to southwesterly 15 to 20 km/h becoming southwesterly 15 to 25 km/h in the morning then tending southerly 25 to 35 km/h in the middle of the day.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 25,
         "temp_min": 20
@@ -127,7 +127,7 @@
     },
     "2026-02-23": {
       "2": {
-        "forecast": "Partly cloudy. Winds southerly 20 to 25 km/h tending southeasterly during the morning.",
+        "forecast": "Partly cloudy. Winds southeasterly 20 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 28,
         "temp_min": 19
+      }
+    },
+    "2026-02-28": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 28,
+        "temp_min": 20
       }
     }
   },

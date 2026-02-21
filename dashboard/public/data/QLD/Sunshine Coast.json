@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-21": {
       "0": {
-        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the evening.",
+        "forecast": "Mostly clear. Slight chance of a shower in the north, near zero chance elsewhere. Winds easterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "10%",
+        "precis": "Mostly clear.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-23": {
       "2": {
-        "forecast": "Partly cloudy. The chance of morning fog about the hinterland. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. The chance of fog about the hinterland in the early morning. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -255,8 +255,8 @@
       "5": {
         "forecast": "Cloudy. High chance of showers. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 29,
         "temp_min": 21
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 27,
+        "temp_min": 21
+      }
+    },
+    "2026-02-28": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 28,
         "temp_min": 21
       }
     }
