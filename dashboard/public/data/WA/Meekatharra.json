@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-02-22": {
       "0": {
-        "forecast": "Mostly sunny. Winds east to southeasterly 20 to 30 km/h becoming light in the middle of the day then becoming east to southeasterly 20 to 30 km/h in the late afternoon.",
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 25 km/h in the late afternoon then tending easterly 25 to 30 km/h in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
         "temp_max": 39,
         "temp_min": null
@@ -69,10 +69,10 @@
     },
     "2026-02-23": {
       "1": {
-        "forecast": "Mostly sunny. Winds east to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late evening.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds east to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late evening.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 38,
         "temp_min": 24
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-24": {
       "2": {
-        "forecast": "Mostly sunny. Winds east to northeasterly 20 to 30 km/h tending east to southeasterly 20 to 25 km/h during the afternoon.",
+        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h tending northeasterly 20 to 30 km/h before dawn then turning east to southeasterly in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 38,
         "temp_min": 23
+      }
+    },
+    "2026-03-01": {
+      "7": {
+        "forecast": "Sunny. Winds east to southeasterly 20 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 37,
+        "temp_min": 22
       }
     }
   },

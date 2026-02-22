@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-22": {
       "0": {
-        "forecast": "Mostly sunny. Slight chance of a shower, most likely at night. Winds northeasterly 15 to 20 km/h becoming light in the evening.",
+        "forecast": "Mostly clear. Slight chance of a shower, most likely later tonight. Winds northeasterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 29,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-24": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the evening. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the evening. Light winds becoming east to southeasterly 15 to 25 km/h in the morning then becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 28,
+        "temp_min": 21
+      }
+    },
+    "2026-03-01": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds south to southeasterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 27,
         "temp_min": 21
       }
     }

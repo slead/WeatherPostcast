@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-22": {
       "0": {
-        "forecast": "Cloudy. Winds southerly 15 to 20 km/h becoming light in the morning.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 19,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-02-24": {
       "2": {
-        "forecast": "Partly cloudy. Winds east to southeasterly and light becoming easterly 15 to 25 km/h during the morning then increasing to 25 to 35 km/h during the day.",
+        "forecast": "Cloud clearing. Winds easterly 20 to 30 km/h increasing to 30 to 35 km/h in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloud clearing.",
         "temp_max": 23,
         "temp_min": 16
       },
@@ -177,9 +177,9 @@
     },
     "2026-02-25": {
       "3": {
-        "forecast": "Cloud clearing. Winds easterly 30 to 45 km/h decreasing to 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon. Winds easterly 25 to 40 km/h.",
         "icon_code": 9,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Becoming windy. Partly cloudy.",
         "temp_max": 28,
         "temp_min": 19
@@ -219,7 +219,7 @@
     },
     "2026-02-26": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm during the morning. Winds west to northwesterly 15 to 20 km/h shifting southerly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the morning. Winds northeasterly 15 to 20 km/h tending northwest to southwesterly during the morning then tending southeast to southwesterly 15 to 25 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -253,9 +253,9 @@
     },
     "2026-02-27": {
       "5": {
-        "forecast": "Partly cloudy. Winds northeast to southeasterly 25 to 35 km/h tending north to northeasterly 20 to 25 km/h later.",
+        "forecast": "Partly cloudy. Winds northeast to southeasterly 25 to 35 km/h tending north to northeasterly 15 to 20 km/h later.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 31,
         "temp_min": 17
@@ -279,7 +279,7 @@
     },
     "2026-02-28": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 15 to 20 km/h shifting south to southwesterly 25 to 40 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 15 to 20 km/h shifting south to southwesterly 30 to 45 km/h during the day.",
         "icon_code": 9,
         "precipitation_prob": "30%",
         "precis": "Becoming windy. Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 18
+      }
+    },
+    "2026-03-01": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southerly 20 to 30 km/h tending southeasterly 15 to 25 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
+        "temp_min": 15
       }
     }
   },
