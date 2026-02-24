@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-24": {
       "0": {
-        "forecast": "Mostly sunny. Light winds becoming south to southwesterly 15 to 25 km/h in the early afternoon then becoming light in the late evening.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds south to southwesterly 15 to 25 km/h becoming light in the late evening.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-02-26": {
       "2": {
-        "forecast": "Cloudy. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then tending easterly during the evening.",
+        "forecast": "Cloudy. Light winds becoming southeasterly 15 to 20 km/h in the early afternoon then tending easterly in the evening.",
         "icon_code": 4,
         "precipitation_prob": "5%",
         "precis": "Cloudy.",
@@ -279,12 +279,12 @@
     },
     "2026-03-02": {
       "6": {
-        "forecast": "Cloudy. High chance of showers. Winds north to northeasterly 15 to 25 km/h tending north to northwesterly during the day.",
+        "forecast": "Cloudy. High chance of showers. Winds northerly 15 to 25 km/h turning northwesterly 15 to 20 km/h later.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 26,
-        "temp_min": 18
+        "temp_min": 17
       },
       "7": {
         "forecast": "Cloudy. High chance of showers. Winds northerly 15 to 25 km/h turning west to northwesterly 15 to 20 km/h later.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 28,
+        "temp_min": 17
+      }
+    },
+    "2026-03-03": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds northwest to northeasterly 15 to 20 km/h tending southeast to southwesterly 15 to 25 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 26,
         "temp_min": 17
       }
     }
