@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-02-26": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "20%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
-        "temp_min": 10
+        "temp_min": 9
       },
       "2": {
         "forecast": "Partly cloudy. Light winds.",
@@ -127,10 +127,10 @@
     },
     "2026-02-28": {
       "2": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 9
       },
@@ -219,11 +219,11 @@
     },
     "2026-03-02": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 30 km/h tending northerly 15 to 20 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northeasterly 20 to 30 km/h tending northerly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
-        "temp_max": 22,
+        "temp_max": 23,
         "temp_min": 17
       },
       "5": {
@@ -258,7 +258,7 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 22,
-        "temp_min": 13
+        "temp_min": 14
       },
       "6": {
         "forecast": "Cloudy. High chance of showers. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 21,
         "temp_min": 12
+      }
+    },
+    "2026-03-05": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds northwesterly 15 to 25 km/h tending westerly during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 20,
+        "temp_min": 11
       }
     }
   },
