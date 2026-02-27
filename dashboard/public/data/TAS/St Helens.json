@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-02-27": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely at night. Winds northeasterly 15 to 20 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely later tonight. Winds northeasterly 15 to 20 km/h.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-03-01": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers. Winds northeasterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely at night. Winds northeasterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-03-02": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northerly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Winds northerly 15 to 25 km/h becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-03-03": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Light winds becoming southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the day then becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -279,7 +279,7 @@
     },
     "2026-03-05": {
       "6": {
-        "forecast": "Mostly sunny. Light winds becoming northwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Mostly sunny. Winds northwesterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Cloud clearing.",
         "temp_max": 26,
+        "temp_min": 13
+      }
+    },
+    "2026-03-06": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds west to northwesterly 15 to 20 km/h shifting northeasterly during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 24,
         "temp_min": 13
       }
     }
