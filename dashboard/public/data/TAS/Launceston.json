@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-01": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the evening. Winds north to northeasterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely later this evening. Winds north to northeasterly 25 to 35 km/h decreasing to 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -69,7 +69,7 @@
     },
     "2026-03-02": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and early afternoon. Winds north to northeasterly 15 to 20 km/h becoming light in the morning then becoming northerly 15 to 20 km/h in the middle of the day.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and early afternoon. Winds northerly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 12,
         "precipitation_prob": "95%",
         "precis": "Rain.",
@@ -127,7 +127,7 @@
     },
     "2026-03-03": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the early morning. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -221,7 +221,7 @@
       "4": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 15 to 20 km/h tending northwesterly 25 to 35 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 12
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 25,
+        "temp_max": 24,
         "temp_min": 9
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 24,
         "temp_min": 9
+      }
+    },
+    "2026-03-08": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 25,
+        "temp_min": 10
       }
     }
   },

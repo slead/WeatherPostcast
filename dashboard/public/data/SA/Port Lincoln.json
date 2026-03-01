@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-01": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds south to southwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 25 to 35 km/h tending southerly in the evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -69,7 +69,7 @@
     },
     "2026-03-02": {
       "1": {
-        "forecast": "Cloudy. Slight chance of a shower in the early morning. Winds southerly 25 to 30 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower in the early morning. Winds southerly 20 to 30 km/h.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-03-03": {
       "2": {
-        "forecast": "Cloudy. Winds southeasterly 15 to 25 km/h tending southerly 20 to 25 km/h during the afternoon.",
+        "forecast": "Cloudy. Winds south to southeasterly 15 to 25 km/h.",
         "icon_code": 4,
         "precipitation_prob": "5%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 17
+      }
+    },
+    "2026-03-08": {
+      "7": {
+        "forecast": "Sunny. Winds east to southeasterly 15 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 27,
+        "temp_min": 16
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-01": {
       "0": {
-        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the evening then becoming northeasterly 15 to 20 km/h in the late evening.",
+        "forecast": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening then becoming northeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-02": {
       "1": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 25 km/h in the morning.",
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 25 km/h in the morning then tending northeasterly 15 to 20 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -127,9 +127,9 @@
     },
     "2026-03-03": {
       "2": {
-        "forecast": "Partly cloudy. Winds northeast to southeasterly 15 to 20 km/h tending northeasterly during the evening.",
+        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h tending southeasterly in the early morning then tending northeast to southeasterly in the morning.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 21
@@ -293,6 +293,16 @@
         "precis": "Shower or two. Possible storm.",
         "temp_max": 31,
         "temp_min": 23
+      }
+    },
+    "2026-03-08": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds east to southeasterly 15 to 20 km/h.",
+        "icon_code": 16,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
+        "temp_max": 32,
+        "temp_min": 21
       }
     }
   },

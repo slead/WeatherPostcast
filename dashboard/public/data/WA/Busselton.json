@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-01": {
       "0": {
-        "forecast": "Cloudy. Light winds becoming southwesterly 15 to 20 km/h in the early afternoon then tending southerly 15 to 25 km/h in the late afternoon.",
-        "icon_code": 4,
-        "precipitation_prob": "5%",
-        "precis": "Cloudy.",
+        "forecast": "Mostly sunny. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h in the late afternoon then becoming light in the late evening.",
+        "icon_code": 3,
+        "precipitation_prob": "0%",
+        "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -253,12 +253,12 @@
     },
     "2026-03-06": {
       "5": {
-        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h turning east to northeasterly during the morning.",
+        "forecast": "Sunny. Winds northeast to southeasterly 15 to 20 km/h tending northwest to southwesterly during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 34,
-        "temp_min": 17
+        "temp_min": 16
       },
       "6": {
         "forecast": "Sunny. Winds east to southeasterly 15 to 25 km/h tending southeast to southwesterly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 33,
         "temp_min": 17
+      }
+    },
+    "2026-03-08": {
+      "7": {
+        "forecast": "Partly cloudy. Winds south to southeasterly 25 to 35 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 30,
+        "temp_min": 15
       }
     }
   },
