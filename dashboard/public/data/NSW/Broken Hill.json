@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-02": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm in the evening. Winds southwesterly 25 to 30 km/h tending southerly 25 to 35 km/h in the late afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "forecast": "Cloudy. Slight chance of a shower, becoming less likely later tonight. The chance of a thunderstorm later this evening. Winds southerly 25 to 35 km/h decreasing to 20 to 25 km/h in the late evening.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-04": {
       "2": {
-        "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -279,9 +279,9 @@
     },
     "2026-03-08": {
       "6": {
-        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h tending southerly during the day.",
+        "forecast": "Sunny. Winds south to southeasterly 15 to 25 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 16
@@ -292,6 +292,16 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
+        "temp_min": 17
+      }
+    },
+    "2026-03-09": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming south to southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 30,
         "temp_min": 17
       }
     }

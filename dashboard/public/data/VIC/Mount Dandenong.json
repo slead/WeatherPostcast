@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-02": {
       "0": {
-        "forecast": "Cloudy. High chance of rain, becoming less likely in the late afternoon and evening. Winds north to northwesterly 15 to 25 km/h becoming light in the late afternoon.",
-        "icon_code": 12,
-        "precipitation_prob": "80%",
-        "precis": "Rain, easing later.",
+        "forecast": "Cloudy. Medium chance of drizzle. Light winds.",
+        "icon_code": 8,
+        "precipitation_prob": "50%",
+        "precis": "Drizzle at times.",
         "temp_max": 20,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-03": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds.",
-        "icon_code": 17,
+        "forecast": "Cloudy. Medium chance of light drizzle, most likely in the morning. Light winds.",
+        "icon_code": 8,
         "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "precis": "Possible drizzle.",
         "temp_max": 18,
         "temp_min": 12
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-04": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning and afternoon. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning and early afternoon. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -177,10 +177,10 @@
     },
     "2026-03-05": {
       "3": {
-        "forecast": "Cloud clearing. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 11
       },
@@ -219,11 +219,11 @@
     },
     "2026-03-06": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower during the morning. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower in the morning and afternoon. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
-        "temp_max": 20,
+        "temp_max": 19,
         "temp_min": 11
       },
       "5": {
@@ -284,7 +284,7 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
-        "temp_min": 10
+        "temp_min": 9
       },
       "7": {
         "forecast": "Partly cloudy. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 11
+      }
+    },
+    "2026-03-09": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 23,
+        "temp_min": 12
       }
     }
   },

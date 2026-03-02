@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-02": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 20 to 30 km/h.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-03": {
       "1": {
-        "forecast": "Mostly sunny. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 20
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-04": {
       "2": {
-        "forecast": "Cloudy. Winds southeasterly 20 to 30 km/h tending easterly during the morning.",
+        "forecast": "Cloudy. Winds southeasterly 20 to 30 km/h tending easterly in the morning.",
         "icon_code": 4,
         "precipitation_prob": "5%",
         "precis": "Cloudy.",
@@ -181,7 +181,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 36,
+        "temp_max": 35,
         "temp_min": 21
       },
       "4": {
@@ -279,9 +279,9 @@
     },
     "2026-03-08": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 37,
         "temp_min": 23
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 36,
         "temp_min": 24
+      }
+    },
+    "2026-03-09": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds easterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 36,
+        "temp_min": 23
       }
     }
   },
