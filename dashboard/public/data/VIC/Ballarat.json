@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-03": {
       "0": {
-        "forecast": "Partly cloudy. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Mostly clear. Winds southeasterly 20 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-03-05": {
       "2": {
-        "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
-        "icon_code": 3,
+        "forecast": "The chance of fog in the early morning. Sunny day. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 27,
         "temp_min": 9
       },
@@ -257,7 +257,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 24,
+        "temp_max": 23,
         "temp_min": 9
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 10
+      }
+    },
+    "2026-03-10": {
+      "7": {
+        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Light winds becoming northwest to northeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 29,
+        "temp_min": 11
       }
     }
   },

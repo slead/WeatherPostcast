@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-03-03": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds east to southeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Winds east to southeasterly 25 to 35 km/h.",
         "icon_code": 16,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers. Possible storm.",
         "temp_max": 31,
         "temp_min": null
@@ -69,7 +69,7 @@
     },
     "2026-03-04": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the early morning. The chance of a thunderstorm in the early morning. Winds east to southeasterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the early morning. The chance of a thunderstorm in the early morning. Winds southeasterly 25 to 35 km/h tending easterly 25 to 40 km/h in the morning then decreasing to 20 to 25 km/h in the evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -127,10 +127,10 @@
     },
     "2026-03-05": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southeasterly 25 to 40 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Winds southeasterly 25 to 40 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 23
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-07": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Winds southeasterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds southeasterly 25 to 40 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -279,7 +279,7 @@
     },
     "2026-03-09": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southeasterly 25 to 30 km/h tending easterly 20 to 30 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 16,
         "precipitation_prob": "40%",
         "precis": "Possible shower or storm.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two. Possible storm.",
         "temp_max": 34,
         "temp_min": 25
+      }
+    },
+    "2026-03-10": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds easterly 15 to 25 km/h.",
+        "icon_code": 16,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
+        "temp_max": 35,
+        "temp_min": 24
       }
     }
   },

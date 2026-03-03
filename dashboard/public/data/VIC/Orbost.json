@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-03-03": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower, becoming less likely in the afternoon. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 20,
         "temp_min": null
@@ -69,9 +69,9 @@
     },
     "2026-03-04": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning and early afternoon. The chance of a thunderstorm in the early morning. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 23,
         "temp_min": 15
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 23,
         "temp_min": 16
@@ -219,9 +219,9 @@
     },
     "2026-03-07": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Light winds.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": 14
@@ -253,7 +253,7 @@
     },
     "2026-03-08": {
       "5": {
-        "forecast": "Cloudy. Slight chance of a shower. The chance of a thunderstorm. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-03-09": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 15
+      }
+    },
+    "2026-03-10": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 28,
+        "temp_min": 14
       }
     }
   },
