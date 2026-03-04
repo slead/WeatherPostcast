@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-04": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds westerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds westerly 25 to 35 km/h.",
         "icon_code": 16,
-        "precipitation_prob": "90%",
-        "precis": "Showers. Possible afternoon storm.",
+        "precipitation_prob": "80%",
+        "precis": "Showers. Possible storm.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -127,11 +127,11 @@
     },
     "2026-03-06": {
       "2": {
-        "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon. Winds west to northwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds west to northwesterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
-        "temp_max": 30,
+        "temp_max": 31,
         "temp_min": 25
       },
       "3": {
@@ -177,7 +177,7 @@
     },
     "2026-03-07": {
       "3": {
-        "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon. Winds west to northwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon. Winds northwesterly 25 to 40 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-03-08": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm during the morning. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm in the morning and afternoon. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two. Possible storm.",
         "temp_max": 32,
+        "temp_min": 25
+      }
+    },
+    "2026-03-11": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds northwesterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 31,
         "temp_min": 25
       }
     }

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-04": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the afternoon. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 4,
+        "precipitation_prob": "20%",
+        "precis": "Cloudy.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-05": {
       "1": {
-        "forecast": "Cloudy. Slight chance of a shower at night. Light winds.",
+        "forecast": "Cloudy. The chance of fog in the early morning. Slight chance of a shower. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-03-06": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower in the morning. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower in the early morning. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-03-08": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Light winds becoming east to southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h during the day then tending easterly during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 28,
+        "temp_min": 14
+      }
+    },
+    "2026-03-11": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 29,
         "temp_min": 14
       }
     }
