@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-09": {
       "0": {
-        "forecast": "Sunny. Light winds becoming northwesterly 15 to 25 km/h in the middle of the day then tending northwest to southwesterly 25 to 35 km/h in the early afternoon.",
+        "forecast": "Sunny. Winds westerly 25 to 35 km/h tending southwesterly 25 to 30 km/h in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -69,10 +69,10 @@
     },
     "2026-03-10": {
       "1": {
-        "forecast": "Sunny. Winds south to southwesterly 25 to 40 km/h.",
-        "icon_code": 1,
+        "forecast": "Sunny. Winds south to southwesterly 30 to 45 km/h.",
+        "icon_code": 9,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Becoming windy. Sunny.",
         "temp_max": 38,
         "temp_min": 25
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-11": {
       "2": {
-        "forecast": "Sunny. Winds southerly 35 to 50 km/h turning southwesterly 30 to 40 km/h during the evening.",
+        "forecast": "Sunny. Winds southerly 35 to 45 km/h decreasing to 25 to 35 km/h in the middle of the day then tending southwesterly 30 to 40 km/h in the evening.",
         "icon_code": 9,
         "precipitation_prob": "0%",
         "precis": "Wind easing. Sunny.",
@@ -219,11 +219,11 @@
     },
     "2026-03-13": {
       "4": {
-        "forecast": "Sunny. Winds southwesterly 20 to 30 km/h turning west to northwesterly during the day.",
+        "forecast": "Sunny. Winds southwesterly 20 to 25 km/h tending northwest to northeasterly 20 to 30 km/h during the day then tending west to northwesterly during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 34,
+        "temp_max": 33,
         "temp_min": 24
       },
       "5": {
@@ -291,6 +291,16 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
+        "temp_max": 36,
+        "temp_min": 24
+      }
+    },
+    "2026-03-16": {
+      "7": {
+        "forecast": "Mostly sunny. Winds south to southwesterly 25 to 35 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
         "temp_max": 36,
         "temp_min": 24
       }

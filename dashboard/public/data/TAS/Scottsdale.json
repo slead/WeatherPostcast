@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 20,
         "temp_min": null
@@ -127,7 +127,7 @@
     },
     "2026-03-11": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Light winds becoming northwesterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Light winds becoming west to northwesterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -177,12 +177,12 @@
     },
     "2026-03-12": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Light winds becoming southwesterly 15 to 20 km/h during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 19,
-        "temp_min": 10
+        "temp_min": 9
       },
       "4": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Light winds becoming northwesterly 15 to 20 km/h during the day then shifting south to southwesterly 15 to 25 km/h during the afternoon.",
@@ -257,7 +257,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 21,
+        "temp_max": 22,
         "temp_min": 7
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 23,
         "temp_min": 9
+      }
+    },
+    "2026-03-16": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 23,
+        "temp_min": 12
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-09": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, possibly heavy which may lead to flash flooding. The chance of a thunderstorm, possibly severe with damaging winds. Light winds becoming southeasterly 15 to 20 km/h in the early afternoon.",
+        "forecast": "Cloudy. Very high chance of rain, possibly heavy which may lead to flash flooding. The chance of a thunderstorm, possibly severe with damaging winds. Winds southeasterly 15 to 20 km/h.",
         "icon_code": 16,
         "precipitation_prob": "100%",
-        "precis": "Possible storm, heavy falls.",
+        "precis": "Rain. Possible storm, heavy falls.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-11": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-03-13": {
       "4": {
-        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Mostly sunny day. Slight chance of a shower in the evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 27,
         "temp_min": 20
+      }
+    },
+    "2026-03-16": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 29,
+        "temp_min": 19
       }
     }
   },
