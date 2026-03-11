@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-03-11": {
       "0": {
-        "forecast": "Mostly sunny. Patchy raised dust. Winds northwesterly 30 to 35 km/h turning west to southwesterly in the middle of the day then tending south to southwesterly 20 to 30 km/h in the evening.",
+        "forecast": "Mostly clear. Patchy raised dust. Winds southwesterly 25 to 35 km/h tending southerly 20 to 25 km/h in the late evening.",
         "icon_code": 13,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Dust.",
         "temp_max": 35,
         "temp_min": null
@@ -69,7 +69,7 @@
     },
     "2026-03-12": {
       "1": {
-        "forecast": "Partly cloudy. Winds southerly 15 to 20 km/h becoming light before dawn then becoming southerly 15 to 25 km/h in the morning.",
+        "forecast": "Partly cloudy. Winds southerly 15 to 20 km/h becoming light in the early morning then becoming southerly 15 to 25 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-03-13": {
       "2": {
-        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly 20 to 30 km/h in the morning then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 31,
         "temp_min": 15
+      }
+    },
+    "2026-03-18": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 31,
+        "temp_min": 16
       }
     }
   },

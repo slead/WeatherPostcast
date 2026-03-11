@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-11": {
       "0": {
-        "forecast": "Partly cloudy. Winds northerly 15 to 20 km/h becoming light in the middle of the day.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-12": {
       "1": {
-        "forecast": "Sunny morning. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming northwesterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
+        "forecast": "Sunny morning. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming north to northwesterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -219,7 +219,7 @@
     },
     "2026-03-15": {
       "4": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending easterly during the morning.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending easterly during the morning then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -281,7 +281,7 @@
       "6": {
         "forecast": "Partly cloudy. Winds northeasterly 15 to 20 km/h tending easterly during the day.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 20
@@ -292,6 +292,16 @@
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 34,
+        "temp_min": 21
+      }
+    },
+    "2026-03-18": {
+      "7": {
+        "forecast": "Mostly sunny. Winds northeasterly 15 to 20 km/h tending easterly during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 33,
         "temp_min": 21
       }
     }
