@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-03-13": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the early afternoon. Light winds becoming southeasterly 15 to 20 km/h in the late afternoon.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": null
@@ -177,10 +177,10 @@
     },
     "2026-03-16": {
       "3": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 13
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-17": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower later in the day. Light winds becoming northwesterly 15 to 20 km/h during the morning then tending westerly during the day.",
+        "forecast": "Cloudy. Slight chance of a shower in the afternoon and evening. Winds northwesterly 15 to 20 km/h tending westerly during the day then becoming light during the afternoon.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -258,7 +258,7 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 19,
-        "temp_min": 15
+        "temp_min": 14
       },
       "6": {
         "forecast": "Cloudy. High chance of showers. Light winds.",
@@ -284,7 +284,7 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 20,
-        "temp_min": 14
+        "temp_min": 13
       },
       "7": {
         "forecast": "Cloudy. High chance of showers. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 13
+      }
+    },
+    "2026-03-20": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
+        "temp_min": 12
       }
     }
   },

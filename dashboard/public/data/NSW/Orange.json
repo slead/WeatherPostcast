@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-13": {
       "0": {
-        "forecast": "Sunny. Light winds becoming easterly 20 to 30 km/h in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds easterly 20 to 30 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-14": {
       "1": {
-        "forecast": "Sunny. Winds easterly 20 to 25 km/h tending northeasterly 15 to 25 km/h in the morning then becoming light in the early afternoon.",
+        "forecast": "Sunny. Winds easterly 20 to 25 km/h tending northeasterly 15 to 25 km/h in the middle of the day then becoming light in the early afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-03-17": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming west to northwesterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming west to northwesterly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-03-19": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming easterly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming easterly 15 to 20 km/h later.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 23,
         "temp_min": 12
+      }
+    },
+    "2026-03-20": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Winds northeast to southeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 24,
+        "temp_min": 10
       }
     }
   },
