@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-14": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -219,10 +219,10 @@
     },
     "2026-03-18": {
       "4": {
-        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then shifting west to southwesterly during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 11
       },
@@ -253,10 +253,10 @@
     },
     "2026-03-19": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Becoming cloudy. Slight chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Becoming cloudy.",
         "temp_max": 21,
         "temp_min": 11
       },
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 22,
         "temp_min": 10
+      }
+    },
+    "2026-03-21": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 25 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 24,
+        "temp_min": 11
       }
     }
   },

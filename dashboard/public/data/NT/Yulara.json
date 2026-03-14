@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-14": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely at night. Winds east to northeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later tonight. Winds northeasterly 25 to 35 km/h tending easterly 20 to 25 km/h in the evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -69,10 +69,10 @@
     },
     "2026-03-15": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm at night. Winds easterly 15 to 25 km/h tending southeasterly 15 to 20 km/h in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm at night. Heavy falls possible. Winds easterly 15 to 20 km/h tending southeasterly in the early afternoon.",
         "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Rain.",
+        "precis": "Rain. Heavy falls possible.",
         "temp_max": 28,
         "temp_min": 21
       },
@@ -127,10 +127,10 @@
     },
     "2026-03-16": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the afternoon and evening. Winds easterly 15 to 20 km/h becoming light during the day.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds easterly 15 to 20 km/h becoming light in the middle of the day.",
         "icon_code": 16,
-        "precipitation_prob": "95%",
-        "precis": "Rain. Possible storm.",
+        "precipitation_prob": "100%",
+        "precis": "Possible storm, heavy falls.",
         "temp_max": 26,
         "temp_min": 20
       },
@@ -177,10 +177,10 @@
     },
     "2026-03-17": {
       "3": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Winds southeasterly 15 to 25 km/h.",
-        "icon_code": 16,
+        "forecast": "Cloudy. High chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Winds southeasterly 15 to 25 km/h.",
+        "icon_code": 12,
         "precipitation_prob": "80%",
-        "precis": "Possible early storm. Showers.",
+        "precis": "Rain.",
         "temp_max": 25,
         "temp_min": 20
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-18": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. The chance of a thunderstorm later in the day. Winds southeasterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -253,12 +253,12 @@
     },
     "2026-03-19": {
       "5": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds east to southeasterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the morning.",
         "icon_code": 4,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Cloudy.",
         "temp_max": 29,
-        "temp_min": 20
+        "temp_min": 19
       },
       "6": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 25 km/h during the morning.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 31,
         "temp_min": 20
+      }
+    },
+    "2026-03-21": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 33,
+        "temp_min": 21
       }
     }
   },
