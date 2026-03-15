@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Cloudy. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Cloudy.",
         "temp_max": 18,
         "temp_min": null
@@ -69,10 +69,10 @@
     },
     "2026-03-16": {
       "1": {
-        "forecast": "Cloudy. The chance of fog in the early morning. Medium chance of showers, most likely in the afternoon and early evening. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and early evening. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 9
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-17": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming west to southwesterly 15 to 20 km/h during the day then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming west to southwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -177,7 +177,7 @@
     },
     "2026-03-18": {
       "3": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -223,7 +223,7 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 21,
+        "temp_max": 20,
         "temp_min": 9
       },
       "5": {
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 22,
         "temp_min": 11
+      }
+    },
+    "2026-03-22": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 22,
+        "temp_min": 9
       }
     }
   },
