@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-16": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, becoming less likely at night. Light winds.",
+        "forecast": "Cloudy. Very high chance of showers, becoming less likely later tonight. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "90%",
-        "precis": "Showers increasing.",
+        "precis": "Showers.",
         "temp_max": 19,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 23,
-        "temp_min": 10
+        "temp_min": 11
       },
       "2": {
         "forecast": "Partly cloudy. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 22,
         "temp_min": 10
+      }
+    },
+    "2026-03-23": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 22,
+        "temp_min": 11
       }
     }
   },

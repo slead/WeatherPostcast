@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-16": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the late afternoon and evening. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -69,7 +69,7 @@
     },
     "2026-03-17": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to northwesterly 15 to 25 km/h tending west to southwesterly in the middle of the day then tending west to northwesterly 15 to 20 km/h in the late evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to northwesterly 15 to 25 km/h tending west to southwesterly in the middle of the day then shifting easterly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-03-18": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming south to southeasterly 15 to 25 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming northwesterly 15 to 25 km/h before dawn then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-03-20": {
       "4": {
-        "forecast": "Mostly sunny. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Light winds becoming southerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 23,
         "temp_min": 12
+      }
+    },
+    "2026-03-23": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 24,
+        "temp_min": 13
       }
     }
   },
