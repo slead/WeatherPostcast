@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-18": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely in the evening. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely later this evening. The chance of a thunderstorm early this evening. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-03-19": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the afternoon. Light winds.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Slight chance of a shower in the afternoon. Light winds.",
+        "icon_code": 4,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 29,
+        "precis": "Cloudy.",
+        "temp_max": 28,
         "temp_min": 17
       },
       "2": {
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
+        "temp_max": 32,
+        "temp_min": 16
+      }
+    },
+    "2026-03-25": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
         "temp_max": 32,
         "temp_min": 16
       }
