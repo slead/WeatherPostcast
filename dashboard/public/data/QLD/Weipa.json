@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-03-19": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming southwesterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds southwesterly 15 to 20 km/h becoming light in the evening then becoming southwesterly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 31,
         "temp_min": null
@@ -69,7 +69,7 @@
     },
     "2026-03-20": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Destructive wind gusts exceeding 130 km/h possible depending on movement and development of Severe Tropical Cyclone Narelle.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Destructive wind gusts exceeding 130 km/h possible depending on movement and development of Severe Tropical Cyclone Narelle.",
         "icon_code": 19,
         "precipitation_prob": "95%",
         "precis": "Cyclone possible.",
@@ -127,10 +127,10 @@
     },
     "2026-03-21": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Heavy falls possible. Winds northwesterly 40 to 50 km/h tending northerly 30 to 45 km/h during the morning then becoming light during the afternoon. Damaging wind gusts exceeding 90 km/h possible depending on movement and development of Severe Tropical Cyclone Narelle.",
-        "icon_code": 9,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the late afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Damaging winds possible. Winds northerly 50 to 60 km/h decreasing to 30 to 45 km/h before dawn then becoming north to northeasterly and light in the late afternoon.",
+        "icon_code": 16,
         "precipitation_prob": "95%",
-        "precis": "Windy. Heavy showers.",
+        "precis": "Possible storm, heavy falls.",
         "temp_max": 30,
         "temp_min": 24
       },
@@ -219,10 +219,10 @@
     },
     "2026-03-23": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm later in the day. Light winds.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 31,
         "temp_min": 24
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 33,
+        "temp_min": 23
+      }
+    },
+    "2026-03-26": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 32,
         "temp_min": 23
       }
     }

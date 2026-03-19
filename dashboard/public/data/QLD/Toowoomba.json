@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-19": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the evening. Winds easterly 15 to 20 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the early afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Cloudy. Medium chance of showers, becoming less likely later tonight. Winds easterly 15 to 20 km/h becoming light in the late evening.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-21": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Light winds becoming easterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm in the afternoon. Light winds becoming easterly 15 to 25 km/h in the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds east to southeasterly 15 to 25 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 25,
         "temp_min": 16
@@ -219,7 +219,7 @@
     },
     "2026-03-23": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 28,
+        "temp_min": 15
+      }
+    },
+    "2026-03-26": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 29,
         "temp_min": 15
       }
     }
