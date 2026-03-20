@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-20": {
       "0": {
-        "forecast": "Mostly sunny. Slight chance of a shower in the afternoon. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 29,
         "temp_min": null
       },
@@ -129,7 +129,7 @@
       "2": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": 15
@@ -219,7 +219,7 @@
     },
     "2026-03-24": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 24,
         "temp_min": 14
+      }
+    },
+    "2026-03-27": {
+      "7": {
+        "forecast": "Sunny. Winds south to southeasterly 15 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 21,
+        "temp_min": 8
       }
     }
   },
