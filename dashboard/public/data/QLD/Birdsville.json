@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-21": {
       "0": {
-        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h.",
-        "icon_code": 1,
-        "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Winds southeasterly 15 to 25 km/h.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 34,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-23": {
       "2": {
-        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h tending northeast to southeasterly 15 to 25 km/h during the morning then tending south to southeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h tending northeast to southeasterly 15 to 25 km/h in the morning then tending south to southeasterly 15 to 20 km/h in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-03-25": {
       "4": {
-        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h tending southerly during the day.",
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h tending southerly during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 32,
         "temp_min": 22
+      }
+    },
+    "2026-03-28": {
+      "7": {
+        "forecast": "Sunny. Winds southeasterly 25 to 35 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 26,
+        "temp_min": 14
       }
     }
   },

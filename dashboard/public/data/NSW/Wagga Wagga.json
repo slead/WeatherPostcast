@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-21": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers in the afternoon and early evening. The chance of a thunderstorm in the afternoon and early evening. Light winds.",
+        "forecast": "Mostly clear. Slight chance of a shower early this evening. The chance of a thunderstorm early this evening. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
+        "precipitation_prob": "20%",
+        "precis": "Possible storm.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-22": {
       "1": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h tending northeasterly in the morning then becoming light in the middle of the day.",
+        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h tending northeasterly in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 30,
         "temp_min": 18
       },
@@ -127,10 +127,10 @@
     },
     "2026-03-23": {
       "2": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 31,
         "temp_min": 18
       },
@@ -279,7 +279,7 @@
     },
     "2026-03-27": {
       "6": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h later.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": 9
+      }
+    },
+    "2026-03-28": {
+      "7": {
+        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h tending southerly during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 21,
+        "temp_min": 8
       }
     }
   },
