@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-22": {
       "0": {
-        "forecast": "Mostly sunny. The chance of a thunderstorm in the afternoon. Winds southeast to southwesterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h in the late afternoon then turning south to southwesterly 20 to 25 km/h in the evening.",
+        "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h in the late afternoon then tending south to southwesterly 20 to 25 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -69,10 +69,10 @@
     },
     "2026-03-23": {
       "1": {
-        "forecast": "Sunny. Winds south to southwesterly 20 to 30 km/h.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Winds south to southwesterly 20 to 30 km/h.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 36,
         "temp_min": 23
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-24": {
       "2": {
-        "forecast": "Sunny. Winds south to southwesterly 25 to 35 km/h increasing to 30 to 40 km/h during the afternoon.",
+        "forecast": "Sunny. Winds south to southwesterly 25 to 35 km/h increasing to 30 to 40 km/h in the late afternoon.",
         "icon_code": 9,
         "precipitation_prob": "5%",
         "precis": "Becoming windy. Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-03-26": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm later in the day. Winds south to southeasterly 20 to 25 km/h turning easterly 35 to 50 km/h during the morning. Damaging wind gusts exceeding 90 km/h possible depending on movement and development of Tropical Cyclone Narelle.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds southerly 20 to 25 km/h tending southeasterly 30 to 45 km/h during the morning then tending easterly 40 to 60 km/h during the day. Damaging wind gusts exceeding 90 km/h possible depending on movement and development of Ex-Tropical Cyclone Narelle.",
         "icon_code": 9,
         "precipitation_prob": "70%",
         "precis": "Windy. Shower or two.",
@@ -253,10 +253,10 @@
     },
     "2026-03-27": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds easterly 40 to 50 km/h turning north to northeasterly 35 to 50 km/h during the morning.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds easterly 45 to 60 km/h turning north to northeasterly 40 to 55 km/h during the morning.",
+        "icon_code": 9,
         "precipitation_prob": "80%",
-        "precis": "Showers. Windy.",
+        "precis": "Showers. Very windy.",
         "temp_max": 32,
         "temp_min": 24
       },
@@ -279,10 +279,10 @@
     },
     "2026-03-28": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northerly 30 to 40 km/h tending northwesterly 25 to 35 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northerly 30 to 45 km/h tending northwesterly 25 to 35 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Wind easing.",
         "temp_max": 31,
         "temp_min": 25
       },
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 33,
         "temp_min": 25
+      }
+    },
+    "2026-03-29": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. The chance of a thunderstorm. Winds west to northwesterly 15 to 25 km/h increasing to 30 km/h before turning southwesterly 15 to 20 km/h later.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 32,
+        "temp_min": 23
       }
     }
   },

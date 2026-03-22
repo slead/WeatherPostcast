@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-03-22": {
       "0": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southeasterly 20 to 25 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 20 to 25 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 29,
         "temp_min": null
@@ -127,7 +127,7 @@
     },
     "2026-03-24": {
       "2": {
-        "forecast": "Slight chance of a shower in the morning. Sunny day. Winds south to southeasterly 15 to 20 km/h becoming light during the evening.",
+        "forecast": "Slight chance of a shower in the early morning. Sunny day. Winds south to southeasterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-03-26": {
       "4": {
-        "forecast": "Slight chance of a shower during the morning. Mostly sunny day. Light winds.",
+        "forecast": "Slight chance of a shower in the morning. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-03-28": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds becoming south to southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds becoming south to southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 30,
+        "temp_min": 22
+      }
+    },
+    "2026-03-29": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 28,
         "temp_min": 22
       }
     }
