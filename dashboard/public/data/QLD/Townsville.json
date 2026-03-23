@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-23": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the evening. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Mostly clear. Slight chance of a shower, becoming less likely later this evening. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 30,
+        "temp_min": 23
+      }
+    },
+    "2026-03-30": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds south to southeasterly 15 to 20 km/h tending east to southeasterly during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 31,
         "temp_min": 23
       }
     }

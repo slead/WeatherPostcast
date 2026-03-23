@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-23": {
       "0": {
-        "forecast": "Mostly sunny. Winds south to southwesterly 20 to 30 km/h.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds south to southwesterly 15 to 25 km/h increasing to 25 to 30 km/h in the evening.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-25": {
       "2": {
-        "forecast": "Mostly sunny day. Slight chance of a shower in the afternoon and evening. Winds south to southwesterly 25 to 40 km/h.",
+        "forecast": "Mostly sunny day. Slight chance of a shower in the late afternoon and evening. Winds southerly 25 to 40 km/h tending southwesterly 30 to 35 km/h in the late afternoon then tending southeast to southwesterly 20 to 30 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-03-26": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Damaging wind gusts exceeding 90 km/h possible depending on movement and development of Ex-Tropical Cyclone Narelle.",
-        "icon_code": 9,
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Destructive wind gusts exceeding 130 km/h possible depending on movement and development of Ex-Tropical Cyclone Narelle.",
+        "icon_code": 19,
         "precipitation_prob": "60%",
-        "precis": "Windy. Possible late storm.",
+        "precis": "Cyclone possible.",
         "temp_max": 35,
         "temp_min": 26
       },
@@ -219,10 +219,10 @@
     },
     "2026-03-27": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm later in the day. Damaging wind gusts exceeding 90 km/h possible depending on movement and development of Ex-Tropical Cyclone Narelle.",
-        "icon_code": 9,
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Very destructive wind gusts exceeding 170 km/h possible depending on movement and development of Ex-Tropical Cyclone Narelle.",
+        "icon_code": 19,
         "precipitation_prob": "90%",
-        "precis": "Windy. Showers.",
+        "precis": "Severe cyclone possible.",
         "temp_max": 31,
         "temp_min": 24
       },
@@ -253,10 +253,10 @@
     },
     "2026-03-28": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds north to northwesterly 35 to 55 km/h decreasing to 15 to 20 km/h later.",
-        "icon_code": 9,
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds northerly 35 to 55 km/h turning northwesterly 25 to 40 km/h during the day.",
+        "icon_code": 11,
         "precipitation_prob": "70%",
-        "precis": "Windy. Shower or two.",
+        "precis": "Shower or two. Windy.",
         "temp_max": 31,
         "temp_min": 24
       },
@@ -279,7 +279,7 @@
     },
     "2026-03-29": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds west to northwesterly 15 to 25 km/h turning southwesterly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northwesterly 15 to 25 km/h tending westerly later.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 32,
         "temp_min": 23
+      }
+    },
+    "2026-03-30": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds south to southwesterly 15 to 20 km/h tending northwest to southwesterly 15 to 25 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 31,
+        "temp_min": 22
       }
     }
   },

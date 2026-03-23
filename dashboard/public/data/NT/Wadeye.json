@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-23": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm from the late morning, possibly severe with heavy rain which may lead to flash flooding. Damaging winds possible. Winds northerly 25 to 35 km/h decreasing to 15 to 20 km/h in the evening then tending northeasterly in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Winds northerly 45 to 55 km/h decreasing to 25 to 40 km/h in the late afternoon.",
         "icon_code": 16,
         "precipitation_prob": "95%",
-        "precis": "Possible storm, heavy falls.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-24": {
       "1": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 20 km/h tending northerly in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h becoming light in the early afternoon.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-03-27": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm during the morning. Light winds.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 32,
         "temp_min": 23
+      }
+    },
+    "2026-03-30": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 33,
+        "temp_min": 21
       }
     }
   },
