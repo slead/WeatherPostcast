@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-24": {
       "0": {
-        "forecast": "Partly cloudy. High chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm. Winds northeasterly 20 to 25 km/h tending northerly 15 to 25 km/h in the morning then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northerly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 16,
-        "precipitation_prob": "80%",
-        "precis": "Showers. Possible storm.",
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-26": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the early morning. The chance of a thunderstorm in the early morning. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Possible early storm. Showers.",
@@ -177,9 +177,9 @@
     },
     "2026-03-27": {
       "3": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 24
@@ -219,7 +219,7 @@
     },
     "2026-03-28": {
       "4": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower in the afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 33,
         "temp_min": 21
+      }
+    },
+    "2026-03-31": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 32,
+        "temp_min": 23
       }
     }
   },

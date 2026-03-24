@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-24": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon and evening. Winds northwesterly 15 to 20 km/h becoming light in the early afternoon.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-25": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and early evening. Winds north to northwesterly 15 to 20 km/h tending west to northwesterly in the morning then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and early evening, possibly severe with damaging winds, possible hail and heavy rain which may lead to flash flooding. Winds north to northwesterly 15 to 20 km/h tending northwest to southwesterly in the middle of the day then tending northerly in the late evening.",
         "icon_code": 16,
-        "precipitation_prob": "80%",
-        "precis": "Showers. Possible storm.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 16,
         "temp_min": 9
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-26": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers or snow. The chance of a thunderstorm in the afternoon. Winds northerly 15 to 20 km/h tending west to northwesterly during the morning then tending south to southwesterly 15 to 25 km/h during the afternoon.",
+        "forecast": "Cloudy. Very high chance of showers or snow. The chance of a thunderstorm in the early afternoon. Winds northwesterly 15 to 20 km/h shifting south to southwesterly in the late afternoon.",
         "icon_code": 15,
         "precipitation_prob": "95%",
         "precis": "Showers or snow.",
@@ -177,10 +177,10 @@
     },
     "2026-03-27": {
       "3": {
-        "forecast": "Cloudy. High chance of snow showers, most likely in the morning and afternoon. Winds southerly 25 to 40 km/h.",
+        "forecast": "Cloudy. High chance of snow, most likely in the morning and afternoon. Winds southerly 20 to 25 km/h increasing to 35 to 55 km/h during the morning.",
         "icon_code": 15,
         "precipitation_prob": "80%",
-        "precis": "Snow showers. Windy.",
+        "precis": "Snow. Very windy.",
         "temp_max": 2,
         "temp_min": -1
       },
@@ -219,9 +219,9 @@
     },
     "2026-03-28": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower or snow, most likely during the morning. Winds southerly 25 to 35 km/h tending southeasterly 20 to 25 km/h later.",
+        "forecast": "Cloudy. Slight chance of a shower or snow, most likely in the morning. Winds southerly 40 to 50 km/h decreasing to 25 to 35 km/h during the morning then tending southeasterly 15 to 20 km/h during the evening.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 7,
         "temp_min": -1
@@ -253,7 +253,7 @@
     },
     "2026-03-29": {
       "5": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 25 km/h tending southerly 15 to 20 km/h during the morning.",
+        "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h tending southerly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 13,
         "temp_min": 5
+      }
+    },
+    "2026-03-31": {
+      "7": {
+        "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h turning northwesterly during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 15,
+        "temp_min": 7
       }
     }
   },

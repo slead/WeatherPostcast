@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-24": {
       "0": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds southerly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 29,
         "temp_min": null
       },
@@ -70,9 +70,9 @@
     "2026-03-25": {
       "1": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the late morning and afternoon. Light winds becoming southerly 20 to 30 km/h in the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 24,
         "temp_min": 19
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-28": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds east to southeasterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower in the morning and afternoon. Winds east to southeasterly 15 to 25 km/h.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 16
+      }
+    },
+    "2026-03-31": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds northerly 15 to 20 km/h tending northeasterly later.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 30,
+        "temp_min": 18
       }
     }
   },
