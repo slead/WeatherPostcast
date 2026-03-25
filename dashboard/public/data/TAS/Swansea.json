@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-25": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds northerly 15 to 20 km/h tending northwesterly in the late afternoon then turning west to southwesterly in the late evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers later this evening. Winds northwesterly 15 to 20 km/h turning west to southwesterly in the late evening.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-26": {
       "1": {
-        "forecast": "Partly cloudy. Very high chance of rain, most likely in the afternoon and evening. Light winds becoming southerly 20 to 30 km/h in the middle of the day then tending southwesterly 20 to 25 km/h in the evening.",
-        "icon_code": 12,
-        "precipitation_prob": "90%",
-        "precis": "Rain increasing.",
+        "forecast": "Cloudy. High chance of showers, most likely in the afternoon and evening. Light winds becoming south to southwesterly 20 to 30 km/h in the middle of the day.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers increasing.",
         "temp_max": 19,
         "temp_min": 12
       },
@@ -127,11 +127,11 @@
     },
     "2026-03-27": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Winds south to southwesterly 25 to 40 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the early morning. Winds south to southwesterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
-        "precis": "Shower or two. Becoming windy.",
-        "temp_max": 16,
+        "precis": "Shower or two.",
+        "temp_max": 17,
         "temp_min": 8
       },
       "3": {
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 10
+      }
+    },
+    "2026-04-01": {
+      "7": {
+        "forecast": "Sunny day. Slight chance of a shower, most likely later in the day. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 27,
+        "temp_min": 13
       }
     }
   },

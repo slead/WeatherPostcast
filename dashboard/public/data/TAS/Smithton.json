@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-25": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the afternoon. Winds northerly 15 to 20 km/h turning west to northwesterly 20 to 25 km/h in the middle of the day then tending west to southwesterly 20 to 30 km/h in the early afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 20 to 30 km/h tending southwesterly 15 to 20 km/h in the evening then becoming light in the late evening.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-03-26": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and early afternoon. Winds southwesterly 15 to 25 km/h increasing to 25 to 35 km/h in the morning then tending southerly 20 to 25 km/h in the late evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 25 to 35 km/h tending southerly 20 to 25 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 17,
-        "temp_min": 9
+        "temp_min": 10
       },
       "2": {
         "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. Winds southwesterly 15 to 25 km/h increasing to 25 to 35 km/h in the morning then tending southerly 25 to 30 km/h in the late evening.",
@@ -127,7 +127,7 @@
     },
     "2026-03-27": {
       "2": {
-        "forecast": "Partly cloudy. Winds southerly 25 to 35 km/h tending southwesterly during the evening.",
+        "forecast": "Partly cloudy. Winds southerly 25 to 35 km/h tending southwesterly in the early afternoon then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -177,10 +177,10 @@
     },
     "2026-03-28": {
       "3": {
-        "forecast": "Cloudy. Winds south to southwesterly 20 to 30 km/h.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Winds south to southwesterly 20 to 30 km/h.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": 8
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-29": {
       "4": {
-        "forecast": "Partly cloudy. Winds south to southwesterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Winds south to southwesterly 15 to 25 km/h becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-03-30": {
       "5": {
-        "forecast": "Partly cloudy. Light winds becoming north to northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-03-31": {
       "6": {
-        "forecast": "Partly cloudy. Winds east to northeasterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Winds northeasterly 15 to 25 km/h tending easterly 15 to 20 km/h later.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 10
+      }
+    },
+    "2026-04-01": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds east to northeasterly 15 to 25 km/h turning north to northwesterly during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 24,
+        "temp_min": 14
       }
     }
   },

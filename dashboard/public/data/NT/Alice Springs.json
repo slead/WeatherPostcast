@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-25": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-27": {
       "2": {
-        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
         "temp_max": 23,
-        "temp_min": 11
+        "temp_min": 10
       },
       "4": {
         "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h increasing to 15 to 25 km/h during the morning then becoming light during the evening.",
@@ -283,7 +283,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 32,
+        "temp_max": 31,
         "temp_min": 14
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": 13
+      }
+    },
+    "2026-04-01": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 33,
+        "temp_min": 17
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-25": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the evening. The chance of a thunderstorm in the afternoon and early evening. Winds westerly 15 to 25 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the evening. Winds westerly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-26": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers. Snow falling above 1900 metres. The chance of a thunderstorm in the afternoon. Winds west to northwesterly 25 to 35 km/h becoming light in the evening then becoming southerly 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers. Snow falling above 1900 metres. The chance of a thunderstorm in the afternoon, possibly severe with heavy rain which may lead to flash flooding. Winds west to northwesterly 25 to 35 km/h becoming light in the evening then becoming south to southeasterly 15 to 25 km/h in the late evening.",
         "icon_code": 15,
         "precipitation_prob": "100%",
         "precis": "Showers or snow.",
@@ -127,12 +127,12 @@
     },
     "2026-03-27": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain or snow. Winds southeast to southwesterly 25 to 40 km/h becoming southwesterly 35 to 50 km/h during the morning then tending southerly 45 to 65 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of rain or snow. Winds southerly 50 to 70 km/h.",
         "icon_code": 15,
         "precipitation_prob": "100%",
         "precis": "Snow. Very windy.",
         "temp_max": 2,
-        "temp_min": -2
+        "temp_min": -3
       },
       "3": {
         "forecast": "Cloudy. Very high chance of snow. Winds southerly 45 to 65 km/h.",
@@ -177,12 +177,12 @@
     },
     "2026-03-28": {
       "3": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning and afternoon. Snow possible above 1700 metres. Winds southerly 40 to 60 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning and afternoon. Snow possible above 1700 metres. Winds southerly 35 to 55 km/h.",
         "icon_code": 9,
-        "precipitation_prob": "40%",
-        "precis": "Showers or snow. Very windy.",
+        "precipitation_prob": "30%",
+        "precis": "Very windy. Cloudy.",
         "temp_max": 6,
-        "temp_min": -3
+        "temp_min": -4
       },
       "4": {
         "forecast": "Cloudy. Slight chance of a shower, most likely in the morning. Snow possible above 1700 metres. Winds southerly 40 to 60 km/h.",
@@ -219,7 +219,7 @@
     },
     "2026-03-29": {
       "4": {
-        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h turning southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h tending southwesterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -255,10 +255,10 @@
       "5": {
         "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
         "temp_max": 14,
-        "temp_min": 2
+        "temp_min": 3
       },
       "6": {
         "forecast": "Mostly sunny. Light winds becoming westerly 15 to 20 km/h during the day.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 17,
         "temp_min": 4
+      }
+    },
+    "2026-04-01": {
+      "7": {
+        "forecast": "Sunny. Winds northwesterly 20 to 30 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 15,
+        "temp_min": 6
       }
     }
   },
