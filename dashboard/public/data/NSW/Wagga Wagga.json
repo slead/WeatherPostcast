@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-26": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm in the early afternoon. Winds west to southwesterly 20 to 30 km/h.",
-        "icon_code": 16,
-        "precipitation_prob": "100%",
-        "precis": "Showers. Possible afternoon storm.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely later tonight. Winds west to southwesterly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-27": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and early afternoon. Winds southwesterly 25 to 40 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers. Becoming windy.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and early afternoon. Winds southwesterly 25 to 35 km/h.",
+        "icon_code": 12,
+        "precipitation_prob": "95%",
+        "precis": "Rain.",
         "temp_max": 19,
         "temp_min": 8
       },
@@ -127,7 +127,7 @@
     },
     "2026-03-28": {
       "2": {
-        "forecast": "Mostly sunny. Winds south to southwesterly 15 to 20 km/h becoming light during the evening.",
+        "forecast": "Mostly sunny. Winds southwesterly 15 to 20 km/h becoming light in the early morning then becoming south to southwesterly 15 to 20 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 30,
         "temp_min": 15
+      }
+    },
+    "2026-04-02": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 31,
+        "temp_min": 16
       }
     }
   },

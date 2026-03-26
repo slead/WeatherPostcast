@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-26": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. A thunderstorm likely in the afternoon and early evening, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Winds south to southeasterly 15 to 20 km/h turning southwesterly 15 to 25 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm early this evening, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Winds southerly 15 to 25 km/h tending southwesterly 15 to 20 km/h in the late evening.",
         "icon_code": 16,
         "precipitation_prob": "100%",
-        "precis": "Showers. Storm developing.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-03-27": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the morning and afternoon. Damaging winds possible. Winds southwesterly 15 to 20 km/h becoming light before dawn then becoming west to southwesterly 25 to 40 km/h in the morning.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the morning and afternoon, possibly severe with damaging winds and possible heavy falls. Damaging winds possible. Winds southwesterly 15 to 20 km/h becoming light before dawn then becoming west to southwesterly 35 to 50 km/h in the morning.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain. Becoming windy.",
-        "temp_max": 18,
+        "temp_max": 19,
         "temp_min": 11
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-03-28": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Winds southwesterly 25 to 35 km/h tending southerly 20 to 30 km/h during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the early morning. Winds south to southwesterly 25 to 35 km/h decreasing to 15 to 25 km/h in the late afternoon then becoming southwesterly and light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-03-30": {
       "4": {
-        "forecast": "Mostly sunny. The chance of morning fog. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 27,
         "temp_min": 13
+      }
+    },
+    "2026-04-02": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 28,
+        "temp_min": 15
       }
     }
   },

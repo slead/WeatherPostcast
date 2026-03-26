@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-03-26": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of rain, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Destructive wind gusts exceeding 130 km/h possible depending on movement and development of Severe Tropical Cyclone Narelle.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Destructive wind gusts exceeding 130 km/h possible depending on movement and development of Severe Tropical Cyclone Narelle.",
         "icon_code": 19,
         "precipitation_prob": "90%",
         "precis": "Cyclone possible.",
@@ -69,10 +69,10 @@
     },
     "2026-03-27": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the afternoon. Heavy falls possible. Very destructive wind gusts exceeding 170 km/h possible depending on movement and development of Severe Tropical Cyclone Narelle.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon, possibly severe with destructive winds and possible heavy falls. Very destructive wind gusts exceeding 170 km/h expected due to Severe Tropical Cyclone Narelle.",
         "icon_code": 19,
         "precipitation_prob": "100%",
-        "precis": "Severe cyclone possible.",
+        "precis": "Severe cyclone expected.",
         "temp_max": 27,
         "temp_min": 23
       },
@@ -127,10 +127,10 @@
     },
     "2026-03-28": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds northwesterly 30 to 45 km/h decreasing to 20 to 30 km/h during the morning then becoming light during the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two. Wind easing.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the late afternoon and evening. Winds northwesterly 25 to 35 km/h decreasing to 20 to 30 km/h in the early morning then becoming light in the late evening.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 30,
         "temp_min": 24
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-30": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming south to southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon. Light winds becoming southerly 15 to 20 km/h during the morning then tending southwesterly 20 to 25 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": 20
+      }
+    },
+    "2026-04-02": {
+      "7": {
+        "forecast": "Sunny. Winds south to southwesterly 20 to 30 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 31,
+        "temp_min": 19
       }
     }
   },

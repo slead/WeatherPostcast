@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-26": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the early afternoon. Winds westerly 20 to 25 km/h tending southwesterly 20 to 30 km/h in the late afternoon.",
+        "forecast": "Partly cloudy. Very high chance of showers later this evening. Winds westerly 20 to 25 km/h tending southwesterly 20 to 30 km/h in the late afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers increasing.",
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-27": {
       "1": {
-        "forecast": "Cloudy. High chance of showers in the morning. Winds southwesterly 20 to 30 km/h becoming light in the late evening.",
+        "forecast": "Cloudy. High chance of showers, most likely in the early morning. Winds southwesterly 25 to 35 km/h becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "80%",
-        "precis": "Morning showers.",
+        "precis": "Showers easing.",
         "temp_max": 20,
         "temp_min": 9
       },
@@ -258,7 +258,7 @@
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
         "temp_max": 27,
-        "temp_min": 12
+        "temp_min": 13
       },
       "6": {
         "forecast": "Sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 14
+      }
+    },
+    "2026-04-02": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 30,
+        "temp_min": 16
       }
     }
   },
