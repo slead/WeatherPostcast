@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-27": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, becoming less likely at night. Winds westerly 30 to 40 km/h tending southwesterly 35 to 45 km/h in the early afternoon.",
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely later tonight. Winds southwesterly 35 to 45 km/h.",
         "icon_code": 12,
-        "precipitation_prob": "100%",
-        "precis": "Rain increasing. Windy.",
+        "precipitation_prob": "90%",
+        "precis": "Rain. Windy.",
         "temp_max": 12,
         "temp_min": null
       },
@@ -281,7 +281,7 @@
       "6": {
         "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 14
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 13
+      }
+    },
+    "2026-04-03": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower developing.",
+        "temp_max": 24,
+        "temp_min": 14
       }
     }
   },

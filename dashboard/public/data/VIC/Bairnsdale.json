@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-27": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely in the afternoon. Heavy falls possible in the early afternoon. Damaging winds possible. Winds southwesterly 30 to 45 km/h decreasing to 25 to 30 km/h in the evening then tending westerly 15 to 20 km/h in the late evening.",
-        "icon_code": 18,
-        "precipitation_prob": "70%",
-        "precis": "Showers. Heavy falls possible.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Damaging winds possible. Winds southwesterly 25 to 40 km/h tending westerly 15 to 20 km/h in the late evening.",
+        "icon_code": 9,
+        "precipitation_prob": "30%",
+        "precis": "Windy. Partly cloudy.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-03-28": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h tending south to southwesterly in the middle of the day then becoming light in the evening.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h tending south to southwesterly in the middle of the day then becoming light in the late evening.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 10
       },
@@ -219,7 +219,7 @@
     },
     "2026-03-31": {
       "4": {
-        "forecast": "Mostly sunny. The chance of morning fog. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
         "temp_max": 26,
+        "temp_min": 16
+      }
+    },
+    "2026-04-03": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
         "temp_min": 16
       }
     }
