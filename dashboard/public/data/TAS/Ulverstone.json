@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-28": {
       "0": {
-        "forecast": "Partly cloudy. Light winds becoming northwesterly 15 to 20 km/h in the late afternoon then shifting south to southwesterly 20 to 25 km/h in the evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds northerly 15 to 20 km/h shifting south to southwesterly 20 to 25 km/h in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Cloud clearing.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-03-29": {
       "1": {
-        "forecast": "Partly cloudy. Winds southerly 15 to 20 km/h becoming light before dawn then becoming northwest to southwesterly 15 to 25 km/h in the early afternoon.",
+        "forecast": "Partly cloudy. Winds south to southwesterly 15 to 20 km/h turning west to northwesterly in the middle of the day then tending west to southwesterly 15 to 25 km/h in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-03-30": {
       "2": {
-        "forecast": "Partly cloudy. Winds south to southwesterly 15 to 20 km/h shifting north to northwesterly during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming north to northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -177,11 +177,11 @@
     },
     "2026-03-31": {
       "3": {
-        "forecast": "Cloud clearing. Light winds becoming east to northeasterly 15 to 20 km/h during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
-        "temp_max": 22,
+        "precis": "Partly cloudy.",
+        "temp_max": 21,
         "temp_min": 12
       },
       "4": {
@@ -219,10 +219,10 @@
     },
     "2026-04-01": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. Light winds becoming west to northwesterly 20 to 30 km/h during the day.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. Winds southeasterly 15 to 20 km/h shifting west to northwesterly 15 to 25 km/h during the afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers increasing.",
         "temp_max": 22,
         "temp_min": 13
       },
@@ -253,11 +253,11 @@
     },
     "2026-04-02": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming west to northwesterly 20 to 30 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 15 to 25 km/h during the morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
-        "temp_max": 20,
+        "temp_max": 19,
         "temp_min": 11
       },
       "6": {
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
-        "temp_max": 19,
+        "temp_max": 18,
         "temp_min": 11
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 19,
         "temp_min": 11
+      }
+    },
+    "2026-04-04": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower, most likely later in the day. Winds south to southeasterly 15 to 25 km/h tending northeast to southeasterly 15 to 20 km/h later.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 18,
+        "temp_min": 9
       }
     }
   },
