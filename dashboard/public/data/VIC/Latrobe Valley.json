@@ -69,10 +69,10 @@
     },
     "2026-03-30": {
       "1": {
-        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
-        "icon_code": 3,
+        "forecast": "Patchy morning fog. Mostly sunny afternoon. Light winds.",
+        "icon_code": 10,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Morning fog then mostly sunny.",
         "temp_max": 25,
         "temp_min": 10
       },
@@ -127,10 +127,10 @@
     },
     "2026-03-31": {
       "2": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds.",
-        "icon_code": 1,
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 27,
         "temp_min": 11
       },
@@ -177,11 +177,11 @@
     },
     "2026-04-01": {
       "3": {
-        "forecast": "Sunny morning. Slight chance of a shower in the afternoon. Winds easterly 15 to 20 km/h shifting west to northwesterly 15 to 25 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Sunny morning. Slight chance of a shower in the afternoon. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 28,
+        "temp_max": 29,
         "temp_min": 13
       },
       "4": {
@@ -219,7 +219,7 @@
     },
     "2026-04-02": {
       "4": {
-        "forecast": "Mostly sunny. The chance of morning fog. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny day. Slight chance of a shower in the afternoon and evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 19,
+        "temp_min": 9
+      }
+    },
+    "2026-04-05": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
         "temp_min": 9
       }
     }

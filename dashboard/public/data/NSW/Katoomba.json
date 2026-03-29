@@ -224,7 +224,7 @@
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 23,
-        "temp_min": 11
+        "temp_min": 12
       },
       "5": {
         "forecast": "Mostly sunny. Light winds.",
@@ -253,12 +253,12 @@
     },
     "2026-04-03": {
       "5": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Mostly sunny morning. Medium chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 23,
-        "temp_min": 12
+        "temp_min": 11
       },
       "6": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
@@ -279,7 +279,7 @@
     },
     "2026-04-04": {
       "6": {
-        "forecast": "Cloudy. High chance of showers. Light winds becoming southeasterly 15 to 20 km/h later.",
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers increasing.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 16,
+        "temp_min": 11
+      }
+    },
+    "2026-04-05": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 15,
         "temp_min": 11
       }
     }
