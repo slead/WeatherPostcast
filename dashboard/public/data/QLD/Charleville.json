@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-30": {
       "0": {
-        "forecast": "Partly cloudy. Winds northeasterly 15 to 20 km/h becoming light in the early afternoon.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 17
@@ -127,7 +127,7 @@
     },
     "2026-04-01": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming east to northeasterly 15 to 20 km/h during the morning then tending east to southeasterly during the day.",
+        "forecast": "Partly cloudy. Light winds becoming east to northeasterly 15 to 20 km/h in the morning then tending east to southeasterly in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-04-03": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming southeasterly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-04-05": {
       "6": {
-        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
+        "temp_max": 33,
+        "temp_min": 18
+      }
+    },
+    "2026-04-06": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
         "temp_max": 33,
         "temp_min": 18
       }
