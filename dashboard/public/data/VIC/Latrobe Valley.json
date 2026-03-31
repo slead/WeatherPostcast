@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-31": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-01": {
       "1": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower in the late afternoon and evening. Light winds becoming northwest to southwesterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower in the late afternoon and evening. Light winds becoming northwest to southwesterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -127,10 +127,10 @@
     },
     "2026-04-02": {
       "2": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 13
       },
@@ -219,7 +219,7 @@
     },
     "2026-04-04": {
       "4": {
-        "forecast": "Cloudy. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Light winds becoming easterly 15 to 20 km/h during the afternoon.",
         "icon_code": 4,
         "precipitation_prob": "10%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 23,
         "temp_min": 11
+      }
+    },
+    "2026-04-07": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
+        "temp_min": 14
       }
     }
   },

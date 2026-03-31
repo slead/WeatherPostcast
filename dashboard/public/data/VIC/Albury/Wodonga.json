@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-31": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-01": {
       "1": {
-        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
-        "temp_max": 25,
+        "temp_max": 24,
         "temp_min": 12
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 23,
         "temp_min": 12
+      }
+    },
+    "2026-04-07": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 23,
+        "temp_min": 14
       }
     }
   },

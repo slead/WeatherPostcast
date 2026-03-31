@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-31": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the late afternoon and evening. Winds southeasterly 15 to 20 km/h becoming light in the early afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-02": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the late morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-04-04": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 18
+      }
+    },
+    "2026-04-07": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 27,
+        "temp_min": 15
       }
     }
   },

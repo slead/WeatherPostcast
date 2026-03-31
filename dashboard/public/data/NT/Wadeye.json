@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-03-31": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 35,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-04-01": {
       "1": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 36,
         "temp_min": 24
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-02": {
       "2": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower in the afternoon. Light winds.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely in the afternoon. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,9 +219,9 @@
     },
     "2026-04-04": {
       "4": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 25
@@ -253,7 +253,7 @@
     },
     "2026-04-05": {
       "5": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower later in the day. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower later in the day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 24
+      }
+    },
+    "2026-04-07": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 33,
+        "temp_min": 25
       }
     }
   },
