@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-02": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 15 to 25 km/h tending westerly 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 20 to 25 km/h tending westerly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
+        "precis": "Showers.",
         "temp_max": 19,
         "temp_min": null
       },
@@ -73,7 +73,7 @@
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
-        "temp_max": 14,
+        "temp_max": 13,
         "temp_min": 7
       },
       "2": {
@@ -219,7 +219,7 @@
     },
     "2026-04-06": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 25 km/h turning north to northwesterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds north to northeasterly 20 to 25 km/h tending north to northwesterly 15 to 25 km/h during the day then becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -253,9 +253,9 @@
     },
     "2026-04-07": {
       "5": {
-        "forecast": "Cloudy. High chance of showers, most likely during the morning. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 10
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": 9
+      }
+    },
+    "2026-04-09": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 22,
+        "temp_min": 13
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-02": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "0%",
+        "precis": "Mostly clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-04": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming east to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming east to northeasterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -177,10 +177,10 @@
     },
     "2026-04-05": {
       "3": {
-        "forecast": "Partly cloudy. Winds east to northeasterly 15 to 25 km/h becoming light during the afternoon then becoming easterly 15 to 20 km/h during the evening.",
+        "forecast": "Mostly sunny. Winds easterly 15 to 25 km/h tending northeasterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 14
       },
@@ -219,7 +219,7 @@
     },
     "2026-04-06": {
       "4": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h.",
+        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light during the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 30,
         "temp_min": 14
+      }
+    },
+    "2026-04-09": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 31,
+        "temp_min": 16
       }
     }
   },
