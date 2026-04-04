@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-04-04": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the late afternoon and evening. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -177,10 +177,10 @@
     },
     "2026-04-07": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers in the afternoon and evening. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 28,
         "temp_min": 12
       },
@@ -219,7 +219,7 @@
     },
     "2026-04-08": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -253,7 +253,7 @@
     },
     "2026-04-09": {
       "5": {
-        "forecast": "Slight chance of a shower during the morning. Mostly sunny day. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 25,
         "temp_min": 15
+      }
+    },
+    "2026-04-11": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 15 to 20 km/h tending southwesterly during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 19,
+        "temp_min": 9
       }
     }
   },
