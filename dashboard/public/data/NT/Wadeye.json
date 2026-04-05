@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-05": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 35,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-07": {
       "2": {
-        "forecast": "Sunny morning. Slight chance of a shower in the afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely in the afternoon. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-04-09": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -290,6 +290,16 @@
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 36,
+        "temp_min": 25
+      }
+    },
+    "2026-04-12": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 36,
         "temp_min": 25
