@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-06": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Mostly clear. Slight chance of a shower early this evening. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-08": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-04-09": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm in the morning. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-04-10": {
       "4": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower in the afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 36,
         "temp_min": 25
+      }
+    },
+    "2026-04-13": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 36,
+        "temp_min": 24
       }
     }
   },
