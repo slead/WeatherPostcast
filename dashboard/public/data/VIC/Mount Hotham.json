@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-07": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the afternoon. Winds westerly 25 to 35 km/h decreasing to 20 to 25 km/h in the middle of the day then tending northwesterly 15 to 20 km/h in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Winds westerly 20 to 25 km/h tending northwesterly 15 to 20 km/h in the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 11,
         "temp_min": 6
       },
@@ -182,7 +182,7 @@
         "precipitation_prob": "95%",
         "precis": "Showers easing. Very windy.",
         "temp_max": 8,
-        "temp_min": 7
+        "temp_min": 6
       },
       "4": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Winds northwesterly 50 to 70 km/h.",
@@ -219,10 +219,10 @@
     },
     "2026-04-11": {
       "4": {
-        "forecast": "Partly cloudy. High chance of snow showers. Winds northwesterly 35 to 45 km/h tending westerly 30 to 40 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of snow showers, most likely in the morning and afternoon. Winds northwesterly 35 to 45 km/h tending westerly 30 to 40 km/h during the morning.",
         "icon_code": 15,
-        "precipitation_prob": "70%",
-        "precis": "Snow shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Snow showers. Wind easing.",
         "temp_max": 1,
         "temp_min": -2
       },
@@ -279,7 +279,7 @@
     },
     "2026-04-13": {
       "6": {
-        "forecast": "Mostly sunny. Winds southwesterly 20 to 30 km/h tending southerly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Winds southwesterly 25 to 30 km/h tending southeast to southwesterly 20 to 30 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 7,
         "temp_min": -1
+      }
+    },
+    "2026-04-14": {
+      "7": {
+        "forecast": "Sunny. Winds northwesterly 15 to 20 km/h turning north to northeasterly 15 to 25 km/h later.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 10,
+        "temp_min": 1
       }
     }
   },

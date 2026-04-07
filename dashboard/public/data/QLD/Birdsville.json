@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-07": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -220,9 +220,9 @@
     "2026-04-11": {
       "4": {
         "forecast": "Sunny. Winds southerly 25 to 40 km/h.",
-        "icon_code": 1,
+        "icon_code": 9,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Wind easing. Sunny.",
         "temp_max": 28,
         "temp_min": 19
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 27,
+        "temp_min": 13
+      }
+    },
+    "2026-04-14": {
+      "7": {
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 30,
         "temp_min": 13
       }
     }

@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-04-07": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -69,7 +69,7 @@
     },
     "2026-04-08": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the evening. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -127,7 +127,7 @@
     },
     "2026-04-09": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 36,
         "temp_min": 23
@@ -224,7 +224,7 @@
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 36,
-        "temp_min": 22
+        "temp_min": 21
       },
       "5": {
         "forecast": "Mostly sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 37,
         "temp_min": 23
+      }
+    },
+    "2026-04-14": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 37,
+        "temp_min": 21
       }
     }
   },
