@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-08": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-09": {
       "1": {
-        "forecast": "Mostly sunny. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Winds southeasterly 15 to 20 km/h tending easterly in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-04-10": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -177,7 +177,7 @@
     },
     "2026-04-11": {
       "3": {
-        "forecast": "Sunny. Light winds.",
+        "forecast": "The chance of morning fog. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-12": {
       "4": {
-        "forecast": "Sunny. Light winds.",
+        "forecast": "The chance of morning fog. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-04-13": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming east to southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Winds southeasterly 15 to 20 km/h tending easterly during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
+        "temp_max": 29,
+        "temp_min": 20
+      }
+    },
+    "2026-04-15": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming east to southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 29,
         "temp_min": 20
       }
