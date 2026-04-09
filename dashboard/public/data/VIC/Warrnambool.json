@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-09": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the evening. Winds west to northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely later this evening. Winds west to northwesterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "95%",
-        "precis": "Showers increasing.",
+        "precis": "Showers.",
         "temp_max": 25,
         "temp_min": 13
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-10": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, with possible small hail at night. Winds northwesterly 25 to 40 km/h tending westerly 35 to 50 km/h in the morning then decreasing to 30 to 35 km/h in the evening.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 30 to 45 km/h tending westerly 35 to 55 km/h in the morning then decreasing to 30 to 40 km/h in the evening.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers. Windy.",
@@ -127,10 +127,10 @@
     },
     "2026-04-11": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, with possible small hail in the morning. Winds westerly 30 to 45 km/h tending southwesterly 25 to 30 km/h during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, with possible small hail in the morning. Winds westerly 25 to 30 km/h tending northwesterly in the early morning then tending northwest to southwesterly 35 to 50 km/h in the morning.",
         "icon_code": 11,
         "precipitation_prob": "95%",
-        "precis": "Showers. Becoming windy.",
+        "precis": "Showers. Windy.",
         "temp_max": 15,
         "temp_min": 8
       },
@@ -177,7 +177,7 @@
     },
     "2026-04-12": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Winds southwesterly 25 to 40 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Winds westerly 30 to 35 km/h tending southwesterly 25 to 40 km/h during the morning then decreasing to 20 to 25 km/h during the evening.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers easing.",
@@ -219,7 +219,7 @@
     },
     "2026-04-13": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Winds southwesterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Winds southwesterly 15 to 25 km/h becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -253,9 +253,9 @@
     },
     "2026-04-14": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds northwesterly 15 to 20 km/h tending westerly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds becoming west to northwesterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 10
@@ -279,10 +279,10 @@
     },
     "2026-04-15": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds west to northwesterly 15 to 20 km/h turning southwesterly during the day.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds westerly 15 to 20 km/h tending southwesterly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 18,
         "temp_min": 10
       },
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 10
+      }
+    },
+    "2026-04-16": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds northwesterly 15 to 20 km/h turning west to southwesterly 20 to 30 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 18,
+        "temp_min": 9
       }
     }
   },
