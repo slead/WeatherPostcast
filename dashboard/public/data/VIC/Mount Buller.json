@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-04-10": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Damaging winds possible in the late morning and afternoon. Winds northwesterly 35 to 50 km/h.",
+        "forecast": "Cloudy. High chance of showers or snow. Damaging winds possible. Winds northwesterly 35 to 50 km/h.",
         "icon_code": 15,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers or snow. Windy.",
         "temp_max": 7,
         "temp_min": 5
@@ -69,7 +69,7 @@
     },
     "2026-04-11": {
       "1": {
-        "forecast": "Cloudy. Very high chance of snow showers. Winds northwesterly 40 to 50 km/h tending westerly 25 to 35 km/h before dawn.",
+        "forecast": "Cloudy. Very high chance of snow showers. Winds northwesterly 35 to 50 km/h tending westerly 25 to 35 km/h before dawn.",
         "icon_code": 15,
         "precipitation_prob": "90%",
         "precis": "Snow showers.",
@@ -127,7 +127,7 @@
     },
     "2026-04-12": {
       "2": {
-        "forecast": "Cloudy. Very high chance of snow showers. Winds westerly 25 to 35 km/h tending southwesterly 25 to 30 km/h during the afternoon.",
+        "forecast": "Cloudy. Very high chance of snow showers. Winds westerly 25 to 35 km/h tending southwesterly 25 to 30 km/h in the late afternoon.",
         "icon_code": 15,
         "precipitation_prob": "95%",
         "precis": "Snow showers.",
@@ -177,12 +177,12 @@
     },
     "2026-04-13": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers or snow, most likely in the morning and afternoon. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h during the evening.",
+        "forecast": "Cloudy. Medium chance of showers or snow, most likely in the morning and afternoon. Winds southwesterly 20 to 30 km/h.",
         "icon_code": 15,
         "precipitation_prob": "60%",
         "precis": "Showers or snow at times.",
         "temp_max": 5,
-        "temp_min": 0
+        "temp_min": 1
       },
       "4": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h during the evening.",
@@ -219,7 +219,7 @@
     },
     "2026-04-14": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southerly 15 to 20 km/h shifting west to northwesterly during the day.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds south to southwesterly 15 to 20 km/h turning west to northwesterly during the day.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -253,12 +253,12 @@
     },
     "2026-04-15": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Winds northwesterly 15 to 20 km/h turning west to southwesterly during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Winds northwesterly 15 to 20 km/h tending westerly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 8,
-        "temp_min": 3
+        "temp_min": 4
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 15 to 20 km/h turning westerly during the morning.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 8,
+        "temp_min": 3
+      }
+    },
+    "2026-04-17": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower or snow. Winds south to southwesterly 20 to 25 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 5,
         "temp_min": 3
       }
     }
