@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-11": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 35,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-13": {
       "2": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -224,7 +224,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 36,
-        "temp_min": 22
+        "temp_min": 21
       },
       "5": {
         "forecast": "Sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 35,
         "temp_min": 24
+      }
+    },
+    "2026-04-18": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 35,
+        "temp_min": 25
       }
     }
   },

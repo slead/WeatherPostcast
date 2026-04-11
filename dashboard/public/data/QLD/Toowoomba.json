@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-11": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the afternoon. Winds northwesterly 15 to 20 km/h tending westerly in the middle of the day then tending southwesterly in the late evening.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Winds westerly 15 to 20 km/h tending southwesterly in the late evening.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 13
+        "temp_min": 15
       },
       "2": {
         "forecast": "Sunny. Winds west to southwesterly 25 to 35 km/h.",
@@ -127,12 +127,12 @@
     },
     "2026-04-13": {
       "2": {
-        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h becoming light during the morning.",
+        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h becoming light in the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 9
+        "temp_min": 10
       },
       "3": {
         "forecast": "Sunny. Winds southwesterly 15 to 20 km/h becoming light during the morning.",
@@ -177,7 +177,7 @@
     },
     "2026-04-14": {
       "3": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light during the day then becoming easterly 15 to 20 km/h during the evening.",
+        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light during the day then becoming east to northeasterly 15 to 20 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-15": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light during the day then becoming east to northeasterly 15 to 20 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-04-17": {
       "6": {
-        "forecast": "Sunny. Winds west to northwesterly 15 to 20 km/h turning southwesterly during the day.",
+        "forecast": "Sunny. Light winds becoming west to southwesterly 15 to 20 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 27,
         "temp_min": 11
+      }
+    },
+    "2026-04-18": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 27,
+        "temp_min": 13
       }
     }
   },
