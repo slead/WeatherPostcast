@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-12": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Winds westerly 30 to 45 km/h tending southwesterly in the evening.",
-        "icon_code": 15,
-        "precipitation_prob": "90%",
-        "precis": "Showers or snow. Windy.",
+        "forecast": "Cloudy. High chance of showers. Winds westerly 35 to 45 km/h tending southwesterly 30 to 45 km/h in the evening.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers. Windy.",
         "temp_max": 2,
         "temp_min": -1
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-14": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h tending westerly 15 to 20 km/h during the day then tending northwesterly during the evening.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h tending westerly 15 to 20 km/h in the middle of the day then tending northwesterly in the late evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -177,10 +177,10 @@
     },
     "2026-04-15": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to northwesterly 15 to 20 km/h.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "forecast": "Cloudy. Medium chance of showers. Winds west to northwesterly 15 to 25 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 8,
         "temp_min": 3
       },
@@ -219,12 +219,12 @@
     },
     "2026-04-16": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Cloudy. High chance of showers. Winds northwesterly 25 to 40 km/h.",
         "icon_code": 11,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Wind easing.",
         "temp_max": 8,
-        "temp_min": 5
+        "temp_min": 4
       },
       "5": {
         "forecast": "Cloudy. High chance of showers. Winds northwesterly 20 to 30 km/h tending westerly during the morning.",
@@ -253,12 +253,12 @@
     },
     "2026-04-17": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers or snow, most likely during the morning. Winds westerly 20 to 25 km/h turning south to southwesterly during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers or snow, most likely during the morning. Winds westerly 25 to 40 km/h turning south to southwesterly 20 to 25 km/h during the morning.",
         "icon_code": 15,
-        "precipitation_prob": "40%",
-        "precis": "Possible showers or snow.",
+        "precipitation_prob": "50%",
+        "precis": "Showers or snow at times.",
         "temp_max": 5,
-        "temp_min": 3
+        "temp_min": 2
       },
       "6": {
         "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Winds westerly 20 to 25 km/h turning south to southwesterly during the morning.",
@@ -279,12 +279,12 @@
     },
     "2026-04-18": {
       "6": {
-        "forecast": "Partly cloudy. Winds south to southeasterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h tending southeasterly 15 to 20 km/h later.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 6,
-        "temp_min": 1
+        "temp_min": -1
       },
       "7": {
         "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h tending southeasterly 15 to 20 km/h later.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 7,
         "temp_min": 0
+      }
+    },
+    "2026-04-19": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds east to southeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 8,
+        "temp_min": 1
       }
     }
   },

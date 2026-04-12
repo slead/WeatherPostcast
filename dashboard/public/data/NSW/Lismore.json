@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-12": {
       "0": {
-        "forecast": "Mostly sunny day. Slight chance of a shower, most likely at night. Light winds.",
+        "forecast": "Mostly clear. Slight chance of a shower, most likely later tonight. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "20%",
+        "precis": "Mostly clear.",
         "temp_max": 28,
         "temp_min": 17
       },
@@ -71,10 +71,10 @@
       "1": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 12
+        "temp_min": 11
       },
       "2": {
         "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
@@ -129,7 +129,7 @@
       "2": {
         "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 10
@@ -177,7 +177,7 @@
     },
     "2026-04-15": {
       "3": {
-        "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny day. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-16": {
       "4": {
-        "forecast": "Sunny. Light winds.",
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then tending northerly during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -279,10 +279,10 @@
     },
     "2026-04-18": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the day.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 14
       },
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 26,
         "temp_min": 13
+      }
+    },
+    "2026-04-19": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 24,
+        "temp_min": 12
       }
     }
   },

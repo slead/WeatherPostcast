@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-12": {
       "0": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-04-14": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds southerly 15 to 20 km/h tending southeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
-        "precis": "Showers increasing.",
+        "precipitation_prob": "95%",
+        "precis": "Showers.",
         "temp_max": 29,
         "temp_min": 24
       },
@@ -177,7 +177,7 @@
     },
     "2026-04-15": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds east to southeasterly 20 to 30 km/h becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-04-16": {
       "4": {
-        "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm later in the day. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Very high chance of showers. Winds southeasterly 15 to 20 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -253,7 +253,7 @@
     },
     "2026-04-17": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds east to southeasterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 30,
         "temp_min": 23
+      }
+    },
+    "2026-04-19": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 29,
+        "temp_min": 24
       }
     }
   },
