@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-13": {
       "0": {
-        "forecast": "Sunny. Winds easterly 15 to 25 km/h becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds easterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-14": {
       "1": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the evening.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-04-15": {
       "2": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the day.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 31,
+        "temp_min": 15
+      }
+    },
+    "2026-04-20": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 32,
         "temp_min": 15
       }
     }

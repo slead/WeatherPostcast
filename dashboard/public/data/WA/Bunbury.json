@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-13": {
       "0": {
-        "forecast": "Cloud clearing. Light winds becoming south to southwesterly 15 to 20 km/h in the early afternoon then tending south to southeasterly in the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h tending southerly in the evening then tending southeasterly in the late evening.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-14": {
       "1": {
-        "forecast": "Sunny. Winds east to southeasterly 15 to 20 km/h shifting southwesterly in the middle of the day then tending southerly in the evening.",
+        "forecast": "Mostly sunny. The chance of smoke haze in the morning. The chance of smoke haze in the evening. Winds east to southeasterly 15 to 20 km/h shifting southwesterly in the middle of the day then tending southerly in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -127,10 +127,10 @@
     },
     "2026-04-15": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. The chance of a thunderstorm in the afternoon. Light winds becoming south to southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Slight chance of a shower, most likely in the morning. The chance of a thunderstorm in the early morning. Sunny afternoon. Light winds becoming south to southeasterly 15 to 25 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloud clearing.",
         "temp_max": 25,
         "temp_min": 14
       },
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h turning south to southwesterly during the day then becoming light during the afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 14
@@ -219,7 +219,7 @@
     },
     "2026-04-17": {
       "4": {
-        "forecast": "Mostly sunny morning. High chance of showers, most likely later in the day. Light winds becoming west to northwesterly 25 to 35 km/h during the morning.",
+        "forecast": "Mostly sunny morning. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northwesterly 25 to 35 km/h during the morning then tending westerly 25 to 30 km/h during the evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
+        "temp_min": 12
+      }
+    },
+    "2026-04-20": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming west to northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 24,
         "temp_min": 12
       }
     }
