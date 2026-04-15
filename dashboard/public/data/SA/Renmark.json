@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-15": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 24,
         "temp_min": 8
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-16": {
       "1": {
-        "forecast": "Sunny. Winds northwest to northeasterly 15 to 20 km/h tending west to northwesterly in the middle of the day then becoming light in the late afternoon.",
+        "forecast": "Sunny. Winds northwest to northeasterly 15 to 20 km/h tending northwest to southwesterly in the middle of the day then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-04-17": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 20 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 21,
-        "temp_min": 6
+        "temp_min": 5
       },
       "4": {
         "forecast": "Sunny. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-04-19": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 27,
+        "temp_min": 11
+      }
+    },
+    "2026-04-22": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 26,
         "temp_min": 11
       }
     }

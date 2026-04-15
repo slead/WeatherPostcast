@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-15": {
       "0": {
-        "forecast": "Mostly sunny. Winds westerly 15 to 20 km/h becoming light in the late afternoon then becoming west to northwesterly 15 to 20 km/h in the evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds west to northwesterly 15 to 20 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 9,
         "temp_min": 1
       },
@@ -127,10 +127,10 @@
     },
     "2026-04-17": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers in the morning and afternoon. Snow falling above 1900 metres. Winds west to northwesterly 40 to 60 km/h turning southwesterly 30 to 45 km/h during the afternoon.",
+        "forecast": "Partly cloudy. High chance of showers in the morning and afternoon. Snow falling above 1700 metres. Winds west to northwesterly 40 to 60 km/h turning southwesterly 25 to 35 km/h in the late afternoon.",
         "icon_code": 15,
         "precipitation_prob": "80%",
-        "precis": "Showers or snow. Very windy.",
+        "precis": "Showers or snow. Wind easing.",
         "temp_max": 7,
         "temp_min": 2
       },
@@ -177,10 +177,10 @@
     },
     "2026-04-18": {
       "3": {
-        "forecast": "Sunny. Winds southwesterly 30 to 45 km/h decreasing to 25 to 35 km/h during the morning then turning westerly 15 to 25 km/h during the afternoon.",
-        "icon_code": 9,
+        "forecast": "Sunny. Winds south to southwesterly 25 to 35 km/h tending west to southwesterly 15 to 25 km/h during the day.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Wind easing. Sunny.",
+        "precis": "Sunny.",
         "temp_max": 9,
         "temp_min": -4
       },
@@ -219,7 +219,7 @@
     },
     "2026-04-19": {
       "4": {
-        "forecast": "Sunny. Winds west to southwesterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h becoming light during the afternoon then becoming westerly 15 to 20 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-04-20": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 15 to 25 km/h turning southerly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 15 to 25 km/h turning southerly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-04-21": {
       "6": {
-        "forecast": "Partly cloudy. Winds south to southeasterly 15 to 25 km/h shifting westerly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Winds south to southeasterly 15 to 25 km/h turning west to southwesterly later.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 10,
         "temp_min": 3
+      }
+    },
+    "2026-04-22": {
+      "7": {
+        "forecast": "Partly cloudy. Winds west to southwesterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 8,
+        "temp_min": 0
       }
     }
   },

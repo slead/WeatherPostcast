@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-04-15": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. Winds east to southeasterly 20 to 25 km/h.",
+        "forecast": "Cloudy. High chance of rain. Winds southeasterly 20 to 25 km/h tending easterly in the late evening.",
         "icon_code": 12,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Rain.",
         "temp_max": 27,
         "temp_min": null
@@ -127,10 +127,10 @@
     },
     "2026-04-17": {
       "2": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 29,
         "temp_min": 21
       },
@@ -219,7 +219,7 @@
     },
     "2026-04-19": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -280,9 +280,9 @@
     "2026-04-21": {
       "6": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h during the day.",
-        "icon_code": 3,
+        "icon_code": 1,
         "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 28,
         "temp_min": 18
       },
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 28,
         "temp_min": 19
+      }
+    },
+    "2026-04-22": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 28,
+        "temp_min": 17
       }
     }
   },

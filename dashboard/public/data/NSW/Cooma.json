@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-15": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 20,
         "temp_min": 2
       },
@@ -69,12 +69,12 @@
     },
     "2026-04-16": {
       "1": {
-        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds becoming west to northwesterly 15 to 20 km/h in the early afternoon.",
+        "forecast": "Patchy frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds becoming west to northwesterly 15 to 25 km/h in the early afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 21,
-        "temp_min": 3
+        "temp_min": 1
       },
       "2": {
         "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds becoming westerly 15 to 20 km/h in the early afternoon then tending northwesterly in the late afternoon.",
@@ -127,7 +127,7 @@
     },
     "2026-04-17": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds northwesterly 15 to 20 km/h turning southwesterly 25 to 35 km/h during the day then decreasing to 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late morning and afternoon. Winds northwesterly 15 to 20 km/h turning southwesterly 25 to 35 km/h in the middle of the day then decreasing to 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -177,12 +177,12 @@
     },
     "2026-04-18": {
       "3": {
-        "forecast": "Sunny. Patchy morning frost. Winds west to southwesterly 15 to 20 km/h tending south to southwesterly during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Morning frost. Winds west to southwesterly 15 to 20 km/h tending south to southwesterly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Early frost. Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 15,
-        "temp_min": 1
+        "temp_min": 0
       },
       "4": {
         "forecast": "Sunny. Patchy morning frost. Winds west to southwesterly 15 to 20 km/h tending south to southwesterly during the morning then becoming light during the evening.",
@@ -219,12 +219,12 @@
     },
     "2026-04-19": {
       "4": {
-        "forecast": "Sunny. Morning frost. Light winds.",
+        "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 18,
-        "temp_min": -1
+        "temp_min": -2
       },
       "5": {
         "forecast": "Mostly sunny. Morning frost. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 5
+      }
+    },
+    "2026-04-22": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 17,
+        "temp_min": 3
       }
     }
   },
