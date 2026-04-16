@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-16": {
       "0": {
-        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-17": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds.",
+        "forecast": "Mostly sunny. The chance of fog in the early morning. The chance of smoke haze. Light winds becoming north to northwesterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -127,9 +127,9 @@
     },
     "2026-04-18": {
       "2": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then tending southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 32,
         "temp_min": 13
@@ -177,7 +177,7 @@
     },
     "2026-04-19": {
       "3": {
-        "forecast": "Sunny. Light winds.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-20": {
       "4": {
-        "forecast": "Sunny. Light winds.",
+        "forecast": "Sunny. Light winds becoming east to southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
+        "temp_max": 28,
+        "temp_min": 11
+      }
+    },
+    "2026-04-23": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
         "temp_max": 28,
         "temp_min": 11
       }

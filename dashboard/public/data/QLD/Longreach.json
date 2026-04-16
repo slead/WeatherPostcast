@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-04-16": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm. Winds northeasterly 15 to 25 km/h becoming light in the late afternoon.",
+        "forecast": "Cloudy. Medium chance of showers. Winds northeasterly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -69,10 +69,10 @@
     },
     "2026-04-17": {
       "1": {
-        "forecast": "Cloudy. High chance of showers, most likely in the early morning. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers easing.",
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
         "temp_max": 28,
         "temp_min": 19
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-18": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-04-20": {
       "4": {
-        "forecast": "Sunny morning. Medium chance of showers, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming east to northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny morning. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming east to northeasterly 15 to 25 km/h during the morning then becoming light during the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 29,
+        "temp_min": 13
+      }
+    },
+    "2026-04-23": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 30,
         "temp_min": 13
       }
     }
