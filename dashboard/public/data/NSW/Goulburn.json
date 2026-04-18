@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-18": {
       "0": {
-        "forecast": "Sunny. Winds westerly 15 to 20 km/h becoming light in the late afternoon.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds westerly 15 to 20 km/h becoming light in the late afternoon.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 3
       },
@@ -69,12 +69,12 @@
     },
     "2026-04-19": {
       "1": {
-        "forecast": "The chance of fog in the early morning. The chance of morning frost. Sunny day. Light winds.",
+        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 19,
-        "temp_min": 2
+        "temp_min": 1
       },
       "2": {
         "forecast": "The chance of fog in the early morning. The chance of morning frost. Sunny day. Light winds.",
@@ -127,12 +127,12 @@
     },
     "2026-04-20": {
       "2": {
-        "forecast": "The chance of fog and frost in the morning. Sunny day. Light winds becoming east to southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds becoming southeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 19,
-        "temp_min": 3
+        "temp_min": 2
       },
       "3": {
         "forecast": "The chance of fog and frost in the morning. Sunny day. Light winds becoming east to southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
@@ -177,7 +177,7 @@
     },
     "2026-04-21": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. The chance of morning fog. Light winds becoming southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-04-22": {
       "4": {
-        "forecast": "Cloudy. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Cloudy. The chance of morning fog. Light winds becoming east to southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 4,
         "precipitation_prob": "10%",
         "precis": "Cloudy.",
@@ -279,7 +279,7 @@
     },
     "2026-04-24": {
       "6": {
-        "forecast": "Sunny. Light winds becoming west to southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds becoming southwesterly 15 to 20 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 8
+      }
+    },
+    "2026-04-25": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 22,
+        "temp_min": 7
       }
     }
   },

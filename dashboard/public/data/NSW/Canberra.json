@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-18": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 1
       },
@@ -69,12 +69,12 @@
     },
     "2026-04-19": {
       "1": {
-        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds.",
+        "forecast": "Patches of frost and the chance of fog in the morning. Sunny afternoon. Light winds becoming north to northwesterly 15 to 20 km/h in the late afternoon then tending northeast to southeasterly in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 21,
-        "temp_min": 1
+        "temp_min": 0
       },
       "2": {
         "forecast": "Patches of frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
@@ -127,10 +127,10 @@
     },
     "2026-04-20": {
       "2": {
-        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds becoming east to southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Patches of frost and the chance of fog in the morning. Sunny afternoon. Light winds becoming east to southeasterly 15 to 20 km/h in the early afternoon then becoming light in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 22,
         "temp_min": 1
       },
@@ -177,7 +177,7 @@
     },
     "2026-04-21": {
       "3": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds becoming east to southeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Winds south to southeasterly 15 to 20 km/h tending east to southeasterly during the day then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -258,7 +258,7 @@
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 21,
-        "temp_min": 4
+        "temp_min": 3
       },
       "6": {
         "forecast": "Mostly sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 5
+      }
+    },
+    "2026-04-25": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 23,
+        "temp_min": 6
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-18": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 4
       },
@@ -69,12 +69,12 @@
     },
     "2026-04-19": {
       "1": {
-        "forecast": "Partly cloudy. The chance of fog and frost in the morning. Light winds.",
+        "forecast": "Patchy frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
-        "temp_max": 19,
-        "temp_min": 2
+        "precis": "Morning frost. Mostly sunny.",
+        "temp_max": 20,
+        "temp_min": 1
       },
       "2": {
         "forecast": "Partly cloudy. The chance of fog and frost in the morning. Light winds.",
@@ -127,11 +127,11 @@
     },
     "2026-04-20": {
       "2": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
-        "temp_max": 23,
+        "precis": "Mostly sunny.",
+        "temp_max": 24,
         "temp_min": 6
       },
       "3": {
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 23,
+        "temp_max": 24,
         "temp_min": 9
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 8
+      }
+    },
+    "2026-04-25": {
+      "7": {
+        "forecast": "Mostly sunny day. Slight chance of a shower, most likely later in the day. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 25,
+        "temp_min": 9
       }
     }
   },

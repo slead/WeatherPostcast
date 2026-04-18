@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-18": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 20,
         "temp_min": 5
       },
@@ -69,12 +69,12 @@
     },
     "2026-04-19": {
       "1": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. The chance of morning frost. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 24,
-        "temp_min": 4
+        "temp_min": 3
       },
       "2": {
         "forecast": "Mostly sunny. Light winds.",
@@ -127,12 +127,12 @@
     },
     "2026-04-20": {
       "2": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Cloud clearing. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Cloud clearing.",
         "temp_max": 26,
-        "temp_min": 10
+        "temp_min": 9
       },
       "3": {
         "forecast": "Mostly sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 27,
         "temp_min": 11
+      }
+    },
+    "2026-04-25": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 29,
+        "temp_min": 13
       }
     }
   },

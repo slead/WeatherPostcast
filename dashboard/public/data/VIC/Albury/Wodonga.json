@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-18": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 2
       },
@@ -73,7 +73,7 @@
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
-        "temp_max": 20,
+        "temp_max": 19,
         "temp_min": 2
       },
       "2": {
@@ -131,8 +131,8 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 23,
-        "temp_min": 5
+        "temp_max": 22,
+        "temp_min": 4
       },
       "3": {
         "forecast": "Sunny. Light winds.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 22,
+        "temp_min": 8
+      }
+    },
+    "2026-04-25": {
+      "7": {
+        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 23,
         "temp_min": 8
       }
     }

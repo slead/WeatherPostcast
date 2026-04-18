@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-18": {
       "0": {
-        "forecast": "Sunny. Winds west to southwesterly 25 to 40 km/h.",
-        "icon_code": 9,
-        "precipitation_prob": "0%",
-        "precis": "Wind easing. Sunny.",
+        "forecast": "Clear. Winds west to southwesterly 15 to 25 km/h.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 9,
         "temp_min": -5
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-20": {
       "2": {
-        "forecast": "Mostly sunny. Winds west to southwesterly 15 to 25 km/h turning southerly during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny. Winds west to southwesterly 15 to 25 km/h turning south to southeasterly 20 to 30 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -177,7 +177,7 @@
     },
     "2026-04-21": {
       "3": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-22": {
       "4": {
-        "forecast": "Sunny. Light winds becoming westerly 15 to 20 km/h later.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -253,12 +253,12 @@
     },
     "2026-04-23": {
       "5": {
-        "forecast": "Sunny. Winds southeast to southwesterly 15 to 20 km/h tending westerly later.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h turning southerly during the morning.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 12,
-        "temp_min": 3
+        "temp_min": 2
       },
       "6": {
         "forecast": "Mostly sunny. Winds westerly 15 to 20 km/h tending southwesterly during the morning.",
@@ -279,7 +279,7 @@
     },
     "2026-04-24": {
       "6": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 15 to 20 km/h later.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 11,
         "temp_min": 3
+      }
+    },
+    "2026-04-25": {
+      "7": {
+        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Winds west to northwesterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 13,
+        "temp_min": 4
       }
     }
   },
