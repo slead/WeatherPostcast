@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-19": {
       "0": {
-        "forecast": "Cloudy. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "5%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "0%",
+        "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-20": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Winds northerly 20 to 30 km/h tending northwesterly 30 to 45 km/h in the middle of the day then tending westerly 35 to 45 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening, possibly severe with damaging winds. Light winds becoming north to northwesterly 25 to 35 km/h in the morning then tending west to northwesterly 35 to 45 km/h in the middle of the day.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers increasing. Windy.",
@@ -127,10 +127,10 @@
     },
     "2026-04-21": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds westerly 35 to 45 km/h tending southwesterly 25 to 40 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the early morning. Winds westerly 35 to 45 km/h tending southwesterly 25 to 40 km/h before dawn then becoming light in the late afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers easing. Wind easing.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Wind easing.",
         "temp_max": 18,
         "temp_min": 11
       },
@@ -177,9 +177,9 @@
     },
     "2026-04-22": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly 15 to 25 km/h during the afternoon.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly 15 to 25 km/h during the afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 10
@@ -219,9 +219,9 @@
     },
     "2026-04-23": {
       "4": {
-        "forecast": "Partly cloudy. Very high chance of showers. Winds northwesterly 15 to 25 km/h tending westerly during the day.",
+        "forecast": "Partly cloudy. High chance of showers. Winds northwesterly 15 to 25 km/h tending westerly during the day then becoming light during the evening.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 21,
         "temp_min": 14
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 22,
         "temp_min": 10
+      }
+    },
+    "2026-04-26": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 23,
+        "temp_min": 11
       }
     }
   },
