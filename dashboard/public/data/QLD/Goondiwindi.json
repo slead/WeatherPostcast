@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-20": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 29,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-04-22": {
       "2": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 28,
         "temp_min": 9
       },
@@ -177,10 +177,10 @@
     },
     "2026-04-23": {
       "3": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 28,
         "temp_min": 11
       },
@@ -221,7 +221,7 @@
       "4": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 28,
         "temp_min": 10
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 28,
+        "temp_max": 29,
         "temp_min": 11
       },
       "6": {
@@ -283,13 +283,23 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 29,
+        "temp_max": 28,
         "temp_min": 11
       },
       "7": {
         "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
+        "precis": "Mostly sunny.",
+        "temp_max": 28,
+        "temp_min": 11
+      }
+    },
+    "2026-04-27": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 28,
         "temp_min": 11

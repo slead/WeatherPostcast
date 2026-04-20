@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-20": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 19,
         "temp_min": -1
       },
@@ -69,11 +69,11 @@
     },
     "2026-04-21": {
       "1": {
-        "forecast": "Partly cloudy. The chance of morning fog. Patchy frost in the early morning. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Early frost. Partly cloudy.",
-        "temp_max": 18,
+        "precis": "Mostly sunny.",
+        "temp_max": 19,
         "temp_min": 1
       },
       "2": {
@@ -177,9 +177,9 @@
     },
     "2026-04-23": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
         "temp_min": 3
@@ -253,12 +253,12 @@
     },
     "2026-04-25": {
       "5": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning frost. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 22,
-        "temp_min": 3
+        "temp_min": 2
       },
       "6": {
         "forecast": "Mostly sunny. Light winds.",
@@ -280,9 +280,9 @@
     "2026-04-26": {
       "6": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
         "temp_max": 21,
         "temp_min": 4
       },
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
+        "temp_max": 21,
+        "temp_min": 4
+      }
+    },
+    "2026-04-27": {
+      "7": {
+        "forecast": "Cloud clearing. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Cloud clearing.",
         "temp_max": 21,
         "temp_min": 4
       }

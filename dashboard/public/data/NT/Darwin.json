@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-04-20": {
       "0": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds easterly 15 to 20 km/h becoming light in the early afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds easterly 15 to 20 km/h becoming light in the early afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 33,
         "temp_min": null
@@ -69,10 +69,10 @@
     },
     "2026-04-21": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "80%",
-        "precis": "Showers increasing.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 33,
         "temp_min": 23
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-22": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Light winds becoming east to southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the evening. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming east to southeasterly 15 to 20 km/h in the morning.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Possible storm.",
@@ -177,10 +177,10 @@
     },
     "2026-04-23": {
       "3": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds southeasterly 15 to 20 km/h turning easterly 15 to 25 km/h during the morning.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm. Winds east to southeasterly 20 to 30 km/h becoming light during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
         "temp_max": 33,
         "temp_min": 23
       },
@@ -219,7 +219,7 @@
     },
     "2026-04-24": {
       "4": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds southeasterly 15 to 20 km/h turning easterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny. Winds east to southeasterly 20 to 30 km/h becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -282,15 +282,25 @@
         "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h turning easterly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
-        "temp_max": 33,
-        "temp_min": 24
+        "precis": "Partly cloudy.",
+        "temp_max": 34,
+        "temp_min": 23
       },
       "7": {
         "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h turning easterly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
+        "temp_max": 34,
+        "temp_min": 23
+      }
+    },
+    "2026-04-27": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 34,
         "temp_min": 23
       }

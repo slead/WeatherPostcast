@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-20": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 26,
         "temp_min": 4
       },
@@ -127,11 +127,11 @@
     },
     "2026-04-22": {
       "2": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Mostly sunny.",
-        "temp_max": 25,
+        "temp_max": 26,
         "temp_min": 10
       },
       "3": {
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 27,
         "temp_min": 9
@@ -224,7 +224,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 27,
-        "temp_min": 10
+        "temp_min": 9
       },
       "5": {
         "forecast": "Sunny. Light winds.",
@@ -253,12 +253,12 @@
     },
     "2026-04-25": {
       "5": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the day.",
-        "icon_code": 1,
+        "forecast": "Partly cloudy. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
-        "temp_max": 28,
-        "temp_min": 11
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 10
       },
       "6": {
         "forecast": "Sunny. Light winds becoming north to northwesterly 15 to 20 km/h during the day.",
@@ -279,12 +279,12 @@
     },
     "2026-04-26": {
       "6": {
-        "forecast": "Sunny. Light winds becoming northwest to southwesterly 15 to 20 km/h during the day.",
-        "icon_code": 1,
-        "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "forecast": "Mostly sunny. Light winds becoming west to southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
         "temp_max": 28,
-        "temp_min": 11
+        "temp_min": 10
       },
       "7": {
         "forecast": "Partly cloudy. Light winds becoming northwest to southwesterly 15 to 20 km/h during the day.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 12
+      }
+    },
+    "2026-04-27": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 28,
+        "temp_min": 11
       }
     }
   },
