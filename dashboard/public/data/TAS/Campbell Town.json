@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-23": {
       "0": {
-        "forecast": "Sunny. Winds northwesterly 15 to 25 km/h.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northwesterly 15 to 25 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 22,
         "temp_min": 7
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-24": {
       "1": {
-        "forecast": "Mostly sunny. Winds northerly 15 to 20 km/h becoming light before dawn then becoming north to northwesterly 15 to 25 km/h in the morning.",
+        "forecast": "The chance of smoke haze in the morning. Mostly sunny afternoon. Winds northerly 15 to 20 km/h becoming light before dawn then becoming north to northwesterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-04-25": {
       "2": {
-        "forecast": "Partly cloudy. Winds north to northwesterly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Partly cloudy. Winds north to northwesterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -177,7 +177,7 @@
     },
     "2026-04-26": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly 15 to 25 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-04-27": {
       "4": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
+        "forecast": "The chance of morning fog. Sunny afternoon. Light winds becoming northerly 15 to 20 km/h during the day then tending northwesterly during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-04-29": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 15 to 20 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds north to northwesterly 15 to 20 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 20,
         "temp_min": 7
+      }
+    },
+    "2026-04-30": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 18,
+        "temp_min": 4
       }
     }
   },

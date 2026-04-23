@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-23": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 2
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "5%",
         "precis": "Morning frost. Mostly sunny.",
         "temp_max": 21,
-        "temp_min": 0
+        "temp_min": -2
       },
       "2": {
         "forecast": "Patchy frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
@@ -128,9 +128,9 @@
     "2026-04-25": {
       "2": {
         "forecast": "Patchy frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
-        "icon_code": 3,
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Morning frost. Mostly sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 22,
         "temp_min": 1
       },
@@ -177,7 +177,7 @@
     },
     "2026-04-26": {
       "3": {
-        "forecast": "The chance of fog and frost in the morning. Mostly sunny day. Light winds.",
+        "forecast": "The chance of fog and frost in the morning. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-27": {
       "4": {
-        "forecast": "The chance of fog and frost during the morning. Sunny afternoon. Light winds.",
+        "forecast": "The chance of morning fog. The chance of morning frost. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 21,
         "temp_min": 2
+      }
+    },
+    "2026-04-30": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
+        "temp_min": 5
       }
     }
   },
