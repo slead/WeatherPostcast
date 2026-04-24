@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-24": {
       "0": {
-        "forecast": "Mostly sunny. Winds northeasterly 15 to 20 km/h tending northerly in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 28,
         "temp_min": 9
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 12
@@ -127,9 +127,9 @@
     },
     "2026-04-26": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 16
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
+        "temp_max": 29,
+        "temp_min": 13
+      }
+    },
+    "2026-05-01": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 13
       }

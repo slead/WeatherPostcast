@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-24": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": 2
       },
@@ -69,10 +69,10 @@
     },
     "2026-04-25": {
       "1": {
-        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds.",
-        "icon_code": 1,
+        "forecast": "Patchy fog and the chance of frost in the morning. Sunny afternoon. Light winds becoming north to northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "icon_code": 10,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Early fog then sunny.",
         "temp_max": 23,
         "temp_min": 2
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-26": {
       "2": {
-        "forecast": "The chance of fog and frost in the morning. Sunny day. Light winds.",
+        "forecast": "Sunny. The chance of morning frost. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -177,7 +177,7 @@
     },
     "2026-04-27": {
       "3": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-04-30": {
       "6": {
-        "forecast": "Partly cloudy. Light winds becoming east to northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 6
+      }
+    },
+    "2026-05-01": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 22,
+        "temp_min": 5
       }
     }
   },

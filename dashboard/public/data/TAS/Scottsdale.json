@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-24": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 7
+      }
+    },
+    "2026-05-01": {
+      "7": {
+        "forecast": "Sunny day. Slight chance of a shower, most likely later in the day. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 21,
+        "temp_min": 9
       }
     }
   },
