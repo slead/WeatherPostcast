@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-25": {
       "0": {
-        "forecast": "Sunny. Winds northerly 15 to 20 km/h becoming light in the middle of the day then becoming north to northeasterly 15 to 20 km/h in the late afternoon.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northeasterly 15 to 20 km/h tending northerly in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": 7
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-26": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Sunny day. Light winds.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-04-27": {
       "2": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-04-29": {
       "4": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "The chance of morning fog. Sunny day. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 18,
         "temp_min": 10
+      }
+    },
+    "2026-05-02": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 15 to 20 km/h tending northeasterly during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
+        "temp_min": 9
       }
     }
   },
