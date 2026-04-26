@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-04-26": {
       "0": {
-        "forecast": "Partly cloudy. Winds northerly 20 to 30 km/h shifting south to southwesterly 15 to 20 km/h in the evening.",
+        "forecast": "Partly cloudy. Winds northerly 15 to 20 km/h shifting south to southwesterly in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -73,7 +73,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 20,
+        "temp_max": 21,
         "temp_min": 11
       },
       "2": {
@@ -127,9 +127,9 @@
     },
     "2026-04-28": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming south to southeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 20 km/h in the evening then becoming light in the late evening.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 9
@@ -253,7 +253,7 @@
     },
     "2026-05-01": {
       "5": {
-        "forecast": "Mostly sunny. Winds northerly 20 to 30 km/h.",
+        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Winds northerly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 14
+      }
+    },
+    "2026-05-03": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds northerly 20 to 30 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
+        "temp_min": 12
       }
     }
   },
