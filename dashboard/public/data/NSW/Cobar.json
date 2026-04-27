@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-27": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 27,
         "temp_min": 11
       },
@@ -127,7 +127,7 @@
     },
     "2026-04-29": {
       "2": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-05-01": {
       "4": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h tending northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h tending northeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-05-03": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds northeasterly 20 to 30 km/h tending northerly during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northeasterly 15 to 25 km/h tending northerly 20 to 30 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 24,
         "temp_min": 13
+      }
+    },
+    "2026-05-04": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds northwesterly 15 to 20 km/h tending westerly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 25,
+        "temp_min": 15
       }
     }
   },

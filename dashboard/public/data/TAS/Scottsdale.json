@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-27": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 8
       },
@@ -69,7 +69,7 @@
     },
     "2026-04-28": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely from the late morning. Light winds becoming west to northwesterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely from the late morning. Light winds becoming west to northwesterly 15 to 20 km/h in the middle of the day then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-04-29": {
       "2": {
-        "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -257,7 +257,7 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
-        "temp_max": 23,
+        "temp_max": 22,
         "temp_min": 10
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 18,
         "temp_min": 8
+      }
+    },
+    "2026-05-04": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 17,
+        "temp_min": 11
       }
     }
   },

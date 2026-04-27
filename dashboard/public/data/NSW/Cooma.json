@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-27": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": 1
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Sunny. Patchy morning frost. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 21,
         "temp_min": 0
@@ -127,7 +127,7 @@
     },
     "2026-04-29": {
       "2": {
-        "forecast": "Mostly sunny. The chance of morning frost. Light winds becoming easterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Mostly sunny. The chance of morning frost. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-04-30": {
       "3": {
-        "forecast": "Mostly sunny. Patchy morning frost. Light winds becoming northerly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Patchy frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds becoming northerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Early frost. Mostly sunny.",
+        "precis": "Morning frost. Mostly sunny.",
         "temp_max": 20,
         "temp_min": 1
       },
@@ -258,7 +258,7 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
-        "temp_min": 2
+        "temp_min": 3
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming northerly 15 to 20 km/h during the day.",
@@ -290,6 +290,16 @@
         "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northerly 15 to 20 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
+        "temp_min": 5
+      }
+    },
+    "2026-05-04": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northerly 15 to 25 km/h tending northwesterly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 5
