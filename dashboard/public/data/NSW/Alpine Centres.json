@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-29": {
       "0": {
-        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h turning northerly in the evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds northeasterly 15 to 20 km/h turning northerly in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Clear.",
         "temp_max": 13,
         "temp_min": 1
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-01": {
       "2": {
-        "forecast": "Sunny. Winds northwesterly 15 to 20 km/h becoming light during the day then becoming northwesterly 15 to 25 km/h during the evening.",
+        "forecast": "Sunny. Winds northwesterly 15 to 20 km/h becoming light in the middle of the day then becoming northwesterly 15 to 25 km/h in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "20%",
         "precis": "Becoming windy. Partly cloudy.",
         "temp_max": 11,
-        "temp_min": 2
+        "temp_min": 1
       },
       "4": {
         "forecast": "Partly cloudy. Winds northwesterly 20 to 30 km/h turning northerly 35 to 50 km/h during the afternoon.",
@@ -219,7 +219,7 @@
     },
     "2026-05-03": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. Winds northerly 35 to 50 km/h turning northwesterly 35 to 55 km/h during the morning.",
+        "forecast": "Cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon. Winds northerly 35 to 50 km/h turning northwesterly 35 to 55 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers. Windy.",
@@ -253,12 +253,12 @@
     },
     "2026-05-04": {
       "5": {
-        "forecast": "Cloudy. High chance of showers. Snow falling above 1900 metres. Winds northwesterly 35 to 55 km/h.",
+        "forecast": "Cloudy. High chance of showers. Snow falling above 1900 metres. Winds northwesterly 35 to 50 km/h.",
         "icon_code": 15,
         "precipitation_prob": "80%",
-        "precis": "Showers or snow. Windy.",
-        "temp_max": 5,
-        "temp_min": 2
+        "precis": "Snow showers. Windy.",
+        "temp_max": 4,
+        "temp_min": 1
       },
       "6": {
         "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 35 to 50 km/h decreasing to 25 to 35 km/h later.",
@@ -279,12 +279,12 @@
     },
     "2026-05-05": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Snow possible above 1900 metres. Winds northwesterly 30 to 45 km/h turning westerly 25 to 35 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. Snow possible above 1700 metres. Winds northwesterly 25 to 40 km/h turning westerly 15 to 25 km/h during the morning.",
         "icon_code": 15,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Snow shower or two.",
         "temp_max": 6,
-        "temp_min": 0
+        "temp_min": -2
       },
       "7": {
         "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Winds northwesterly 25 to 35 km/h turning westerly 15 to 25 km/h during the day.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 6,
         "temp_min": 1
+      }
+    },
+    "2026-05-06": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Snow possible above 1900 metres. Winds west to northwesterly 20 to 30 km/h.",
+        "icon_code": 15,
+        "precipitation_prob": "40%",
+        "precis": "Possible showers or snow.",
+        "temp_max": 7,
+        "temp_min": -2
       }
     }
   },
