@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-04-30": {
       "0": {
-        "forecast": "Mostly sunny. Winds northwesterly 20 to 25 km/h tending northerly 15 to 20 km/h in the late afternoon.",
+        "forecast": "Mostly clear. Winds northwesterly 15 to 20 km/h tending northerly in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 11,
         "temp_min": null
       },
@@ -219,9 +219,9 @@
     },
     "2026-05-04": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 5,
         "temp_min": 4
@@ -253,7 +253,7 @@
     },
     "2026-05-05": {
       "5": {
-        "forecast": "Cloudy. Medium chance of showers. Winds northwest to southwesterly 20 to 30 km/h tending southerly 15 to 20 km/h later.",
+        "forecast": "Cloudy. Medium chance of showers. Winds west to northwesterly 20 to 30 km/h shifting southerly 15 to 20 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 6,
+        "temp_max": 5,
         "temp_min": 1
       },
       "7": {
@@ -292,6 +292,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible showers or snow.",
         "temp_max": 4,
+        "temp_min": 0
+      }
+    },
+    "2026-05-07": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a snow shower. Winds southwesterly 20 to 25 km/h tending southeast to southwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 3,
         "temp_min": 0
       }
     }
