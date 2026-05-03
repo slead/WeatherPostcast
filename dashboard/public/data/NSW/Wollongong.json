@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-03": {
       "0": {
-        "forecast": "Mostly sunny. Winds north to northeasterly 25 to 35 km/h tending north to northwesterly 15 to 25 km/h in the evening.",
+        "forecast": "Mostly clear. Winds north to northeasterly 25 to 35 km/h tending north to northwesterly 15 to 25 km/h in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 24,
         "temp_min": 18
       },
@@ -69,7 +69,7 @@
     },
     "2026-05-04": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the late afternoon and evening. Winds north to northwesterly 20 to 30 km/h tending west to northwesterly 15 to 20 km/h in the evening.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds north to northwesterly 20 to 30 km/h becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-05-07": {
       "4": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely later in the day. Winds westerly 25 to 40 km/h.",
+        "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon and evening. Winds westerly 25 to 40 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -279,7 +279,7 @@
     },
     "2026-05-09": {
       "6": {
-        "forecast": "Sunny. Winds west to southwesterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 21,
         "temp_min": 12
+      }
+    },
+    "2026-05-10": {
+      "7": {
+        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely later in the day. Winds west to southwesterly 15 to 20 km/h tending southeast to southwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
+        "temp_max": 21,
+        "temp_min": 13
       }
     }
   },

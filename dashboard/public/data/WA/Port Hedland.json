@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-03": {
       "0": {
-        "forecast": "Mostly sunny. Winds east to southeasterly 20 to 30 km/h turning northeasterly 15 to 25 km/h in the late afternoon then tending easterly 15 to 20 km/h in the late evening.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the evening then becoming easterly 15 to 20 km/h in the late evening.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 34,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-05": {
       "2": {
-        "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h.",
+        "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h becoming light in the evening then becoming southeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 17
+      }
+    },
+    "2026-05-10": {
+      "7": {
+        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 29,
+        "temp_min": 15
       }
     }
   },
