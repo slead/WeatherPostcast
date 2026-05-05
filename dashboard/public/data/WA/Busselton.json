@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-05": {
       "0": {
-        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 20 km/h in the late afternoon then tending southeasterly in the evening.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h in the late afternoon then tending southeasterly in the evening.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Sunny.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,9 +69,9 @@
     },
     "2026-05-06": {
       "1": {
-        "forecast": "Sunny. Winds east to southeasterly 15 to 20 km/h becoming light in the early afternoon then becoming easterly 15 to 20 km/h in the late evening.",
+        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h tending easterly in the morning then becoming light in the early afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 21,
         "temp_min": 8
@@ -127,12 +127,12 @@
     },
     "2026-05-07": {
       "2": {
-        "forecast": "Sunny. Winds easterly 15 to 25 km/h tending northeasterly during the day then tending northeast to southeasterly 15 to 20 km/h during the afternoon.",
+        "forecast": "Sunny. Winds northeast to southeasterly 15 to 20 km/h tending northeasterly in the middle of the day then tending easterly in the early afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 22,
-        "temp_min": 9
+        "temp_min": 8
       },
       "3": {
         "forecast": "Sunny. Winds easterly 15 to 25 km/h tending northeasterly during the day then tending northeast to southeasterly 15 to 20 km/h during the afternoon.",
@@ -219,7 +219,7 @@
     },
     "2026-05-09": {
       "4": {
-        "forecast": "Sunny. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Sunny. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 22,
         "temp_min": 10
+      }
+    },
+    "2026-05-12": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds northeasterly 15 to 25 km/h tending northerly during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 22,
+        "temp_min": 11
       }
     }
   },
