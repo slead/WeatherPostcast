@@ -1,73 +1,15 @@
 {
   "city_name": "Cooma",
   "forecasts": {
-    "2026-05-05": {
-      "0": {
-        "forecast": "Clear. Winds southerly 15 to 20 km/h becoming light in the late afternoon.",
-        "icon_code": 2,
-        "precipitation_prob": "5%",
-        "precis": "Clear.",
-        "temp_max": 17,
-        "temp_min": 3
-      },
-      "1": {
-        "forecast": "Mostly sunny. Winds north to northwesterly 15 to 20 km/h shifting south to southwesterly in the middle of the day.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
-        "temp_max": 17,
-        "temp_min": 3
-      },
-      "2": {
-        "forecast": "Partly cloudy. Light winds becoming west to northwesterly 15 to 20 km/h in the morning then tending west to southwesterly in the middle of the day.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
-        "temp_max": 17,
-        "temp_min": 3
-      },
-      "3": {
-        "forecast": "Partly cloudy. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the afternoon.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
-        "temp_max": 17,
-        "temp_min": 2
-      },
-      "4": {
-        "forecast": "Partly cloudy. Light winds becoming west to northwesterly 15 to 20 km/h during the morning then turning southwesterly during the day.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
-        "temp_max": 16,
-        "temp_min": 2
-      },
-      "5": {
-        "forecast": "Partly cloudy. Patchy morning frost. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Morning frost. Partly cloudy.",
-        "temp_max": 16,
-        "temp_min": 1
-      },
-      "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 15 to 20 km/h tending westerly during the day.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
-        "temp_max": 16,
-        "temp_min": 1
-      },
-      "7": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Winds northwesterly 15 to 20 km/h tending westerly during the day.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
-        "temp_max": 17,
-        "temp_min": 6
-      }
-    },
     "2026-05-06": {
+      "0": {
+        "forecast": "Frost and patchy fog in the morning. Sunny afternoon. Light winds.",
+        "icon_code": 10,
+        "precipitation_prob": "5%",
+        "precis": "Morning frost and fog.",
+        "temp_max": 18,
+        "temp_min": -3
+      },
       "1": {
         "forecast": "Frost and patchy fog in the morning. Sunny afternoon. Light winds.",
         "icon_code": 10,
@@ -126,6 +68,14 @@
       }
     },
     "2026-05-07": {
+      "1": {
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon with possible small hail. Light winds becoming southwesterly 25 to 35 km/h in the morning then tending westerly 20 to 25 km/h in the late evening.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 9,
+        "temp_min": -1
+      },
       "2": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon with possible small hail. Light winds becoming southwesterly 25 to 35 km/h in the morning then tending westerly 20 to 25 km/h in the late evening.",
         "icon_code": 11,
@@ -176,6 +126,14 @@
       }
     },
     "2026-05-08": {
+      "2": {
+        "forecast": "Cloudy. Slight chance of a shower. Damaging winds possible. Winds westerly 20 to 30 km/h tending southwesterly during the day.",
+        "icon_code": 9,
+        "precipitation_prob": "30%",
+        "precis": "Windy. Cloudy.",
+        "temp_max": 13,
+        "temp_min": -1
+      },
       "3": {
         "forecast": "Cloudy. Slight chance of a shower. Damaging winds possible. Winds westerly 20 to 30 km/h tending southwesterly during the day.",
         "icon_code": 9,
@@ -218,6 +176,14 @@
       }
     },
     "2026-05-09": {
+      "3": {
+        "forecast": "Cloud clearing. Winds southwesterly 15 to 20 km/h becoming light during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Cloud clearing.",
+        "temp_max": 14,
+        "temp_min": 1
+      },
       "4": {
         "forecast": "Cloud clearing. Winds southwesterly 15 to 20 km/h becoming light during the day.",
         "icon_code": 3,
@@ -252,6 +218,14 @@
       }
     },
     "2026-05-10": {
+      "4": {
+        "forecast": "Partly cloudy. Morning frost. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 0
+      },
       "5": {
         "forecast": "Partly cloudy. Morning frost. Light winds.",
         "icon_code": 3,
@@ -278,6 +252,14 @@
       }
     },
     "2026-05-11": {
+      "5": {
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 4,
+        "precipitation_prob": "20%",
+        "precis": "Cloudy.",
+        "temp_max": 17,
+        "temp_min": 1
+      },
       "6": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
@@ -296,6 +278,14 @@
       }
     },
     "2026-05-12": {
+      "6": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 2
+      },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
