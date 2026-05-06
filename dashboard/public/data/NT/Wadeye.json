@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-06": {
       "0": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 34,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-05-07": {
       "1": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 25 km/h in the morning then becoming light in the late afternoon.",
+        "forecast": "Sunny. Light winds becoming southeasterly 20 to 30 km/h in the morning then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 32,
-        "temp_min": 22
+        "temp_max": 31,
+        "temp_min": 21
       },
       "2": {
         "forecast": "Sunny. Light winds becoming southeasterly 15 to 25 km/h in the morning then becoming light in the late afternoon.",
@@ -127,12 +127,12 @@
     },
     "2026-05-08": {
       "2": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming southeasterly 20 to 30 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 32,
-        "temp_min": 20
+        "temp_min": 19
       },
       "3": {
         "forecast": "Sunny. Light winds becoming southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
@@ -219,7 +219,7 @@
     },
     "2026-05-10": {
       "4": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -258,7 +258,7 @@
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 34,
-        "temp_min": 22
+        "temp_min": 23
       },
       "6": {
         "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h tending easterly during the day.",
@@ -279,10 +279,10 @@
     },
     "2026-05-12": {
       "6": {
-        "forecast": "Partly cloudy. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 24
       },
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 23
+      }
+    },
+    "2026-05-13": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 34,
+        "temp_min": 24
       }
     }
   },
