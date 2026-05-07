@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-07": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the evening. Winds west to southwesterly 30 to 40 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. Winds west to southwesterly 30 to 40 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
-        "precis": "Showers increasing.",
+        "precis": "Showers.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -127,9 +127,9 @@
     },
     "2026-05-09": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Winds south to southwesterly 15 to 20 km/h becoming light during the evening.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the early morning. Winds south to southwesterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 10
@@ -253,7 +253,7 @@
     },
     "2026-05-12": {
       "5": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-05-13": {
       "6": {
-        "forecast": "Partly cloudy. Light winds becoming east to northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 21,
+        "temp_min": 9
+      }
+    },
+    "2026-05-14": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northeasterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 22,
         "temp_min": 9
       }
     }

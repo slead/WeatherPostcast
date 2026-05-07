@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-07": {
       "0": {
-        "forecast": "Sunny. Winds easterly 35 to 50 km/h tending northeasterly 30 to 40 km/h in the late afternoon then tending northeast to southeasterly 25 to 35 km/h in the evening.",
-        "icon_code": 9,
+        "forecast": "Clear. Winds northeasterly 25 to 30 km/h tending easterly in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Windy. Sunny.",
+        "precis": "Clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-05-08": {
       "1": {
-        "forecast": "Sunny. Winds easterly 30 to 35 km/h increasing to 30 to 45 km/h in the morning.",
+        "forecast": "Sunny. Winds easterly 35 to 50 km/h.",
         "icon_code": 9,
         "precipitation_prob": "0%",
         "precis": "Windy. Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-05-09": {
       "2": {
-        "forecast": "Sunny. Winds easterly 25 to 40 km/h tending southeasterly 20 to 25 km/h during the evening.",
+        "forecast": "Sunny. Winds easterly 25 to 40 km/h decreasing to 15 to 20 km/h in the evening then tending southeasterly 20 to 25 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-05-11": {
       "4": {
-        "forecast": "Sunny. Winds northeast to southeasterly 25 to 35 km/h becoming northeasterly 15 to 25 km/h during the day.",
+        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h tending east to northeasterly during the day then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -284,10 +284,20 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 32,
-        "temp_min": 18
+        "temp_min": 19
       },
       "7": {
         "forecast": "Sunny. Winds south to southeasterly 15 to 20 km/h shifting northeasterly 15 to 25 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 32,
+        "temp_min": 19
+      }
+    },
+    "2026-05-14": {
+      "7": {
+        "forecast": "Sunny. Winds south to southeasterly 15 to 20 km/h shifting northeasterly during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",

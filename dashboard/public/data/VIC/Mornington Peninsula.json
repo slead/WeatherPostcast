@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-07": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the late afternoon and evening. Possible small hail in the late morning. Winds southwesterly 25 to 40 km/h tending westerly in the evening.",
+        "forecast": "Cloudy. Very high chance of showers. Winds southwesterly 25 to 40 km/h tending westerly in the evening.",
         "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
+        "precipitation_prob": "95%",
+        "precis": "Showers.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 21,
         "temp_min": 10
+      }
+    },
+    "2026-05-14": {
+      "7": {
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 22,
+        "temp_min": 8
       }
     }
   },

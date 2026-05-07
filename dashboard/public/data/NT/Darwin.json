@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-07": {
       "0": {
-        "forecast": "Sunny. Winds south to southeasterly 15 to 25 km/h becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Patchy smoke haze, mainly inland. Light winds.",
+        "icon_code": 6,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Smoke.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-05-08": {
       "1": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the early afternoon.",
-        "icon_code": 1,
+        "forecast": "Sunny. Patchy smoke haze in the early morning, mainly inland. Winds southeasterly 15 to 20 km/h becoming light in the early afternoon.",
+        "icon_code": 6,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 34,
+        "precis": "Early smoke then sunny.",
+        "temp_max": 33,
         "temp_min": 22
       },
       "2": {
@@ -127,9 +127,9 @@
     },
     "2026-05-09": {
       "2": {
-        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Mostly sunny. Winds southeasterly 15 to 20 km/h tending easterly in the early afternoon then becoming light in the late afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 23
@@ -177,12 +177,12 @@
     },
     "2026-05-10": {
       "3": {
-        "forecast": "Mostly sunny. Light winds becoming east to southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Mostly sunny. Light winds becoming east to southeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 34,
-        "temp_min": 23
+        "temp_min": 24
       },
       "4": {
         "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
@@ -219,7 +219,7 @@
     },
     "2026-05-11": {
       "4": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower later in the day. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds east to southeasterly and light becoming easterly 15 to 25 km/h during the morning then becoming east to southeasterly and light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-05-12": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 15 to 25 km/h tending easterly during the day.",
+        "forecast": "Becoming cloudy. Slight chance of a shower. Winds southeasterly 15 to 25 km/h turning easterly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -279,18 +279,28 @@
     },
     "2026-05-13": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 15 to 25 km/h tending easterly during the day.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds southeasterly 15 to 25 km/h turning easterly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 34,
-        "temp_min": 25
+        "precis": "Mostly sunny.",
+        "temp_max": 33,
+        "temp_min": 24
       },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 15 to 25 km/h turning easterly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
+        "temp_max": 34,
+        "temp_min": 24
+      }
+    },
+    "2026-05-14": {
+      "7": {
+        "forecast": "Mostly sunny. Winds east to southeasterly and light increasing to 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 24
       }

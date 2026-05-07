@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-07": {
       "0": {
-        "forecast": "Partly cloudy. Winds westerly 25 to 40 km/h decreasing to 20 to 25 km/h in the evening.",
-        "icon_code": 9,
-        "precipitation_prob": "10%",
-        "precis": "Windy. Partly cloudy.",
+        "forecast": "Clear. Winds westerly 25 to 40 km/h decreasing to 20 to 25 km/h in the evening.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 10,
         "temp_min": 5
       },
@@ -69,10 +69,10 @@
     },
     "2026-05-08": {
       "1": {
-        "forecast": "Partly cloudy. Winds westerly 30 to 45 km/h becoming light in the late evening.",
-        "icon_code": 9,
+        "forecast": "Partly cloudy. Winds westerly 25 to 40 km/h becoming light in the late evening.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Windy. Partly cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 12,
         "temp_min": 2
       },
@@ -128,11 +128,11 @@
     "2026-05-09": {
       "2": {
         "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds.",
-        "icon_code": 1,
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 17,
-        "temp_min": 3
+        "temp_min": 1
       },
       "3": {
         "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
@@ -177,12 +177,12 @@
     },
     "2026-05-10": {
       "3": {
-        "forecast": "Mostly sunny. The chance of fog and frost in the morning. Light winds.",
+        "forecast": "Mostly sunny. Patchy frost and the chance of fog in the morning. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 19,
-        "temp_min": 2
+        "temp_min": 1
       },
       "4": {
         "forecast": "Mostly sunny. The chance of fog and frost in the morning. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-05-11": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. The chance of morning fog. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -288,6 +288,16 @@
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 15 to 25 km/h tending easterly 20 to 30 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 16,
+        "temp_min": 9
+      }
+    },
+    "2026-05-14": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming easterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
