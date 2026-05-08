@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-08": {
       "0": {
-        "forecast": "Cloudy. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-05-09": {
       "1": {
-        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "forecast": "The chance of morning fog. The chance of morning frost. Sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -177,12 +177,12 @@
     },
     "2026-05-11": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning frost. The chance of morning fog. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 19,
-        "temp_min": 4
+        "temp_min": 3
       },
       "4": {
         "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
@@ -224,7 +224,7 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 19,
-        "temp_min": 5
+        "temp_min": 6
       },
       "5": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -284,7 +284,7 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 20,
-        "temp_min": 6
+        "temp_min": 5
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 6
+      }
+    },
+    "2026-05-15": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
+        "temp_min": 8
       }
     }
   },

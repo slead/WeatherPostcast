@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-08": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 22,
         "temp_min": 12
       },
@@ -71,10 +71,10 @@
       "1": {
         "forecast": "Mostly sunny day. Slight chance of a shower at night. Winds southwesterly 15 to 20 km/h tending southerly in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
         "temp_max": 24,
-        "temp_min": 12
+        "temp_min": 13
       },
       "2": {
         "forecast": "Sunny day. Slight chance of a shower at night. Light winds becoming south to southwesterly 15 to 20 km/h in the morning.",
@@ -127,7 +127,7 @@
     },
     "2026-05-10": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers, most likely from the late morning. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h in the morning.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-05-12": {
       "4": {
-        "forecast": "Partly cloudy. Very high chance of showers. Winds southeast to southwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers. Winds south to southeasterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -279,7 +279,7 @@
     },
     "2026-05-14": {
       "6": {
-        "forecast": "Cloudy. Very high chance of showers. Winds south to southeasterly 20 to 25 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm later in the day. Winds south to southeasterly 20 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 24,
+        "temp_min": 17
+      }
+    },
+    "2026-05-15": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm during the morning. Winds southeast to southwesterly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 23,
         "temp_min": 17
       }
     }

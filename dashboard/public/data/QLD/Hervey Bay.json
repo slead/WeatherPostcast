@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-08": {
       "0": {
-        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly in the early afternoon then becoming light in the late afternoon.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "forecast": "Mostly clear. Winds southeasterly 15 to 20 km/h becoming light in the late afternoon.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-10": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming south to southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming south to southeasterly 15 to 25 km/h in the morning then becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 25,
         "temp_min": 17
+      }
+    },
+    "2026-05-15": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds south to southeasterly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 25,
+        "temp_min": 16
       }
     }
   },
