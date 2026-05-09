@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-09": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the afternoon. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 4,
+        "precipitation_prob": "20%",
+        "precis": "Cloudy.",
         "temp_max": 12,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-05-10": {
       "1": {
-        "forecast": "Cloudy. Slight chance of a shower in the morning. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "30%",
-        "precis": "Cloudy.",
+        "forecast": "Cloudy. Medium chance of drizzle in the morning. Light winds.",
+        "icon_code": 8,
+        "precipitation_prob": "40%",
+        "precis": "Possible morning drizzle.",
         "temp_max": 12,
-        "temp_min": 9
+        "temp_min": 8
       },
       "2": {
         "forecast": "Cloudy. Slight chance of a shower in the morning. The chance of morning fog. Light winds.",
@@ -127,10 +127,10 @@
     },
     "2026-05-11": {
       "2": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Cloud clearing.",
         "temp_max": 14,
         "temp_min": 7
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 10
+      }
+    },
+    "2026-05-16": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 16,
+        "temp_min": 11
       }
     }
   },
