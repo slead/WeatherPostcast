@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-10": {
       "0": {
-        "forecast": "Cloudy. Slight chance of drizzle until the early afternoon. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "20%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
         "temp_max": 18,
         "temp_min": 9
@@ -219,7 +219,7 @@
     },
     "2026-05-14": {
       "4": {
-        "forecast": "Mostly sunny. The chance of morning fog in the southeast suburbs. Light winds becoming north to northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds becoming north to northeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 21,
+        "temp_min": 14
+      }
+    },
+    "2026-05-17": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds becoming north to northeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
         "temp_min": 14
       }
     }

@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-05-10": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Cloudy. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "5%",
         "precis": "Cloudy.",
         "temp_max": 17,
         "temp_min": 8
@@ -127,12 +127,12 @@
     },
     "2026-05-12": {
       "2": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
-        "temp_min": 5
+        "temp_min": 6
       },
       "3": {
         "forecast": "Becoming cloudy. Light winds.",
@@ -177,10 +177,10 @@
     },
     "2026-05-13": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers in the afternoon and evening. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "precis": "Possible shower developing.",
         "temp_max": 20,
         "temp_min": 9
       },
@@ -219,7 +219,7 @@
     },
     "2026-05-14": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds northeasterly 15 to 20 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds northeasterly 15 to 20 km/h becoming light during the afternoon then becoming northeasterly 15 to 20 km/h during the evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 18,
         "temp_min": 11
+      }
+    },
+    "2026-05-17": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
+        "temp_min": 10
       }
     }
   },

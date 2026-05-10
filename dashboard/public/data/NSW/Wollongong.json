@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-10": {
       "0": {
-        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h turning southwesterly 15 to 20 km/h in the evening.",
+        "forecast": "Mostly clear. Winds southerly 20 to 30 km/h turning southwesterly 15 to 20 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 21,
         "temp_min": 13
       },
@@ -69,10 +69,10 @@
     },
     "2026-05-11": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h in the morning then becoming light in the evening.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. High chance of drizzle in the morning, tending to light showers in the afternoon. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "icon_code": 12,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Morning drizzle.",
         "temp_max": 21,
         "temp_min": 15
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-12": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h turning south to southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h turning south to southeasterly 15 to 25 km/h in the late morning.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-05-14": {
       "4": {
-        "forecast": "Partly cloudy. Very high chance of showers. Light winds becoming southerly 15 to 20 km/h during the morning then tending southeasterly during the day.",
+        "forecast": "Partly cloudy. Very high chance of showers. Light winds becoming south to southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -279,7 +279,7 @@
     },
     "2026-05-16": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming east to northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming easterly 15 to 20 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 22,
         "temp_min": 15
+      }
+    },
+    "2026-05-17": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
+        "temp_min": 16
       }
     }
   },
