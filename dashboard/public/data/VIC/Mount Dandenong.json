@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-11": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 15,
         "temp_min": 8
       },
@@ -73,7 +73,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 16,
+        "temp_max": 17,
         "temp_min": 9
       },
       "2": {
@@ -131,8 +131,8 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 17,
-        "temp_min": 9
+        "temp_max": 16,
+        "temp_min": 8
       },
       "3": {
         "forecast": "Mostly sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 15,
         "temp_min": 11
+      }
+    },
+    "2026-05-18": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 13,
+        "temp_min": 9
       }
     }
   },
