@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-12": {
       "0": {
-        "forecast": "Patchy morning fog. Sunny afternoon. Light winds.",
-        "icon_code": 10,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Morning fog then sunny.",
+        "precis": "Clear.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "10%",
         "precis": "Cloud clearing.",
         "temp_max": 17,
-        "temp_min": 5
+        "temp_min": 6
       },
       "2": {
         "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
@@ -132,7 +132,7 @@
         "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
         "temp_max": 18,
-        "temp_min": 4
+        "temp_min": 3
       },
       "3": {
         "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
@@ -219,12 +219,12 @@
     },
     "2026-05-16": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 20,
-        "temp_min": 8
+        "temp_min": 9
       },
       "5": {
         "forecast": "Cloudy. Medium chance of showers. Light winds.",
@@ -257,7 +257,7 @@
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
-        "temp_max": 19,
+        "temp_max": 18,
         "temp_min": 10
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 9
+      }
+    },
+    "2026-05-19": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 18,
+        "temp_min": 8
       }
     }
   },

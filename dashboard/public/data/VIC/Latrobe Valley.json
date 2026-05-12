@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-12": {
       "0": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the early afternoon.",
+        "forecast": "Mostly clear. The chance of fog later tonight. Winds easterly 15 to 20 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 19,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-05-13": {
       "1": {
-        "forecast": "Cloud clearing. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 20 km/h in the middle of the day.",
+        "forecast": "Cloud clearing. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 20 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
@@ -219,7 +219,7 @@
     },
     "2026-05-16": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 18,
+        "temp_min": 10
+      }
+    },
+    "2026-05-19": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
         "temp_min": 10
       }
     }

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-12": {
       "0": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the evening then becoming light in the late evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds easterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,9 +69,9 @@
     },
     "2026-05-13": {
       "1": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds becoming easterly 15 to 20 km/h in the evening then becoming light in the late evening.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 20,
         "temp_min": 8
@@ -127,7 +127,7 @@
     },
     "2026-05-14": {
       "2": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds.",
+        "forecast": "The chance of fog in the early morning. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 18,
         "temp_min": 12
+      }
+    },
+    "2026-05-19": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
+        "temp_min": 11
       }
     }
   },
