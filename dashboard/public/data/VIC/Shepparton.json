@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-13": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-05-15": {
       "2": {
-        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the day.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
+        "icon_code": 1,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 22,
         "temp_min": 9
       },
@@ -177,7 +177,7 @@
     },
     "2026-05-16": {
       "3": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely in the evening. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely in the evening. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-05-17": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -253,7 +253,7 @@
     },
     "2026-05-18": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -283,7 +283,7 @@
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
-        "temp_max": 19,
+        "temp_max": 18,
         "temp_min": 9
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 19,
         "temp_min": 10
+      }
+    },
+    "2026-05-20": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 17,
+        "temp_min": 8
       }
     }
   },
