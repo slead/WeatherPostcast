@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-14": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 20,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-05-15": {
       "1": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
-        "icon_code": 1,
+        "forecast": "Patchy fog in the early morning. Sunny day. Light winds.",
+        "icon_code": 10,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Early fog then sunny.",
         "temp_max": 22,
         "temp_min": 5
       },
@@ -219,12 +219,12 @@
     },
     "2026-05-18": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 20,
-        "temp_min": 10
+        "temp_min": 11
       },
       "5": {
         "forecast": "Partly cloudy. Very high chance of showers. Light winds.",
@@ -279,7 +279,7 @@
     },
     "2026-05-20": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northwest to southwesterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 18,
         "temp_min": 10
+      }
+    },
+    "2026-05-21": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds northwest to southwesterly 15 to 20 km/h tending northwesterly later.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 18,
+        "temp_min": 9
       }
     }
   },
