@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-05-15": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the afternoon. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 3
@@ -69,9 +69,9 @@
     },
     "2026-05-16": {
       "1": {
-        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. The chance of morning fog. Slight chance of a shower. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 3
@@ -127,7 +127,7 @@
     },
     "2026-05-17": {
       "2": {
-        "forecast": "Partly cloudy. The chance of morning fog. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning fog. Medium chance of showers, most likely in the late afternoon and evening. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -179,8 +179,8 @@
       "3": {
         "forecast": "Partly cloudy. High chance of showers. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 18,
         "temp_min": 4
       },
@@ -219,7 +219,7 @@
     },
     "2026-05-19": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 1
+      }
+    },
+    "2026-05-22": {
+      "7": {
+        "forecast": "Partly cloudy. Patchy morning frost. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 0
       }
     }
   },

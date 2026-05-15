@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-15": {
       "0": {
-        "forecast": "The chance of fog in the late morning. Sunny afternoon. Winds north to northwesterly 15 to 20 km/h becoming light in the early afternoon then becoming northerly 15 to 20 km/h in the late afternoon.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northerly 15 to 20 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-17": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers. Winds northwesterly 15 to 20 km/h becoming light during the morning.",
+        "forecast": "Cloudy. High chance of showers. Winds northwesterly 15 to 20 km/h becoming light before dawn.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -291,6 +291,16 @@
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 9
+      }
+    },
+    "2026-05-22": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Winds west to northwesterly 15 to 20 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 9
       }

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-15": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the evening.",
+        "forecast": "Mostly clear. Light winds becoming easterly 15 to 20 km/h in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "10%",
+        "precis": "Mostly clear.",
         "temp_max": 17,
         "temp_min": 6
       },
@@ -129,7 +129,7 @@
       "2": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 6
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Cloudy. Very high chance of showers. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 8
@@ -219,7 +219,7 @@
     },
     "2026-05-19": {
       "4": {
-        "forecast": "Cloudy. High chance of showers, most likely during the morning. The chance of a thunderstorm later in the day. Light winds becoming southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning. Light winds becoming southwesterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers easing.",
@@ -253,9 +253,9 @@
     },
     "2026-05-20": {
       "5": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely during the morning. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h later.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely during the morning. Winds southwesterly 15 to 25 km/h.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 11,
         "temp_min": 4
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 12,
         "temp_min": 2
+      }
+    },
+    "2026-05-22": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 16,
+        "temp_min": 1
       }
     }
   },
