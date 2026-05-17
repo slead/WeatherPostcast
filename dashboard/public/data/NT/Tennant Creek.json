@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-17": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Winds easterly 15 to 20 km/h becoming light in the middle of the day then becoming southeasterly 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm early this evening. Light winds becoming southeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 12,
-        "precipitation_prob": "95%",
-        "precis": "Rain increasing.",
+        "precipitation_prob": "90%",
+        "precis": "Rain.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-05-18": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. The chance of a thunderstorm in the late afternoon and evening. Winds southeasterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 12,
-        "precipitation_prob": "95%",
-        "precis": "Rain easing.",
+        "precipitation_prob": "90%",
+        "precis": "Rain.",
         "temp_max": 21,
         "temp_min": 17
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-19": {
       "2": {
-        "forecast": "Partly cloudy. Winds southeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds southeasterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-05-21": {
       "4": {
-        "forecast": "Partly cloudy. Winds east to southeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds east to southeasterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 22,
         "temp_min": 13
+      }
+    },
+    "2026-05-24": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower, most likely later in the day. Winds southeasterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
+        "temp_max": 25,
+        "temp_min": 14
       }
     }
   },

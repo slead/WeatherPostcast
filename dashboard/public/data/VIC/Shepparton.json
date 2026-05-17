@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-05-17": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the early afternoon.",
+        "forecast": "Cloudy. High chance of rain. The chance of a thunderstorm early this evening. Light winds.",
         "icon_code": 12,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "80%",
         "precis": "Rain.",
         "temp_max": 16,
         "temp_min": 11
@@ -127,7 +127,7 @@
     },
     "2026-05-19": {
       "2": {
-        "forecast": "Slight chance of a shower, most likely in the morning. Mostly sunny day. Light winds becoming southwesterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming southwesterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-05-21": {
       "4": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 19,
+        "temp_max": 18,
         "temp_min": 4
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 5
+      }
+    },
+    "2026-05-24": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming south to southwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 6
       }
     }
   },
