@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-05-18": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, becoming less likely at night. Light winds.",
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely later tonight. Light winds.",
         "icon_code": 12,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "95%",
         "precis": "Rain.",
         "temp_max": 17,
         "temp_min": 15
@@ -69,11 +69,11 @@
     },
     "2026-05-19": {
       "1": {
-        "forecast": "Medium chance of showers, most likely in the early morning. Mostly sunny afternoon. Winds southwesterly 15 to 25 km/h becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 19,
+        "forecast": "Medium chance of showers, most likely in the early morning. Sunny afternoon. Winds southwesterly 20 to 30 km/h becoming light in the evening.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower then sunny.",
+        "temp_max": 18,
         "temp_min": 14
       },
       "2": {
@@ -127,9 +127,9 @@
     },
     "2026-05-20": {
       "2": {
-        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 25 km/h in the morning then tending southerly in the middle of the day.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": 10
@@ -177,12 +177,12 @@
     },
     "2026-05-21": {
       "3": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 18,
-        "temp_min": 7
+        "temp_min": 8
       },
       "4": {
         "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
@@ -223,7 +223,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 19,
+        "temp_max": 20,
         "temp_min": 7
       },
       "5": {
@@ -284,7 +284,7 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 20,
-        "temp_min": 11
+        "temp_min": 10
       },
       "7": {
         "forecast": "Cloudy. Slight chance of a shower. Winds southeasterly 15 to 20 km/h tending southerly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Cloudy.",
         "temp_max": 20,
         "temp_min": 11
+      }
+    },
+    "2026-05-25": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 17,
+        "temp_min": 10
       }
     }
   },

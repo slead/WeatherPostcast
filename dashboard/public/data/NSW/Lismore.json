@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-05-18": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the afternoon and evening, possibly severe with heavy rain which may lead to flash flooding in the late afternoon and evening. Light winds.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Light winds.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -69,10 +69,10 @@
     },
     "2026-05-19": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then tending westerly in the evening.",
+        "forecast": "Cloudy. Very high chance of rain in the morning and afternoon. The chance of a thunderstorm in the morning. Light winds becoming northwesterly 15 to 20 km/h in the early afternoon then tending westerly in the evening.",
         "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Rain.",
+        "precis": "Rain clearing.",
         "temp_max": 23,
         "temp_min": 16
       },
@@ -127,10 +127,10 @@
     },
     "2026-05-20": {
       "2": {
-        "forecast": "Sunny morning. Medium chance of showers, most likely in the evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Sunny morning. Shower or two.",
+        "forecast": "Sunny morning. Medium chance of showers in the late afternoon and evening. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible late shower.",
         "temp_max": 22,
         "temp_min": 11
       },
@@ -177,7 +177,7 @@
     },
     "2026-05-21": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming southerly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 15 to 20 km/h tending southerly during the day then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -219,12 +219,12 @@
     },
     "2026-05-22": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming south to southwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming south to southwesterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 21,
-        "temp_min": 10
+        "temp_min": 11
       },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming south to southwesterly 15 to 25 km/h during the morning.",
@@ -253,12 +253,12 @@
     },
     "2026-05-23": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h tending southerly 15 to 25 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 22,
-        "temp_min": 12
+        "temp_min": 13
       },
       "6": {
         "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h tending southerly during the day.",
@@ -283,8 +283,8 @@
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
-        "temp_max": 22,
-        "temp_min": 12
+        "temp_max": 23,
+        "temp_min": 13
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds southwesterly 15 to 20 km/h tending southerly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 21,
         "temp_min": 12
+      }
+    },
+    "2026-05-25": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
+        "temp_min": 13
       }
     }
   },
