@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-19": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, becoming less likely at night. Winds southwesterly 15 to 25 km/h tending westerly 15 to 20 km/h in the late evening.",
+        "forecast": "Partly cloudy. Medium chance of rain, becoming less likely later tonight. Winds southwesterly 15 to 25 km/h tending westerly 15 to 20 km/h in the late evening.",
         "icon_code": 12,
-        "precipitation_prob": "95%",
-        "precis": "Rain.",
+        "precipitation_prob": "60%",
+        "precis": "Rain at times.",
         "temp_max": 13,
         "temp_min": 10
       },
@@ -127,10 +127,10 @@
     },
     "2026-05-21": {
       "2": {
-        "forecast": "Mostly sunny. Winds southwesterly 15 to 20 km/h tending southerly during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h tending southerly in the morning then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 4
       },
@@ -219,7 +219,7 @@
     },
     "2026-05-23": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 14,
         "temp_min": 6
+      }
+    },
+    "2026-05-26": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Winds southwesterly 15 to 25 km/h tending southerly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 13,
+        "temp_min": 5
       }
     }
   },
