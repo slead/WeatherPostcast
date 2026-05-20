@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-20": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 25 km/h becoming light in the evening.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 18,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-05-21": {
       "1": {
-        "forecast": "Cloud clearing. Light winds becoming easterly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "forecast": "Cloud clearing. Light winds becoming easterly 20 to 30 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
-        "temp_max": 19,
+        "temp_max": 20,
         "temp_min": 9
       },
       "2": {
@@ -127,10 +127,10 @@
     },
     "2026-05-22": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the evening. Light winds.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 4,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloudy.",
         "temp_max": 19,
         "temp_min": 6
       },
@@ -182,7 +182,7 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 20,
-        "temp_min": 8
+        "temp_min": 9
       },
       "4": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
@@ -219,12 +219,12 @@
     },
     "2026-05-24": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers. Light winds becoming southerly 15 to 20 km/h during the morning.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Light winds becoming south to southeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 18,
-        "temp_min": 9
+        "temp_min": 8
       },
       "5": {
         "forecast": "Cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
@@ -253,12 +253,12 @@
     },
     "2026-05-25": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds becoming southeasterly 20 to 25 km/h during the morning.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
-        "temp_max": 17,
-        "temp_min": 5
+        "forecast": "Cloudy. Medium chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 16,
+        "temp_min": 7
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
@@ -281,9 +281,9 @@
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 17,
+        "temp_max": 16,
         "temp_min": 5
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 5
+      }
+    },
+    "2026-05-27": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 17,
+        "temp_min": 4
       }
     }
   },
