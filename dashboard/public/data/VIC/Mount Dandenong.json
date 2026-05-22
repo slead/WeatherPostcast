@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-22": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 13,
         "temp_min": null
       },
@@ -258,7 +258,7 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 15,
-        "temp_min": 9
+        "temp_min": 10
       },
       "6": {
         "forecast": "Cloudy. High chance of showers. Light winds.",
@@ -290,6 +290,16 @@
         "forecast": "Cloudy. High chance of showers. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 13,
+        "temp_min": 9
+      }
+    },
+    "2026-05-29": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 13,
         "temp_min": 9

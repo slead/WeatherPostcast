@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-22": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-24": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the afternoon and evening. Light winds.",
+        "forecast": "Cloudy. High chance of showers, most likely from the late morning. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 8
+      }
+    },
+    "2026-05-29": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 17,
+        "temp_min": 9
       }
     }
   },

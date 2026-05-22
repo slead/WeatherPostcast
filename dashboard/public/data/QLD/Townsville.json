@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-22": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -132,7 +132,7 @@
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 28,
-        "temp_min": 16
+        "temp_min": 15
       },
       "3": {
         "forecast": "Mostly sunny. Light winds.",
@@ -177,12 +177,12 @@
     },
     "2026-05-25": {
       "3": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 28,
-        "temp_min": 18
+        "temp_min": 17
       },
       "4": {
         "forecast": "Partly cloudy. Light winds.",
@@ -223,8 +223,8 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 29,
-        "temp_min": 19
+        "temp_max": 28,
+        "temp_min": 18
       },
       "5": {
         "forecast": "Partly cloudy. Light winds.",
@@ -253,7 +253,7 @@
     },
     "2026-05-27": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -279,12 +279,12 @@
     },
     "2026-05-28": {
       "6": {
-        "forecast": "Slight chance of a shower, most likely during the morning. Mostly sunny day. Light winds.",
+        "forecast": "Slight chance of a shower during the morning. Sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
+        "precis": "Cloud clearing.",
         "temp_max": 30,
-        "temp_min": 18
+        "temp_min": 19
       },
       "7": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 30,
         "temp_min": 18
+      }
+    },
+    "2026-05-29": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 29,
+        "temp_min": 15
       }
     }
   },
