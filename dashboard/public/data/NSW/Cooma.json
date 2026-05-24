@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 16,
         "temp_min": 4
@@ -127,10 +127,10 @@
     },
     "2026-05-26": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. Light winds.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 15,
         "temp_min": 5
       },
@@ -177,10 +177,10 @@
     },
     "2026-05-27": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 5
       },
@@ -279,7 +279,7 @@
     },
     "2026-05-30": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds southwesterly 15 to 25 km/h tending westerly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds southwesterly 15 to 20 km/h tending westerly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 15,
         "temp_min": 5
+      }
+    },
+    "2026-05-31": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 12,
+        "temp_min": 4
       }
     }
   },

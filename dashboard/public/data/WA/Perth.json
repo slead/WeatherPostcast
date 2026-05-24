@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-24": {
       "0": {
-        "forecast": "Mostly sunny. The chance of morning frost about the hills. Winds easterly 15 to 20 km/h tending northeasterly in the morning then becoming light in the early afternoon.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light in the early afternoon.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-05-26": {
       "2": {
-        "forecast": "Mostly sunny. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Mostly sunny. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-05-28": {
       "4": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely during the morning. Winds northwesterly 15 to 20 km/h turning west to southwesterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning. Winds northwesterly 15 to 20 km/h tending westerly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers easing.",
@@ -255,8 +255,8 @@
       "5": {
         "forecast": "Partly cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": 9
       },
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 20,
         "temp_min": 11
+      }
+    },
+    "2026-05-31": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Winds northwesterly 25 to 35 km/h turning westerly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "95%",
+        "precis": "Showers.",
+        "temp_max": 20,
+        "temp_min": 12
       }
     }
   },

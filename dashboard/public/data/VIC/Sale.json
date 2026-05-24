@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-05-24": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower in the evening. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely later this evening. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -71,9 +71,9 @@
       "1": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
-        "temp_max": 19,
+        "temp_max": 18,
         "temp_min": 8
       },
       "2": {
@@ -127,10 +127,10 @@
     },
     "2026-05-26": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Winds easterly 15 to 20 km/h tending southeasterly during the day then becoming light during the evening.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. Light winds.",
+        "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 17,
         "temp_min": 10
       },
@@ -219,7 +219,7 @@
     },
     "2026-05-28": {
       "4": {
-        "forecast": "Cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 10
+      }
+    },
+    "2026-05-31": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds westerly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 15,
+        "temp_min": 7
       }
     }
   },
