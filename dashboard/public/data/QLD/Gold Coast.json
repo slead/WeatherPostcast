@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-27": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely from late this morning. The chance of a thunderstorm late this afternoon and evening. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
+        "icon_code": 12,
+        "precipitation_prob": "90%",
+        "precis": "Rain.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-05-28": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late morning and afternoon, possibly severe with heavy rain which may lead to flash flooding. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the morning and afternoon, possibly severe with heavy rain which may lead to flash flooding. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "100%",
         "precis": "Rain. Possible storm.",
         "temp_max": 23,
-        "temp_min": 17
+        "temp_min": 16
       },
       "2": {
         "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the morning and afternoon, possibly severe with heavy rain which may lead to flash flooding. Light winds.",
@@ -127,7 +127,7 @@
     },
     "2026-05-29": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds west to northwesterly and light increasing to 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds west to northwesterly 15 to 20 km/h becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -177,12 +177,12 @@
     },
     "2026-05-30": {
       "3": {
-        "forecast": "Sunny. Winds westerly 15 to 20 km/h becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming westerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 23,
-        "temp_min": 15
+        "temp_max": 24,
+        "temp_min": 14
       },
       "4": {
         "forecast": "Sunny. Winds westerly 15 to 25 km/h.",
@@ -223,7 +223,7 @@
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
-        "temp_max": 22,
+        "temp_max": 23,
         "temp_min": 11
       },
       "5": {
@@ -283,7 +283,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 22,
+        "temp_max": 23,
         "temp_min": 10
       }
     }
