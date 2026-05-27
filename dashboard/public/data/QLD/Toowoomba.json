@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-27": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Winds easterly 15 to 20 km/h becoming light in the late afternoon.",
+        "forecast": "Cloudy. Medium chance of showers. The chance of a thunderstorm, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "95%",
-        "precis": "Rain. Possible storm.",
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 19,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-05-28": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon, possibly severe with heavy rain which may lead to flash flooding. Light winds becoming northwesterly 15 to 20 km/h in the late afternoon then tending westerly in the evening.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Winds east to northeasterly 15 to 20 km/h shifting northwesterly 15 to 25 km/h in the early afternoon.",
         "icon_code": 16,
         "precipitation_prob": "100%",
         "precis": "Rain. Possible storm.",
-        "temp_max": 17,
+        "temp_max": 16,
         "temp_min": 15
       },
       "2": {
@@ -127,10 +127,10 @@
     },
     "2026-05-29": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds westerly 25 to 35 km/h.",
+        "forecast": "Cloudy. High chance of showers, most likely in the early morning. Winds northwesterly 20 to 25 km/h tending westerly 30 to 45 km/h before dawn.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers easing.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Windy.",
         "temp_max": 16,
         "temp_min": 11
       },
@@ -177,10 +177,10 @@
     },
     "2026-05-30": {
       "3": {
-        "forecast": "Cloud clearing. Winds west to southwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds west to southwesterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Cloud clearing.",
+        "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": 11
       },
@@ -219,11 +219,11 @@
     },
     "2026-05-31": {
       "4": {
-        "forecast": "Partly cloudy. Winds west to southwesterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Winds west to southwesterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 16,
+        "temp_max": 17,
         "temp_min": 9
       },
       "5": {
@@ -284,7 +284,17 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 19,
-        "temp_min": 5
+        "temp_min": 7
+      }
+    },
+    "2026-06-03": {
+      "7": {
+        "forecast": "Sunny. Winds westerly 20 to 30 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 19,
+        "temp_min": 10
       }
     }
   },
