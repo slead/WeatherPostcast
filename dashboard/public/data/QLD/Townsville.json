@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-28": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Patchy smoke haze. Light winds.",
+        "icon_code": 6,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Smoke.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -223,8 +223,8 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 27,
-        "temp_min": 13
+        "temp_max": 28,
+        "temp_min": 14
       },
       "5": {
         "forecast": "Sunny. Light winds.",
@@ -276,7 +276,7 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 28,
-        "temp_min": 16
+        "temp_min": 17
       },
       "7": {
         "forecast": "Sunny. Light winds.",
@@ -284,6 +284,16 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 27,
+        "temp_min": 16
+      }
+    },
+    "2026-06-04": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 28,
         "temp_min": 16
       }
     }
