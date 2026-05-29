@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-29": {
       "0": {
-        "forecast": "Partly cloudy. Winds westerly 15 to 20 km/h becoming light in the late afternoon.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Clear.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-05-30": {
       "1": {
-        "forecast": "Sunny. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-05-31": {
       "2": {
-        "forecast": "Sunny. Light winds becoming southwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming southwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -181,8 +181,8 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 23,
-        "temp_min": 9
+        "temp_max": 22,
+        "temp_min": 10
       },
       "4": {
         "forecast": "Sunny. Light winds.",
@@ -221,7 +221,7 @@
       "4": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 24,
         "temp_min": 7
@@ -245,7 +245,7 @@
     },
     "2026-06-03": {
       "5": {
-        "forecast": "Sunny. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -271,10 +271,10 @@
     },
     "2026-06-04": {
       "6": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 25,
         "temp_min": 11
       },
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 25,
         "temp_min": 11
+      }
+    },
+    "2026-06-05": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 25,
+        "temp_min": 10
       }
     }
   },
