@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-05-30": {
       "0": {
-        "forecast": "Cloudy. High chance of showers or snow, most likely in the evening. Winds west to northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. High chance of snow showers, most likely later this evening. Winds west to northwesterly 25 to 35 km/h.",
         "icon_code": 15,
         "precipitation_prob": "70%",
         "precis": "Snow shower or two.",
@@ -69,7 +69,7 @@
     },
     "2026-05-31": {
       "1": {
-        "forecast": "Cloudy. High chance of snow showers, most likely in the early morning. Winds westerly 25 to 35 km/h.",
+        "forecast": "Cloudy. High chance of snow showers. Winds westerly 25 to 35 km/h.",
         "icon_code": 15,
         "precipitation_prob": "70%",
         "precis": "Snow shower or two.",
@@ -127,7 +127,7 @@
     },
     "2026-06-01": {
       "2": {
-        "forecast": "Partly cloudy. Very high chance of showers or snow, most likely in the afternoon and evening. Winds westerly 20 to 30 km/h turning northwesterly 25 to 35 km/h during the morning then increasing to 35 to 55 km/h during the evening.",
+        "forecast": "Partly cloudy. Very high chance of showers or snow, most likely in the late afternoon and evening. Winds westerly 20 to 30 km/h turning northwesterly 25 to 35 km/h during the morning then increasing to 35 to 55 km/h in the evening.",
         "icon_code": 15,
         "precipitation_prob": "90%",
         "precis": "Snow showers. Becoming windy.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "100%",
         "precis": "Snow showers. Very windy.",
         "temp_max": 2,
-        "temp_min": -3
+        "temp_min": -2
       },
       "4": {
         "forecast": "Cloudy. Very high chance of showers. Snow falling above 1900 metres. Winds northwesterly 50 to 70 km/h.",
@@ -211,9 +211,9 @@
     },
     "2026-06-03": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 40 to 60 km/h.",
+        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 35 to 55 km/h.",
         "icon_code": 15,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "100%",
         "precis": "Snow showers. Very windy.",
         "temp_max": 1,
         "temp_min": -1
@@ -245,10 +245,10 @@
     },
     "2026-06-04": {
       "5": {
-        "forecast": "Cloudy. Very high chance of snow showers. Winds westerly 35 to 50 km/h.",
+        "forecast": "Cloudy. Very high chance of snow showers. Winds westerly 35 to 55 km/h.",
         "icon_code": 15,
         "precipitation_prob": "90%",
-        "precis": "Snow showers. Windy.",
+        "precis": "Snow showers. Very windy.",
         "temp_max": -1,
         "temp_min": -3
       },
@@ -271,7 +271,7 @@
     },
     "2026-06-05": {
       "6": {
-        "forecast": "Cloudy. High chance of snow showers. Winds westerly 30 to 45 km/h decreasing to 25 to 35 km/h during the day.",
+        "forecast": "Cloudy. High chance of snow showers. Winds westerly 35 to 50 km/h.",
         "icon_code": 15,
         "precipitation_prob": "70%",
         "precis": "Snow shower or two. Windy.",
@@ -285,6 +285,16 @@
         "precis": "Snow shower or two.",
         "temp_max": 2,
         "temp_min": -2
+      }
+    },
+    "2026-06-06": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of snow showers. Winds westerly 25 to 40 km/h tending southwesterly during the morning.",
+        "icon_code": 15,
+        "precipitation_prob": "40%",
+        "precis": "Possible snow shower.",
+        "temp_max": 2,
+        "temp_min": -3
       }
     }
   },
