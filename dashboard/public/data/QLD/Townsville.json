@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-31": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 29,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-02": {
       "2": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -213,9 +213,9 @@
       "4": {
         "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 27,
+        "temp_max": 28,
         "temp_min": 16
       },
       "5": {
@@ -245,9 +245,9 @@
     },
     "2026-06-05": {
       "5": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the day.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 30,
         "temp_min": 15
@@ -275,7 +275,7 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 27,
+        "temp_max": 26,
         "temp_min": 13
       },
       "7": {
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 14
+      }
+    },
+    "2026-06-07": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 24,
+        "temp_min": 12
       }
     }
   },

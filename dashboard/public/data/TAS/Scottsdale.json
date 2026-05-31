@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-05-31": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers in the late morning and afternoon. Winds westerly 15 to 25 km/h becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two clearing.",
+        "forecast": "Clear. Winds westerly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
+        "precipitation_prob": "10%",
+        "precis": "Clear.",
         "temp_max": 12,
         "temp_min": 6
       },
@@ -276,7 +276,7 @@
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
         "temp_max": 14,
-        "temp_min": 5
+        "temp_min": 4
       },
       "7": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
@@ -285,6 +285,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 15,
         "temp_min": 5
+      }
+    },
+    "2026-06-07": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 15,
+        "temp_min": 6
       }
     }
   },
