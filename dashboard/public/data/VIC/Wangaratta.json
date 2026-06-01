@@ -1,73 +1,15 @@
 {
   "city_name": "Wangaratta",
   "forecasts": {
-    "2026-06-01": {
-      "0": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 25 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
-        "temp_max": 14,
-        "temp_min": 2
-      },
-      "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h in the middle of the day then tending northeasterly 15 to 25 km/h in the early afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
-        "temp_max": 13,
-        "temp_min": 2
-      },
-      "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h in the middle of the day then tending northeasterly 15 to 25 km/h in the early afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
-        "temp_max": 13,
-        "temp_min": 2
-      },
-      "3": {
-        "forecast": "Cloudy. The chance of morning fog. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming northeasterly 15 to 25 km/h during the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
-        "temp_max": 14,
-        "temp_min": 2
-      },
-      "4": {
-        "forecast": "Cloudy. The chance of morning fog. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h during the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "90%",
-        "precis": "Showers increasing.",
-        "temp_max": 14,
-        "temp_min": 3
-      },
-      "5": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely later in the day. Light winds becoming north to northeasterly 15 to 20 km/h during the day.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers increasing.",
-        "temp_max": 14,
-        "temp_min": 3
-      },
-      "6": {
-        "forecast": "Cloudy. Very high chance of showers, most likely later in the day. Light winds becoming north to northeasterly 15 to 20 km/h during the day.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers increasing.",
-        "temp_max": 14,
-        "temp_min": 4
-      },
-      "7": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds becoming northerly 15 to 20 km/h during the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "90%",
-        "precis": "Showers.",
-        "temp_max": 13,
-        "temp_min": 5
-      }
-    },
     "2026-06-02": {
+      "0": {
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm this afternoon. Winds northeasterly 20 to 25 km/h tending northerly 15 to 25 km/h in the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "100%",
+        "precis": "Showers.",
+        "temp_max": 14,
+        "temp_min": null
+      },
       "1": {
         "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon. Winds northeasterly 20 to 25 km/h tending northerly 15 to 25 km/h in the morning.",
         "icon_code": 11,
@@ -118,6 +60,14 @@
       }
     },
     "2026-06-03": {
+      "1": {
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds west to northwesterly 25 to 35 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "100%",
+        "precis": "Showers.",
+        "temp_max": 14,
+        "temp_min": 8
+      },
       "2": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds west to northwesterly 25 to 35 km/h.",
         "icon_code": 11,
@@ -168,6 +118,14 @@
       }
     },
     "2026-06-04": {
+      "2": {
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming northwesterly 15 to 25 km/h during the morning then tending westerly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 12,
+        "temp_min": 4
+      },
       "3": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming northwesterly 15 to 25 km/h during the morning then tending westerly during the day.",
         "icon_code": 11,
@@ -210,6 +168,14 @@
       }
     },
     "2026-06-05": {
+      "3": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Winds westerly 15 to 20 km/h tending southwesterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 13,
+        "temp_min": 5
+      },
       "4": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Winds westerly 15 to 20 km/h tending southwesterly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
@@ -244,6 +210,14 @@
       }
     },
     "2026-06-06": {
+      "4": {
+        "forecast": "Partly cloudy. The chance of fog and frost during the morning. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 2
+      },
       "5": {
         "forecast": "Partly cloudy. The chance of morning frost. Light winds.",
         "icon_code": 3,
@@ -270,6 +244,14 @@
       }
     },
     "2026-06-07": {
+      "5": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 3
+      },
       "6": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
@@ -288,6 +270,14 @@
       }
     },
     "2026-06-08": {
+      "6": {
+        "forecast": "Cloud clearing. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Cloud clearing.",
+        "temp_max": 17,
+        "temp_min": 4
+      },
       "7": {
         "forecast": "Cloud clearing. Light winds.",
         "icon_code": 3,
