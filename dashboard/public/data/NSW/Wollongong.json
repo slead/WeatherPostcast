@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-01": {
       "0": {
-        "forecast": "Sunny day. Medium chance of showers at night. Winds westerly 15 to 20 km/h tending northwest to northeasterly in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Sunny day. Late shower or two.",
+        "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 12
       },
@@ -69,7 +69,7 @@
     },
     "2026-06-02": {
       "1": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning. Winds north to northwesterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning. Winds north to northwesterly 15 to 20 km/h becoming light before dawn then becoming north to northwesterly 20 to 30 km/h in the early morning.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers easing.",
@@ -119,10 +119,10 @@
     },
     "2026-06-03": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds northwesterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 20,
         "temp_min": 14
       },
@@ -169,11 +169,11 @@
     },
     "2026-06-04": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 20 to 30 km/h turning westerly 25 to 35 km/h during the morning.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 17,
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northwesterly 20 to 30 km/h tending westerly 25 to 40 km/h during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 18,
         "temp_min": 13
       },
       "4": {
@@ -211,10 +211,10 @@
     },
     "2026-06-05": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds westerly 25 to 35 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to southwesterly 25 to 40 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 12
       },
@@ -245,7 +245,7 @@
     },
     "2026-06-06": {
       "5": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds southwesterly 20 to 30 km/h turning westerly 15 to 20 km/h later.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds west to southwesterly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -271,18 +271,28 @@
     },
     "2026-06-07": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds west to southwesterly 15 to 20 km/h turning south to southeasterly during the day.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Winds westerly 15 to 20 km/h.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
-        "temp_max": 18,
-        "temp_min": 12
+        "temp_max": 19,
+        "temp_min": 11
       },
       "7": {
         "forecast": "Mostly sunny. Slight chance of a shower. Winds west to southwesterly 15 to 20 km/h turning south to southeasterly during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
+        "temp_max": 19,
+        "temp_min": 12
+      }
+    },
+    "2026-06-08": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "30%",
+        "precis": "Sunny.",
         "temp_max": 19,
         "temp_min": 12
       }
