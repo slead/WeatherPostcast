@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-02": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late afternoon and evening. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely later tonight. Winds northwesterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -61,10 +61,10 @@
     },
     "2026-06-03": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 30 to 45 km/h.",
-        "icon_code": 9,
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to northwesterly 25 to 40 km/h.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Windy. Partly cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": 9
       },
@@ -119,10 +119,10 @@
     },
     "2026-06-04": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds westerly 25 to 35 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds west to northwesterly 25 to 35 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 11,
         "temp_min": 7
       },
@@ -211,7 +211,7 @@
     },
     "2026-06-06": {
       "4": {
-        "forecast": "Sunny. Winds westerly 15 to 20 km/h tending southwesterly during the day.",
+        "forecast": "Sunny. Winds westerly 15 to 20 km/h tending southwesterly during the day then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 15,
         "temp_min": 5
+      }
+    },
+    "2026-06-09": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 7
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-02": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -63,7 +63,7 @@
       "1": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": 9
@@ -173,7 +173,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 26,
+        "temp_max": 25,
         "temp_min": 9
       },
       "4": {
@@ -216,7 +216,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 23,
-        "temp_min": 8
+        "temp_min": 7
       },
       "5": {
         "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning.",
@@ -247,9 +247,9 @@
       "5": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 24,
+        "temp_max": 25,
         "temp_min": 6
       },
       "6": {
@@ -271,12 +271,12 @@
     },
     "2026-06-08": {
       "6": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Cloudy.",
-        "temp_max": 24,
-        "temp_min": 9
+        "precis": "Partly cloudy.",
+        "temp_max": 25,
+        "temp_min": 8
       },
       "7": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds.",
@@ -285,6 +285,16 @@
         "precis": "Cloudy.",
         "temp_max": 25,
         "temp_min": 9
+      }
+    },
+    "2026-06-09": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
+        "temp_max": 27,
+        "temp_min": 12
       }
     }
   },

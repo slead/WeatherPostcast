@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-02": {
       "0": {
-        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h becoming light in the middle of the day.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -61,12 +61,12 @@
     },
     "2026-06-03": {
       "1": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 21,
-        "temp_min": 5
+        "temp_min": 6
       },
       "2": {
         "forecast": "Mostly sunny. Light winds.",
@@ -119,12 +119,12 @@
     },
     "2026-06-04": {
       "2": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the day.",
+        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 21,
-        "temp_min": 6
+        "temp_max": 20,
+        "temp_min": 7
       },
       "3": {
         "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the day.",
@@ -169,7 +169,7 @@
     },
     "2026-06-05": {
       "3": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then tending easterly during the day.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -211,7 +211,7 @@
     },
     "2026-06-06": {
       "4": {
-        "forecast": "Sunny. Winds easterly 15 to 25 km/h.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -271,7 +271,7 @@
     },
     "2026-06-08": {
       "6": {
-        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 22,
         "temp_min": 6
+      }
+    },
+    "2026-06-09": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming north to northwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 24,
+        "temp_min": 11
       }
     }
   },

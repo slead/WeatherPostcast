@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-02": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, becoming less likely in the evening. The chance of a thunderstorm from the late morning. Winds northerly 25 to 40 km/h tending northwesterly 20 to 30 km/h in the early afternoon.",
+        "forecast": "Cloudy. Very high chance of showers, becoming less likely later this evening. The chance of a thunderstorm early this evening. Winds northwesterly 15 to 25 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 18,
         "temp_min": null
@@ -119,7 +119,7 @@
     },
     "2026-06-04": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northwesterly 20 to 30 km/h tending westerly during the afternoon.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northwesterly 20 to 30 km/h tending westerly in the early afternoon.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers.",
@@ -211,7 +211,7 @@
     },
     "2026-06-06": {
       "4": {
-        "forecast": "Mostly sunny. Light winds becoming south to southwesterly 15 to 20 km/h during the morning.",
+        "forecast": "Mostly sunny. Light winds becoming south to southwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 20,
         "temp_min": 7
+      }
+    },
+    "2026-06-09": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
+        "temp_min": 9
       }
     }
   },
