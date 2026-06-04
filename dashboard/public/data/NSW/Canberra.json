@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-04": {
       "0": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the late afternoon and evening. Winds west to northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, becoming less likely later tonight. Winds northwesterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Partly cloudy. Slight chance of a shower in the early morning. Winds west to northwesterly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 4
@@ -219,7 +219,7 @@
     },
     "2026-06-08": {
       "4": {
-        "forecast": "Patches of frost and the chance of fog during the morning. Mostly sunny afternoon. Light winds.",
+        "forecast": "Patches of morning frost. The chance of morning fog. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-06-09": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers, most likely later in the day. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 17,
         "temp_min": 6
+      }
+    },
+    "2026-06-11": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 8
       }
     }
   },

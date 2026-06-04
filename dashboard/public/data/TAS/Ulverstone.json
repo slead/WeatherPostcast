@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-04": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the late morning. Winds southerly 15 to 20 km/h tending southwesterly 20 to 25 km/h in the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "forecast": "Mostly clear. Medium chance of showers. Winds southerly 15 to 20 km/h tending southwesterly 20 to 25 km/h in the evening.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -219,12 +219,12 @@
     },
     "2026-06-08": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. Winds westerly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Winds westerly 15 to 20 km/h tending northwesterly during the morning then tending northerly during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 16,
-        "temp_min": 10
+        "temp_min": 9
       },
       "5": {
         "forecast": "Partly cloudy. High chance of showers. Winds westerly 15 to 20 km/h turning north to northwesterly 15 to 25 km/h during the day.",
@@ -283,7 +283,7 @@
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
-        "temp_max": 17,
+        "temp_max": 16,
         "temp_min": 12
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 17,
         "temp_min": 13
+      }
+    },
+    "2026-06-11": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 15,
+        "temp_min": 9
       }
     }
   },

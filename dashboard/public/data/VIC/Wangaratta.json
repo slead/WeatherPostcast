@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-04": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, becoming less likely at night. Winds northwesterly 20 to 25 km/h tending westerly 15 to 25 km/h in the late afternoon then tending southwesterly 15 to 20 km/h in the late evening.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely later tonight. Winds westerly 15 to 25 km/h tending southwesterly 15 to 20 km/h in the late evening.",
+        "icon_code": 12,
+        "precipitation_prob": "90%",
+        "precis": "Rain.",
         "temp_max": 11,
         "temp_min": null
       },
@@ -177,10 +177,10 @@
     },
     "2026-06-07": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
-        "icon_code": 3,
+        "forecast": "Cloudy. The chance of morning fog. Light winds.",
+        "icon_code": 4,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloudy.",
         "temp_max": 15,
         "temp_min": 4
       },
@@ -219,11 +219,11 @@
     },
     "2026-06-08": {
       "4": {
-        "forecast": "Mostly sunny. The chance of morning fog. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Mostly sunny. The chance of morning fog. Slight chance of a shower in the evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
-        "temp_max": 17,
+        "temp_max": 16,
         "temp_min": 3
       },
       "5": {
@@ -292,6 +292,16 @@
         "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 18,
+        "temp_min": 9
+      }
+    },
+    "2026-06-11": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 17,
         "temp_min": 9
       }
     }
