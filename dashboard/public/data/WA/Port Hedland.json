@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-06": {
       "0": {
-        "forecast": "Sunny. Winds northeast to southeasterly 15 to 25 km/h tending north to northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Sunny. Winds northerly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,9 +127,9 @@
     },
     "2026-06-08": {
       "2": {
-        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h during the morning then tending northwest to northeasterly during the day.",
+        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the morning then tending northwest to northeasterly in the middle of the day.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 15
@@ -219,7 +219,7 @@
     },
     "2026-06-10": {
       "4": {
-        "forecast": "Medium chance of showers, most likely during the morning. Mostly sunny afternoon. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "forecast": "Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Light winds becoming northwesterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -253,7 +253,7 @@
     },
     "2026-06-11": {
       "5": {
-        "forecast": "Medium chance of showers, most likely during the morning. Mostly sunny afternoon. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds becoming northwesterly 15 to 20 km/h during the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -279,7 +279,7 @@
     },
     "2026-06-12": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds becoming south to southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds becoming northerly 15 to 20 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 28,
         "temp_min": 17
+      }
+    },
+    "2026-06-13": {
+      "7": {
+        "forecast": "Slight chance of a shower during the morning. Sunny afternoon. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 29,
+        "temp_min": 18
       }
     }
   },
