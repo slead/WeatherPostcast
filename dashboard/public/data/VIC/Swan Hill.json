@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-07": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 7
@@ -71,10 +71,10 @@
       "1": {
         "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 17,
-        "temp_min": 7
+        "temp_min": 6
       },
       "2": {
         "forecast": "Cloud clearing. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
@@ -127,7 +127,7 @@
     },
     "2026-06-09": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the evening. The chance of a thunderstorm in the evening. Light winds becoming northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower, most likely at night. Light winds becoming northeasterly 15 to 25 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -253,11 +253,11 @@
     },
     "2026-06-12": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 20,
+        "temp_max": 21,
         "temp_min": 8
       },
       "6": {
@@ -283,7 +283,7 @@
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
-        "temp_max": 18,
+        "temp_max": 19,
         "temp_min": 11
       },
       "7": {
@@ -292,6 +292,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 17,
+        "temp_min": 11
+      }
+    },
+    "2026-06-14": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 20,
         "temp_min": 11
       }
     }
