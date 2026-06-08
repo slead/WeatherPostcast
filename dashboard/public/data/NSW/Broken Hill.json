@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-08": {
       "0": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 19,
         "temp_min": 4
       },
@@ -69,7 +69,7 @@
     },
     "2026-06-09": {
       "1": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds northeasterly 15 to 20 km/h tending northerly 25 to 35 km/h in the morning.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h in the early morning then tending northerly 25 to 35 km/h in the morning.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-06-10": {
       "2": {
-        "forecast": "Partly cloudy. Winds northerly 15 to 25 km/h tending northwesterly during the day then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Winds northerly 15 to 25 km/h tending northwesterly in the morning then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-06-12": {
       "4": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny. Light winds becoming north to northeasterly 15 to 20 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 21,
         "temp_min": 12
+      }
+    },
+    "2026-06-15": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming north to northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 22,
+        "temp_min": 11
       }
     }
   },

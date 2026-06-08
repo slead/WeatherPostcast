@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-08": {
       "0": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds becoming easterly 15 to 20 km/h in the late evening.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 20,
         "temp_min": 5
       },
@@ -127,10 +127,10 @@
     },
     "2026-06-10": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds becoming northerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming northerly 15 to 20 km/h in the morning then becoming light in the early afternoon.",
+        "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 19,
         "temp_min": 10
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 19,
+        "temp_min": 11
+      }
+    },
+    "2026-06-15": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 21,
         "temp_min": 11
       }
     }
