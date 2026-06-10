@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-10": {
       "0": {
-        "forecast": "Mostly sunny. Winds easterly 20 to 30 km/h becoming light in the late afternoon.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-12": {
       "2": {
-        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h becoming light during the afternoon.",
+        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -219,10 +219,10 @@
     },
     "2026-06-14": {
       "4": {
-        "forecast": "Slight chance of a shower during the morning. Sunny day. Light winds becoming easterly 20 to 30 km/h during the morning.",
-        "icon_code": 1,
+        "forecast": "Slight chance of a shower in the morning. Mostly sunny day. Light winds becoming easterly 20 to 30 km/h during the morning then becoming light during the evening.",
+        "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 31,
         "temp_min": 21
       },
@@ -255,10 +255,10 @@
       "5": {
         "forecast": "Slight chance of a shower during the morning. Sunny day. Winds easterly 20 to 30 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Sunny.",
         "temp_max": 31,
-        "temp_min": 20
+        "temp_min": 21
       },
       "6": {
         "forecast": "Slight chance of a shower during the morning. Sunny day. Winds easterly 15 to 25 km/h.",
@@ -284,7 +284,7 @@
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
         "temp_max": 31,
-        "temp_min": 20
+        "temp_min": 21
       },
       "7": {
         "forecast": "Slight chance of a shower during the morning. Sunny afternoon. Light winds becoming easterly 15 to 25 km/h during the morning.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 31,
         "temp_min": 20
+      }
+    },
+    "2026-06-17": {
+      "7": {
+        "forecast": "Slight chance of a shower during the morning. Sunny afternoon. Light winds becoming easterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 31,
+        "temp_min": 21
       }
     }
   },

@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-10": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely at night. Winds northerly 30 to 35 km/h turning west to northwesterly 15 to 20 km/h in the late morning and early afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely later tonight. Winds west to northwesterly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 18,
         "temp_min": null
@@ -69,9 +69,9 @@
     },
     "2026-06-11": {
       "1": {
-        "forecast": "Partly cloudy. The chance of morning fog. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": 8
@@ -127,7 +127,7 @@
     },
     "2026-06-12": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 20 to 30 km/h increasing to 25 to 35 km/h during the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -177,10 +177,10 @@
     },
     "2026-06-13": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northerly 25 to 40 km/h turning westerly 15 to 25 km/h during the afternoon.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Winds northerly 25 to 35 km/h turning westerly 15 to 25 km/h during the day.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 18,
         "temp_min": 14
       },
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 16,
         "temp_min": 11
+      }
+    },
+    "2026-06-17": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 15 to 25 km/h tending westerly during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 10
       }
     }
   },

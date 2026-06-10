@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-10": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the late afternoon and evening. Winds northerly 15 to 20 km/h becoming light in the early afternoon.",
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-06-13": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming north to northwesterly 15 to 20 km/h during the morning then becoming light during the day.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming north to northwesterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-06-14": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower during the morning. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -253,10 +253,10 @@
     },
     "2026-06-15": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 3
       },
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 16,
         "temp_min": 7
+      }
+    },
+    "2026-06-17": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 9
       }
     }
   },

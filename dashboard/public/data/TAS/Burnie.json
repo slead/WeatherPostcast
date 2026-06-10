@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-10": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, becoming less likely in the late afternoon and evening. Winds northwesterly 30 to 40 km/h tending westerly 25 to 35 km/h in the early afternoon then becoming light in the late evening.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "forecast": "Mostly clear. Slight chance of a shower. Winds westerly 15 to 25 km/h becoming light in the late evening.",
+        "icon_code": 2,
+        "precipitation_prob": "20%",
+        "precis": "Clear.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-06-11": {
       "1": {
-        "forecast": "Sunny morning. Slight chance of a shower at night. Light winds.",
+        "forecast": "Mostly sunny day. Slight chance of a shower at night. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 15,
-        "temp_min": 6
+        "temp_min": 5
       },
       "2": {
         "forecast": "Sunny morning. Medium chance of showers, most likely at night. Light winds.",
@@ -127,7 +127,7 @@
     },
     "2026-06-12": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Winds easterly 15 to 20 km/h turning north to northeasterly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers. Winds easterly 15 to 20 km/h turning north to northeasterly 15 to 25 km/h in the late morning.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -177,10 +177,10 @@
     },
     "2026-06-13": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Winds northerly 25 to 35 km/h turning westerly during the day.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. Winds northerly 25 to 35 km/h increasing to 40 km/h before turning westerly 25 to 35 km/h during the day.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers easing.",
+        "precis": "Rain easing.",
         "temp_max": 16,
         "temp_min": 11
       },
@@ -219,7 +219,7 @@
     },
     "2026-06-14": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Winds westerly 15 to 20 km/h tending northwesterly during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the evening. Winds westerly 15 to 25 km/h tending northwesterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-06-15": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers, most likely later in the day. Winds north to northeasterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely later in the day. Winds northeasterly 15 to 20 km/h tending northerly 20 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers increasing.",
@@ -283,13 +283,23 @@
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
-        "temp_max": 15,
+        "temp_max": 14,
         "temp_min": 9
       },
       "7": {
         "forecast": "Cloudy. Very high chance of showers. Winds north to northwesterly 20 to 25 km/h turning west to southwesterly 15 to 20 km/h later.",
         "icon_code": 11,
         "precipitation_prob": "95%",
+        "precis": "Showers.",
+        "temp_max": 15,
+        "temp_min": 9
+      }
+    },
+    "2026-06-17": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds southerly 15 to 20 km/h turning west to southwesterly 20 to 25 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 9

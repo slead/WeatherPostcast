@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-10": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-06-11": {
       "1": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Sunny. Light winds becoming north to northeasterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 28,
-        "temp_min": 10
+        "temp_min": 11
       },
       "2": {
         "forecast": "Sunny. Light winds becoming north to northeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
@@ -127,12 +127,12 @@
     },
     "2026-06-12": {
       "2": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the day then tending northwesterly during the afternoon.",
+        "forecast": "Sunny. Light winds becoming north to northwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 29,
-        "temp_min": 11
+        "temp_min": 12
       },
       "3": {
         "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly 15 to 25 km/h during the day.",
@@ -177,10 +177,10 @@
     },
     "2026-06-13": {
       "3": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 27,
         "temp_min": 12
       },
@@ -219,9 +219,9 @@
     },
     "2026-06-14": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly during the morning then becoming light during the day.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 14
@@ -253,10 +253,10 @@
     },
     "2026-06-15": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming north to northwesterly 15 to 20 km/h during the morning.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming north to northwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 4,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloudy.",
         "temp_max": 26,
         "temp_min": 15
       },
@@ -279,12 +279,12 @@
     },
     "2026-06-16": {
       "6": {
-        "forecast": "Cloudy. High chance of showers. Light winds becoming southerly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers. Light winds becoming south to southwesterly 15 to 20 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
-        "temp_max": 22,
-        "temp_min": 13
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 23,
+        "temp_min": 14
       },
       "7": {
         "forecast": "Cloudy. Medium chance of showers. Light winds becoming southerly 15 to 25 km/h during the morning.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 22,
         "temp_min": 14
+      }
+    },
+    "2026-06-17": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds southerly 15 to 25 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 19,
+        "temp_min": 9
       }
     }
   },
