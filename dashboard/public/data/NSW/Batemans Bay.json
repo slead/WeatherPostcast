@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-13": {
       "0": {
-        "forecast": "Mostly sunny day. Slight chance of a shower at night. Winds north to northwesterly 15 to 20 km/h becoming light in the early afternoon.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Slight chance of a shower, most likely later tonight. Light winds.",
+        "icon_code": 4,
         "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precis": "Cloudy.",
         "temp_max": 22,
         "temp_min": 9
       },
@@ -72,8 +72,8 @@
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Light winds becoming southerly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "90%",
-        "precis": "Showers easing.",
-        "temp_max": 17,
+        "precis": "Showers.",
+        "temp_max": 18,
         "temp_min": 13
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-06-15": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the early morning. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-06-17": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 20,
         "temp_min": 11
+      }
+    },
+    "2026-06-20": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 20,
+        "temp_min": 12
       }
     }
   },

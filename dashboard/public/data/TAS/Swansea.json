@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-13": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely in the evening. Winds northerly 20 to 25 km/h tending northwesterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "forecast": "Partly cloudy. Medium chance of rain, becoming less likely later this evening. Winds northwesterly 15 to 25 km/h becoming light in the evening.",
+        "icon_code": 12,
+        "precipitation_prob": "60%",
+        "precis": "Rain at times.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -132,7 +132,7 @@
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 15,
-        "temp_min": 2
+        "temp_min": 1
       },
       "3": {
         "forecast": "Partly cloudy. The chance of morning frost. Light winds.",
@@ -253,12 +253,12 @@
     },
     "2026-06-18": {
       "5": {
-        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "forecast": "Cloudy. High chance of showers. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 15,
-        "temp_min": 7
+        "temp_min": 6
       },
       "6": {
         "forecast": "Cloudy. High chance of showers. Light winds.",
@@ -279,7 +279,7 @@
     },
     "2026-06-19": {
       "6": {
-        "forecast": "Partly cloudy. High chance of showers. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers. Light winds becoming easterly 15 to 20 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 8
+      }
+    },
+    "2026-06-20": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 7
       }
     }
   },
