@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-17": {
       "0": {
-        "forecast": "Partly cloudy. Winds northwesterly 15 to 20 km/h becoming light in the early afternoon.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -69,10 +69,10 @@
     },
     "2026-06-18": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. Light winds becoming north to northwesterly 15 to 25 km/h in the middle of the day.",
+        "forecast": "Partly cloudy. Medium chance of showers in the late afternoon and evening. Light winds becoming north to northwesterly 15 to 25 km/h in the middle of the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "precis": "Possible late shower.",
         "temp_max": 17,
         "temp_min": 5
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-19": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds northwesterly 25 to 35 km/h becoming light during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds northwesterly 25 to 35 km/h becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -219,10 +219,10 @@
     },
     "2026-06-21": {
       "4": {
-        "forecast": "Cloudy. Morning frost. Medium chance of showers, most likely later in the day. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Frost. Possible shower.",
+        "forecast": "Cloudy. Patchy morning frost. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Morning frost. Shower or two.",
         "temp_max": 11,
         "temp_min": 0
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 13,
+        "temp_min": 1
+      }
+    },
+    "2026-06-24": {
+      "7": {
+        "forecast": "Partly cloudy. Patchy morning frost. Slight chance of a shower. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 11,
         "temp_min": 1
       }
     }
