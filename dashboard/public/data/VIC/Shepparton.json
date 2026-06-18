@@ -1,73 +1,15 @@
 {
   "city_name": "Shepparton",
   "forecasts": {
-    "2026-06-18": {
+    "2026-06-19": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, becoming less likely in the evening. Winds northerly 15 to 25 km/h becoming light in the late evening.",
-        "icon_code": 12,
-        "precipitation_prob": "100%",
-        "precis": "Rain.",
-        "temp_max": 16,
+        "forecast": "Cloudy. Very high chance of showers, most likely from late this morning. Light winds becoming northerly 15 to 25 km/h in the morning then becoming light in the late afternoon.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 13,
         "temp_min": null
       },
-      "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the late afternoon and evening. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h in the middle of the day then becoming light in the late evening.",
-        "icon_code": 12,
-        "precipitation_prob": "100%",
-        "precis": "Rain.",
-        "temp_max": 16,
-        "temp_min": 14
-      },
-      "2": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers.",
-        "temp_max": 17,
-        "temp_min": 13
-      },
-      "3": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h during the day then becoming light during the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers.",
-        "temp_max": 17,
-        "temp_min": 13
-      },
-      "4": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 25 km/h tending northerly during the day then becoming light during the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers.",
-        "temp_max": 17,
-        "temp_min": 12
-      },
-      "5": {
-        "forecast": "Cloudy. High chance of showers. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
-        "temp_max": 17,
-        "temp_min": 9
-      },
-      "6": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds becoming northerly 15 to 20 km/h during the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
-        "temp_max": 17,
-        "temp_min": 11
-      },
-      "7": {
-        "forecast": "Cloudy. High chance of showers, most likely during the morning. Light winds becoming northwesterly 15 to 25 km/h during the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
-        "temp_max": 17,
-        "temp_min": 10
-      }
-    },
-    "2026-06-19": {
       "1": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the late morning and afternoon. Light winds becoming northerly 20 to 25 km/h in the morning then tending northwesterly 15 to 25 km/h in the early afternoon.",
         "icon_code": 11,
@@ -126,6 +68,14 @@
       }
     },
     "2026-06-20": {
+      "1": {
+        "forecast": "Cloudy. High chance of showers, most likely in the late morning and afternoon. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 13,
+        "temp_min": 7
+      },
       "2": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
         "icon_code": 11,
@@ -176,6 +126,14 @@
       }
     },
     "2026-06-21": {
+      "2": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 13,
+        "temp_min": 6
+      },
       "3": {
         "forecast": "Cloudy. Medium chance of showers. Light winds.",
         "icon_code": 17,
@@ -218,6 +176,14 @@
       }
     },
     "2026-06-22": {
+      "3": {
+        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 14,
+        "temp_min": 5
+      },
       "4": {
         "forecast": "Cloudy. The chance of morning fog. Slight chance of a shower. Light winds.",
         "icon_code": 4,
@@ -252,6 +218,14 @@
       }
     },
     "2026-06-23": {
+      "4": {
+        "forecast": "Partly cloudy. The chance of fog and frost during the morning. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 13,
+        "temp_min": 3
+      },
       "5": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
@@ -278,6 +252,14 @@
       }
     },
     "2026-06-24": {
+      "5": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 13,
+        "temp_min": 4
+      },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
@@ -296,6 +278,14 @@
       }
     },
     "2026-06-25": {
+      "6": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 14,
+        "temp_min": 4
+      },
       "7": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
