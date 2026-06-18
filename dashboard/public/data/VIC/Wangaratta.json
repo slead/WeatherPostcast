@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-18": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the evening. Winds northeasterly 20 to 25 km/h turning northerly 15 to 25 km/h in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of rain. Winds north to northeasterly 15 to 25 km/h becoming light in the late evening.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -69,10 +69,10 @@
     },
     "2026-06-19": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 25 km/h in the morning then tending northwesterly 15 to 20 km/h in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of showers. Light winds becoming northerly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
-        "precis": "Showers increasing.",
+        "precis": "Showers.",
         "temp_max": 14,
         "temp_min": 9
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-20": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the late morning and afternoon. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-06-21": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 13,
+        "temp_min": 4
+      }
+    },
+    "2026-06-25": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 14,
         "temp_min": 4
       }
     }

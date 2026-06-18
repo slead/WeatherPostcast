@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-18": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, becoming less likely in the evening. The chance of a thunderstorm in the afternoon and evening. Winds northerly 15 to 25 km/h becoming light in the evening.",
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely in the evening. Winds northerly 15 to 25 km/h becoming light in the evening.",
         "icon_code": 12,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "95%",
         "precis": "Rain.",
         "temp_max": 15,
         "temp_min": null
@@ -258,7 +258,7 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 13,
-        "temp_min": 3
+        "temp_min": 4
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
+        "temp_max": 13,
+        "temp_min": 5
+      }
+    },
+    "2026-06-25": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
         "temp_max": 13,
         "temp_min": 5
       }

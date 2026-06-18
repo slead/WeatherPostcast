@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-18": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 20 km/h tending northerly in the early afternoon.",
+        "forecast": "Cloudy. Very high chance of rain. Winds northerly 15 to 20 km/h.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 15 to 20 km/h becoming light before dawn then becoming north to northwesterly 15 to 20 km/h in the morning.",
         "icon_code": 11,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "100%",
         "precis": "Showers.",
         "temp_max": 14,
         "temp_min": 10
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 5
+      }
+    },
+    "2026-06-25": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 15,
+        "temp_min": 4
       }
     }
   },
