@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-20": {
       "0": {
-        "forecast": "Partly cloudy. Winds northeasterly 20 to 30 km/h becoming light in the late afternoon then becoming northeasterly 15 to 20 km/h in the evening.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Winds northeasterly 20 to 25 km/h becoming light in the late afternoon then becoming northeasterly 15 to 20 km/h in the evening.",
+        "icon_code": 4,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloudy.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-22": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds northeast to southeasterly 15 to 25 km/h becoming southeasterly 15 to 20 km/h during the afternoon then tending easterly during the evening.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds northeast to southeasterly 15 to 25 km/h becoming southeasterly 15 to 20 km/h in the early afternoon then tending easterly in the evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-06-24": {
       "4": {
-        "forecast": "Sunny. Winds east to northeasterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds east to northeasterly 20 to 30 km/h becoming light during the afternoon then becoming east to northeasterly 15 to 20 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-06-26": {
       "6": {
-        "forecast": "Cloudy. Very high chance of showers. Winds north to northwesterly 30 to 40 km/h turning west to southwesterly 30 to 45 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northerly 30 to 40 km/h turning westerly 30 to 45 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers. Windy.",
@@ -293,6 +293,16 @@
         "precis": "Showers. Windy.",
         "temp_max": 20,
         "temp_min": 12
+      }
+    },
+    "2026-06-27": {
+      "7": {
+        "forecast": "Partly cloudy. Very high chance of showers. Winds westerly 25 to 35 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 20,
+        "temp_min": 11
       }
     }
   },
