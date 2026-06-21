@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-21": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -279,7 +279,7 @@
     },
     "2026-06-27": {
       "6": {
-        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
         "temp_max": 15,
+        "temp_min": 5
+      }
+    },
+    "2026-06-28": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 16,
         "temp_min": 5
       }
     }

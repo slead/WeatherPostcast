@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-21": {
       "0": {
-        "forecast": "Cloudy. High chance of rain. Winds southwesterly 15 to 20 km/h becoming light in the late afternoon.",
+        "forecast": "Cloudy. Medium chance of rain. Winds southwesterly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 12,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Rain at times.",
         "temp_max": 15,
         "temp_min": 6
@@ -69,7 +69,7 @@
     },
     "2026-06-22": {
       "1": {
-        "forecast": "Slight chance of a shower in the early morning. Mostly sunny day. The chance of morning frost. Light winds.",
+        "forecast": "Slight chance of a shower in the early morning. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -129,7 +129,7 @@
       "2": {
         "forecast": "Sunny. Patchy morning frost. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 18,
         "temp_min": 1
@@ -177,10 +177,10 @@
     },
     "2026-06-24": {
       "3": {
-        "forecast": "Sunny morning. The chance of morning frost. Slight chance of a shower, most likely in the evening. Light winds.",
+        "forecast": "The chance of morning frost. Mostly sunny day. Slight chance of a shower, most likely in the evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 18,
         "temp_min": 1
       },
@@ -279,7 +279,7 @@
     },
     "2026-06-27": {
       "6": {
-        "forecast": "Mostly sunny. The chance of morning frost. Slight chance of a shower. Light winds.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
+        "temp_max": 17,
+        "temp_min": 3
+      }
+    },
+    "2026-06-28": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
         "temp_max": 17,
         "temp_min": 3
       }

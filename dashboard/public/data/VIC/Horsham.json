@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-21": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the afternoon. Light winds.",
+        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Cloudy.",
         "temp_max": 13,
         "temp_min": null
@@ -69,10 +69,10 @@
     },
     "2026-06-22": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of morning fog. Light winds.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Slight chance of a shower. The chance of morning fog. Light winds.",
+        "icon_code": 4,
         "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precis": "Cloudy.",
         "temp_max": 13,
         "temp_min": 5
       },
@@ -224,7 +224,7 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 14,
-        "temp_min": 4
+        "temp_min": 5
       },
       "5": {
         "forecast": "Cloudy. Light winds.",
@@ -279,7 +279,7 @@
     },
     "2026-06-27": {
       "6": {
-        "forecast": "Mostly sunny day. Slight chance of a shower, most likely later in the day. Winds easterly 15 to 20 km/h tending northeasterly during the day.",
+        "forecast": "Mostly sunny day. Slight chance of a shower, most likely later in the day. Light winds becoming east to northeasterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 15,
         "temp_min": 5
+      }
+    },
+    "2026-06-28": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds northeasterly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 16,
+        "temp_min": 6
       }
     }
   },
