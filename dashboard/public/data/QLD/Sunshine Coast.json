@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-22": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-06-23": {
       "1": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
-        "temp_max": 21,
+        "temp_max": 20,
         "temp_min": 11
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-06-24": {
       "2": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming south to southeasterly 15 to 25 km/h during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers near the coast, slight chance elsewhere. Light winds becoming south to southeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-06-25": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Light winds becoming south to southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h during the day then becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers increasing.",
@@ -219,7 +219,7 @@
     },
     "2026-06-26": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southerly 15 to 20 km/h turning southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. High chance of showers. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h during the day then becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -253,9 +253,9 @@
     },
     "2026-06-27": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. Winds southerly 15 to 20 km/h turning southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. High chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 20,
         "temp_min": 13
@@ -279,11 +279,11 @@
     },
     "2026-06-28": {
       "6": {
-        "forecast": "Partly cloudy. High chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. High chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
-        "temp_max": 20,
+        "temp_max": 21,
         "temp_min": 14
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 20,
         "temp_min": 13
+      }
+    },
+    "2026-06-29": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 22,
+        "temp_min": 15
       }
     }
   },
