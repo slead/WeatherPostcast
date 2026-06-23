@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-23": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the southeast suburbs, near zero chance elsewhere. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -178,11 +178,11 @@
     "2026-06-26": {
       "3": {
         "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
-        "icon_code": 4,
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
-        "temp_min": 6
+        "temp_min": 5
       },
       "4": {
         "forecast": "Partly cloudy. The chance of morning fog. Slight chance of a shower. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-06-27": {
       "4": {
-        "forecast": "Partly cloudy. The chance of morning fog about the nearby hills. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "10%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 8
+      }
+    },
+    "2026-06-30": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds northerly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 17,
+        "temp_min": 11
       }
     }
   },

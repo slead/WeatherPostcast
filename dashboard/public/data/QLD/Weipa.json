@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-23": {
       "0": {
-        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h in the morning then becoming light in the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 32,
-        "temp_min": 20
+        "temp_min": 21
       },
       "2": {
         "forecast": "Partly cloudy. Winds southeasterly 15 to 25 km/h tending easterly in the middle of the day then becoming light in the evening.",
@@ -127,9 +127,9 @@
     },
     "2026-06-25": {
       "2": {
-        "forecast": "Partly cloudy. Winds southeasterly 15 to 25 km/h tending easterly during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 31,
         "temp_min": 21
@@ -177,11 +177,11 @@
     },
     "2026-06-26": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the afternoon and evening. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 31,
+        "temp_max": 32,
         "temp_min": 20
       },
       "4": {
@@ -219,11 +219,11 @@
     },
     "2026-06-27": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming east to southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 33,
+        "temp_max": 32,
         "temp_min": 20
       },
       "5": {
@@ -253,11 +253,11 @@
     },
     "2026-06-28": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower later in the day. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower later in the day. Light winds becoming easterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 32,
+        "temp_max": 31,
         "temp_min": 21
       },
       "6": {
@@ -279,12 +279,12 @@
     },
     "2026-06-29": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 32,
-        "temp_min": 22
+        "temp_min": 21
       },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the morning.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 32,
         "temp_min": 21
+      }
+    },
+    "2026-06-30": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 33,
+        "temp_min": 20
       }
     }
   },
