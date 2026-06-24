@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-24": {
       "0": {
-        "forecast": "Partly cloudy. Morning fog, possibly continuing into the early afternoon. Light winds.",
-        "icon_code": 10,
+        "forecast": "Cloudy. Light winds.",
+        "icon_code": 4,
         "precipitation_prob": "5%",
-        "precis": "Morning fog.",
+        "precis": "Cloudy.",
         "temp_max": 11,
         "temp_min": 2
       },
@@ -73,7 +73,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Cloud clearing.",
-        "temp_max": 16,
+        "temp_max": 15,
         "temp_min": 4
       },
       "2": {
@@ -131,8 +131,8 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 16,
-        "temp_min": 6
+        "temp_max": 15,
+        "temp_min": 5
       },
       "3": {
         "forecast": "Slight chance of a shower in the morning. Mostly sunny afternoon. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-06-28": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely in the afternoon and evening. Light winds becoming easterly 15 to 20 km/h during the day.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Cloudy. Very high chance of showers. Winds easterly 15 to 20 km/h tending northeasterly during the day.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers.",
         "temp_max": 16,
         "temp_min": 8
@@ -290,6 +290,16 @@
         "forecast": "Cloudy. Very high chance of showers. Light winds becoming northerly 15 to 20 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "95%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 10
+      }
+    },
+    "2026-07-01": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 16,
         "temp_min": 10

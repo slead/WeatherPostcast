@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-24": {
       "0": {
-        "forecast": "Cloudy. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
         "temp_max": 11,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-06-25": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Patchy morning frost. Mostly sunny day. Light winds.",
+        "forecast": "Mostly sunny. Patchy morning frost. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Mostly sunny.",
         "temp_max": 12,
-        "temp_min": 0
+        "temp_min": 1
       },
       "2": {
         "forecast": "Mostly sunny. Patchy morning frost. Light winds.",
@@ -127,12 +127,12 @@
     },
     "2026-06-26": {
       "2": {
-        "forecast": "Cloudy. Light winds.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 12,
-        "temp_min": 3
+        "temp_min": 1
       },
       "3": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds.",
@@ -281,7 +281,7 @@
       "6": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 6
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 15,
         "temp_min": 6
+      }
+    },
+    "2026-07-01": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 15,
+        "temp_min": 7
       }
     }
   },
