@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-25": {
       "0": {
-        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h becoming light in the middle of the day.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 31,
         "temp_min": null
       },
@@ -73,7 +73,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 32,
+        "temp_max": 31,
         "temp_min": 18
       },
       "2": {
@@ -127,12 +127,12 @@
     },
     "2026-06-27": {
       "2": {
-        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h tending easterly during the day then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 31,
-        "temp_min": 17
+        "temp_min": 18
       },
       "3": {
         "forecast": "Sunny. Winds southeasterly 15 to 20 km/h tending easterly during the day then becoming light during the afternoon.",
@@ -223,7 +223,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 31,
+        "temp_max": 30,
         "temp_min": 16
       },
       "5": {
@@ -255,9 +255,9 @@
       "5": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 31,
+        "temp_max": 30,
         "temp_min": 16
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 30,
         "temp_min": 17
+      }
+    },
+    "2026-07-02": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 29,
+        "temp_min": 18
       }
     }
   },

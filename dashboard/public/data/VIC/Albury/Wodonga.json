@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-25": {
       "0": {
-        "forecast": "Cloud clearing. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Clear.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-06-26": {
       "1": {
-        "forecast": "Mostly sunny. The chance of morning fog. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-06-27": {
       "2": {
-        "forecast": "The chance of morning fog. Sunny day. Light winds.",
+        "forecast": "The chance of fog in the early morning. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-06-28": {
       "3": {
-        "forecast": "The chance of morning fog. Sunny day. Slight chance of a shower in the evening. Light winds.",
-        "icon_code": 1,
+        "forecast": "The chance of morning fog. Mostly sunny day. Slight chance of a shower in the evening. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 16,
         "temp_min": 3
       },
@@ -219,10 +219,10 @@
     },
     "2026-06-29": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers, most likely later in the day. Light winds.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the afternoon and evening. Light winds.",
+        "icon_code": 12,
         "precipitation_prob": "90%",
-        "precis": "Showers increasing.",
+        "precis": "Rain increasing.",
         "temp_max": 16,
         "temp_min": 7
       },
@@ -253,10 +253,10 @@
     },
     "2026-06-30": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. Light winds.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 14,
         "temp_min": 10
       },
@@ -279,10 +279,10 @@
     },
     "2026-07-01": {
       "6": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "forecast": "Cloudy. Very high chance of rain. Light winds.",
+        "icon_code": 12,
+        "precipitation_prob": "100%",
+        "precis": "Rain.",
         "temp_max": 15,
         "temp_min": 10
       },
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 10
+      }
+    },
+    "2026-07-02": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. Light winds becoming north to northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "95%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 9
       }
     }
   },

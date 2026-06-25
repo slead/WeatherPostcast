@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-25": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 12,
         "temp_min": null
@@ -69,12 +69,12 @@
     },
     "2026-06-26": {
       "1": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 12,
-        "temp_min": 2
+        "temp_min": 1
       },
       "2": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-06-29": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds southeasterly 15 to 20 km/h turning east to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers. Winds southeasterly 15 to 20 km/h turning east to northeasterly during the morning.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -253,7 +253,7 @@
     },
     "2026-06-30": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers. Winds east to northeasterly 15 to 20 km/h turning northerly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers. Winds east to northeasterly 15 to 20 km/h turning northerly during the day.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers.",
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 10
+      }
+    },
+    "2026-07-02": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 20 to 30 km/h tending westerly 20 to 25 km/h later.",
+        "icon_code": 11,
+        "precipitation_prob": "95%",
+        "precis": "Showers.",
+        "temp_max": 15,
+        "temp_min": 8
       }
     }
   },
