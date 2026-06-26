@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-26": {
       "0": {
-        "forecast": "Mostly sunny. Winds southwesterly 15 to 20 km/h turning south to southeasterly in the middle of the day then tending northeast to southeasterly in the late afternoon.",
+        "forecast": "Mostly clear. Winds east to southeasterly 15 to 20 km/h tending southeast to southwesterly in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 4,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-06-27": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Sunny day. Winds west to northwesterly 15 to 20 km/h shifting east to northeasterly in the morning then tending northwest to northeasterly in the evening.",
+        "forecast": "The chance of fog in the early morning. Sunny day. Winds northwest to northeasterly 15 to 20 km/h tending east to northeasterly in the morning then tending northwest to northeasterly in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-06-28": {
       "2": {
-        "forecast": "Mostly sunny morning. Slight chance of a snow shower, most likely in the afternoon. Winds north to northwesterly 15 to 20 km/h tending north to northeasterly 20 to 30 km/h during the day.",
+        "forecast": "Mostly sunny morning. Slight chance of a snow shower, most likely in the afternoon. Winds north to northwesterly 15 to 20 km/h tending north to northeasterly 20 to 30 km/h during the morning and early afternoon.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -177,12 +177,12 @@
     },
     "2026-06-29": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers or snow, most likely in the afternoon and evening. Winds northerly 35 to 55 km/h.",
-        "icon_code": 15,
+        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening, possibly falling as snow. Winds northerly 35 to 55 km/h.",
+        "icon_code": 11,
         "precipitation_prob": "60%",
-        "precis": "Snow shower or two.",
+        "precis": "Shower or two, possible snow.",
         "temp_max": 4,
-        "temp_min": -4
+        "temp_min": -3
       },
       "4": {
         "forecast": "Cloudy. Medium chance of showers or snow, most likely in the afternoon and evening. Winds northerly 35 to 50 km/h.",
@@ -219,7 +219,7 @@
     },
     "2026-06-30": {
       "4": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northerly 40 to 60 km/h turning northwesterly 35 to 50 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of rain. Winds northerly 40 to 60 km/h turning northwesterly 35 to 55 km/h during the day.",
         "icon_code": 12,
         "precipitation_prob": "95%",
         "precis": "Rain. Very windy.",
@@ -279,12 +279,12 @@
     },
     "2026-07-02": {
       "6": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 40 to 60 km/h increasing to 45 to 65 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 40 to 60 km/h.",
         "icon_code": 15,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "95%",
         "precis": "Snow showers. Very windy.",
-        "temp_max": 3,
-        "temp_min": -1
+        "temp_max": 2,
+        "temp_min": -2
       },
       "7": {
         "forecast": "Cloudy. Very high chance of showers. Snow falling above 1700 metres. Winds northwesterly 35 to 55 km/h.",
@@ -293,6 +293,16 @@
         "precis": "Snow showers. Very windy.",
         "temp_max": 4,
         "temp_min": -2
+      }
+    },
+    "2026-07-03": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of snow showers. Winds northwesterly 40 to 60 km/h turning westerly 35 to 55 km/h during the day.",
+        "icon_code": 15,
+        "precipitation_prob": "90%",
+        "precis": "Snow showers. Very windy.",
+        "temp_max": 1,
+        "temp_min": -3
       }
     }
   },

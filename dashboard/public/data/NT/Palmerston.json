@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-26": {
       "0": {
-        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h becoming light in the early afternoon.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 32,
         "temp_min": null
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Cloud clearing. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
         "temp_max": 32,
         "temp_min": 20
@@ -127,10 +127,10 @@
     },
     "2026-06-28": {
       "2": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 32,
         "temp_min": 19
       },
@@ -181,8 +181,8 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 32,
-        "temp_min": 20
+        "temp_max": 31,
+        "temp_min": 19
       },
       "4": {
         "forecast": "Mostly sunny. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-06-30": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -253,11 +253,11 @@
     },
     "2026-07-01": {
       "5": {
-        "forecast": "Slight chance of a shower, most likely during the morning. Mostly sunny day. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
-        "temp_max": 32,
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 31,
         "temp_min": 20
       },
       "6": {
@@ -279,7 +279,7 @@
     },
     "2026-07-02": {
       "6": {
-        "forecast": "Slight chance of a shower during the morning. Mostly sunny afternoon. Light winds.",
+        "forecast": "Slight chance of a shower during the morning. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 32,
         "temp_min": 20
+      }
+    },
+    "2026-07-03": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 33,
+        "temp_min": 21
       }
     }
   },

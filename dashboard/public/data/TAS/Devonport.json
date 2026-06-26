@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-26": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 12,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-06-28": {
       "2": {
-        "forecast": "Mostly sunny day. Slight chance of a shower in the evening. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower at night. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": 2
       },
@@ -219,10 +219,10 @@
     },
     "2026-06-30": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h during the morning.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 14,
         "temp_min": 10
       },
@@ -283,7 +283,7 @@
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers.",
-        "temp_max": 14,
+        "temp_max": 13,
         "temp_min": 9
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 8
+      }
+    },
+    "2026-07-03": {
+      "7": {
+        "forecast": "Partly cloudy. Very high chance of showers, most likely during the morning. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers easing.",
+        "temp_max": 13,
+        "temp_min": 7
       }
     }
   },
