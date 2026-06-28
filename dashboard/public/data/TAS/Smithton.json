@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-28": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely at night. Winds easterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds easterly 20 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -69,7 +69,7 @@
     },
     "2026-06-29": {
       "1": {
-        "forecast": "Cloudy. High chance of showers. Winds easterly 25 to 30 km/h tending northeasterly 20 to 30 km/h in the morning.",
+        "forecast": "Cloudy. High chance of showers. Winds easterly 20 to 30 km/h tending northeasterly in the morning.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -127,7 +127,7 @@
     },
     "2026-06-30": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 25 km/h tending northerly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 25 km/h tending northerly 15 to 25 km/h before dawn then becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -177,10 +177,10 @@
     },
     "2026-07-01": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northwest to northeasterly 15 to 25 km/h increasing to 25 to 30 km/h during the day.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. Winds northwest to northeasterly 15 to 25 km/h increasing to 25 to 30 km/h during the day.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 15,
         "temp_min": 9
       },
@@ -219,7 +219,7 @@
     },
     "2026-07-02": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds north to northwesterly 25 to 40 km/h tending west to northwesterly during the day.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northerly 25 to 30 km/h tending northwesterly 25 to 40 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers. Wind easing.",
@@ -283,7 +283,7 @@
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
-        "temp_max": 12,
+        "temp_max": 11,
         "temp_min": 5
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 12,
         "temp_min": 5
+      }
+    },
+    "2026-07-05": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds southwesterly 15 to 20 km/h tending southerly during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 13,
+        "temp_min": 4
       }
     }
   },

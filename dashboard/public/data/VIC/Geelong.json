@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-28": {
       "0": {
-        "forecast": "Cloud clearing. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "10%",
-        "precis": "Cloud clearing.",
+        "precis": "Clear.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-06-29": {
       "1": {
-        "forecast": "Cloudy. High chance of showers. Winds northeasterly 15 to 25 km/h turning northerly 15 to 20 km/h in the evening.",
+        "forecast": "Cloudy. High chance of showers. Winds northeasterly 25 to 35 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 9
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-30": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds northerly 15 to 25 km/h becoming light during the afternoon then becoming northerly 15 to 20 km/h during the evening.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds northerly 15 to 20 km/h becoming light in the early morning then becoming northerly 15 to 20 km/h in the morning.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers easing.",
@@ -177,7 +177,7 @@
     },
     "2026-07-01": {
       "3": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northerly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers increasing.",
@@ -219,7 +219,7 @@
     },
     "2026-07-02": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 14,
+        "temp_min": 8
+      }
+    },
+    "2026-07-05": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Winds south to southwesterly 15 to 25 km/h turning southeasterly during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 13,
         "temp_min": 8
       }
     }

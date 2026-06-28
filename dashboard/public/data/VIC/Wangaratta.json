@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-28": {
       "0": {
-        "forecast": "Sunny day. Slight chance of a shower at night. Light winds.",
-        "icon_code": 1,
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later tonight. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": 1
       },
@@ -69,7 +69,7 @@
     },
     "2026-06-29": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day.",
+        "forecast": "Cloudy. Very high chance of rain. Light winds becoming northeasterly 15 to 20 km/h in the morning.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -127,7 +127,7 @@
     },
     "2026-06-30": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -219,11 +219,11 @@
     },
     "2026-07-02": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northerly 20 to 30 km/h tending northwesterly 20 to 25 km/h later.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northerly 20 to 30 km/h tending northwesterly 20 to 25 km/h during the evening.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers.",
-        "temp_max": 14,
+        "temp_max": 15,
         "temp_min": 9
       },
       "5": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 5
+      }
+    },
+    "2026-07-05": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 13,
+        "temp_min": 4
       }
     }
   },

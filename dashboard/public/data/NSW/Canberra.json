@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-28": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the evening. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower, becoming less likely later this evening. Winds easterly 15 to 20 km/h becoming light in the late afternoon.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": 5
       },
@@ -69,10 +69,10 @@
     },
     "2026-06-29": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
+        "forecast": "Cloudy. High chance of showers. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 5
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-30": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the afternoon and evening. Light winds becoming north to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of rain. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then tending northerly 15 to 25 km/h in the early afternoon.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 3
+      }
+    },
+    "2026-07-05": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 12,
+        "temp_min": 1
       }
     }
   },

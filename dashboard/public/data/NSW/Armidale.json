@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-28": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, becoming less likely in the late afternoon and evening. Winds easterly 15 to 20 km/h becoming light in the late evening.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds easterly 15 to 20 km/h becoming light in the late evening.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": 4
       },
@@ -127,7 +127,7 @@
     },
     "2026-06-30": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h during the morning then tending northerly during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h in the morning then tending northerly in the middle of the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -219,10 +219,10 @@
     },
     "2026-07-02": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers, most likely during the morning. Winds northerly 20 to 25 km/h tending northwesterly 25 to 35 km/h during the morning.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. Winds northerly 20 to 25 km/h tending northwesterly 25 to 35 km/h during the morning.",
+        "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Showers easing.",
+        "precis": "Rain easing.",
         "temp_max": 15,
         "temp_min": 8
       },
@@ -293,6 +293,16 @@
         "precis": "Cloud clearing.",
         "temp_max": 14,
         "temp_min": 2
+      }
+    },
+    "2026-07-05": {
+      "7": {
+        "forecast": "Partly cloudy. Morning frost. Slight chance of a shower. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 11,
+        "temp_min": -1
       }
     }
   },
