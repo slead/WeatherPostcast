@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-06-29": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the late morning and afternoon. Winds southeasterly 15 to 20 km/h becoming light in the early afternoon.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-06-30": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -127,11 +127,11 @@
     },
     "2026-07-01": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late morning and afternoon. Light winds becoming southeasterly 15 to 25 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
-        "temp_max": 31,
+        "temp_max": 30,
         "temp_min": 20
       },
       "3": {
@@ -177,10 +177,10 @@
     },
     "2026-07-02": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Medium chance of showers in the morning. Mostly sunny afternoon. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "precis": "Possible morning shower.",
         "temp_max": 31,
         "temp_min": 21
       },
@@ -219,11 +219,11 @@
     },
     "2026-07-03": {
       "4": {
-        "forecast": "Slight chance of a shower during the morning. Sunny day. Light winds becoming easterly 20 to 30 km/h during the morning.",
+        "forecast": "Slight chance of a shower in the morning. Sunny day. Light winds becoming easterly 20 to 30 km/h during the morning then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Sunny.",
-        "temp_max": 31,
+        "temp_max": 32,
         "temp_min": 21
       },
       "5": {
@@ -279,17 +279,27 @@
     },
     "2026-07-05": {
       "6": {
-        "forecast": "Mostly sunny. Light winds becoming east to southeasterly 20 to 30 km/h during the morning.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds becoming east to southeasterly 20 to 30 km/h during the morning.",
+        "icon_code": 1,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 31,
-        "temp_min": 21
+        "temp_min": 20
       },
       "7": {
         "forecast": "Sunny. Light winds becoming east to southeasterly 20 to 30 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 31,
+        "temp_min": 20
+      }
+    },
+    "2026-07-06": {
+      "7": {
+        "forecast": "Sunny. Winds easterly 15 to 20 km/h tending southeasterly 20 to 30 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
         "temp_min": 20
