@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-06-30": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northerly 60 to 70 km/h decreasing to 50 to 60 km/h in the early afternoon then tending northwesterly 35 to 50 km/h in the evening.",
+        "forecast": "Cloudy. Very high chance of rain. Damaging winds possible. Winds northerly 45 to 55 km/h tending northwesterly 40 to 50 km/h in the evening then decreasing to 30 to 40 km/h in the late evening.",
         "icon_code": 12,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "95%",
         "precis": "Rain. Very windy.",
         "temp_max": 3,
         "temp_min": null
@@ -69,7 +69,7 @@
     },
     "2026-07-01": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm at night. Damaging winds possible. Winds north to northwesterly 40 to 60 km/h becoming northerly 35 to 50 km/h in the late afternoon then tending north to northwesterly 50 to 60 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm at night, possibly severe with large hail and heavy rain which may lead to flash flooding. Damaging winds possible. Winds northwesterly 35 to 45 km/h increasing to 40 to 50 km/h in the early morning then tending northerly 40 to 60 km/h in the morning.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain. Very windy.",
@@ -127,10 +127,10 @@
     },
     "2026-07-02": {
       "2": {
-        "forecast": "Cloudy. Very high chance of snow showers. Winds north to northwesterly 50 to 65 km/h.",
+        "forecast": "Cloudy. Very high chance of showers or snow. Winds north to northwesterly 50 to 65 km/h.",
         "icon_code": 15,
         "precipitation_prob": "100%",
-        "precis": "Snow showers. Very windy.",
+        "precis": "Showers or snow. Very windy.",
         "temp_max": 1,
         "temp_min": -1
       },
@@ -219,7 +219,7 @@
     },
     "2026-07-04": {
       "4": {
-        "forecast": "Cloudy. Medium chance of snow showers, most likely during the morning. Winds westerly 30 to 40 km/h turning south to southwesterly 30 to 45 km/h during the morning.",
+        "forecast": "Cloudy. Medium chance of snow showers, most likely in the morning. Winds westerly 30 to 40 km/h tending southwesterly 25 to 40 km/h during the morning then tending southerly 30 to 45 km/h during the afternoon.",
         "icon_code": 15,
         "precipitation_prob": "40%",
         "precis": "Possible snow shower.",
@@ -253,7 +253,7 @@
     },
     "2026-07-05": {
       "5": {
-        "forecast": "Cloudy. Slight chance of a snow shower. Winds southerly 40 to 50 km/h tending southeasterly 35 to 50 km/h during the morning.",
+        "forecast": "Cloudy. Slight chance of a snow shower. Winds southerly 40 to 50 km/h tending southeasterly 35 to 45 km/h during the morning.",
         "icon_code": 9,
         "precipitation_prob": "20%",
         "precis": "Windy. Cloudy.",
@@ -279,10 +279,10 @@
     },
     "2026-07-06": {
       "6": {
-        "forecast": "Cloudy. Slight chance of a snow shower. Winds southeasterly 40 to 50 km/h decreasing to 30 to 40 km/h during the day.",
+        "forecast": "Cloudy. Slight chance of a snow shower. Winds southeasterly 35 to 45 km/h decreasing to 30 to 35 km/h during the day.",
         "icon_code": 9,
-        "precipitation_prob": "30%",
-        "precis": "Windy. Cloudy.",
+        "precipitation_prob": "20%",
+        "precis": "Wind easing. Cloudy.",
         "temp_max": 3,
         "temp_min": -4
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 3,
         "temp_min": -4
+      }
+    },
+    "2026-07-07": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a snow shower. Winds southeasterly 25 to 35 km/h decreasing to 20 to 25 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 5,
+        "temp_min": -2
       }
     }
   },

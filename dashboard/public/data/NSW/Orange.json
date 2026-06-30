@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-06-30": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northerly 20 to 30 km/h decreasing to 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of rain. Winds northerly 15 to 25 km/h.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -69,10 +69,10 @@
     },
     "2026-07-01": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northerly 15 to 20 km/h becoming light before dawn then becoming northerly 20 to 30 km/h in the early morning.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the evening. The chance of a thunderstorm at night. Winds northerly 15 to 20 km/h becoming light before dawn then becoming northerly 20 to 30 km/h in the early morning.",
         "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Rain.",
+        "precis": "Rain increasing.",
         "temp_max": 14,
         "temp_min": 8
       },
@@ -127,9 +127,9 @@
     },
     "2026-07-02": {
       "2": {
-        "forecast": "Very high chance of rain, most likely in the morning. The chance of a thunderstorm in the morning. Sunny afternoon. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Very high chance of rain, most likely in the early morning. The chance of a thunderstorm in the early morning. Sunny afternoon. Winds northerly 25 to 30 km/h tending northwesterly 20 to 30 km/h before dawn.",
         "icon_code": 12,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "90%",
         "precis": "Rain easing then sunny.",
         "temp_max": 13,
         "temp_min": 7
@@ -219,7 +219,7 @@
     },
     "2026-07-04": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h later.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 25 km/h tending southerly 15 to 20 km/h during the evening.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-07-05": {
       "5": {
-        "forecast": "Mostly sunny. Morning frost. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Mostly sunny. Morning frost. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Mostly sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-07-06": {
       "6": {
-        "forecast": "Partly cloudy. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 11,
         "temp_min": 0
+      }
+    },
+    "2026-07-07": {
+      "7": {
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 12,
+        "temp_min": 2
       }
     }
   },
