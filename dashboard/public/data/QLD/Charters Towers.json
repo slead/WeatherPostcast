@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-01": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-07-02": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Mostly sunny afternoon. Light winds.",
+        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
-        "temp_max": 28,
+        "precis": "Cloud clearing.",
+        "temp_max": 29,
         "temp_min": 13
       },
       "2": {
@@ -127,12 +127,12 @@
     },
     "2026-07-03": {
       "2": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
+        "forecast": "The chance of fog in the early morning. Sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Cloud clearing.",
         "temp_max": 29,
-        "temp_min": 14
+        "temp_min": 15
       },
       "3": {
         "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 29,
-        "temp_min": 12
+        "temp_min": 13
       },
       "4": {
         "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
@@ -279,9 +279,9 @@
     },
     "2026-07-07": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower during the morning. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 13
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
+        "temp_min": 11
+      }
+    },
+    "2026-07-08": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 25,
         "temp_min": 11
       }
     }

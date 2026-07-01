@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-01": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Clear.",
         "temp_max": 33,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-07-02": {
       "1": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 33,
         "temp_min": 15
       },
@@ -127,10 +127,10 @@
     },
     "2026-07-03": {
       "2": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
         "temp_max": 34,
         "temp_min": 18
       },
@@ -177,12 +177,12 @@
     },
     "2026-07-04": {
       "3": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "0%",
+        "precis": "Mostly sunny.",
         "temp_max": 34,
-        "temp_min": 18
+        "temp_min": 17
       },
       "4": {
         "forecast": "Partly cloudy. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-07-05": {
       "4": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -257,7 +257,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 30,
+        "temp_max": 31,
         "temp_min": 17
       },
       "6": {
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 29,
         "temp_min": 14
+      }
+    },
+    "2026-07-08": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 31,
+        "temp_min": 15
       }
     }
   },

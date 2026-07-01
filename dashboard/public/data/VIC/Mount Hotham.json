@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-01": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain or snow. The chance of a thunderstorm at night, possibly severe with large hail and heavy rain which may lead to flash flooding. Damaging winds possible. Winds northwesterly 45 to 55 km/h tending northerly 45 to 60 km/h in the middle of the day then increasing to 60 to 70 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of snow. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Damaging winds possible. Winds northerly 45 to 60 km/h increasing to 60 to 70 km/h in the late evening.",
         "icon_code": 15,
         "precipitation_prob": "100%",
-        "precis": "Rain or snow. Very windy.",
+        "precis": "Snow. Very windy.",
         "temp_max": 3,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-07-02": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 55 to 65 km/h tending north to northwesterly 50 to 70 km/h before dawn.",
+        "forecast": "Cloudy. Very high chance of snow. Damaging winds possible. Winds north to northwesterly 50 to 70 km/h.",
         "icon_code": 15,
         "precipitation_prob": "100%",
-        "precis": "Showers or snow. Very windy.",
+        "precis": "Snow. Very windy.",
         "temp_max": 1,
         "temp_min": -1
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-03": {
       "2": {
-        "forecast": "Cloudy. Very high chance of snow showers, most likely in the morning and afternoon. Winds northwesterly 50 to 60 km/h tending westerly 35 to 55 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of snow showers, most likely in the morning and afternoon. Winds northwesterly 50 to 60 km/h tending westerly 35 to 55 km/h in the middle of the day.",
         "icon_code": 15,
         "precipitation_prob": "100%",
         "precis": "Snow showers. Very windy.",
@@ -219,12 +219,12 @@
     },
     "2026-07-05": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a snow shower. Winds southerly 30 to 40 km/h turning east to southeasterly during the morning.",
+        "forecast": "Cloudy. Slight chance of a snow shower. Winds southerly 30 to 40 km/h tending southeasterly 25 to 40 km/h during the morning then tending easterly 30 to 35 km/h during the evening.",
         "icon_code": 9,
         "precipitation_prob": "20%",
         "precis": "Wind easing. Cloudy.",
         "temp_max": 0,
-        "temp_min": -3
+        "temp_min": -2
       },
       "5": {
         "forecast": "Cloudy. Slight chance of a snow shower. Winds southerly 40 to 50 km/h tending southeasterly 35 to 45 km/h during the morning.",
@@ -253,7 +253,7 @@
     },
     "2026-07-06": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower or snow. Winds easterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds easterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -279,18 +279,28 @@
     },
     "2026-07-07": {
       "6": {
-        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds east to southeasterly 15 to 25 km/h.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 5,
-        "temp_min": -3
+        "temp_min": -2
       },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a snow shower. Winds southeasterly 25 to 35 km/h decreasing to 20 to 25 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
+        "temp_max": 5,
+        "temp_min": -2
+      }
+    },
+    "2026-07-08": {
+      "7": {
+        "forecast": "Sunny. Winds easterly 15 to 20 km/h turning north to northeasterly during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
         "temp_max": 5,
         "temp_min": -2
       }

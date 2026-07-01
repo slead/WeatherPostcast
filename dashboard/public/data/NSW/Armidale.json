@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-07-01": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower at night. Winds northwesterly 15 to 25 km/h becoming light in the late afternoon then becoming northerly 15 to 25 km/h in the evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower later tonight. Winds northwesterly 15 to 20 km/h becoming light in the late afternoon then becoming northerly 15 to 25 km/h in the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -69,10 +69,10 @@
     },
     "2026-07-02": {
       "1": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning. Winds northwesterly 25 to 35 km/h.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. Very high chance of rain, most likely in the morning. Winds northwesterly 25 to 35 km/h.",
+        "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Showers easing.",
+        "precis": "Rain easing.",
         "temp_max": 16,
         "temp_min": 9
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-03": {
       "2": {
-        "forecast": "Slight chance of a shower, most likely in the morning. Mostly sunny afternoon. Winds northwesterly 25 to 30 km/h tending westerly 25 to 35 km/h during the morning then decreasing to 15 to 20 km/h during the evening.",
+        "forecast": "Slight chance of a shower in the early morning. Mostly sunny afternoon. Winds northwesterly 25 to 30 km/h tending westerly 25 to 40 km/h before dawn then decreasing to 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-07-05": {
       "4": {
-        "forecast": "Mostly sunny morning. Morning frost. Slight chance of a shower later in the day. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny morning. Morning frost. Slight chance of a shower in the evening. Light winds becoming southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Morning frost. Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Cloudy.",
         "temp_max": 13,
         "temp_min": 4
+      }
+    },
+    "2026-07-08": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 4,
+        "precipitation_prob": "20%",
+        "precis": "Cloudy.",
+        "temp_max": 13,
+        "temp_min": 3
       }
     }
   },

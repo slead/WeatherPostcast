@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-01": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the evening. The chance of a thunderstorm at night. Winds northerly 20 to 25 km/h increasing to 25 to 30 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm later tonight. Winds northerly 20 to 30 km/h.",
         "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Rain increasing.",
+        "precis": "Rain.",
         "temp_max": 14,
         "temp_min": 8
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-03": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds northwesterly 20 to 25 km/h tending westerly 25 to 35 km/h during the morning then tending southwesterly 15 to 25 km/h during the evening.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds northwesterly 20 to 25 km/h tending westerly 25 to 35 km/h in the early morning then tending southwesterly 15 to 25 km/h in the evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-07-05": {
       "4": {
-        "forecast": "Sunny. Morning frost. Winds easterly 15 to 20 km/h tending southeasterly later.",
+        "forecast": "Sunny. Morning frost. Winds easterly 15 to 20 km/h tending southeasterly during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 12,
         "temp_min": 2
+      }
+    },
+    "2026-07-08": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 12,
+        "temp_min": 1
       }
     }
   },
