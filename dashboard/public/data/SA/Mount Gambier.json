@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-07-02": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, with possible small hail in the late afternoon and evening. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm early this evening. Possible small hail. Winds northwesterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "95%",
         "precis": "Showers.",
         "temp_max": 13,
         "temp_min": null
@@ -69,7 +69,7 @@
     },
     "2026-07-03": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Possible small hail in the early morning. Winds westerly 25 to 35 km/h tending southwesterly 20 to 30 km/h in the early morning then becoming light in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Winds westerly 25 to 30 km/h tending southwesterly 20 to 30 km/h in the early morning then becoming light in the late afternoon.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers easing.",
@@ -127,7 +127,7 @@
     },
     "2026-07-04": {
       "2": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds becoming south to southwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the early morning. Light winds becoming south to southwesterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": 4
+      }
+    },
+    "2026-07-09": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 15,
+        "temp_min": 6
       }
     }
   },

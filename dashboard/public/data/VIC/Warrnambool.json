@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-02": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds northwesterly 30 to 40 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 30 to 40 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers. Becoming windy.",
+        "precipitation_prob": "90%",
+        "precis": "Showers. Windy.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-07-03": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. The chance of a thunderstorm in the early morning. Winds northwesterly 35 to 45 km/h turning southwesterly in the morning then tending west to southwesterly 25 to 35 km/h in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. The chance of a thunderstorm in the early morning. Winds northwesterly 30 to 40 km/h turning southwesterly 35 to 45 km/h in the morning then tending west to southwesterly 25 to 35 km/h in the late afternoon.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers easing. Windy.",
         "temp_max": 14,
-        "temp_min": 7
+        "temp_min": 6
       },
       "2": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning. The chance of a thunderstorm in the early morning. Winds northwesterly 30 to 40 km/h turning southwesterly 35 to 45 km/h in the morning then tending west to southwesterly 25 to 35 km/h in the early afternoon.",
@@ -127,12 +127,12 @@
     },
     "2026-07-04": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds westerly 20 to 25 km/h tending southwesterly 15 to 25 km/h during the morning then tending southerly 15 to 20 km/h during the evening.",
+        "forecast": "Cloudy. High chance of showers, most likely in the early morning. Winds westerly 20 to 25 km/h tending southwesterly 15 to 25 km/h before dawn then tending southerly 15 to 20 km/h in the evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 13,
-        "temp_min": 10
+        "temp_min": 9
       },
       "3": {
         "forecast": "Cloudy. High chance of showers. Winds southwesterly 20 to 30 km/h tending southerly 15 to 20 km/h during the evening.",
@@ -219,7 +219,7 @@
     },
     "2026-07-06": {
       "4": {
-        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h becoming light during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 5
+      }
+    },
+    "2026-07-09": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northerly 15 to 20 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 14,
+        "temp_min": 7
       }
     }
   },
