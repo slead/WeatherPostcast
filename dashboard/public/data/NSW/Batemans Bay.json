@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-03": {
       "0": {
-        "forecast": "Sunny. Winds westerly 25 to 35 km/h becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 17,
         "temp_min": 11
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 17,
-        "temp_min": 4
+        "temp_min": 5
       },
       "2": {
         "forecast": "Sunny. Light winds.",
@@ -127,7 +127,7 @@
     },
     "2026-07-05": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the afternoon and evening. Light winds becoming south to southwesterly 20 to 30 km/h during the morning then becoming light during the evening.",
+        "forecast": "Cloudy. High chance of showers, most likely in the late afternoon and evening. Light winds becoming southwesterly 15 to 20 km/h in the morning then tending southerly 15 to 25 km/h in the middle of the day.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -177,7 +177,7 @@
     },
     "2026-07-06": {
       "3": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning. Winds southwesterly 15 to 20 km/h tending southerly during the day then becoming light during the afternoon.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning. Light winds becoming southerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -219,12 +219,12 @@
     },
     "2026-07-07": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
         "temp_max": 17,
-        "temp_min": 6
+        "temp_min": 5
       },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming southerly 15 to 20 km/h during the day.",
@@ -253,12 +253,12 @@
     },
     "2026-07-08": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southerly 15 to 20 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 17,
-        "temp_min": 5
+        "temp_max": 16,
+        "temp_min": 4
       },
       "6": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
@@ -279,11 +279,11 @@
     },
     "2026-07-09": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
-        "temp_max": 17,
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 16,
         "temp_min": 5
       },
       "7": {
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Sunny.",
         "temp_max": 17,
+        "temp_min": 5
+      }
+    },
+    "2026-07-10": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 16,
         "temp_min": 5
       }
     }

@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-07-03": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds southwesterly 15 to 20 km/h becoming light in the late afternoon.",
+        "forecast": "Cloudy. Light winds.",
         "icon_code": 4,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "5%",
         "precis": "Cloudy.",
         "temp_max": 15,
         "temp_min": null
@@ -69,7 +69,7 @@
     },
     "2026-07-04": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -127,11 +127,11 @@
     },
     "2026-07-05": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning. Winds east to northeasterly 15 to 25 km/h becoming light during the afternoon.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning. Winds easterly 15 to 20 km/h becoming light in the early morning then becoming east to northeasterly 15 to 25 km/h in the morning.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
-        "temp_max": 15,
+        "temp_max": 14,
         "temp_min": 8
       },
       "3": {
@@ -177,7 +177,7 @@
     },
     "2026-07-06": {
       "3": {
-        "forecast": "Cloudy. Light winds becoming northeasterly 15 to 20 km/h during the morning then tending easterly during the day.",
+        "forecast": "Cloudy. Light winds becoming easterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 4,
         "precipitation_prob": "10%",
         "precis": "Cloudy.",
@@ -219,12 +219,12 @@
     },
     "2026-07-07": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
-        "temp_min": 7
+        "temp_min": 6
       },
       "5": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -253,11 +253,11 @@
     },
     "2026-07-08": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 16,
+        "temp_max": 15,
         "temp_min": 8
       },
       "6": {
@@ -279,18 +279,28 @@
     },
     "2026-07-09": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northerly 15 to 20 km/h during the day.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 16,
-        "temp_min": 8
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 6
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northerly 15 to 20 km/h during the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
+        "temp_max": 16,
+        "temp_min": 6
+      }
+    },
+    "2026-07-10": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds becoming northerly 15 to 20 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 6
       }
