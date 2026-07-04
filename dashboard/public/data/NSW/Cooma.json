@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-04": {
       "0": {
-        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h becoming light in the late afternoon.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds southwesterly 15 to 20 km/h becoming light in the late afternoon.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 11,
         "temp_min": null
       },
@@ -182,7 +182,7 @@
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 11,
-        "temp_min": -3
+        "temp_min": -2
       },
       "4": {
         "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-07-08": {
       "4": {
-        "forecast": "Cloudy. Frost and the chance of fog during the morning. Slight chance of a shower. Light winds.",
+        "forecast": "Cloudy. Frost and the chance of fog in the morning. Slight chance of a shower. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Morning frost. Cloudy.",
@@ -258,7 +258,7 @@
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 10,
-        "temp_min": -2
+        "temp_min": -3
       },
       "6": {
         "forecast": "Partly cloudy. Morning frost. Slight chance of a shower. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 11,
         "temp_min": -2
+      }
+    },
+    "2026-07-11": {
+      "7": {
+        "forecast": "Partly cloudy. Morning frost. Slight chance of a shower, most likely later in the day. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 12,
+        "temp_min": -3
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-04": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 13,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-07-05": {
       "1": {
-        "forecast": "Partly cloudy. Areas of morning frost. Light winds becoming southeasterly 15 to 25 km/h in the morning.",
+        "forecast": "Partly cloudy. Patches of morning frost. Light winds becoming southeasterly 15 to 25 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-07-06": {
       "2": {
-        "forecast": "Cloudy. Winds southeasterly 15 to 20 km/h becoming light during the evening.",
+        "forecast": "Cloudy. Winds southeasterly 15 to 20 km/h becoming light in the late afternoon.",
         "icon_code": 4,
         "precipitation_prob": "10%",
         "precis": "Cloudy.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 14,
-        "temp_min": 0
+        "temp_min": -1
       },
       "4": {
         "forecast": "Areas of frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
@@ -224,7 +224,7 @@
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 13,
-        "temp_min": 0
+        "temp_min": -1
       },
       "5": {
         "forecast": "Mostly sunny. Areas of morning frost. Light winds.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 13,
+        "temp_min": 1
+      }
+    },
+    "2026-07-11": {
+      "7": {
+        "forecast": "Cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Morning frost. Cloudy.",
+        "temp_max": 12,
         "temp_min": 1
       }
     }

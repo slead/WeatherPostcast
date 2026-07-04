@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-04": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower in the late morning. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "20%",
-        "precis": "Cloudy.",
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 13,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-07-06": {
       "2": {
-        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "forecast": "Sunny. Patchy morning frost. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 14,
         "temp_min": 1
       },
@@ -177,10 +177,10 @@
     },
     "2026-07-07": {
       "3": {
-        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds.",
+        "forecast": "Patchy frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 15,
         "temp_min": 1
       },
@@ -219,12 +219,12 @@
     },
     "2026-07-08": {
       "4": {
-        "forecast": "The chance of fog and frost during the morning. Sunny afternoon. Light winds.",
+        "forecast": "The chance of fog and frost in the morning. Sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 14,
-        "temp_min": 2
+        "temp_min": 1
       },
       "5": {
         "forecast": "Sunny. The chance of morning frost. Light winds.",
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 14,
+        "temp_max": 15,
         "temp_min": 3
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 3
+      }
+    },
+    "2026-07-11": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 13,
+        "temp_min": 4
       }
     }
   },
