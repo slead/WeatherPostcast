@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-05": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 10,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-07-06": {
       "1": {
-        "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
-        "icon_code": 3,
+        "forecast": "Frost and patchy fog in the morning. Sunny afternoon. Light winds.",
+        "icon_code": 10,
         "precipitation_prob": "10%",
-        "precis": "Morning frost. Mostly sunny.",
+        "precis": "Morning frost and fog.",
         "temp_max": 11,
-        "temp_min": 0
+        "temp_min": -2
       },
       "2": {
         "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
@@ -127,10 +127,10 @@
     },
     "2026-07-07": {
       "2": {
-        "forecast": "Mostly sunny. Frost and the chance of fog in the morning. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Frost and the chance of fog in the morning. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Morning frost. Mostly sunny.",
+        "precis": "Morning frost. Partly cloudy.",
         "temp_max": 11,
         "temp_min": -3
       },
@@ -177,12 +177,12 @@
     },
     "2026-07-08": {
       "3": {
-        "forecast": "Partly cloudy. Patchy frost and the chance of fog in the morning. Light winds.",
+        "forecast": "Patchy frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
-        "temp_max": 10,
-        "temp_min": 0
+        "temp_max": 11,
+        "temp_min": 1
       },
       "4": {
         "forecast": "Partly cloudy. The chance of morning fog. Patchy morning frost. Light winds.",
@@ -219,12 +219,12 @@
     },
     "2026-07-09": {
       "4": {
-        "forecast": "Frost and the chance of fog during the morning. Mostly sunny afternoon. Light winds.",
+        "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Mostly sunny.",
         "temp_max": 10,
-        "temp_min": -1
+        "temp_min": -2
       },
       "5": {
         "forecast": "Mostly sunny. Morning frost. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 11,
         "temp_min": 2
+      }
+    },
+    "2026-07-12": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Winds north to northwesterly 15 to 25 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 11,
+        "temp_min": 4
       }
     }
   },

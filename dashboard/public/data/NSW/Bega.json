@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-05": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. Winds southwesterly 15 to 20 km/h tending southerly in the middle of the day then becoming light in the late afternoon.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely later tonight. Light winds.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-07-06": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the early morning. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 16,
+        "forecast": "Cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 15,
         "temp_min": 5
       },
       "2": {
@@ -127,12 +127,12 @@
     },
     "2026-07-07": {
       "2": {
-        "forecast": "Cloudy. Slight chance of a shower. Patchy morning frost. Light winds.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Morning frost. Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
-        "temp_min": 1
+        "temp_min": 2
       },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower. Patchy morning frost. Light winds.",
@@ -177,12 +177,12 @@
     },
     "2026-07-08": {
       "3": {
-        "forecast": "Partly cloudy. Patchy morning frost. Medium chance of showers, most likely in the evening. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning frost. Medium chance of showers, most likely in the evening. Light winds.",
         "icon_code": 17,
         "precipitation_prob": "40%",
-        "precis": "Frost. Possible shower.",
-        "temp_max": 16,
-        "temp_min": 1
+        "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 2
       },
       "4": {
         "forecast": "Partly cloudy. Slight chance of a shower. Patchy morning frost. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 17,
         "temp_min": 1
+      }
+    },
+    "2026-07-12": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
+        "temp_max": 19,
+        "temp_min": 3
       }
     }
   },
