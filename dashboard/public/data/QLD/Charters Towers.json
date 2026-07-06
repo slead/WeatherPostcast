@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-06": {
       "0": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -131,7 +131,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 25,
+        "temp_max": 26,
         "temp_min": 12
       },
       "3": {
@@ -177,12 +177,12 @@
     },
     "2026-07-09": {
       "3": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the afternoon and evening. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 25,
-        "temp_min": 13
+        "temp_min": 12
       },
       "4": {
         "forecast": "Partly cloudy. Slight chance of a shower in the afternoon and evening. Light winds.",
@@ -279,12 +279,12 @@
     },
     "2026-07-12": {
       "6": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
-        "temp_min": 11
+        "temp_min": 12
       },
       "7": {
         "forecast": "Mostly sunny. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 12
+      }
+    },
+    "2026-07-13": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 26,
+        "temp_min": 10
       }
     }
   },
