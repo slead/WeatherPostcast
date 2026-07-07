@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-07": {
       "0": {
-        "forecast": "Patchy fog and frost this morning. Mostly sunny afternoon. Light winds.",
-        "icon_code": 10,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Morning fog and frost.",
+        "precis": "Mostly sunny.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-07-08": {
       "1": {
-        "forecast": "Patchy frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
+        "forecast": "The chance of frost in the early morning. The chance of morning fog. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Partly cloudy.",
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": 1
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-09": {
       "2": {
-        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -177,9 +177,9 @@
     },
     "2026-07-10": {
       "3": {
-        "forecast": "Mostly sunny. The chance of morning fog. Slight chance of a shower in the evening. Light winds.",
+        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 14,
         "temp_min": 2
@@ -219,12 +219,12 @@
     },
     "2026-07-11": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 15 to 20 km/h tending northerly during the day.",
+        "forecast": "Cloudy. Very high chance of showers. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 13,
-        "temp_min": 6
+        "temp_min": 4
       },
       "5": {
         "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 15 to 20 km/h tending northerly during the day.",
@@ -253,7 +253,7 @@
     },
     "2026-07-12": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the morning.",
+        "forecast": "Cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -283,7 +283,7 @@
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
-        "temp_max": 13,
+        "temp_max": 14,
         "temp_min": 7
       },
       "7": {
