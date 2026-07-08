@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-08": {
       "0": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-07-09": {
       "1": {
-        "forecast": "Partly cloudy. The chance of morning fog. Slight chance of a shower. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. The chance of morning fog. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 16,
-        "temp_min": 2
+        "temp_min": 3
       },
       "2": {
         "forecast": "Partly cloudy. The chance of morning fog. Medium chance of showers, most likely in the late morning and afternoon. Light winds.",
@@ -127,10 +127,10 @@
     },
     "2026-07-10": {
       "2": {
-        "forecast": "Mostly sunny. Patchy morning frost. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Morning frost. Mostly sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 17,
         "temp_min": 1
       },
@@ -181,7 +181,7 @@
         "icon_code": 1,
         "precipitation_prob": "20%",
         "precis": "Morning frost. Sunny.",
-        "temp_max": 18,
+        "temp_max": 19,
         "temp_min": 0
       },
       "4": {
@@ -219,12 +219,12 @@
     },
     "2026-07-12": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 17,
-        "temp_min": 3
+        "temp_min": 4
       },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds.",
@@ -253,12 +253,12 @@
     },
     "2026-07-13": {
       "5": {
-        "forecast": "Mostly sunny. The chance of morning frost. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 19,
-        "temp_min": 2
+        "temp_min": 3
       },
       "6": {
         "forecast": "Mostly sunny. The chance of morning frost. Slight chance of a shower. Light winds.",
@@ -279,12 +279,12 @@
     },
     "2026-07-14": {
       "6": {
-        "forecast": "Mostly sunny. The chance of morning frost. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
-        "temp_max": 19,
-        "temp_min": 3
+        "precis": "Partly cloudy.",
+        "temp_max": 18,
+        "temp_min": 2
       },
       "7": {
         "forecast": "Mostly sunny. The chance of morning frost. Slight chance of a shower. Light winds.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Sunny.",
         "temp_max": 19,
+        "temp_min": 3
+      }
+    },
+    "2026-07-15": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 18,
         "temp_min": 3
       }
     }

@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-07-08": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a light shower in the late afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": null
@@ -70,9 +70,9 @@
     "2026-07-09": {
       "1": {
         "forecast": "Cloudy. The chance of morning fog. Medium chance of showers, most likely in the afternoon and evening. Light winds.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 12,
         "temp_min": 4
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-10": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of morning fog. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -177,10 +177,10 @@
     },
     "2026-07-11": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers increasing.",
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
         "temp_max": 12,
         "temp_min": 5
       },
@@ -219,11 +219,11 @@
     },
     "2026-07-12": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds becoming west to northwesterly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming westerly 15 to 25 km/h during the day then becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
-        "temp_max": 11,
+        "temp_max": 12,
         "temp_min": 6
       },
       "5": {
@@ -253,12 +253,12 @@
     },
     "2026-07-13": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. Winds westerly 20 to 30 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. Winds westerly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
-        "temp_max": 11,
-        "temp_min": 6
+        "temp_max": 12,
+        "temp_min": 7
       },
       "6": {
         "forecast": "Cloudy. High chance of showers, most likely during the morning. Light winds becoming westerly 15 to 25 km/h during the morning.",
@@ -279,12 +279,12 @@
     },
     "2026-07-14": {
       "6": {
-        "forecast": "Partly cloudy. High chance of showers. Winds westerly 15 to 25 km/h tending southwesterly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds becoming westerly 15 to 20 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 12,
-        "temp_min": 5
+        "temp_min": 4
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds westerly 15 to 25 km/h.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 12,
         "temp_min": 4
+      }
+    },
+    "2026-07-15": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 13,
+        "temp_min": 3
       }
     }
   },

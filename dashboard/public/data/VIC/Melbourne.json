@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-08": {
       "0": {
-        "forecast": "Cloud clearing. Light winds.",
-        "icon_code": 1,
+        "forecast": "Partly cloudy. The chance of fog. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-07-09": {
       "1": {
-        "forecast": "Partly cloudy. The chance of morning fog. Patches of morning frost about the Dandenongs. Light winds.",
-        "icon_code": 3,
+        "forecast": "Partly cloudy. Areas of morning frost about the nearby hills. Patchy morning fog. Light winds.",
+        "icon_code": 10,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Morning fog. Partly cloudy day.",
         "temp_max": 14,
         "temp_min": 4
       },
@@ -127,12 +127,12 @@
     },
     "2026-07-10": {
       "2": {
-        "forecast": "Areas of morning frost in the northeast suburbs. The chance of morning fog. Mostly sunny afternoon. Light winds becoming northerly 15 to 20 km/h during the evening.",
+        "forecast": "Areas of morning frost in the northeast suburbs. The chance of morning fog. Mostly sunny afternoon. Light winds becoming northerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 16,
-        "temp_min": 5
+        "temp_min": 4
       },
       "3": {
         "forecast": "The chance of morning fog. Patches of morning frost about the Dandenongs. Sunny afternoon. Light winds becoming northerly 15 to 20 km/h during the evening.",
@@ -177,9 +177,9 @@
     },
     "2026-07-11": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog about the nearby hills. Very high chance of showers, most likely in the afternoon and evening. Winds northerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northerly 25 to 40 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers increasing.",
         "temp_max": 15,
         "temp_min": 8
@@ -219,9 +219,9 @@
     },
     "2026-07-12": {
       "4": {
-        "forecast": "Partly cloudy. Very high chance of showers. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. High chance of showers. Winds west to northwesterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 7
@@ -253,11 +253,11 @@
     },
     "2026-07-13": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
-        "temp_max": 16,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 17,
         "temp_min": 10
       },
       "6": {
@@ -279,10 +279,10 @@
     },
     "2026-07-14": {
       "6": {
-        "forecast": "Cloudy. High chance of showers. Winds northwesterly 15 to 25 km/h turning westerly during the day.",
+        "forecast": "Partly cloudy. High chance of showers. Winds northwesterly 15 to 25 km/h turning westerly during the day.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 16,
         "temp_min": 9
       },
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 16,
         "temp_min": 9
+      }
+    },
+    "2026-07-15": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds westerly 15 to 20 km/h turning southwesterly during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 15,
+        "temp_min": 8
       }
     }
   },
