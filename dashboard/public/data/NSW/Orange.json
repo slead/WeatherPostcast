@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-08": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 12,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-07-09": {
       "1": {
-        "forecast": "Partly cloudy. Patchy morning frost. The chance of morning fog. Light winds.",
+        "forecast": "Partly cloudy. Patchy morning frost. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 11,
-        "temp_min": 0
+        "temp_min": 1
       },
       "2": {
         "forecast": "Partly cloudy. Patchy morning frost. Light winds.",
@@ -219,11 +219,11 @@
     },
     "2026-07-12": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northerly 15 to 20 km/h turning westerly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers, most likely during the morning. Winds northerly 15 to 20 km/h turning westerly 20 to 30 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "95%",
-        "precis": "Showers.",
-        "temp_max": 8,
+        "precis": "Showers easing.",
+        "temp_max": 7,
         "temp_min": 2
       },
       "5": {
@@ -253,12 +253,12 @@
     },
     "2026-07-13": {
       "5": {
-        "forecast": "Cloudy. High chance of showers. Winds westerly 15 to 25 km/h.",
+        "forecast": "Cloudy. Medium chance of showers. Winds west to southwesterly 15 to 25 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 8,
-        "temp_min": 3
+        "temp_min": 1
       },
       "6": {
         "forecast": "Cloudy. High chance of showers. Winds westerly 15 to 25 km/h.",
@@ -280,11 +280,11 @@
     "2026-07-14": {
       "6": {
         "forecast": "Cloudy. Medium chance of showers. Winds southwesterly 15 to 25 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 9,
-        "temp_min": 2
+        "temp_min": 3
       },
       "7": {
         "forecast": "Cloudy. Medium chance of showers. Winds southwesterly 15 to 25 km/h.",
