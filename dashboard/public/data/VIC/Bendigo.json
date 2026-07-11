@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-11": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the late afternoon and evening, possibly severe with damaging winds. Winds northerly 15 to 25 km/h tending northwesterly 15 to 20 km/h in the evening then becoming light in the late evening.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely later tonight. The chance of a thunderstorm, possibly severe with damaging winds. Winds northerly 20 to 25 km/h tending northwesterly 15 to 20 km/h in the evening then becoming light in the late evening.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
+        "precis": "Rain.",
         "temp_max": 12,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-13": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northwesterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely from the late morning. Winds northwesterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-07-15": {
       "4": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -285,6 +285,16 @@
         "precis": "Cloudy.",
         "temp_max": 13,
         "temp_min": 4
+      }
+    },
+    "2026-07-18": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 14,
+        "temp_min": 3
       }
     }
   },

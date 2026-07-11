@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-11": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the late afternoon and evening, possibly severe with damaging winds. Winds northerly 25 to 35 km/h turning west to northwesterly 20 to 25 km/h in the evening.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely later tonight. The chance of a thunderstorm, possibly severe with damaging winds. Winds northerly 30 to 35 km/h turning west to northwesterly 20 to 25 km/h in the evening.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers increasing.",
+        "precis": "Rain.",
         "temp_max": 11,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-13": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely from the late morning. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-07-15": {
       "4": {
-        "forecast": "Becoming cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Becoming cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Becoming cloudy.",
@@ -275,7 +275,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 12,
+        "temp_max": 13,
         "temp_min": 2
       },
       "7": {
@@ -285,6 +285,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 13,
         "temp_min": 3
+      }
+    },
+    "2026-07-18": {
+      "7": {
+        "forecast": "Partly cloudy. Winds northerly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 12,
+        "temp_min": 2
       }
     }
   },

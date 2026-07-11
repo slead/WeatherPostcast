@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-11": {
       "0": {
-        "forecast": "Cloudy. The chance of fog in the late morning. Very high chance of rain, most likely in the late afternoon and evening. The chance of a thunderstorm in the evening, possibly severe with damaging winds. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm later this evening, possibly severe with damaging winds. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h in the late afternoon.",
         "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Rain increasing.",
+        "precis": "Rain.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -127,9 +127,9 @@
     },
     "2026-07-13": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northwesterly 15 to 25 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely from the late morning. Winds northwesterly 15 to 20 km/h becoming light in the early morning then becoming northwesterly 15 to 25 km/h in the morning.",
         "icon_code": 11,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 14,
         "temp_min": 7
@@ -177,7 +177,7 @@
     },
     "2026-07-14": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northwesterly 15 to 20 km/h tending westerly during the morning then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northwesterly 15 to 20 km/h tending westerly during the morning then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -219,7 +219,7 @@
     },
     "2026-07-15": {
       "4": {
-        "forecast": "Sunny. Light winds.",
+        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -285,6 +285,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 3
+      }
+    },
+    "2026-07-18": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 16,
+        "temp_min": 2
       }
     }
   },

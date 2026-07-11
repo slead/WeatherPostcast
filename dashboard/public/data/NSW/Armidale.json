@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-07-11": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 15 to 20 km/h becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": null
@@ -127,7 +127,7 @@
     },
     "2026-07-13": {
       "2": {
-        "forecast": "Sunny. Morning frost. Winds westerly 15 to 20 km/h becoming light during the morning then becoming westerly 15 to 20 km/h during the day.",
+        "forecast": "Morning frost. The chance of morning fog. Sunny afternoon. Winds westerly 15 to 20 km/h becoming light before dawn then becoming westerly 15 to 20 km/h in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
@@ -177,7 +177,7 @@
     },
     "2026-07-14": {
       "3": {
-        "forecast": "Mostly sunny. Morning frost. Light winds becoming westerly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny. Morning frost. Winds westerly 15 to 25 km/h becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-07-15": {
       "4": {
-        "forecast": "Partly cloudy. Patchy morning frost. Slight chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Patchy morning frost. Slight chance of a shower, most likely in the afternoon and evening. Light winds becoming southerly 15 to 20 km/h during the morning then tending southeasterly 15 to 25 km/h during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Morning frost. Partly cloudy.",
@@ -271,7 +271,7 @@
     },
     "2026-07-17": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 15 to 25 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -285,6 +285,16 @@
         "precis": "Possible shower.",
         "temp_max": 15,
         "temp_min": 3
+      }
+    },
+    "2026-07-18": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds southeasterly 15 to 25 km/h tending easterly 15 to 20 km/h later.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 14,
+        "temp_min": 4
       }
     }
   },
