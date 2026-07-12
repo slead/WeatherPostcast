@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-07-12": {
       "0": {
-        "forecast": "Cloudy. Medium chance of showers, most likely at night. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Medium chance of showers, most likely later tonight. Winds northwesterly 20 to 30 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -127,7 +127,7 @@
     },
     "2026-07-14": {
       "2": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. Winds northwesterly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. Winds northwesterly 15 to 25 km/h becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "10%",
         "precis": "Morning frost. Cloud clearing.",
         "temp_max": 14,
-        "temp_min": 1
+        "temp_min": 0
       },
       "4": {
         "forecast": "Patches of frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
@@ -250,7 +250,7 @@
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
-        "temp_min": 1
+        "temp_min": 2
       },
       "6": {
         "forecast": "Mostly sunny. Light winds.",
@@ -273,7 +273,7 @@
       "6": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 3
@@ -285,6 +285,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 2
+      }
+    },
+    "2026-07-19": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 3
       }
     }
   },
