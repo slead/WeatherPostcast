@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-13": {
       "0": {
-        "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds southeasterly 15 to 25 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -127,10 +127,10 @@
     },
     "2026-07-15": {
       "2": {
-        "forecast": "Sunny. Winds southeasterly 25 to 40 km/h.",
-        "icon_code": 1,
+        "forecast": "Sunny. Winds east to southeasterly 25 to 40 km/h.",
+        "icon_code": 9,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Wind easing. Sunny.",
         "temp_max": 23,
         "temp_min": 11
       },
@@ -177,12 +177,12 @@
     },
     "2026-07-16": {
       "3": {
-        "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h.",
+        "forecast": "Sunny. Winds east to southeasterly 25 to 40 km/h.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 24,
-        "temp_min": 11
+        "temp_max": 25,
+        "temp_min": 12
       },
       "4": {
         "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h.",
@@ -215,7 +215,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 24,
+        "temp_max": 23,
         "temp_min": 11
       },
       "5": {
@@ -245,7 +245,7 @@
     },
     "2026-07-18": {
       "5": {
-        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h tending easterly during the morning.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -271,15 +271,25 @@
     },
     "2026-07-19": {
       "6": {
-        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h tending easterly 15 to 25 km/h during the morning.",
+        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h tending easterly 15 to 25 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 25,
+        "temp_min": 11
+      },
+      "7": {
+        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h tending easterly during the morning.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 25,
         "temp_min": 12
-      },
+      }
+    },
+    "2026-07-20": {
       "7": {
-        "forecast": "Sunny. Winds southeasterly 20 to 30 km/h tending easterly during the morning.",
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h tending easterly during the morning.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
