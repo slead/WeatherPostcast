@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-14": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower, becoming less likely in the afternoon. Winds southwesterly 15 to 20 km/h becoming light in the early afternoon.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 16,
-        "temp_min": 5
+        "temp_min": 6
       },
       "2": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -169,10 +169,10 @@
     },
     "2026-07-17": {
       "3": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 17,
         "temp_min": 6
       },
@@ -285,6 +285,16 @@
         "precis": "Possible shower.",
         "temp_max": 18,
         "temp_min": 9
+      }
+    },
+    "2026-07-21": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 17,
+        "temp_min": 8
       }
     }
   },
