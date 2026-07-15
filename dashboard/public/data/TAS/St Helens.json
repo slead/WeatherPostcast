@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-15": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 16,
         "temp_min": null
       },
@@ -119,7 +119,7 @@
     },
     "2026-07-17": {
       "2": {
-        "forecast": "Mostly sunny. Light winds becoming northwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Mostly sunny. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -285,6 +285,16 @@
         "precis": "Possible shower.",
         "temp_max": 16,
         "temp_min": 9
+      }
+    },
+    "2026-07-22": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 7
       }
     }
   },

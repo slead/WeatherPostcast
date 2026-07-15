@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-15": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-07-16": {
       "1": {
-        "forecast": "Sunny. Patches of frost in the early morning. Light winds.",
+        "forecast": "The chance of fog in the early morning. Areas of morning frost. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Early frost. Sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 15,
-        "temp_min": 1
+        "temp_min": 0
       },
       "2": {
         "forecast": "Sunny. Patches of morning frost. Light winds.",
@@ -211,7 +211,7 @@
     },
     "2026-07-19": {
       "4": {
-        "forecast": "Areas of frost and the chance of fog during the morning. Sunny afternoon. Light winds.",
+        "forecast": "Areas of frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
@@ -273,7 +273,7 @@
       "6": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 2
@@ -285,6 +285,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 16,
         "temp_min": 3
+      }
+    },
+    "2026-07-22": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 2
       }
     }
   },

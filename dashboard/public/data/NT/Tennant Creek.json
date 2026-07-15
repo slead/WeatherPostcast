@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-15": {
       "0": {
-        "forecast": "Sunny. Winds southeasterly 30 to 35 km/h tending east to southeasterly 30 to 45 km/h in the morning then becoming southeasterly 20 to 30 km/h in the evening.",
-        "icon_code": 9,
+        "forecast": "Clear. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Windy. Sunny.",
+        "precis": "Clear.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-07-16": {
       "1": {
-        "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h.",
-        "icon_code": 1,
+        "forecast": "Sunny. Winds southeasterly 25 to 35 km/h tending east to southeasterly 30 to 45 km/h in the morning.",
+        "icon_code": 9,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Wind easing. Sunny.",
         "temp_max": 24,
         "temp_min": 12
       },
@@ -169,7 +169,7 @@
     },
     "2026-07-18": {
       "3": {
-        "forecast": "Sunny. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds east to southeasterly 25 to 35 km/h.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -215,7 +215,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 25,
+        "temp_max": 26,
         "temp_min": 13
       },
       "5": {
@@ -275,8 +275,8 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 26,
-        "temp_min": 13
+        "temp_max": 27,
+        "temp_min": 14
       },
       "7": {
         "forecast": "Sunny. Winds southeasterly 20 to 30 km/h tending easterly 15 to 25 km/h during the day.",
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 26,
         "temp_min": 13
+      }
+    },
+    "2026-07-22": {
+      "7": {
+        "forecast": "Partly cloudy. Winds east to southeasterly 20 to 30 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 17
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-15": {
       "0": {
-        "forecast": "Sunny. Winds easterly 15 to 20 km/h tending northeasterly 15 to 25 km/h in the morning then becoming light in the evening.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -119,12 +119,12 @@
     },
     "2026-07-17": {
       "2": {
-        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 25 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 7
+        "temp_min": 5
       },
       "3": {
         "forecast": "Sunny. Light winds becoming northeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
@@ -174,7 +174,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 7
+        "temp_min": 5
       },
       "4": {
         "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the day.",
@@ -211,12 +211,12 @@
     },
     "2026-07-19": {
       "4": {
-        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 25,
-        "temp_min": 7
+        "temp_min": 6
       },
       "5": {
         "forecast": "Sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
@@ -249,7 +249,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 26,
+        "temp_max": 25,
         "temp_min": 7
       },
       "6": {
@@ -271,10 +271,10 @@
     },
     "2026-07-21": {
       "6": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 7
       },
@@ -284,6 +284,16 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 27,
+        "temp_min": 8
+      }
+    },
+    "2026-07-22": {
+      "7": {
+        "forecast": "Sunny. Winds southeasterly 15 to 20 km/h tending easterly during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 25,
         "temp_min": 8
       }
     }
