@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-07-15": {
       "0": {
-        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h becoming light in the early morning.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -69,10 +69,10 @@
     },
     "2026-07-16": {
       "1": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 19,
         "temp_min": 3
       },
@@ -120,9 +120,9 @@
     "2026-07-17": {
       "2": {
         "forecast": "Frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
-        "icon_code": 1,
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Morning frost. Sunny.",
+        "precis": "Morning frost. Mostly sunny.",
         "temp_max": 18,
         "temp_min": 0
       },
@@ -169,11 +169,11 @@
     },
     "2026-07-18": {
       "3": {
-        "forecast": "Frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
-        "icon_code": 1,
+        "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Morning frost. Sunny.",
-        "temp_max": 18,
+        "precis": "Morning frost. Mostly sunny.",
+        "temp_max": 19,
         "temp_min": 0
       },
       "4": {
@@ -216,7 +216,7 @@
         "precipitation_prob": "10%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 19,
-        "temp_min": 0
+        "temp_min": -1
       },
       "5": {
         "forecast": "Mostly sunny. Patchy morning frost. Light winds.",
@@ -247,7 +247,7 @@
       "5": {
         "forecast": "Sunny. Patchy morning frost. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 20,
         "temp_min": 1
@@ -275,7 +275,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 20,
+        "temp_max": 19,
         "temp_min": 2
       },
       "7": {
