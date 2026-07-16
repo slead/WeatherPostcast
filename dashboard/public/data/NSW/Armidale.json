@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-07-16": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely in the late afternoon and evening. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Medium chance of showers. Winds southeasterly 20 to 25 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 11,
         "temp_min": null
@@ -169,7 +169,7 @@
     },
     "2026-07-19": {
       "3": {
-        "forecast": "Cloudy. Slight chance of a shower. Winds east to southeasterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Slight chance of a shower. Winds southeasterly 20 to 30 km/h tending easterly 15 to 20 km/h during the evening.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -211,7 +211,7 @@
     },
     "2026-07-20": {
       "4": {
-        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly during the morning.",
+        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -245,10 +245,10 @@
     },
     "2026-07-21": {
       "5": {
-        "forecast": "Cloud clearing. Patchy morning frost. Light winds.",
+        "forecast": "Cloud clearing. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Morning frost. Cloud clearing.",
+        "precis": "Cloud clearing.",
         "temp_max": 18,
         "temp_min": 1
       },
@@ -273,10 +273,10 @@
       "6": {
         "forecast": "Mostly sunny. The chance of morning frost. Light winds becoming westerly 15 to 20 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 17,
-        "temp_min": 1
+        "temp_min": 2
       },
       "7": {
         "forecast": "Sunny. Light winds.",
@@ -284,6 +284,16 @@
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 17,
+        "temp_min": 2
+      }
+    },
+    "2026-07-23": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
         "temp_min": 2
       }
     }
