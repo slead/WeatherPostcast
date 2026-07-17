@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-17": {
       "0": {
-        "forecast": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the middle of the day.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 13,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-19": {
       "2": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the day.",
+        "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-07-20": {
       "3": {
-        "forecast": "Cloud clearing. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Mostly sunny.",
         "temp_max": 15,
         "temp_min": 2
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 11,
         "temp_min": 2
+      }
+    },
+    "2026-07-24": {
+      "7": {
+        "forecast": "Mostly sunny. Morning frost. Light winds becoming southerly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Morning frost. Mostly sunny.",
+        "temp_max": 10,
+        "temp_min": -1
       }
     }
   },
