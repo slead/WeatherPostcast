@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-18": {
       "0": {
-        "forecast": "Cloudy. Winds northerly 15 to 20 km/h tending northwesterly in the middle of the day then becoming light in the late afternoon.",
-        "icon_code": 4,
-        "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-07-20": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northwest to northeasterly 15 to 25 km/h tending northwesterly during the day then tending northerly 15 to 20 km/h during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Winds northwest to northeasterly 15 to 25 km/h tending northwesterly in the middle of the day then tending northerly 15 to 20 km/h in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers increasing.",
@@ -219,7 +219,7 @@
     },
     "2026-07-22": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers, with possible small hail. Winds northerly 20 to 25 km/h turning west to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers, with possible small hail in the afternoon and evening. Winds northerly 20 to 25 km/h turning west to northwesterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers.",
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 11,
         "temp_min": 6
+      }
+    },
+    "2026-07-25": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. Winds west to northwesterly 15 to 20 km/h turning northerly later.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 12,
+        "temp_min": 7
       }
     }
   },
