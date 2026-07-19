@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-07-19": {
       "0": {
-        "forecast": "Sunny. Winds west to northwesterly 15 to 20 km/h becoming light in the early morning then becoming north to northwesterly 15 to 20 km/h in the evening.",
+        "forecast": "Sunny. Light winds becoming north to northwesterly 15 to 20 km/h in the evening then becoming light in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -69,12 +69,12 @@
     },
     "2026-07-20": {
       "1": {
-        "forecast": "Mostly sunny. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Mostly sunny. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 7,
-        "temp_min": 1
+        "temp_min": 0
       },
       "2": {
         "forecast": "Mostly sunny. Winds northwesterly 20 to 30 km/h.",
@@ -132,7 +132,7 @@
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 5,
-        "temp_min": -1
+        "temp_min": 0
       },
       "3": {
         "forecast": "Partly cloudy. Winds northwesterly 20 to 30 km/h increasing to 25 to 35 km/h during the day.",
@@ -177,9 +177,9 @@
     },
     "2026-07-22": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers or snow, most likely in the afternoon and evening. Winds northwesterly 25 to 40 km/h turning westerly 35 to 55 km/h during the morning then decreasing to 30 to 45 km/h during the afternoon.",
+        "forecast": "Cloudy. Medium chance of showers or snow. Winds northwesterly 25 to 40 km/h turning westerly during the morning.",
         "icon_code": 15,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "70%",
         "precis": "Snow shower or two. Windy.",
         "temp_max": 1,
         "temp_min": -2
@@ -222,7 +222,7 @@
         "forecast": "Cloudy. High chance of snow showers, with possible small hail. Winds westerly 25 to 40 km/h.",
         "icon_code": 15,
         "precipitation_prob": "80%",
-        "precis": "Snow showers. Wind easing.",
+        "precis": "Snow showers.",
         "temp_max": -1,
         "temp_min": -6
       },
@@ -253,11 +253,11 @@
     },
     "2026-07-24": {
       "5": {
-        "forecast": "Mostly sunny. Winds westerly 25 to 35 km/h.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
-        "temp_max": 1,
+        "forecast": "Mostly sunny. Slight chance of a snow shower. Winds westerly 25 to 40 km/h.",
+        "icon_code": 9,
+        "precipitation_prob": "20%",
+        "precis": "Becoming windy. Partly cloudy.",
+        "temp_max": -1,
         "temp_min": -8
       },
       "6": {
@@ -279,11 +279,11 @@
     },
     "2026-07-25": {
       "6": {
-        "forecast": "Partly cloudy. Winds westerly 20 to 30 km/h.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
-        "temp_max": 4,
+        "forecast": "Partly cloudy. Slight chance of a shower or snow. Winds westerly 25 to 40 km/h decreasing to 15 to 25 km/h during the day.",
+        "icon_code": 9,
+        "precipitation_prob": "20%",
+        "precis": "Wind easing. Partly cloudy.",
+        "temp_max": 1,
         "temp_min": -5
       },
       "7": {
