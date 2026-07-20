@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-20": {
       "0": {
-        "forecast": "The chance of fog in the late morning. Mostly sunny afternoon. Winds north to northwesterly 20 to 25 km/h tending southeasterly 15 to 20 km/h in the evening then tending north to northeasterly in the late evening.",
+        "forecast": "Mostly clear. Winds northerly 15 to 20 km/h.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 7,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-07-21": {
       "1": {
-        "forecast": "Mostly sunny. Winds northwest to northeasterly 15 to 25 km/h becoming northwesterly 25 to 30 km/h in the late evening.",
+        "forecast": "Mostly sunny. Winds northwest to northeasterly 20 to 25 km/h becoming northwesterly 25 to 30 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -127,10 +127,10 @@
     },
     "2026-07-22": {
       "2": {
-        "forecast": "Cloudy. Very high chance of snow showers. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of snow showers, most likely in the late afternoon and evening. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 15,
         "precipitation_prob": "90%",
-        "precis": "Snow showers.",
+        "precis": "Snow showers increasing.",
         "temp_max": 3,
         "temp_min": -1
       },
@@ -177,12 +177,12 @@
     },
     "2026-07-23": {
       "3": {
-        "forecast": "Cloudy. Medium chance of snow showers, most likely in the morning. Possible small hail. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Medium chance of snow showers, most likely in the morning. Possible small hail. Winds westerly 20 to 30 km/h.",
         "icon_code": 15,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Snow shower or two.",
         "temp_max": 0,
-        "temp_min": -3
+        "temp_min": -4
       },
       "4": {
         "forecast": "Cloudy. High chance of snow showers, most likely in the morning. Possible small hail in the morning and afternoon. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h during the morning then tending southwesterly 20 to 25 km/h during the evening.",
@@ -219,7 +219,7 @@
     },
     "2026-07-24": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a snow shower, most likely during the morning. Winds west to southwesterly 20 to 30 km/h.",
+        "forecast": "Cloudy. Slight chance of a snow shower, most likely in the morning. Winds west to southwesterly 20 to 30 km/h.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -253,10 +253,10 @@
     },
     "2026-07-25": {
       "5": {
-        "forecast": "Cloudy. Slight chance of a snow shower. Winds west to southwesterly 20 to 25 km/h.",
-        "icon_code": 4,
-        "precipitation_prob": "30%",
-        "precis": "Cloudy.",
+        "forecast": "Cloudy. Medium chance of snow showers. Winds west to southwesterly 20 to 30 km/h.",
+        "icon_code": 15,
+        "precipitation_prob": "50%",
+        "precis": "Snow shower or two.",
         "temp_max": 3,
         "temp_min": -3
       },
@@ -279,12 +279,12 @@
     },
     "2026-07-26": {
       "6": {
-        "forecast": "Cloudy. Medium chance of snow showers, most likely later in the day. Winds southwesterly 20 to 25 km/h turning northwesterly 15 to 25 km/h during the morning.",
-        "icon_code": 15,
-        "precipitation_prob": "40%",
-        "precis": "Possible snow shower.",
+        "forecast": "Cloudy. Slight chance of a snow shower. Winds southwesterly 15 to 25 km/h turning west to northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
         "temp_max": 4,
-        "temp_min": -1
+        "temp_min": -2
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of snow showers. Winds easterly 20 to 25 km/h shifting northwesterly 20 to 30 km/h during the morning.",
@@ -293,6 +293,16 @@
         "precis": "Possible snow shower.",
         "temp_max": 3,
         "temp_min": -2
+      }
+    },
+    "2026-07-27": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of snow showers, most likely later in the day. Winds southerly 15 to 20 km/h shifting north to northwesterly 20 to 25 km/h during the morning.",
+        "icon_code": 15,
+        "precipitation_prob": "40%",
+        "precis": "Possible snow shower.",
+        "temp_max": 4,
+        "temp_min": -1
       }
     }
   },
