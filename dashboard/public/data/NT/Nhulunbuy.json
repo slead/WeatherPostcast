@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-27": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 20 to 30 km/h.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds southeasterly 15 to 20 km/h.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 28,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-07-28": {
       "1": {
-        "forecast": "Mostly sunny. Slight chance of a shower in the late morning and afternoon. Light winds becoming southeasterly 20 to 30 km/h in the morning then tending southerly in the late afternoon.",
+        "forecast": "Partly cloudy. Light winds becoming southeasterly 20 to 30 km/h in the morning then tending southerly in the late afternoon.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 19
       },
@@ -127,10 +127,10 @@
     },
     "2026-07-29": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming southeasterly 20 to 30 km/h during the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely from the late morning. Light winds becoming southeasterly 20 to 30 km/h in the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 27,
         "temp_min": 20
       },
@@ -179,10 +179,10 @@
       "3": {
         "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 28,
-        "temp_min": 20
+        "temp_min": 21
       },
       "4": {
         "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. Winds east to southeasterly 20 to 30 km/h.",
@@ -219,7 +219,7 @@
     },
     "2026-07-31": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds east to southeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. Winds east to southeasterly 25 to 35 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -279,12 +279,12 @@
     },
     "2026-08-02": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Winds southeasterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. Winds southeasterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "30%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 29,
-        "temp_min": 20
+        "temp_min": 21
       },
       "7": {
         "forecast": "Mostly sunny. Slight chance of a shower. Winds southeasterly 25 to 35 km/h.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 29,
         "temp_min": 20
+      }
+    },
+    "2026-08-03": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds east to southeasterly 25 to 35 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 28,
+        "temp_min": 21
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-07-27": {
       "0": {
-        "forecast": "Sunny. Winds northerly 15 to 20 km/h becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 15,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-07-28": {
       "1": {
-        "forecast": "Mostly sunny morning. Morning frost. Slight chance of a shower at night. Light winds becoming northwesterly 20 to 30 km/h in the morning.",
+        "forecast": "Partly cloudy. The chance of fog in the early morning. Morning frost. Slight chance of a shower at night. Light winds becoming northwesterly 20 to 30 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Morning frost. Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-07-29": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Patchy morning frost. Winds northwesterly 20 to 30 km/h tending westerly during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the early morning. Morning frost. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h in the early morning then becoming light in the evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Frost. Possible shower.",
@@ -177,7 +177,7 @@
     },
     "2026-07-30": {
       "3": {
-        "forecast": "Partly cloudy. Morning frost. Light winds becoming south to southwesterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. Morning frost. Light winds becoming southwesterly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
@@ -221,10 +221,10 @@
       "4": {
         "forecast": "Partly cloudy. Morning frost. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Morning frost. Partly cloudy.",
         "temp_max": 12,
-        "temp_min": -4
+        "temp_min": -5
       },
       "5": {
         "forecast": "Partly cloudy. Morning frost. Light winds.",
@@ -253,10 +253,10 @@
     },
     "2026-08-01": {
       "5": {
-        "forecast": "Mostly sunny. Morning frost. Light winds.",
+        "forecast": "Partly cloudy. Morning frost. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
+        "precis": "Morning frost. Partly cloudy.",
         "temp_max": 14,
         "temp_min": -5
       },
@@ -279,12 +279,12 @@
     },
     "2026-08-02": {
       "6": {
-        "forecast": "Partly cloudy. Morning frost. Winds northerly 15 to 20 km/h tending northwesterly during the day.",
+        "forecast": "Mostly sunny. Morning frost. Light winds becoming north to northwesterly 15 to 20 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Morning frost. Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Morning frost. Mostly sunny.",
         "temp_max": 16,
-        "temp_min": -4
+        "temp_min": -3
       },
       "7": {
         "forecast": "Sunny. Morning frost. Winds north to northeasterly 15 to 20 km/h turning northwesterly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Morning frost. Sunny.",
         "temp_max": 15,
         "temp_min": -4
+      }
+    },
+    "2026-08-03": {
+      "7": {
+        "forecast": "Partly cloudy. Morning frost. Slight chance of a shower. Winds north to northeasterly 15 to 20 km/h turning northwesterly during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": -3
       }
     }
   },
