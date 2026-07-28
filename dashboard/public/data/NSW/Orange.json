@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-07-28": {
       "0": {
-        "forecast": "Partly cloudy. Winds westerly 15 to 25 km/h becoming light in the evening then becoming northwesterly 15 to 20 km/h in the late evening.",
+        "forecast": "Partly cloudy. Winds northwesterly 15 to 20 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -69,7 +69,7 @@
     },
     "2026-07-29": {
       "1": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h in the early morning then tending southwesterly in the early afternoon.",
+        "forecast": "Cloudy. Slight chance of a shower, most likely in the morning. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h in the early morning then tending southwesterly in the middle of the day.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -127,12 +127,12 @@
     },
     "2026-07-30": {
       "2": {
-        "forecast": "Sunny. Morning frost. Winds southwesterly 15 to 20 km/h becoming light during the morning.",
+        "forecast": "Sunny. Morning frost. Winds southwesterly 15 to 20 km/h becoming light in the early morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 9,
-        "temp_min": -1
+        "temp_min": -2
       },
       "3": {
         "forecast": "Sunny. Morning frost. Winds southwesterly 15 to 20 km/h tending southerly during the morning then becoming light during the day.",
@@ -177,12 +177,12 @@
     },
     "2026-07-31": {
       "3": {
-        "forecast": "Sunny. Morning frost. Light winds.",
+        "forecast": "Sunny. Morning frost. Light winds becoming easterly 15 to 20 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 11,
-        "temp_min": -3
+        "temp_min": -2
       },
       "4": {
         "forecast": "Sunny. Morning frost. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the day.",
@@ -219,12 +219,12 @@
     },
     "2026-08-01": {
       "4": {
-        "forecast": "Partly cloudy. Morning frost. Winds easterly 15 to 20 km/h tending northeasterly during the morning.",
+        "forecast": "Mostly sunny. Morning frost. Winds easterly 15 to 20 km/h tending northeasterly 15 to 25 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Morning frost. Partly cloudy.",
+        "precis": "Morning frost. Mostly sunny.",
         "temp_max": 13,
-        "temp_min": -1
+        "temp_min": 0
       },
       "5": {
         "forecast": "Partly cloudy. Patchy morning frost. Light winds becoming northeasterly 15 to 20 km/h during the morning then tending northerly during the day.",
@@ -253,7 +253,7 @@
     },
     "2026-08-02": {
       "5": {
-        "forecast": "Mostly sunny. Patchy morning frost. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly during the day.",
+        "forecast": "Mostly sunny. Patchy morning frost. Light winds becoming northeasterly 15 to 20 km/h during the morning then tending northerly during the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Mostly sunny.",
@@ -279,12 +279,12 @@
     },
     "2026-08-03": {
       "6": {
-        "forecast": "Partly cloudy. Patchy morning frost. Slight chance of a shower. Winds north to northeasterly 15 to 20 km/h turning northwesterly during the day.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Morning frost. Partly cloudy.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northwest to northeasterly 15 to 20 km/h tending west to northwesterly during the day.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
         "temp_max": 11,
-        "temp_min": 0
+        "temp_min": 3
       },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds northerly 15 to 20 km/h tending northwesterly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": 1
+      }
+    },
+    "2026-08-04": {
+      "7": {
+        "forecast": "Partly cloudy. Patchy morning frost. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Morning frost. Partly cloudy.",
+        "temp_max": 10,
+        "temp_min": 0
       }
     }
   },
