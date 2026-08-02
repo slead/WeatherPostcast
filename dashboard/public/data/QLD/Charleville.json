@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-02": {
       "0": {
-        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day.",
-        "icon_code": 1,
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-08-03": {
       "1": {
-        "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
+        "forecast": "Partly cloudy. Light winds becoming north to northeasterly 15 to 25 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
-        "temp_min": 9
+        "temp_min": 8
       },
       "2": {
         "forecast": "Partly cloudy. Light winds becoming northerly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
@@ -177,10 +177,10 @@
     },
     "2026-08-05": {
       "3": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the day.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 24,
         "temp_min": 6
       },
@@ -219,10 +219,10 @@
     },
     "2026-08-06": {
       "4": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
         "temp_max": 23,
         "temp_min": 4
       },
@@ -257,8 +257,8 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 24,
-        "temp_min": 3
+        "temp_max": 25,
+        "temp_min": 4
       },
       "6": {
         "forecast": "Sunny. Light winds becoming easterly 15 to 20 km/h during the morning.",
@@ -283,8 +283,8 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 26,
-        "temp_min": 4
+        "temp_max": 27,
+        "temp_min": 6
       },
       "7": {
         "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 27,
         "temp_min": 5
+      }
+    },
+    "2026-08-09": {
+      "7": {
+        "forecast": "Partly cloudy. Winds north to northeasterly 15 to 25 km/h turning west to northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 9
       }
     }
   },

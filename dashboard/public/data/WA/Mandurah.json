@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-02": {
       "0": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h tending northeasterly in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 17,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-08-03": {
       "1": {
-        "forecast": "Mostly sunny day. Very high chance of showers in the late afternoon and evening. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then tending north to northwesterly 15 to 25 km/h in the middle of the day.",
+        "forecast": "Sunny day. Very high chance of showers, most likely in the evening. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then tending north to northwesterly 15 to 25 km/h in the middle of the day.",
         "icon_code": 11,
         "precipitation_prob": "90%",
-        "precis": "Late showers.",
+        "precis": "Sunny day. Showers increasing.",
         "temp_max": 20,
         "temp_min": 11
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-04": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds northwest to southwesterly 20 to 25 km/h becoming southwesterly 15 to 20 km/h during the morning then tending westerly during the day.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the early morning. The chance of a thunderstorm in the early morning. Winds northwest to southwesterly 15 to 20 km/h becoming light in the early morning then becoming southwesterly 15 to 20 km/h in the morning.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers easing.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 18,
-        "temp_min": 12
+        "temp_min": 11
       },
       "4": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Light winds.",
@@ -219,7 +219,7 @@
     },
     "2026-08-06": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers, most likely later in the day. Winds north to northeasterly 15 to 20 km/h shifting westerly 15 to 25 km/h later.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the morning then turning west to northwesterly 15 to 25 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers increasing.",
@@ -253,9 +253,9 @@
     },
     "2026-08-07": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers. Winds southwesterly 15 to 20 km/h tending northwest to southwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers. Light winds becoming west to southwesterly 20 to 30 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 17,
         "temp_min": 12
@@ -279,11 +279,11 @@
     },
     "2026-08-08": {
       "6": {
-        "forecast": "Cloudy. Very high chance of showers, most likely during the morning. Winds westerly 30 to 35 km/h turning south to southwesterly 25 to 35 km/h during the morning.",
+        "forecast": "Cloudy. High chance of showers, most likely during the morning. Winds south to southwesterly 20 to 30 km/h decreasing to 15 to 20 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "80%",
         "precis": "Showers easing.",
-        "temp_max": 15,
+        "temp_max": 16,
         "temp_min": 12
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Showers. Becoming windy.",
         "temp_max": 15,
         "temp_min": 11
+      }
+    },
+    "2026-08-09": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds becoming west to northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 10
       }
     }
   },
