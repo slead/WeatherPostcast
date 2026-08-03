@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-03": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the late morning. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 22,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-08-04": {
       "1": {
-        "forecast": "Partly cloudy. The chance of fog in the early morning, mainly in the west. Light winds.",
+        "forecast": "Mostly sunny. The chance of fog in the early morning, mainly in the west. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 23,
         "temp_min": 11
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-05": {
       "2": {
-        "forecast": "Mostly sunny. The chance of morning fog in the west. Light winds.",
+        "forecast": "Mostly sunny. The chance of fog in the west in the early morning. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -179,10 +179,10 @@
       "3": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 23,
-        "temp_min": 9
+        "temp_max": 24,
+        "temp_min": 11
       },
       "4": {
         "forecast": "Partly cloudy. Light winds.",
@@ -219,10 +219,10 @@
     },
     "2026-08-07": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Mostly sunny day. The chance of a thunderstorm about bayside suburbs in the afternoon and evening. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
         "temp_max": 24,
         "temp_min": 11
       },
@@ -255,9 +255,9 @@
       "5": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
-        "temp_max": 23,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 24,
         "temp_min": 11
       },
       "6": {
@@ -283,8 +283,8 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 23,
-        "temp_min": 12
+        "temp_max": 24,
+        "temp_min": 11
       },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 12
+      }
+    },
+    "2026-08-10": {
+      "7": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 27,
+        "temp_min": 13
       }
     }
   },

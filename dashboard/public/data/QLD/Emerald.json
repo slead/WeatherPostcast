@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-03": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -127,11 +127,11 @@
     },
     "2026-08-05": {
       "2": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Partly cloudy.",
-        "temp_max": 26,
+        "precis": "Mostly sunny.",
+        "temp_max": 25,
         "temp_min": 9
       },
       "3": {
@@ -177,10 +177,10 @@
     },
     "2026-08-06": {
       "3": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 9
       },
@@ -253,10 +253,10 @@
     },
     "2026-08-08": {
       "5": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 27,
         "temp_min": 9
       },
@@ -284,7 +284,7 @@
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 27,
-        "temp_min": 10
+        "temp_min": 11
       },
       "7": {
         "forecast": "Partly cloudy. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 11
+      }
+    },
+    "2026-08-10": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 29,
+        "temp_min": 12
       }
     }
   },
