@@ -74,7 +74,7 @@
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 24,
-        "temp_min": 6
+        "temp_min": 5
       },
       "2": {
         "forecast": "Mostly sunny. Light winds.",
@@ -131,8 +131,8 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 23,
-        "temp_min": 1
+        "temp_max": 24,
+        "temp_min": 4
       },
       "3": {
         "forecast": "Partly cloudy. Light winds.",
@@ -177,12 +177,12 @@
     },
     "2026-08-07": {
       "3": {
-        "forecast": "Mostly sunny. The chance of morning frost. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 24,
-        "temp_min": 2
+        "temp_max": 25,
+        "temp_min": 3
       },
       "4": {
         "forecast": "Sunny. The chance of morning frost. Light winds.",
@@ -221,10 +221,10 @@
       "4": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 26,
-        "temp_min": 4
+        "temp_max": 25,
+        "temp_min": 3
       },
       "5": {
         "forecast": "Sunny. Light winds.",
@@ -253,9 +253,9 @@
     },
     "2026-08-09": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower later in the day. Light winds becoming north to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds north to northeasterly 15 to 25 km/h turning northwesterly 15 to 20 km/h later.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 27,
         "temp_min": 5
@@ -283,8 +283,8 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 23,
-        "temp_min": 5
+        "temp_max": 22,
+        "temp_min": 6
       },
       "7": {
         "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the morning then tending southwesterly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 24,
         "temp_min": 5
+      }
+    },
+    "2026-08-11": {
+      "7": {
+        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 23,
+        "temp_min": 1
       }
     }
   },

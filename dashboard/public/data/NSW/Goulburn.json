@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-04": {
       "0": {
-        "forecast": "Cloudy. Winds westerly 25 to 35 km/h.",
-        "icon_code": 4,
-        "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "forecast": "Mostly clear. Winds westerly 15 to 20 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 10,
         "temp_min": null
       },
@@ -69,11 +69,11 @@
     },
     "2026-08-05": {
       "1": {
-        "forecast": "Partly cloudy. Patchy morning frost. Winds westerly 25 to 35 km/h.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Patchy frost in the early morning. Winds westerly 25 to 35 km/h.",
+        "icon_code": 4,
         "precipitation_prob": "10%",
-        "precis": "Morning frost. Partly cloudy.",
-        "temp_max": 11,
+        "precis": "Early frost. Cloudy.",
+        "temp_max": 10,
         "temp_min": 1
       },
       "2": {
@@ -127,7 +127,7 @@
     },
     "2026-08-06": {
       "2": {
-        "forecast": "Partly cloudy. Patchy morning frost. Winds westerly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Partly cloudy. Patchy morning frost. Winds westerly 15 to 25 km/h becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Partly cloudy.",
@@ -177,12 +177,12 @@
     },
     "2026-08-07": {
       "3": {
-        "forecast": "Sunny. Morning frost. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "forecast": "Sunny. Morning frost. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
-        "temp_max": 13,
-        "temp_min": -1
+        "temp_max": 14,
+        "temp_min": 0
       },
       "4": {
         "forecast": "Sunny. Morning frost. Light winds.",
@@ -219,12 +219,12 @@
     },
     "2026-08-08": {
       "4": {
-        "forecast": "Sunny. Morning frost. Light winds becoming north to northwesterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Frost and the chance of fog in the morning. Light winds becoming northerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 16,
-        "temp_min": -2
+        "temp_min": -1
       },
       "5": {
         "forecast": "Sunny. Morning frost. Light winds becoming north to northwesterly 15 to 20 km/h during the day.",
@@ -257,7 +257,7 @@
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
-        "temp_max": 14,
+        "temp_max": 15,
         "temp_min": 4
       },
       "6": {
@@ -279,11 +279,11 @@
     },
     "2026-08-10": {
       "6": {
-        "forecast": "Cloudy. High chance of showers, most likely during the morning. Winds northwesterly 25 to 30 km/h tending westerly 25 to 40 km/h during the morning.",
+        "forecast": "Cloudy. High chance of showers, most likely during the morning. Winds northwesterly 25 to 35 km/h tending westerly 30 to 45 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers easing. Windy.",
-        "temp_max": 9,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two. Windy.",
+        "temp_max": 10,
         "temp_min": 4
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 10,
         "temp_min": 2
+      }
+    },
+    "2026-08-11": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds westerly 25 to 35 km/h tending northwesterly 20 to 30 km/h later.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 12,
+        "temp_min": 4
       }
     }
   },
