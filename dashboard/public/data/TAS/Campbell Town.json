@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-05": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "20%",
-        "precis": "Cloudy.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "5%",
+        "precis": "Clear.",
         "temp_max": 13,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-08-06": {
       "1": {
-        "forecast": "Partly cloudy. Frost and the chance of fog in the morning. Slight chance of a shower in the late afternoon and evening. Light winds.",
-        "icon_code": 3,
+        "forecast": "Partly cloudy. Frost and patchy fog in the morning. Slight chance of a shower in the late afternoon and evening. Light winds.",
+        "icon_code": 10,
         "precipitation_prob": "30%",
-        "precis": "Morning frost. Partly cloudy.",
+        "precis": "Morning frost and fog.",
         "temp_max": 12,
         "temp_min": -1
       },
@@ -132,7 +132,7 @@
         "precipitation_prob": "10%",
         "precis": "Morning frost. Mostly sunny.",
         "temp_max": 13,
-        "temp_min": -1
+        "temp_min": 0
       },
       "3": {
         "forecast": "Mostly sunny. Morning frost. Light winds.",
@@ -177,7 +177,7 @@
     },
     "2026-08-08": {
       "3": {
-        "forecast": "Cloudy. Morning frost. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 25 km/h during the day then becoming light during the evening.",
+        "forecast": "Cloudy. Frost and the chance of fog in the morning. Medium chance of showers, most likely in the evening. Light winds becoming northerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Frost. Possible shower.",
@@ -219,11 +219,11 @@
     },
     "2026-08-09": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers, most likely later in the day. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers increasing.",
-        "temp_max": 13,
+        "temp_max": 12,
         "temp_min": 3
       },
       "5": {
@@ -253,11 +253,11 @@
     },
     "2026-08-10": {
       "5": {
-        "forecast": "Cloudy. High chance of showers, most likely during the morning. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers, most likely during the morning. Winds northwesterly 15 to 20 km/h tending westerly during the day.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers easing.",
-        "temp_max": 14,
+        "temp_max": 13,
         "temp_min": 6
       },
       "6": {
@@ -279,10 +279,10 @@
     },
     "2026-08-11": {
       "6": {
-        "forecast": "Partly cloudy. High chance of showers. Winds northwesterly 15 to 25 km/h tending northerly 20 to 25 km/h later.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely later in the day. Light winds becoming north to northwesterly 20 to 30 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precipitation_prob": "90%",
+        "precis": "Showers increasing.",
         "temp_max": 12,
         "temp_min": 2
       },
@@ -292,6 +292,16 @@
         "precipitation_prob": "80%",
         "precis": "Showers.",
         "temp_max": 13,
+        "temp_min": 3
+      }
+    },
+    "2026-08-12": {
+      "7": {
+        "forecast": "Cloudy. Very high chance of showers. Winds northerly 20 to 25 km/h tending northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Showers.",
+        "temp_max": 10,
         "temp_min": 3
       }
     }
