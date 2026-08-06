@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-06": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 18,
         "temp_min": null
       },
@@ -69,12 +69,12 @@
     },
     "2026-08-07": {
       "1": {
-        "forecast": "Sunny. Areas of morning frost. Winds west to southwesterly 15 to 20 km/h tending southeast to southwesterly in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Sunny. Areas of morning frost. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 18,
-        "temp_min": 6
+        "temp_max": 19,
+        "temp_min": 7
       },
       "2": {
         "forecast": "Areas of frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
@@ -127,10 +127,10 @@
     },
     "2026-08-08": {
       "2": {
-        "forecast": "The chance of morning fog. Patches of morning frost in the outer west. Mostly sunny day. Light winds.",
-        "icon_code": 3,
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. Patches of morning frost in the west. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
+        "icon_code": 1,
         "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 19,
         "temp_min": 8
       },
@@ -181,8 +181,8 @@
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers increasing.",
-        "temp_max": 20,
-        "temp_min": 9
+        "temp_max": 21,
+        "temp_min": 10
       },
       "4": {
         "forecast": "Partly cloudy. The chance of morning fog. High chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the day.",
@@ -219,10 +219,10 @@
     },
     "2026-08-10": {
       "4": {
-        "forecast": "High chance of showers, most likely during the morning. Mostly sunny afternoon. Winds northerly 15 to 25 km/h turning northwesterly 25 to 35 km/h during the morning.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning. Winds northerly 15 to 25 km/h turning northwesterly 25 to 40 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers easing.",
         "temp_max": 18,
         "temp_min": 11
       },
@@ -257,8 +257,8 @@
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": 9
+        "temp_max": 19,
+        "temp_min": 7
       },
       "6": {
         "forecast": "Sunny. Light winds becoming northwesterly 15 to 20 km/h during the morning.",
@@ -279,12 +279,12 @@
     },
     "2026-08-12": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 20 to 30 km/h tending westerly during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 15 to 25 km/h turning westerly 20 to 30 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 19,
-        "temp_min": 10
+        "precis": "Mostly sunny.",
+        "temp_max": 18,
+        "temp_min": 9
       },
       "7": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds northwesterly 15 to 25 km/h turning westerly during the day.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 19,
         "temp_min": 10
+      }
+    },
+    "2026-08-13": {
+      "7": {
+        "forecast": "Sunny. Winds westerly 15 to 25 km/h turning south to southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 19,
+        "temp_min": 9
       }
     }
   },
