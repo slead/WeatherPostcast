@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-07": {
       "0": {
-        "forecast": "Cloudy. Slight chance of a shower, most likely in the afternoon. Light winds.",
-        "icon_code": 4,
-        "precipitation_prob": "20%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 14,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-08-08": {
       "1": {
-        "forecast": "Cloudy. High chance of showers, most likely in the evening. Light winds.",
+        "forecast": "Partly cloudy. Patchy morning fog. High chance of showers, most likely in the evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "80%",
-        "precis": "Showers increasing.",
+        "precis": "Fog. Showers increasing.",
         "temp_max": 15,
         "temp_min": 2
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-09": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h during the evening.",
+        "forecast": "Cloudy. Very high chance of rain. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h in the evening.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -221,7 +221,7 @@
       "4": {
         "forecast": "Cloudy. Very high chance of showers. Light winds becoming northwesterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "100%",
+        "precipitation_prob": "95%",
         "precis": "Showers.",
         "temp_max": 13,
         "temp_min": 4
@@ -253,7 +253,7 @@
     },
     "2026-08-12": {
       "5": {
-        "forecast": "Cloudy. High chance of showers. Winds west to northwesterly 15 to 25 km/h.",
+        "forecast": "Cloudy. High chance of showers. Winds northwesterly 15 to 25 km/h tending westerly during the day.",
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 13,
         "temp_min": 3
+      }
+    },
+    "2026-08-14": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 4
       }
     }
   },
