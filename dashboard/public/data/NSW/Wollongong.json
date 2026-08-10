@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-10": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Damaging winds possible. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 9,
-        "precipitation_prob": "30%",
-        "precis": "Becoming windy. Partly cloudy.",
+        "precipitation_prob": "10%",
+        "precis": "Windy. Partly cloudy.",
         "temp_max": 18,
         "temp_min": 12
       },
@@ -69,10 +69,10 @@
     },
     "2026-08-11": {
       "1": {
-        "forecast": "Sunny. Winds westerly 25 to 40 km/h decreasing to 20 to 25 km/h in the early afternoon then tending northwesterly 15 to 25 km/h in the evening.",
-        "icon_code": 1,
+        "forecast": "Sunny. Damaging winds possible. Winds westerly 25 to 35 km/h.",
+        "icon_code": 9,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Windy. Sunny.",
         "temp_max": 19,
         "temp_min": 13
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-12": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Winds northwesterly 15 to 25 km/h turning westerly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Winds northwesterly 15 to 20 km/h turning westerly 25 to 35 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -177,7 +177,7 @@
     },
     "2026-08-13": {
       "3": {
-        "forecast": "Mostly sunny. Winds westerly 20 to 30 km/h tending southeast to southwesterly 15 to 25 km/h during the day then tending westerly 15 to 20 km/h during the evening.",
+        "forecast": "Mostly sunny. Winds westerly 20 to 30 km/h tending southeast to southwesterly 15 to 20 km/h during the day then tending westerly during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-08-14": {
       "4": {
-        "forecast": "Mostly sunny day. Slight chance of a shower later in the day. Winds westerly 15 to 20 km/h shifting east to southeasterly during the morning.",
+        "forecast": "Mostly sunny day. Slight chance of a shower in the evening. Winds westerly 15 to 20 km/h shifting southeasterly during the morning then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -288,6 +288,16 @@
       },
       "7": {
         "forecast": "Partly cloudy. High chance of showers. Winds southwesterly 15 to 25 km/h turning southerly 20 to 30 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 16,
+        "temp_min": 12
+      }
+    },
+    "2026-08-17": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. Winds southeast to southwesterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",

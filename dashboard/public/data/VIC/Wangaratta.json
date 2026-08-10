@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-10": {
       "0": {
-        "forecast": "Cloudy. High chance of rain, becoming less likely at night. Winds northerly 15 to 25 km/h becoming light in the early afternoon then becoming westerly 15 to 20 km/h in the late evening.",
-        "icon_code": 12,
-        "precipitation_prob": "80%",
-        "precis": "Rain.",
+        "forecast": "Cloudy. High chance of showers, becoming less likely later tonight. Light winds becoming westerly 15 to 20 km/h in the late evening.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 9,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-08-11": {
       "1": {
-        "forecast": "Cloudy. High chance of showers, most likely at night. Winds westerly 15 to 20 km/h tending northwesterly in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Cloudy. High chance of showers. Winds westerly 15 to 20 km/h tending northwesterly in the middle of the day then becoming light in the early afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 13,
         "temp_min": 6
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-12": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming westerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming westerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -291,6 +291,16 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
+        "temp_max": 17,
+        "temp_min": 3
+      }
+    },
+    "2026-08-17": {
+      "7": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
         "temp_max": 17,
         "temp_min": 3
       }

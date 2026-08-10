@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-08-10": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. Winds northwesterly 25 to 35 km/h tending westerly 25 to 30 km/h in the evening.",
+        "forecast": "Cloudy. Very high chance of rain. Winds northwesterly 25 to 30 km/h tending westerly in the evening.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -127,7 +127,7 @@
     },
     "2026-08-12": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h during the morning.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h in the early morning.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -253,7 +253,7 @@
     },
     "2026-08-15": {
       "5": {
-        "forecast": "Partly cloudy. Patchy morning frost. Light winds becoming easterly 15 to 20 km/h during the morning then tending northeasterly during the day.",
+        "forecast": "Partly cloudy. Patchy morning frost. Light winds becoming east to northeasterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 11,
+        "temp_min": 3
+      }
+    },
+    "2026-08-17": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds easterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 13,
         "temp_min": 3
       }
     }
