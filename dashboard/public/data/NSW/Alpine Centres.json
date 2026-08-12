@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-12": {
       "0": {
-        "forecast": "Cloudy. High chance of snow showers, becoming less likely in the evening. Winds westerly 25 to 40 km/h.",
+        "forecast": "Cloudy. Medium chance of snow showers, becoming less likely later this evening. Winds westerly 25 to 35 km/h.",
         "icon_code": 15,
-        "precipitation_prob": "90%",
-        "precis": "Snow showers. Windy.",
+        "precipitation_prob": "60%",
+        "precis": "Snow shower or two.",
         "temp_max": -2,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-14": {
       "2": {
-        "forecast": "Mostly sunny. Winds west to northwesterly 15 to 20 km/h turning south to southwesterly during the day.",
+        "forecast": "Mostly sunny. Winds west to northwesterly 15 to 20 km/h turning south to southwesterly in the late morning and early afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -219,7 +219,7 @@
     },
     "2026-08-16": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwest to northeasterly 15 to 20 km/h tending east to northeasterly during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower or snow. Winds northwest to northeasterly 15 to 20 km/h tending east to northeasterly during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 5,
         "temp_min": -4
+      }
+    },
+    "2026-08-19": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Snow possible above 1700 metres. Winds northerly 20 to 30 km/h tending northwesterly during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 5,
+        "temp_min": -3
       }
     }
   },
