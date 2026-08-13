@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-13": {
       "0": {
-        "forecast": "Sunny. Winds southwesterly 20 to 25 km/h tending southerly 15 to 25 km/h in the early afternoon then becoming light in the late afternoon.",
-        "icon_code": 1,
+        "forecast": "Clear. Winds southerly 15 to 20 km/h becoming light in the late afternoon.",
+        "icon_code": 2,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Clear.",
         "temp_max": 21,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-08-14": {
       "1": {
-        "forecast": "Mostly sunny day. Slight chance of a shower in the evening. Winds west to southwesterly 15 to 20 km/h tending southeast to southwesterly in the middle of the day then becoming light in the late afternoon.",
+        "forecast": "Mostly sunny day. Slight chance of a shower in the evening. Light winds becoming southeast to southwesterly 15 to 25 km/h in the middle of the day then becoming light in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
@@ -127,10 +127,10 @@
     },
     "2026-08-15": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers. Light winds becoming south to southwesterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers. Light winds becoming south to southwesterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 9
       },
@@ -179,7 +179,7 @@
       "3": {
         "forecast": "Cloudy. Very high chance of showers. Winds southwesterly 15 to 20 km/h tending southerly during the day then becoming light during the afternoon.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers.",
         "temp_max": 18,
         "temp_min": 9
@@ -219,7 +219,7 @@
     },
     "2026-08-17": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "90%",
         "precis": "Showers.",
@@ -283,13 +283,23 @@
         "icon_code": 11,
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
-        "temp_max": 19,
+        "temp_max": 20,
         "temp_min": 7
       },
       "7": {
         "forecast": "Partly cloudy. High chance of showers, most likely during the morning. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 21,
+        "temp_min": 7
+      }
+    },
+    "2026-08-20": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 21,
         "temp_min": 7
