@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-16": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "0%",
+        "precis": "Mostly clear.",
         "temp_max": 19,
         "temp_min": 3
       },
@@ -219,7 +219,7 @@
     },
     "2026-08-20": {
       "4": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds.",
+        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 15,
         "temp_min": 6
+      }
+    },
+    "2026-08-23": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 3
       }
     }
   },
