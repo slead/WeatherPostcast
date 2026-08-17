@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-17": {
       "0": {
-        "forecast": "Partly cloudy. Winds northeasterly 15 to 25 km/h tending easterly 15 to 20 km/h in the middle of the day.",
+        "forecast": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening then becoming easterly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-08-18": {
       "1": {
-        "forecast": "Mostly sunny. Winds easterly 15 to 20 km/h tending northeasterly 15 to 25 km/h before dawn then becoming light in the middle of the day.",
+        "forecast": "Mostly sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-08-19": {
       "2": {
-        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 25 km/h during the morning then becoming light during the day.",
+        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 25 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-08-21": {
       "4": {
-        "forecast": "Becoming cloudy. Light winds becoming northerly 15 to 25 km/h during the morning.",
+        "forecast": "Becoming cloudy. Light winds becoming northerly 15 to 25 km/h during the morning then becoming light during the day.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Becoming cloudy.",
@@ -253,7 +253,7 @@
     },
     "2026-08-22": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the morning then turning northwesterly during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the morning then tending northerly during the day.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
-        "temp_max": 28,
+        "temp_max": 27,
         "temp_min": 9
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 8
+      }
+    },
+    "2026-08-24": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming northeasterly 20 to 25 km/h during the morning then tending northerly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 29,
+        "temp_min": 10
       }
     }
   },

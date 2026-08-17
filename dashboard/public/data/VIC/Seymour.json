@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-17": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Mostly clear. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly clear.",
         "temp_max": 17,
         "temp_min": 3
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-19": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 30 km/h becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers. Winds northeasterly 20 to 30 km/h tending northerly 15 to 20 km/h in the evening then becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "100%",
         "precis": "Showers.",
@@ -177,7 +177,7 @@
     },
     "2026-08-20": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. Light winds.",
+        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the afternoon. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-08-21": {
       "4": {
-        "forecast": "Cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Cloudy. The chance of morning fog. Slight chance of a shower. Light winds.",
         "icon_code": 4,
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 3
+      }
+    },
+    "2026-08-24": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 6
       }
     }
   },
