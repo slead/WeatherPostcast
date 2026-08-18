@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-08-18": {
       "0": {
-        "forecast": "Partly cloudy. Winds northeasterly 25 to 35 km/h tending northerly in the middle of the day then becoming light in the evening.",
+        "forecast": "Partly cloudy. Winds northerly 15 to 25 km/h becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -69,7 +69,7 @@
     },
     "2026-08-19": {
       "1": {
-        "forecast": "Slight chance of a shower in the early morning. Mostly sunny afternoon. Light winds becoming north to northeasterly 15 to 25 km/h in the morning then becoming light in the early afternoon.",
+        "forecast": "Slight chance of a shower in the early morning. Mostly sunny afternoon. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then becoming light in the early afternoon.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-08-20": {
       "2": {
-        "forecast": "Sunny. Light winds becoming northwest to northeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming northwest to northeasterly 15 to 25 km/h in the morning then becoming light in the early afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
         "temp_max": 28,
         "temp_min": 11
@@ -292,6 +292,16 @@
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
         "temp_max": 28,
+        "temp_min": 12
+      }
+    },
+    "2026-08-25": {
+      "7": {
+        "forecast": "Medium chance of showers, most likely during the morning. The chance of a thunderstorm during the morning. Mostly sunny afternoon. Winds southeasterly 15 to 20 km/h turning southwesterly during the day.",
+        "icon_code": 16,
+        "precipitation_prob": "50%",
+        "precis": "Possible morning storm. Showers.",
+        "temp_max": 27,
         "temp_min": 12
       }
     }
