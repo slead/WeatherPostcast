@@ -69,10 +69,10 @@
     },
     "2026-08-20": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. Light winds becoming north to northwesterly 15 to 25 km/h in the morning then becoming light in the late evening.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "forecast": "Cloudy. High chance of rain. Light winds becoming north to northwesterly 15 to 25 km/h in the morning then becoming light in the late evening.",
+        "icon_code": 12,
+        "precipitation_prob": "70%",
+        "precis": "Rain at times.",
         "temp_max": 16,
         "temp_min": 3
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-21": {
       "2": {
-        "forecast": "Sunny. Morning frost. Light winds becoming west to northwesterly 15 to 20 km/h during the day then becoming light during the evening.",
+        "forecast": "Sunny. Morning frost. Light winds becoming west to northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Morning frost. Sunny.",
@@ -177,10 +177,10 @@
     },
     "2026-08-22": {
       "3": {
-        "forecast": "Mostly sunny. Morning frost. Light winds.",
-        "icon_code": 3,
+        "forecast": "Frost and the chance of fog in the morning. Mostly sunny afternoon. Light winds.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 17,
         "temp_min": -4
       },
@@ -219,7 +219,7 @@
     },
     "2026-08-23": {
       "4": {
-        "forecast": "Cloud clearing. Morning frost. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "forecast": "Frost and the chance of fog in the morning. Sunny afternoon. Light winds becoming northerly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Cloud clearing.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 17,
+        "temp_min": 0
+      }
+    },
+    "2026-08-26": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Light winds becoming westerly 15 to 25 km/h during the morning.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 12,
         "temp_min": 0
       }
     }
