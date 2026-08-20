@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-20": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the evening. The chance of a thunderstorm in the late afternoon and evening. Winds northerly 15 to 20 km/h tending northwesterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely later this evening. The chance of a thunderstorm. Winds northwesterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 11,
         "precipitation_prob": "90%",
-        "precis": "Showers increasing.",
+        "precis": "Showers.",
         "temp_max": 15,
         "temp_min": 6
       },
@@ -69,12 +69,12 @@
     },
     "2026-08-21": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
-        "icon_code": 12,
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
+        "icon_code": 11,
         "precipitation_prob": "95%",
-        "precis": "Rain easing.",
+        "precis": "Showers easing.",
         "temp_max": 13,
-        "temp_min": 7
+        "temp_min": 8
       },
       "2": {
         "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening. Light winds becoming northwesterly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
@@ -127,7 +127,7 @@
     },
     "2026-08-22": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -180,7 +180,7 @@
         "forecast": "Patchy frost and the chance of fog in the morning. Sunny afternoon. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Morning frost. Cloud clearing.",
+        "precis": "Morning frost. Mostly sunny.",
         "temp_max": 15,
         "temp_min": 1
       },
@@ -219,7 +219,7 @@
     },
     "2026-08-24": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds becoming northwest to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. Winds northerly 15 to 25 km/h tending northwesterly 20 to 25 km/h during the day then tending northwest to northeasterly 15 to 20 km/h during the afternoon.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -253,10 +253,10 @@
     },
     "2026-08-25": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Winds northerly 20 to 30 km/h tending northwesterly during the day.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm. Winds northerly 20 to 30 km/h tending northwesterly during the day.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
+        "precis": "Rain.",
         "temp_max": 13,
         "temp_min": 7
       },
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 10,
         "temp_min": 5
+      }
+    },
+    "2026-08-27": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming west to northwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 14,
+        "temp_min": 2
       }
     }
   },
