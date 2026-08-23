@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-23": {
       "0": {
-        "forecast": "Partly cloudy. Winds northerly 15 to 20 km/h becoming light in the middle of the day.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 19,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-08-25": {
       "2": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning. Winds southerly 20 to 30 km/h tending southwesterly during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the morning. Winds south to southwesterly 20 to 30 km/h becoming light in the late evening.",
         "icon_code": 11,
         "precipitation_prob": "95%",
         "precis": "Showers easing.",
@@ -219,7 +219,7 @@
     },
     "2026-08-27": {
       "4": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the morning then tending northwesterly during the day.",
+        "forecast": "Sunny. Light winds becoming north to northwesterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -253,9 +253,9 @@
     },
     "2026-08-28": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 19,
         "temp_min": 9
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 19,
         "temp_min": 11
+      }
+    },
+    "2026-08-30": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 19,
+        "temp_min": 9
       }
     }
   },

@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-08-23": {
       "0": {
-        "forecast": "Partly cloudy. Winds northeasterly 15 to 20 km/h tending northerly in the middle of the day then becoming light in the early afternoon.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -69,7 +69,7 @@
     },
     "2026-08-24": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. Light winds becoming northeast to southeasterly 20 to 30 km/h in the morning then tending southerly in the evening.",
+        "forecast": "Cloudy. Very high chance of rain. Winds northeasterly 15 to 20 km/h tending easterly 20 to 25 km/h in the morning then tending southeast to southwesterly 20 to 30 km/h in the late afternoon.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -127,7 +127,7 @@
     },
     "2026-08-25": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds southwesterly 20 to 30 km/h becoming light during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds southwesterly 20 to 30 km/h becoming light in the late afternoon.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -219,7 +219,7 @@
     },
     "2026-08-27": {
       "4": {
-        "forecast": "Sunny. Winds northerly 15 to 20 km/h tending northwesterly during the day.",
+        "forecast": "Sunny. Winds northerly 15 to 20 km/h tending northwesterly during the day then becoming light during the afternoon.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -291,6 +291,16 @@
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
+        "temp_max": 17,
+        "temp_min": 9
+      }
+    },
+    "2026-08-30": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 9
       }
