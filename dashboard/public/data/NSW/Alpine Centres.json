@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-24": {
       "0": {
-        "forecast": "Partly cloudy. Winds northwesterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Winds northwesterly 25 to 35 km/h increasing to 25 to 40 km/h in the late evening.",
         "icon_code": 9,
         "precipitation_prob": "10%",
-        "precis": "Becoming windy. Partly cloudy.",
+        "precis": "Windy. Partly cloudy.",
         "temp_max": 6,
         "temp_min": -2
       },
@@ -69,12 +69,12 @@
     },
     "2026-08-25": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening, possibly severe with heavy rain which may lead to flash flooding. Winds north to northwesterly 50 to 70 km/h tending west to northwesterly 25 to 35 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening. Heavy falls in the morning and afternoon. Winds north to northwesterly 55 to 75 km/h tending west to northwesterly 20 to 30 km/h during the day.",
         "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Rain. Very windy.",
+        "precis": "Rain. Heavy falls.",
         "temp_max": 4,
-        "temp_min": -1
+        "temp_min": 0
       },
       "2": {
         "forecast": "Cloudy. Very high chance of rain. Winds northwesterly 35 to 55 km/h increasing to 50 to 70 km/h in the early morning then tending west to northwesterly 25 to 40 km/h in the late afternoon.",
@@ -127,11 +127,11 @@
     },
     "2026-08-26": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Snow possible above 1900 metres. Winds westerly 15 to 20 km/h tending south to southwesterly during the morning then tending westerly during the day.",
-        "icon_code": 15,
+        "forecast": "Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Winds west to northwesterly 15 to 20 km/h becoming light before dawn then becoming west to southwesterly 15 to 20 km/h in the morning.",
+        "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Showers or snow at times.",
-        "temp_max": 5,
+        "precis": "Shower or two.",
+        "temp_max": 6,
         "temp_min": 0
       },
       "3": {
@@ -219,11 +219,11 @@
     },
     "2026-08-28": {
       "4": {
-        "forecast": "Mostly sunny. Winds westerly 15 to 25 km/h.",
+        "forecast": "Mostly sunny. Winds westerly 20 to 30 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 5,
+        "temp_max": 6,
         "temp_min": -2
       },
       "5": {
@@ -253,7 +253,7 @@
     },
     "2026-08-29": {
       "5": {
-        "forecast": "Sunny. Winds westerly 15 to 25 km/h tending southwesterly during the morning.",
+        "forecast": "Sunny. Winds westerly 15 to 25 km/h turning southwesterly 15 to 20 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -279,7 +279,7 @@
     },
     "2026-08-30": {
       "6": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h tending south to southwesterly during the day.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h turning southerly during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 8,
         "temp_min": -2
+      }
+    },
+    "2026-08-31": {
+      "7": {
+        "forecast": "Sunny. Winds west to northwesterly 15 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 8,
+        "temp_min": -1
       }
     }
   },
