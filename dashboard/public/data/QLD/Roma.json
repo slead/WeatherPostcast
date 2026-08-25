@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-25": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northerly 20 to 25 km/h tending northwesterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
         "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Rain increasing.",
+        "precis": "Rain.",
         "temp_max": 27,
         "temp_min": null
       },
@@ -74,7 +74,7 @@
         "precipitation_prob": "50%",
         "precis": "Early shower or two.",
         "temp_max": 23,
-        "temp_min": 12
+        "temp_min": 11
       },
       "2": {
         "forecast": "Medium chance of showers in the early morning. Mostly sunny day. Light winds becoming southwesterly 15 to 25 km/h in the morning then becoming light in the evening.",
@@ -127,7 +127,7 @@
     },
     "2026-08-27": {
       "2": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 7
+      }
+    },
+    "2026-09-01": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 25,
+        "temp_min": 8
       }
     }
   },
