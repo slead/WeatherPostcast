@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-27": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 30,
         "temp_min": null
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "The chance of fog in the early morning. Mostly sunny day. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 29,
         "temp_min": 14
@@ -127,11 +127,11 @@
     },
     "2026-08-29": {
       "2": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the day.",
+        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the morning then becoming light in the middle of the day.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 29,
+        "temp_max": 28,
         "temp_min": 12
       },
       "3": {
@@ -177,7 +177,7 @@
     },
     "2026-08-30": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds becoming easterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Partly cloudy. The chance of morning fog. Light winds becoming easterly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -219,12 +219,12 @@
     },
     "2026-08-31": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming northeast to southeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 26,
-        "temp_min": 12
+        "temp_max": 27,
+        "temp_min": 11
       },
       "5": {
         "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning.",
@@ -253,11 +253,11 @@
     },
     "2026-09-01": {
       "5": {
-        "forecast": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 28,
+        "temp_max": 27,
         "temp_min": 12
       },
       "6": {
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 29,
+        "temp_max": 28,
         "temp_min": 12
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 29,
         "temp_min": 12
+      }
+    },
+    "2026-09-03": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 30,
+        "temp_min": 13
       }
     }
   },
