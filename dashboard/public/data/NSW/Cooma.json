@@ -1,73 +1,15 @@
 {
   "city_name": "Cooma",
   "forecasts": {
-    "2026-08-30": {
+    "2026-08-31": {
       "0": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
+        "forecast": "Sunny. Morning frost. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": -1
-      },
-      "1": {
-        "forecast": "Frost and the chance of fog in the morning. Sunny afternoon. Light winds becoming southerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
-        "temp_max": 20,
+        "temp_max": 21,
         "temp_min": -2
       },
-      "2": {
-        "forecast": "Frost and the chance of fog in the morning. Sunny afternoon. Light winds becoming southerly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Sunny.",
-        "temp_max": 20,
-        "temp_min": -2
-      },
-      "3": {
-        "forecast": "Frost and the chance of fog in the morning. Sunny afternoon. Light winds becoming southerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
-        "temp_max": 19,
-        "temp_min": -3
-      },
-      "4": {
-        "forecast": "Mostly sunny. Morning frost. Light winds becoming southerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
-        "temp_max": 19,
-        "temp_min": -2
-      },
-      "5": {
-        "forecast": "Mostly sunny. Morning frost. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
-        "temp_max": 20,
-        "temp_min": -3
-      },
-      "6": {
-        "forecast": "Mostly sunny. Morning frost. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
-        "temp_max": 19,
-        "temp_min": -2
-      },
-      "7": {
-        "forecast": "Mostly sunny. Morning frost. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Morning frost. Mostly sunny.",
-        "temp_max": 19,
-        "temp_min": -2
-      }
-    },
-    "2026-08-31": {
       "1": {
         "forecast": "Sunny. Morning frost. Light winds.",
         "icon_code": 1,
@@ -126,6 +68,14 @@
       }
     },
     "2026-09-01": {
+      "1": {
+        "forecast": "Sunny. Morning frost. Light winds becoming northwesterly 25 to 40 km/h in the morning then tending northerly 20 to 25 km/h in the late evening.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Morning frost. Sunny.",
+        "temp_max": 19,
+        "temp_min": -1
+      },
       "2": {
         "forecast": "Sunny. Morning frost. Light winds becoming northwesterly 20 to 30 km/h during the morning then tending northerly 15 to 20 km/h during the evening.",
         "icon_code": 1,
@@ -176,6 +126,14 @@
       }
     },
     "2026-09-02": {
+      "2": {
+        "forecast": "Mostly sunny day. Slight chance of a shower, most likely in the evening. Winds northwesterly 25 to 35 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
+        "temp_max": 21,
+        "temp_min": 5
+      },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds north to northwesterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
@@ -218,6 +176,14 @@
       }
     },
     "2026-09-03": {
+      "3": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning. Winds west to northwesterly 20 to 30 km/h becoming light during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 17,
+        "temp_min": 5
+      },
       "4": {
         "forecast": "Slight chance of a shower during the morning. Mostly sunny day. Winds west to northwesterly 15 to 25 km/h.",
         "icon_code": 3,
@@ -252,6 +218,14 @@
       }
     },
     "2026-09-04": {
+      "4": {
+        "forecast": "Mostly sunny morning. Patchy morning frost. Medium chance of showers, most likely later in the day. Light winds becoming northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Morning frost. Shower or two.",
+        "temp_max": 17,
+        "temp_min": 0
+      },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Light winds becoming northwesterly 20 to 30 km/h during the morning.",
         "icon_code": 11,
@@ -278,6 +252,14 @@
       }
     },
     "2026-09-05": {
+      "5": {
+        "forecast": "Partly cloudy. High chance of showers. Winds northerly 20 to 25 km/h turning west to northwesterly 25 to 35 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 18,
+        "temp_min": 4
+      },
       "6": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds west to northwesterly 25 to 35 km/h.",
         "icon_code": 11,
@@ -293,6 +275,16 @@
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 2
+      }
+    },
+    "2026-09-06": {
+      "6": {
+        "forecast": "Mostly sunny. Morning frost. Slight chance of a shower. Winds northwesterly 15 to 20 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "30%",
+        "precis": "Morning frost. Sunny.",
+        "temp_max": 18,
+        "temp_min": -1
       }
     }
   },
