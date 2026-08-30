@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-08-30": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower this afternoon. Winds southeasterly 15 to 25 km/h tending easterly 20 to 30 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Mostly clear. Winds easterly 20 to 30 km/h becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "10%",
+        "precis": "Mostly clear.",
         "temp_max": 27,
         "temp_min": 15
       },
@@ -69,12 +69,12 @@
     },
     "2026-08-31": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the late morning. Light winds becoming east to southeasterly 20 to 30 km/h in the morning then becoming light in the late evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the late morning and afternoon. Winds southeasterly 15 to 25 km/h tending easterly 20 to 30 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 26,
-        "temp_min": 14
+        "temp_min": 15
       },
       "2": {
         "forecast": "Partly cloudy. Slight chance of a shower in the late morning and afternoon. Light winds becoming east to southeasterly 20 to 30 km/h in the morning then becoming light in the late evening.",
@@ -127,12 +127,12 @@
     },
     "2026-09-01": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Winds southeasterly 15 to 20 km/h tending easterly during the morning then becoming light during the evening.",
+        "forecast": "Slight chance of a shower in the morning. Mostly sunny afternoon. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 26,
-        "temp_min": 14
+        "temp_min": 15
       },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Winds southeasterly 15 to 20 km/h tending easterly during the morning then becoming light during the evening.",
@@ -177,12 +177,12 @@
     },
     "2026-09-02": {
       "3": {
-        "forecast": "Partly cloudy. The chance of morning fog. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 28,
-        "temp_min": 13
+        "temp_min": 14
       },
       "4": {
         "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
@@ -219,12 +219,12 @@
     },
     "2026-09-03": {
       "4": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
+        "forecast": "The chance of morning fog. Mostly sunny day. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
         "temp_max": 31,
-        "temp_min": 14
+        "temp_min": 13
       },
       "5": {
         "forecast": "Mostly sunny. Light winds.",
@@ -253,10 +253,10 @@
     },
     "2026-09-04": {
       "5": {
-        "forecast": "Mostly sunny. Light winds.",
+        "forecast": "Cloud clearing. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Cloud clearing.",
         "temp_max": 32,
         "temp_min": 13
       },
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 31,
+        "temp_max": 32,
         "temp_min": 14
       },
       "7": {
@@ -292,6 +292,16 @@
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 31,
+        "temp_min": 15
+      }
+    },
+    "2026-09-06": {
+      "7": {
+        "forecast": "Cloud clearing. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Cloud clearing.",
+        "temp_max": 32,
         "temp_min": 15
       }
     }
