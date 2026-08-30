@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h in the late evening.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 12,
         "temp_min": 2
@@ -127,10 +127,10 @@
     },
     "2026-09-02": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 50 to 60 km/h decreasing to 25 to 40 km/h during the morning.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 50 to 60 km/h decreasing to 25 to 40 km/h during the morning.",
+        "icon_code": 15,
         "precipitation_prob": "95%",
-        "precis": "Showers.",
+        "precis": "Showers or snow.",
         "temp_max": 7,
         "temp_min": 4
       },
@@ -177,7 +177,7 @@
     },
     "2026-09-03": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Cloudy. Very high chance of showers or snow. Winds west to northwesterly 25 to 35 km/h.",
         "icon_code": 15,
         "precipitation_prob": "90%",
         "precis": "Showers or snow.",
@@ -257,7 +257,7 @@
         "icon_code": 15,
         "precipitation_prob": "95%",
         "precis": "Showers or snow. Wind easing.",
-        "temp_max": 4,
+        "temp_max": 5,
         "temp_min": 2
       },
       "6": {
@@ -284,7 +284,7 @@
         "precipitation_prob": "70%",
         "precis": "Showers or snow at times.",
         "temp_max": 5,
-        "temp_min": 0
+        "temp_min": -1
       }
     }
   },
