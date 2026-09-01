@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-09-02": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers. Damaging winds possible in the early morning. Winds west to northwesterly 55 to 75 km/h.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the late afternoon and evening. Damaging winds possible. Winds west to northwesterly 40 to 60 km/h.",
         "icon_code": 9,
         "precipitation_prob": "90%",
         "precis": "Showers. Very windy.",
@@ -69,10 +69,10 @@
     },
     "2026-09-03": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the early morning. Snow falling above 1900 metres. Winds northwesterly 35 to 55 km/h tending west to northwesterly 35 to 50 km/h before dawn.",
-        "icon_code": 15,
+        "forecast": "Cloudy. Very high chance of showers, most likely in the early morning. Winds west to northwesterly 35 to 55 km/h.",
+        "icon_code": 9,
         "precipitation_prob": "95%",
-        "precis": "Snow showers easing. Windy.",
+        "precis": "Showers easing. Very windy.",
         "temp_max": 2,
         "temp_min": -2
       },
@@ -127,9 +127,9 @@
     },
     "2026-09-04": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. Winds westerly 35 to 50 km/h decreasing to 25 to 40 km/h during the morning then turning northwesterly 40 to 60 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. Winds westerly 30 to 45 km/h turning northwesterly during the day then increasing to 40 to 60 km/h during the evening.",
         "icon_code": 9,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two. Very windy.",
         "temp_max": 3,
         "temp_min": -3
@@ -177,7 +177,7 @@
     },
     "2026-09-05": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers. Snow falling above 1700 metres. Winds northwesterly 60 to 80 km/h tending westerly 55 to 75 km/h during the afternoon then decreasing to 45 to 65 km/h during the evening.",
+        "forecast": "Cloudy. Very high chance of showers. Snow falling above 1700 metres. Winds northwesterly 45 to 65 km/h increasing to 60 to 80 km/h during the morning then tending westerly 55 to 75 km/h during the afternoon.",
         "icon_code": 15,
         "precipitation_prob": "100%",
         "precis": "Showers or snow. Very windy.",
@@ -245,12 +245,12 @@
     },
     "2026-09-07": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 20 to 25 km/h tending westerly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds westerly 20 to 30 km/h turning northwesterly 15 to 20 km/h later.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
         "temp_max": 9,
-        "temp_min": -2
+        "temp_min": -1
       },
       "6": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds west to northwesterly 20 to 30 km/h.",
@@ -271,12 +271,12 @@
     },
     "2026-09-08": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds northwesterly 15 to 25 km/h tending westerly during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. Winds west to northwesterly 15 to 25 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 9,
-        "temp_min": -1
+        "temp_min": 0
       }
     }
   },
