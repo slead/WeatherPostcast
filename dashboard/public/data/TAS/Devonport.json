@@ -1,73 +1,15 @@
 {
   "city_name": "Devonport",
   "forecasts": {
-    "2026-09-05": {
-      "0": {
-        "forecast": "Mostly clear. Winds westerly 15 to 20 km/h.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly clear.",
-        "temp_max": 15,
-        "temp_min": 9
-      },
-      "1": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Winds north to northwesterly 15 to 25 km/h increasing to 25 to 35 km/h in the morning then increasing to 40 km/h before turning westerly 20 to 30 km/h in the evening.",
-        "icon_code": 16,
-        "precipitation_prob": "100%",
-        "precis": "Possible morning storm. Rain.",
-        "temp_max": 14,
-        "temp_min": 9
-      },
-      "2": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Winds northwesterly 15 to 20 km/h tending northwest to northeasterly 25 to 35 km/h during the morning then tending west to northwesterly during the day.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers.",
-        "temp_max": 15,
-        "temp_min": 10
-      },
-      "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Winds northwesterly 25 to 40 km/h tending westerly 25 to 35 km/h during the day then decreasing to 20 to 25 km/h during the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "100%",
-        "precis": "Showers.",
-        "temp_max": 15,
-        "temp_min": 9
-      },
-      "4": {
-        "forecast": "Cloudy. Very high chance of showers. Winds northwesterly 25 to 35 km/h tending westerly during the day.",
-        "icon_code": 11,
-        "precipitation_prob": "95%",
-        "precis": "Showers.",
-        "temp_max": 14,
-        "temp_min": 9
-      },
-      "5": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Winds northwesterly 30 to 35 km/h tending westerly 25 to 40 km/h during the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "90%",
-        "precis": "Showers.",
-        "temp_max": 14,
-        "temp_min": 9
-      },
-      "6": {
-        "forecast": "Partly cloudy. High chance of showers. Winds northwesterly 30 to 35 km/h tending westerly 25 to 35 km/h during the morning.",
-        "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
-        "temp_max": 14,
-        "temp_min": 9
-      },
-      "7": {
-        "forecast": "Partly cloudy. High chance of showers. Winds west to northwesterly 25 to 35 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
-        "temp_max": 14,
-        "temp_min": 9
-      }
-    },
     "2026-09-06": {
+      "0": {
+        "forecast": "Sunny. Light winds becoming northerly 15 to 25 km/h in the early afternoon then turning west to northwesterly 20 to 25 km/h in the late afternoon.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 16,
+        "temp_min": null
+      },
       "1": {
         "forecast": "Sunny. Winds southwesterly 15 to 20 km/h tending northerly 15 to 25 km/h in the early morning then tending west to northwesterly 20 to 25 km/h in the late afternoon.",
         "icon_code": 1,
@@ -118,6 +60,14 @@
       }
     },
     "2026-09-07": {
+      "1": {
+        "forecast": "Partly cloudy. Winds westerly 15 to 20 km/h turning south to southwesterly in the morning then becoming light in the late afternoon.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 8
+      },
       "2": {
         "forecast": "Mostly sunny. Winds westerly 15 to 20 km/h tending southwesterly in the middle of the day then becoming light in the late evening.",
         "icon_code": 3,
@@ -168,6 +118,14 @@
       }
     },
     "2026-09-08": {
+      "2": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming westerly 20 to 30 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 4
+      },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming westerly 20 to 30 km/h during the morning.",
         "icon_code": 3,
@@ -202,6 +160,14 @@
       }
     },
     "2026-09-09": {
+      "3": {
+        "forecast": "Partly cloudy. Winds west to southwesterly 20 to 30 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 14,
+        "temp_min": 5
+      },
       "4": {
         "forecast": "Partly cloudy. Winds west to southwesterly 20 to 30 km/h.",
         "icon_code": 3,
@@ -228,6 +194,14 @@
       }
     },
     "2026-09-10": {
+      "4": {
+        "forecast": "Sunny. Winds westerly 15 to 20 km/h tending southwesterly later.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 17,
+        "temp_min": 8
+      },
       "5": {
         "forecast": "Sunny. Winds westerly 15 to 25 km/h tending southwesterly 15 to 20 km/h later.",
         "icon_code": 1,
@@ -246,6 +220,14 @@
       }
     },
     "2026-09-11": {
+      "5": {
+        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h turning northwesterly during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 18,
+        "temp_min": 6
+      },
       "6": {
         "forecast": "Sunny. Winds southwesterly 15 to 20 km/h turning northwesterly during the morning.",
         "icon_code": 1,
@@ -256,6 +238,14 @@
       }
     },
     "2026-09-12": {
+      "6": {
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming north to northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 5
+      },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds becoming northwesterly 15 to 20 km/h during the day.",
         "icon_code": 3,
