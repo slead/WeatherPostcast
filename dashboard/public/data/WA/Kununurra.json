@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-05": {
       "0": {
-        "forecast": "Partly cloudy. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Partly cloudy.",
+        "precis": "Clear.",
         "temp_max": 37,
         "temp_min": 18
       },
@@ -131,7 +131,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
-        "temp_max": 36,
+        "temp_max": 37,
         "temp_min": 19
       },
       "3": {
@@ -182,7 +182,7 @@
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 37,
-        "temp_min": 20
+        "temp_min": 19
       },
       "4": {
         "forecast": "Partly cloudy. Light winds.",
@@ -224,7 +224,7 @@
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 38,
-        "temp_min": 21
+        "temp_min": 20
       },
       "5": {
         "forecast": "Mostly sunny. Light winds.",
@@ -245,11 +245,11 @@
     },
     "2026-09-10": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming northeasterly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming northeasterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 37,
+        "precis": "Mostly sunny.",
+        "temp_max": 38,
         "temp_min": 19
       },
       "6": {
@@ -263,12 +263,22 @@
     },
     "2026-09-11": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Light winds becoming easterly 15 to 20 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 37,
+        "precis": "Mostly sunny.",
+        "temp_max": 38,
         "temp_min": 19
+      }
+    },
+    "2026-09-12": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming easterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 36,
+        "temp_min": 21
       }
     }
   },
