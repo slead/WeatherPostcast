@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-05": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, becoming less likely this evening. The chance of a thunderstorm this morning, possibly severe. Damaging winds possible. Winds north to northwesterly 25 to 30 km/h tending west to northwesterly 30 to 40 km/h in the early morning then tending west to southwesterly 25 to 40 km/h in the middle of the day.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, becoming less likely in the evening. The chance of a thunderstorm in the late morning and afternoon. Damaging winds possible. Winds westerly 25 to 40 km/h decreasing to 15 to 25 km/h in the late afternoon then tending southwesterly 15 to 20 km/h in the late evening.",
+        "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Showers. Windy.",
+        "precis": "Rain. Windy.",
         "temp_max": 15,
         "temp_min": 11
       },
@@ -69,12 +69,12 @@
     },
     "2026-09-06": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers. Light winds becoming westerly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
+        "forecast": "Cloudy. Medium chance of showers, most likely at night. Light winds becoming westerly 15 to 20 km/h in the morning then becoming light in the late afternoon.",
         "icon_code": 11,
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
-        "temp_max": 16,
-        "temp_min": 8
+        "temp_max": 15,
+        "temp_min": 9
       },
       "2": {
         "forecast": "Cloudy. Medium chance of showers. Winds southwesterly 15 to 20 km/h tending westerly during the day then becoming light during the afternoon.",
@@ -119,7 +119,7 @@
     },
     "2026-09-07": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers in the morning. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "forecast": "Cloudy. Medium chance of showers in the morning. Light winds becoming southerly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible morning shower.",
@@ -169,10 +169,10 @@
     },
     "2026-09-08": {
       "3": {
-        "forecast": "Cloudy. The chance of morning frost. The chance of morning fog. Slight chance of a shower in the evening. Light winds becoming west to southwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
-        "icon_code": 4,
-        "precipitation_prob": "20%",
-        "precis": "Cloudy.",
+        "forecast": "Partly cloudy. The chance of morning frost. The chance of morning fog. Slight chance of a shower, most likely in the evening. Light winds becoming southwesterly 15 to 20 km/h during the day then becoming light during the afternoon.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
         "temp_max": 15,
         "temp_min": 2
       },
@@ -203,7 +203,7 @@
     },
     "2026-09-09": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -229,10 +229,10 @@
     },
     "2026-09-10": {
       "5": {
-        "forecast": "Cloud clearing. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Cloud clearing.",
+        "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 3
       },
@@ -247,10 +247,10 @@
     },
     "2026-09-11": {
       "6": {
-        "forecast": "Sunny. The chance of morning frost. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 19,
         "temp_min": 3
       }
