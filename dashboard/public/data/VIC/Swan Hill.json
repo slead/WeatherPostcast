@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-09-08": {
       "0": {
-        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -61,7 +61,7 @@
     },
     "2026-09-09": {
       "1": {
-        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h becoming light in the late evening.",
+        "forecast": "Partly cloudy. Light winds becoming southerly 20 to 30 km/h in the morning then becoming light in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -158,7 +158,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 20,
-        "temp_min": 5
+        "temp_min": 4
       },
       "4": {
         "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
@@ -187,12 +187,12 @@
     },
     "2026-09-12": {
       "4": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 23,
-        "temp_min": 6
+        "temp_min": 7
       },
       "5": {
         "forecast": "Sunny. Light winds.",
@@ -221,12 +221,12 @@
     },
     "2026-09-13": {
       "5": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower later in the day. Light winds becoming northerly 15 to 20 km/h during the morning.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Mostly sunny.",
-        "temp_max": 26,
-        "temp_min": 10
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 25,
+        "temp_min": 11
       },
       "6": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds becoming north to northwesterly 15 to 20 km/h during the morning.",
@@ -251,8 +251,8 @@
         "icon_code": 1,
         "precipitation_prob": "30%",
         "precis": "Sunny.",
-        "temp_max": 27,
-        "temp_min": 11
+        "temp_max": 26,
+        "temp_min": 12
       }
     }
   },
