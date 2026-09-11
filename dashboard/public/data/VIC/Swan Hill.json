@@ -1,65 +1,15 @@
 {
   "city_name": "Swan Hill",
   "forecasts": {
-    "2026-09-11": {
+    "2026-09-12": {
       "0": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": 3
-      },
-      "1": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": 4
-      },
-      "2": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": 3
-      },
-      "3": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": 4
-      },
-      "4": {
-        "forecast": "The chance of morning fog. Sunny afternoon. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 20,
+        "temp_max": 24,
         "temp_min": 5
       },
-      "5": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 20,
-        "temp_min": 4
-      },
-      "6": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "0%",
-        "precis": "Sunny.",
-        "temp_max": 21,
-        "temp_min": 4
-      }
-    },
-    "2026-09-12": {
       "1": {
         "forecast": "Sunny. Light winds.",
         "icon_code": 1,
@@ -118,6 +68,14 @@
       }
     },
     "2026-09-13": {
+      "1": {
+        "forecast": "Mostly sunny morning. Very high chance of showers in the late afternoon and evening. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 20 km/h tending northerly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "icon_code": 11,
+        "precipitation_prob": "90%",
+        "precis": "Late showers.",
+        "temp_max": 27,
+        "temp_min": 11
+      },
       "2": {
         "forecast": "Mostly sunny morning. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northerly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 11,
@@ -168,6 +126,14 @@
       }
     },
     "2026-09-14": {
+      "2": {
+        "forecast": "Cloudy. Slight chance of a shower. Light winds becoming west to southwesterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
+        "icon_code": 4,
+        "precipitation_prob": "20%",
+        "precis": "Cloudy.",
+        "temp_max": 19,
+        "temp_min": 10
+      },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming west to southwesterly 15 to 20 km/h during the morning then becoming light during the afternoon.",
         "icon_code": 3,
@@ -202,6 +168,14 @@
       }
     },
     "2026-09-15": {
+      "3": {
+        "forecast": "Partly cloudy. Winds southwesterly 20 to 30 km/h tending southerly 15 to 20 km/h during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 8
+      },
       "4": {
         "forecast": "Becoming cloudy. Slight chance of a shower. Winds southwesterly 20 to 30 km/h tending southerly 15 to 20 km/h later.",
         "icon_code": 3,
@@ -228,6 +202,14 @@
       }
     },
     "2026-09-16": {
+      "4": {
+        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 16,
+        "temp_min": 3
+      },
       "5": {
         "forecast": "Partly cloudy. Light winds becoming southerly 15 to 25 km/h during the morning.",
         "icon_code": 3,
@@ -246,12 +228,30 @@
       }
     },
     "2026-09-17": {
+      "5": {
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 18,
+        "temp_min": 3
+      },
       "6": {
         "forecast": "Sunny. The chance of morning frost. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 19,
+        "temp_min": 3
+      }
+    },
+    "2026-09-18": {
+      "6": {
+        "forecast": "Sunny. The chance of morning frost. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 23,
         "temp_min": 3
       }
     }
