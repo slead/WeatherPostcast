@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-12": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 18,
         "temp_min": 3
       },
@@ -127,9 +127,9 @@
     },
     "2026-09-14": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds north to northwesterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds northerly 20 to 30 km/h tending northwesterly in the middle of the day then becoming light in the evening.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 19,
         "temp_min": 7
@@ -169,7 +169,7 @@
     },
     "2026-09-15": {
       "3": {
-        "forecast": "Mostly sunny morning. Slight chance of a shower in the afternoon and evening. Winds westerly 15 to 20 km/h turning southwesterly 20 to 30 km/h during the afternoon.",
+        "forecast": "Mostly sunny morning. Slight chance of a shower in the afternoon and evening. Light winds becoming southwesterly 20 to 30 km/h during the morning.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -203,7 +203,7 @@
     },
     "2026-09-16": {
       "4": {
-        "forecast": "Sunny. Morning frost. Winds southwesterly 20 to 25 km/h turning south to southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Sunny. Patchy morning frost. Winds southwesterly 20 to 25 km/h tending southerly 15 to 25 km/h during the morning then becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Morning frost. Sunny.",
@@ -229,7 +229,7 @@
     },
     "2026-09-17": {
       "5": {
-        "forecast": "Sunny. Morning frost. Winds southeasterly 15 to 20 km/h tending southerly during the day.",
+        "forecast": "Sunny. Morning frost. Winds southeasterly 15 to 20 km/h becoming light during the morning then becoming southeasterly 15 to 20 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Morning frost. Sunny.",
@@ -255,12 +255,22 @@
     },
     "2026-09-18": {
       "6": {
-        "forecast": "Sunny. The chance of morning frost. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Patchy morning frost. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Morning frost. Sunny.",
+        "temp_max": 17,
+        "temp_min": 1
+      }
+    },
+    "2026-09-19": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming southwesterly 15 to 20 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 17,
-        "temp_min": 1
+        "temp_max": 21,
+        "temp_min": 3
       }
     }
   },

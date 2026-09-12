@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-09-12": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the late morning and afternoon. Winds easterly 15 to 20 km/h becoming light in the late afternoon.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 4
@@ -69,10 +69,10 @@
     },
     "2026-09-13": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Sunny day. Light winds.",
-        "icon_code": 1,
+        "forecast": "Patchy fog in the early morning. Mostly sunny day. Light winds.",
+        "icon_code": 10,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Early fog then mostly sunny.",
         "temp_max": 21,
         "temp_min": 2
       },
@@ -127,10 +127,10 @@
     },
     "2026-09-14": {
       "2": {
-        "forecast": "The chance of fog and frost in the morning. Sunny day. Light winds.",
-        "icon_code": 1,
+        "forecast": "The chance of fog and frost in the early morning. Mostly sunny day. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 22,
         "temp_min": 2
       },
@@ -169,10 +169,10 @@
     },
     "2026-09-15": {
       "3": {
-        "forecast": "Partly cloudy. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h during the morning then becoming light during the evening.",
+        "forecast": "Mostly sunny. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
         "temp_max": 24,
         "temp_min": 5
       },
@@ -203,11 +203,11 @@
     },
     "2026-09-16": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming south to southeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming southerly 15 to 25 km/h during the morning then tending southeasterly during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 15,
+        "temp_max": 16,
         "temp_min": 3
       },
       "5": {
@@ -255,11 +255,21 @@
     },
     "2026-09-18": {
       "6": {
-        "forecast": "Mostly sunny. Patchy morning frost. Light winds becoming south to southeasterly 15 to 20 km/h during the morning.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Morning frost. Mostly sunny.",
+        "forecast": "Sunny. Patchy morning frost. Light winds becoming southeasterly 15 to 20 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Morning frost. Sunny.",
         "temp_max": 21,
+        "temp_min": 1
+      }
+    },
+    "2026-09-19": {
+      "7": {
+        "forecast": "Sunny. Patchy morning frost. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Morning frost. Sunny.",
+        "temp_max": 25,
         "temp_min": 1
       }
     }
