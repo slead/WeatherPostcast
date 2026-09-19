@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-19": {
       "0": {
-        "forecast": "Sunny. Winds westerly 35 to 50 km/h.",
+        "forecast": "Clear. Winds westerly 30 to 45 km/h.",
         "icon_code": 9,
-        "precipitation_prob": "5%",
-        "precis": "Windy. Sunny.",
+        "precipitation_prob": "0%",
+        "precis": "Windy. Clear.",
         "temp_max": 10,
         "temp_min": 0
       },
@@ -69,7 +69,7 @@
     },
     "2026-09-20": {
       "1": {
-        "forecast": "Sunny. Winds westerly 30 to 45 km/h turning northwesterly 40 to 60 km/h early in the morning then increasing to 60 to 80 km/h in the evening.",
+        "forecast": "Sunny. Winds westerly 30 to 45 km/h turning northwesterly 40 to 60 km/h early in the morning then increasing to 60 to 85 km/h in the late afternoon.",
         "icon_code": 9,
         "precipitation_prob": "5%",
         "precis": "Very windy. Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-09-21": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers or snow. Winds westerly 55 to 75 km/h shifting east to southeasterly 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers or snow, most likely in the late morning and afternoon. Winds west to northwesterly 55 to 75 km/h decreasing to 25 to 35 km/h in the morning then shifting east to southeasterly 15 to 20 km/h in the evening.",
         "icon_code": 9,
         "precipitation_prob": "40%",
         "precis": "Showers or snow. Wind easing.",
@@ -169,12 +169,12 @@
     },
     "2026-09-22": {
       "3": {
-        "forecast": "Partly cloudy. Winds east to northeasterly 15 to 20 km/h turning north to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Partly cloudy. Winds east to northeasterly 15 to 20 km/h shifting northwesterly 15 to 25 km/h during the afternoon.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
-        "temp_max": 7,
-        "temp_min": -5
+        "temp_max": 8,
+        "temp_min": -4
       },
       "4": {
         "forecast": "Partly cloudy. Winds east to northeasterly 15 to 20 km/h turning northerly 15 to 25 km/h later.",
@@ -203,12 +203,12 @@
     },
     "2026-09-23": {
       "4": {
-        "forecast": "Mostly sunny. Winds northwesterly 15 to 25 km/h.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds northwesterly 15 to 25 km/h tending westerly 15 to 20 km/h during the day then turning north to northwesterly during the afternoon.",
+        "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "precis": "Sunny.",
         "temp_max": 12,
-        "temp_min": -2
+        "temp_min": -1
       },
       "5": {
         "forecast": "Mostly sunny. Winds northwesterly 15 to 25 km/h.",
@@ -234,7 +234,7 @@
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 13,
-        "temp_min": 2
+        "temp_min": 3
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds northwesterly 20 to 30 km/h.",
@@ -256,11 +256,21 @@
     "2026-09-25": {
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds west to northwesterly 25 to 40 km/h.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
+        "icon_code": 9,
+        "precipitation_prob": "20%",
+        "precis": "Wind easing. Partly cloudy.",
         "temp_max": 14,
         "temp_min": 5
+      }
+    },
+    "2026-09-26": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds west to northwesterly 25 to 40 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Wind easing.",
+        "temp_max": 14,
+        "temp_min": 6
       }
     }
   },

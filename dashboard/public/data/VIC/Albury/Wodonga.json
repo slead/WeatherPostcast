@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-19": {
       "0": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 23,
         "temp_min": 5
       },
@@ -69,11 +69,11 @@
     },
     "2026-09-20": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Sunny day. Light winds becoming northerly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Sunny. Light winds becoming northerly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
-        "temp_max": 27,
+        "temp_max": 26,
         "temp_min": 7
       },
       "2": {
@@ -119,7 +119,7 @@
     },
     "2026-09-21": {
       "2": {
-        "forecast": "Mostly sunny. Winds west to southwesterly 15 to 20 km/h shifting southeasterly during the evening.",
+        "forecast": "Mostly sunny. Light winds becoming southwesterly 15 to 20 km/h in the morning then turning south to southeasterly in the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
@@ -221,10 +221,10 @@
     },
     "2026-09-24": {
       "5": {
-        "forecast": "Sunny. Light winds.",
-        "icon_code": 1,
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "precis": "Mostly sunny.",
         "temp_max": 26,
         "temp_min": 9
       },
@@ -239,12 +239,22 @@
     },
     "2026-09-25": {
       "6": {
-        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 27,
-        "temp_min": 12
+        "temp_min": 13
+      }
+    },
+    "2026-09-26": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Mostly sunny.",
+        "temp_max": 26,
+        "temp_min": 13
       }
     }
   },
