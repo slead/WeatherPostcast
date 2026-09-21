@@ -1,65 +1,15 @@
 {
   "city_name": "Smithton",
   "forecasts": {
-    "2026-09-21": {
-      "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the afternoon. Possible small hail in the late morning and afternoon. Winds southwesterly 25 to 35 km/h decreasing to 15 to 25 km/h in the evening then becoming light in the late evening.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 13,
-        "temp_min": 6
-      },
-      "1": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Possible small hail in the morning and afternoon. Winds southwesterly 25 to 35 km/h decreasing to 15 to 25 km/h in the late afternoon then becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 13,
-        "temp_min": 6
-      },
-      "2": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Possible small hail in the morning and afternoon. Winds southwesterly 25 to 35 km/h decreasing to 15 to 25 km/h in the late afternoon then becoming light in the evening.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
-        "temp_max": 13,
-        "temp_min": 6
-      },
-      "3": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 25 to 40 km/h decreasing to 20 to 30 km/h during the afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 13,
-        "temp_min": 7
-      },
-      "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds southwesterly 25 to 40 km/h decreasing to 20 to 30 km/h during the afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
-        "temp_max": 13,
-        "temp_min": 7
-      },
-      "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds southwesterly 25 to 35 km/h.",
-        "icon_code": 3,
-        "precipitation_prob": "30%",
-        "precis": "Partly cloudy.",
-        "temp_max": 13,
-        "temp_min": 6
-      },
-      "6": {
-        "forecast": "Cloudy. Medium chance of showers, most likely during the morning. Winds southwesterly 25 to 35 km/h.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 14,
-        "temp_min": 8
-      }
-    },
     "2026-09-22": {
+      "0": {
+        "forecast": "Partly cloudy. Light winds becoming westerly 15 to 25 km/h in the morning then becoming light in the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 15,
+        "temp_min": 4
+      },
       "1": {
         "forecast": "Partly cloudy. Light winds becoming west to northwesterly 15 to 25 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
@@ -110,6 +60,14 @@
       }
     },
     "2026-09-23": {
+      "1": {
+        "forecast": "Mostly sunny. The chance of frost in the early morning. Light winds becoming north to northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Mostly sunny.",
+        "temp_max": 16,
+        "temp_min": 2
+      },
       "2": {
         "forecast": "Mostly sunny. The chance of morning frost. Light winds becoming north to northwesterly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 3,
@@ -152,6 +110,14 @@
       }
     },
     "2026-09-24": {
+      "2": {
+        "forecast": "Cloudy. Medium chance of showers in the evening. Winds easterly 20 to 30 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible late shower.",
+        "temp_max": 16,
+        "temp_min": 5
+      },
       "3": {
         "forecast": "Cloudy. Medium chance of showers in the afternoon and evening. Winds easterly 20 to 30 km/h.",
         "icon_code": 11,
@@ -194,6 +160,14 @@
       }
     },
     "2026-09-25": {
+      "3": {
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning. Winds east to northeasterly 15 to 20 km/h shifting west to southwesterly 15 to 25 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 20,
+        "temp_min": 10
+      },
       "4": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds easterly 15 to 20 km/h tending northwest to southwesterly 15 to 25 km/h during the day.",
         "icon_code": 11,
@@ -220,6 +194,14 @@
       }
     },
     "2026-09-26": {
+      "4": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds south to southwesterly 20 to 30 km/h turning southeasterly 20 to 25 km/h later.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 16,
+        "temp_min": 9
+      },
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers. Winds southeast to southwesterly 15 to 25 km/h becoming southeasterly 20 to 25 km/h during the day.",
         "icon_code": 11,
@@ -246,12 +228,30 @@
       }
     },
     "2026-09-27": {
+      "5": {
+        "forecast": "Cloudy. Medium chance of showers. Winds easterly 20 to 30 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 13,
+        "temp_min": 6
+      },
       "6": {
         "forecast": "Cloudy. Medium chance of showers. Winds southeasterly 20 to 25 km/h tending easterly 25 to 35 km/h during the morning.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 15,
+        "temp_min": 7
+      }
+    },
+    "2026-09-28": {
+      "6": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds easterly 25 to 35 km/h.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 17,
         "temp_min": 7
       }
     }
