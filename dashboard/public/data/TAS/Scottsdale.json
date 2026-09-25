@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-25": {
       "0": {
-        "forecast": "Cloudy. Medium chance of rain, most likely this morning. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.",
-        "icon_code": 12,
-        "precipitation_prob": "60%",
-        "precis": "Rain at times.",
+        "forecast": "Partly cloudy. Winds northwesterly 15 to 20 km/h becoming light in the late afternoon.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 10
       },
@@ -62,11 +62,11 @@
     "2026-09-26": {
       "1": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the late morning and afternoon. Light winds becoming southwesterly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
-        "temp_max": 16,
-        "temp_min": 6
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 15,
+        "temp_min": 7
       },
       "2": {
         "forecast": "Cloudy. High chance of showers, most likely in the afternoon and evening. Light winds.",
@@ -121,10 +121,10 @@
       "2": {
         "forecast": "Sunny. Patchy morning frost. Light winds.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Morning frost. Sunny.",
         "temp_max": 14,
-        "temp_min": 1
+        "temp_min": 0
       },
       "3": {
         "forecast": "Partly cloudy. Slight chance of a shower in the morning. Light winds.",
@@ -161,10 +161,10 @@
     },
     "2026-09-28": {
       "3": {
-        "forecast": "Patchy frost and the chance of fog in the morning. Sunny day. Light winds.",
+        "forecast": "The chance of fog and frost in the morning. Sunny day. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "5%",
-        "precis": "Early frost. Sunny.",
+        "precis": "Sunny.",
         "temp_max": 16,
         "temp_min": 1
       },
@@ -195,12 +195,12 @@
     },
     "2026-09-29": {
       "4": {
-        "forecast": "Partly cloudy. The chance of morning frost. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Partly cloudy. The chance of morning fog. Slight chance of a shower. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 18,
-        "temp_min": 3
+        "temp_min": 2
       },
       "5": {
         "forecast": "The chance of morning frost. Mostly sunny day. Slight chance of a shower later in the day. Light winds.",
@@ -221,11 +221,11 @@
     },
     "2026-09-30": {
       "5": {
-        "forecast": "Cloudy. High chance of showers. Light winds.",
+        "forecast": "Cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
-        "precis": "Showers.",
-        "temp_max": 18,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 19,
         "temp_min": 7
       },
       "6": {
@@ -239,11 +239,21 @@
     },
     "2026-10-01": {
       "6": {
-        "forecast": "Cloudy. High chance of showers. Light winds.",
+        "forecast": "Cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
-        "temp_max": 19,
+        "temp_max": 18,
+        "temp_min": 10
+      }
+    },
+    "2026-10-02": {
+      "7": {
+        "forecast": "Cloudy. High chance of showers. Light winds becoming northwesterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "70%",
+        "precis": "Shower or two.",
+        "temp_max": 17,
         "temp_min": 9
       }
     }
