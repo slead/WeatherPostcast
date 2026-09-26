@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-26": {
       "0": {
-        "forecast": "Mostly sunny. Winds northeasterly 15 to 20 km/h tending easterly in the middle of the day then becoming light in the evening.",
-        "icon_code": 3,
+        "forecast": "Clear. Winds easterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 29,
         "temp_min": 11
       },
@@ -69,7 +69,7 @@
     },
     "2026-09-27": {
       "1": {
-        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "Sunny. Light winds becoming southeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -119,12 +119,12 @@
     },
     "2026-09-28": {
       "2": {
-        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 20 km/h becoming light during the morning then becoming easterly 15 to 20 km/h during the evening.",
-        "icon_code": 1,
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon. Winds north to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late evening.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Sunny.",
-        "temp_max": 31,
-        "temp_min": 13
+        "precis": "Partly cloudy.",
+        "temp_max": 32,
+        "temp_min": 12
       },
       "3": {
         "forecast": "Sunny morning. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light during the day then becoming easterly 15 to 20 km/h during the evening.",
@@ -173,8 +173,8 @@
         "icon_code": 4,
         "precipitation_prob": "20%",
         "precis": "Cloudy.",
-        "temp_max": 26,
-        "temp_min": 13
+        "temp_max": 27,
+        "temp_min": 14
       },
       "4": {
         "forecast": "Cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon. Winds east to northeasterly 15 to 25 km/h becoming light during the evening.",
@@ -211,12 +211,12 @@
     },
     "2026-09-30": {
       "4": {
-        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h tending easterly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h becoming light during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 28,
-        "temp_min": 10
+        "temp_max": 29,
+        "temp_min": 11
       },
       "5": {
         "forecast": "Sunny. Winds northeasterly 15 to 20 km/h tending easterly during the day.",
@@ -237,7 +237,7 @@
     },
     "2026-10-01": {
       "5": {
-        "forecast": "Sunny. Winds northeasterly 15 to 25 km/h.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h increasing to 15 to 25 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -265,7 +265,7 @@
       "6": {
         "forecast": "Sunny. Winds north to northeasterly 15 to 20 km/h increasing to 15 to 25 km/h during the morning.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 32,
         "temp_min": 11
@@ -277,6 +277,16 @@
         "precis": "Sunny.",
         "temp_max": 33,
         "temp_min": 11
+      }
+    },
+    "2026-10-03": {
+      "7": {
+        "forecast": "Sunny. Winds northerly 15 to 20 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "10%",
+        "precis": "Sunny.",
+        "temp_max": 33,
+        "temp_min": 13
       }
     }
   },

@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-09-26": {
       "0": {
-        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 25 km/h in the morning then becoming light in the evening.",
-        "icon_code": 1,
-        "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "forecast": "Clear. Winds easterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 35,
         "temp_min": 18
       },
@@ -69,7 +69,7 @@
     },
     "2026-09-27": {
       "1": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 25 km/h in the morning then becoming light in the late evening.",
+        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 25 km/h in the morning then becoming light in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-09-28": {
       "2": {
-        "forecast": "Sunny. Light winds becoming easterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "forecast": "Sunny. Light winds becoming east to northeasterly 15 to 25 km/h in the morning then becoming light in the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -177,12 +177,12 @@
     },
     "2026-09-29": {
       "3": {
-        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
-        "icon_code": 3,
+        "forecast": "Sunny. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
+        "icon_code": 1,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
-        "temp_max": 37,
-        "temp_min": 20
+        "precis": "Sunny.",
+        "temp_max": 38,
+        "temp_min": 19
       },
       "4": {
         "forecast": "Sunny. Light winds becoming northeasterly 15 to 25 km/h during the morning then becoming light during the evening.",
@@ -219,11 +219,11 @@
     },
     "2026-09-30": {
       "4": {
-        "forecast": "Mostly sunny. Light winds becoming north to northeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Light winds becoming northerly 25 to 35 km/h during the morning then tending northeasterly 15 to 20 km/h during the evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
-        "temp_max": 37,
+        "precis": "Partly cloudy.",
+        "temp_max": 38,
         "temp_min": 21
       },
       "5": {
@@ -245,9 +245,9 @@
     },
     "2026-10-01": {
       "5": {
-        "forecast": "Sunny. Winds north to northeasterly 15 to 25 km/h increasing to 25 to 40 km/h during the morning.",
+        "forecast": "Sunny. Winds north to northeasterly 25 to 40 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 38,
         "temp_min": 22
@@ -271,12 +271,12 @@
     },
     "2026-10-02": {
       "6": {
-        "forecast": "Sunny. Winds north to northeasterly 15 to 25 km/h increasing to 30 km/h before turning west to northwesterly 20 to 25 km/h during the day.",
+        "forecast": "Sunny. Winds northeasterly 15 to 20 km/h turning north to northwesterly 15 to 25 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
         "temp_max": 37,
-        "temp_min": 22
+        "temp_min": 21
       },
       "7": {
         "forecast": "Sunny. Winds northwest to northeasterly 20 to 30 km/h tending easterly 20 to 25 km/h later.",
@@ -285,6 +285,16 @@
         "precis": "Sunny.",
         "temp_max": 37,
         "temp_min": 23
+      }
+    },
+    "2026-10-03": {
+      "7": {
+        "forecast": "Partly cloudy. Winds southeasterly 20 to 30 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 34,
+        "temp_min": 19
       }
     }
   },

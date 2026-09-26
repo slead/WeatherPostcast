@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-09-26": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely this evening. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later this evening. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 26,
         "temp_min": 16
@@ -69,7 +69,7 @@
     },
     "2026-09-27": {
       "1": {
-        "forecast": "Medium chance of showers, most likely in the early morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -119,11 +119,11 @@
     },
     "2026-09-28": {
       "2": {
-        "forecast": "Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Medium chance of showers, most likely in the morning. Sunny afternoon. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 27,
+        "precis": "Shower or two then sunny.",
+        "temp_max": 26,
         "temp_min": 17
       },
       "3": {
@@ -171,7 +171,7 @@
       "3": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 26,
         "temp_min": 17
@@ -211,7 +211,7 @@
     },
     "2026-09-30": {
       "4": {
-        "forecast": "Medium chance of showers, most likely during the morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Medium chance of showers, most likely in the morning. Mostly sunny afternoon. Winds southeasterly 20 to 30 km/h.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -237,7 +237,7 @@
     },
     "2026-10-01": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds southeasterly 20 to 30 km/h.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds east to southeasterly 15 to 25 km/h.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -265,9 +265,9 @@
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds east to southeasterly 15 to 25 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
-        "temp_max": 26,
+        "temp_max": 27,
         "temp_min": 17
       },
       "7": {
@@ -277,6 +277,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 16
+      }
+    },
+    "2026-10-03": {
+      "7": {
+        "forecast": "Slight chance of a shower during the morning. Mostly sunny afternoon. Light winds becoming east to southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 15
       }
     }
   },
