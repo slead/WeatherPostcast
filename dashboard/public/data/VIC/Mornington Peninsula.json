@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-10-01": {
       "0": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm late this afternoon and evening. Winds west to northwesterly 15 to 25 km/h turning south to southwesterly in the middle of the day then becoming light in the evening.",
+        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm early this evening. Winds south to southwesterly 15 to 25 km/h tending south to southeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening.",
         "icon_code": 12,
         "precipitation_prob": "100%",
         "precis": "Rain.",
@@ -61,12 +61,12 @@
     },
     "2026-10-02": {
       "1": {
-        "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the late afternoon and evening. Winds southeasterly 20 to 30 km/h increasing to 25 to 35 km/h in the evening.",
-        "icon_code": 12,
-        "precipitation_prob": "95%",
-        "precis": "Rain.",
+        "forecast": "Partly cloudy. High chance of showers, most likely at night. The chance of a thunderstorm in the late afternoon and evening. Winds southeasterly 25 to 40 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
         "temp_max": 17,
-        "temp_min": 9
+        "temp_min": 10
       },
       "2": {
         "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the evening. Winds southeasterly 20 to 30 km/h increasing to 25 to 35 km/h during the evening.",
@@ -111,12 +111,12 @@
     },
     "2026-10-03": {
       "2": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm in the morning and afternoon. Winds southeasterly 25 to 35 km/h tending easterly 20 to 30 km/h during the morning then turning southerly during the day.",
-        "icon_code": 11,
-        "precipitation_prob": "90%",
-        "precis": "Showers.",
-        "temp_max": 18,
-        "temp_min": 10
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. The chance of a thunderstorm in the morning. Winds southeasterly 30 to 45 km/h turning southerly 25 to 35 km/h in the evening.",
+        "icon_code": 12,
+        "precipitation_prob": "95%",
+        "precis": "Rain.",
+        "temp_max": 16,
+        "temp_min": 11
       },
       "3": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Winds south to southeasterly 25 to 35 km/h tending south to southwesterly 15 to 25 km/h during the evening.",
@@ -153,9 +153,9 @@
     },
     "2026-10-04": {
       "3": {
-        "forecast": "Slight chance of a shower in the morning. Mostly sunny afternoon. Winds southerly 15 to 25 km/h turning southwesterly during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the morning. Winds southerly 20 to 30 km/h tending southwesterly 15 to 25 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 17,
         "temp_min": 9
@@ -187,11 +187,11 @@
     },
     "2026-10-05": {
       "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower later in the day. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 18,
+        "temp_max": 17,
         "temp_min": 6
       },
       "5": {
@@ -213,9 +213,9 @@
     },
     "2026-10-06": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers. Winds north to northwesterly 15 to 25 km/h shifting southwesterly 25 to 40 km/h during the day.",
+        "forecast": "Cloudy. Very high chance of showers, most likely during the morning. Winds north to northwesterly 15 to 25 km/h shifting southwesterly 25 to 40 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers.",
         "temp_max": 17,
         "temp_min": 9
@@ -239,12 +239,22 @@
     },
     "2026-10-07": {
       "6": {
-        "forecast": "Partly cloudy. Winds southerly 20 to 30 km/h turning southeasterly 15 to 20 km/h later.",
-        "icon_code": 3,
+        "forecast": "Cloudy. Slight chance of a shower, most likely during the morning. Winds southerly 20 to 30 km/h turning southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 4,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 17,
+        "precis": "Cloudy.",
+        "temp_max": 15,
         "temp_min": 7
+      }
+    },
+    "2026-10-08": {
+      "7": {
+        "forecast": "Sunny. Winds east to southeasterly 15 to 20 km/h tending east to northeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 19,
+        "temp_min": 5
       }
     }
   },
