@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-10-07": {
       "0": {
-        "forecast": "Cloud clearing. Winds southerly 40 to 50 km/h tending southeasterly 25 to 40 km/h in the morning then becoming light in the middle of the day.",
-        "icon_code": 9,
-        "precipitation_prob": "5%",
-        "precis": "Wind easing. Cloud clearing.",
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 11,
         "temp_min": -3
       },
@@ -65,7 +65,7 @@
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 12,
+        "temp_max": 13,
         "temp_min": 2
       },
       "2": {
@@ -119,11 +119,11 @@
     },
     "2026-10-09": {
       "2": {
-        "forecast": "Sunny. Winds north to northwesterly 25 to 40 km/h.",
+        "forecast": "Sunny. Winds north to northwesterly 25 to 35 km/h increasing to 30 to 40 km/h in the late evening.",
         "icon_code": 9,
         "precipitation_prob": "10%",
         "precis": "Becoming windy. Sunny.",
-        "temp_max": 13,
+        "temp_max": 14,
         "temp_min": 4
       },
       "3": {
@@ -161,12 +161,12 @@
     },
     "2026-10-10": {
       "3": {
-        "forecast": "Cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 35 to 45 km/h tending northwesterly 30 to 45 km/h during the morning then decreasing to 20 to 30 km/h during the afternoon.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 40 to 50 km/h tending northwesterly 30 to 45 km/h during the morning then decreasing to 20 to 30 km/h during the day.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers. Wind easing.",
-        "temp_max": 10,
-        "temp_min": 5
+        "temp_max": 9,
+        "temp_min": 6
       },
       "4": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds northerly 35 to 45 km/h tending northwesterly during the morning then decreasing to 25 to 35 km/h during the day.",
@@ -195,12 +195,12 @@
     },
     "2026-10-11": {
       "4": {
-        "forecast": "Partly cloudy. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Mostly sunny. Winds northwesterly 25 to 35 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
-        "temp_max": 12,
-        "temp_min": 4
+        "precis": "Mostly sunny.",
+        "temp_max": 11,
+        "temp_min": 3
       },
       "5": {
         "forecast": "Cloudy. Medium chance of showers. Winds northwesterly 20 to 30 km/h.",
@@ -229,11 +229,11 @@
     },
     "2026-10-12": {
       "5": {
-        "forecast": "Partly cloudy. Very high chance of showers. Winds northwesterly 30 to 45 km/h.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely later in the day. Winds northwesterly 30 to 40 km/h increasing to 35 to 45 km/h during the day.",
         "icon_code": 11,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers increasing. Windy.",
-        "temp_max": 12,
+        "temp_max": 14,
         "temp_min": 5
       },
       "6": {
@@ -255,12 +255,12 @@
     },
     "2026-10-13": {
       "6": {
-        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 30 to 45 km/h turning southwesterly 20 to 30 km/h later.",
+        "forecast": "Cloudy. Very high chance of showers or snow. Winds northwesterly 30 to 45 km/h tending northerly 20 to 25 km/h later.",
         "icon_code": 15,
-        "precipitation_prob": "90%",
-        "precis": "Showers or snow.",
-        "temp_max": 4,
-        "temp_min": 3
+        "precipitation_prob": "95%",
+        "precis": "Showers or snow. Wind easing.",
+        "temp_max": 7,
+        "temp_min": 5
       },
       "7": {
         "forecast": "Cloudy. High chance of showers or snow. Winds northwesterly 30 to 35 km/h turning west to southwesterly 25 to 30 km/h during the day.",
@@ -269,6 +269,16 @@
         "precis": "Showers or snow.",
         "temp_max": 5,
         "temp_min": 3
+      }
+    },
+    "2026-10-14": {
+      "7": {
+        "forecast": "Cloudy. High chance of snow showers. Winds north to northwesterly 20 to 30 km/h turning west to southwesterly during the day.",
+        "icon_code": 15,
+        "precipitation_prob": "80%",
+        "precis": "Snow showers.",
+        "temp_max": 4,
+        "temp_min": 0
       }
     }
   },
