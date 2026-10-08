@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-10-08": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning and afternoon. The chance of a thunderstorm this afternoon. Winds northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the late evening.",
+        "forecast": "Mostly clear. Slight chance of a shower. The chance of a thunderstorm early this evening. Light winds becoming northeasterly 15 to 20 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly clear.",
         "temp_max": 29,
         "temp_min": 15
       },
@@ -69,7 +69,7 @@
     },
     "2026-10-09": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm in the afternoon. Winds northeasterly 20 to 25 km/h tending northerly 25 to 35 km/h before dawn.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 20 to 25 km/h tending northerly 20 to 30 km/h before dawn.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -127,11 +127,11 @@
     },
     "2026-10-10": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely in the afternoon and evening. Winds northerly 15 to 25 km/h tending northwesterly during the afternoon then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely in the afternoon and evening. Winds northwest to northeasterly 20 to 30 km/h becoming northwesterly 20 to 25 km/h in the middle of the day then tending northerly 15 to 20 km/h in the early afternoon.",
         "icon_code": 16,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "80%",
         "precis": "Showers. Storm developing.",
-        "temp_max": 31,
+        "temp_max": 29,
         "temp_min": 17
       },
       "3": {
@@ -177,11 +177,11 @@
     },
     "2026-10-11": {
       "3": {
-        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northerly 15 to 25 km/h during the morning then becoming light during the day.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 16,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
-        "temp_max": 34,
+        "precipitation_prob": "30%",
+        "precis": "Possible storm.",
+        "temp_max": 33,
         "temp_min": 17
       },
       "4": {
@@ -219,12 +219,12 @@
     },
     "2026-10-12": {
       "4": {
-        "forecast": "Sunny morning. Medium chance of showers later in the day. The chance of a thunderstorm later in the day. Winds northerly 15 to 25 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible late shower.",
-        "temp_max": 36,
-        "temp_min": 19
+        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northerly 15 to 20 km/h increasing to 20 to 30 km/h during the morning then becoming light during the evening.",
+        "icon_code": 16,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Possible storm.",
+        "temp_max": 35,
+        "temp_min": 18
       },
       "5": {
         "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm later in the day. Winds north to northeasterly 15 to 25 km/h.",
@@ -253,12 +253,12 @@
     },
     "2026-10-13": {
       "5": {
-        "forecast": "Cloudy. Very high chance of showers. The chance of a thunderstorm. Winds northerly 15 to 25 km/h turning west to northwesterly 15 to 20 km/h during the day.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. Very high chance of showers, most likely later in the day. The chance of a thunderstorm. Winds north to northwesterly 15 to 20 km/h turning west to southwesterly during the day.",
+        "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 30,
-        "temp_min": 19
+        "temp_min": 18
       },
       "6": {
         "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm. Winds northerly 15 to 25 km/h tending northwesterly 15 to 20 km/h during the day.",
@@ -279,11 +279,11 @@
     },
     "2026-10-14": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. The chance of a thunderstorm. Light winds becoming southwesterly 15 to 25 km/h during the morning.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 26,
+        "forecast": "Partly cloudy. Slight chance of a shower, most likely during the morning. The chance of a thunderstorm. Light winds becoming southerly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
         "temp_min": 15
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 28,
         "temp_min": 17
+      }
+    },
+    "2026-10-15": {
+      "7": {
+        "forecast": "Mostly sunny day. Slight chance of a shower, most likely later in the day. Light winds becoming east to southeasterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
+        "temp_max": 26,
+        "temp_min": 10
       }
     }
   },
