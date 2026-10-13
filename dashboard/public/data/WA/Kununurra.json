@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-10-13": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
+        "forecast": "Sunny. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
         "temp_max": 41,
         "temp_min": null
       },
@@ -71,7 +71,7 @@
       "1": {
         "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "60%",
         "precis": "Shower or two. Possible storm.",
         "temp_max": 40,
         "temp_min": 25
@@ -127,10 +127,10 @@
     },
     "2026-10-15": {
       "2": {
-        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. The chance of a thunderstorm in the afternoon. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers in the morning and afternoon. A thunderstorm likely in the afternoon. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Showers. Possible afternoon storm.",
+        "precis": "Showers. Afternoon storm.",
         "temp_max": 36,
         "temp_min": 23
       },
@@ -219,10 +219,10 @@
     },
     "2026-10-17": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Light winds.",
-        "icon_code": 17,
+        "forecast": "Mostly sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "icon_code": 16,
         "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "precis": "Possible shower or storm.",
         "temp_max": 39,
         "temp_min": 24
       },
@@ -254,9 +254,9 @@
     "2026-10-18": {
       "5": {
         "forecast": "Partly cloudy. Medium chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds.",
-        "icon_code": 11,
+        "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 38,
         "temp_min": 24
       },
@@ -293,6 +293,16 @@
         "precis": "Possible shower developing.",
         "temp_max": 39,
         "temp_min": 23
+      }
+    },
+    "2026-10-20": {
+      "7": {
+        "forecast": "Sunny morning. Medium chance of showers later in the day. The chance of a thunderstorm later in the day. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower developing.",
+        "temp_max": 39,
+        "temp_min": 24
       }
     }
   },
