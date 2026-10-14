@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-10-14": {
       "0": {
-        "forecast": "Cloudy. Winds southeasterly 15 to 20 km/h becoming light in the evening.",
-        "icon_code": 4,
+        "forecast": "Partly cloudy. Winds southeasterly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Cloudy.",
+        "precis": "Partly cloudy.",
         "temp_max": 11,
         "temp_min": 4
       },
@@ -69,7 +69,7 @@
     },
     "2026-10-15": {
       "1": {
-        "forecast": "Partly cloudy. The chance of fog and frost in the early morning. Light winds.",
+        "forecast": "Partly cloudy. The chance of frost in the early morning. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -131,7 +131,7 @@
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 18,
+        "temp_max": 19,
         "temp_min": 8
       },
       "3": {
@@ -177,10 +177,10 @@
     },
     "2026-10-17": {
       "3": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Mostly sunny. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "10%",
-        "precis": "Partly cloudy.",
+        "precis": "Mostly sunny.",
         "temp_max": 20,
         "temp_min": 9
       },
@@ -253,7 +253,7 @@
     },
     "2026-10-19": {
       "5": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h during the day.",
+        "forecast": "Sunny. Light winds.",
         "icon_code": 1,
         "precipitation_prob": "10%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 22,
         "temp_min": 13
+      }
+    },
+    "2026-10-21": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming northerly 15 to 20 km/h during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 22,
+        "temp_min": 14
       }
     }
   },
