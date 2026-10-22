@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-10-22": {
       "0": {
-        "forecast": "Sunny. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
-        "icon_code": 1,
+        "forecast": "Mostly clear. Winds northerly 15 to 20 km/h becoming light in the evening.",
+        "icon_code": 3,
         "precipitation_prob": "5%",
-        "precis": "Sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 25,
         "temp_min": 11
       },
@@ -69,9 +69,9 @@
     },
     "2026-10-23": {
       "1": {
-        "forecast": "The chance of fog in the early morning. Mostly sunny day. Medium chance of showers in the evening. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
+        "forecast": "The chance of fog in the early morning. Mostly sunny day. High chance of showers in the evening. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 11,
-        "precipitation_prob": "50%",
+        "precipitation_prob": "70%",
         "precis": "Late shower or two.",
         "temp_max": 24,
         "temp_min": 13
@@ -119,10 +119,10 @@
     },
     "2026-10-24": {
       "2": {
-        "forecast": "Partly cloudy. Very high chance of showers. Light winds.",
-        "icon_code": 11,
+        "forecast": "Partly cloudy. Very high chance of rain, most likely in the evening. Light winds becoming northwesterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon.",
+        "icon_code": 12,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Rain increasing.",
         "temp_max": 21,
         "temp_min": 14
       },
@@ -161,12 +161,12 @@
     },
     "2026-10-25": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers. Light winds.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain. Light winds.",
+        "icon_code": 12,
         "precipitation_prob": "100%",
-        "precis": "Showers.",
-        "temp_max": 15,
-        "temp_min": 12
+        "precis": "Rain.",
+        "temp_max": 16,
+        "temp_min": 11
       },
       "4": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Light winds becoming north to northwesterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
@@ -203,12 +203,12 @@
     },
     "2026-10-26": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers. Light winds becoming westerly 15 to 25 km/h during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Light winds becoming westerly 15 to 25 km/h during the day then becoming light during the evening.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
+        "precipitation_prob": "50%",
         "precis": "Shower or two.",
-        "temp_max": 14,
-        "temp_min": 5
+        "temp_max": 15,
+        "temp_min": 6
       },
       "5": {
         "forecast": "Partly cloudy. High chance of showers. Light winds becoming west to southwesterly 15 to 25 km/h during the day.",
@@ -242,7 +242,7 @@
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 15,
-        "temp_min": 3
+        "temp_min": 2
       },
       "6": {
         "forecast": "Cloudy. Slight chance of a shower. Light winds becoming westerly 20 to 30 km/h during the morning.",
@@ -277,6 +277,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 18,
         "temp_min": 7
+      }
+    },
+    "2026-10-29": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to southwesterly 15 to 25 km/h.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 18,
+        "temp_min": 5
       }
     }
   },
