@@ -1,65 +1,15 @@
 {
   "city_name": "Echuca",
   "forecasts": {
-    "2026-10-23": {
+    "2026-10-24": {
       "0": {
-        "forecast": "Clear. Light winds.",
-        "icon_code": 2,
-        "precipitation_prob": "5%",
-        "precis": "Clear.",
-        "temp_max": 31,
-        "temp_min": 17
-      },
-      "1": {
-        "forecast": "Sunny morning. Slight chance of a shower in the afternoon. Winds northeasterly 15 to 25 km/h tending northerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 31,
-        "temp_min": 17
-      },
-      "2": {
-        "forecast": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h during the morning then becoming light during the day.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
-        "temp_max": 32,
-        "temp_min": 17
-      },
-      "3": {
-        "forecast": "Mostly sunny. Winds northeasterly 15 to 20 km/h tending northerly during the day then becoming light during the afternoon.",
-        "icon_code": 3,
-        "precipitation_prob": "10%",
-        "precis": "Mostly sunny.",
-        "temp_max": 31,
-        "temp_min": 17
-      },
-      "4": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds northeasterly 15 to 20 km/h tending northerly during the morning.",
-        "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 33,
-        "temp_min": 18
-      },
-      "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming north to northwesterly 15 to 25 km/h during the morning.",
+        "forecast": "Sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 11,
         "precipitation_prob": "50%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two developing.",
         "temp_max": 32,
-        "temp_min": 17
+        "temp_min": 18
       },
-      "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h turning west to northwesterly 15 to 25 km/h during the day.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
-        "temp_max": 31,
-        "temp_min": 16
-      }
-    },
-    "2026-10-24": {
       "1": {
         "forecast": "Sunny morning. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 3,
@@ -110,6 +60,14 @@
       }
     },
     "2026-10-25": {
+      "1": {
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. The chance of a thunderstorm in the morning. Light winds becoming west to northwesterly 15 to 25 km/h in the morning then turning southwesterly in the middle of the day.",
+        "icon_code": 12,
+        "precipitation_prob": "95%",
+        "precis": "Rain.",
+        "temp_max": 25,
+        "temp_min": 17
+      },
       "2": {
         "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm in the morning and afternoon. Light winds becoming northwest to southwesterly 15 to 20 km/h in the morning then tending south to southwesterly 15 to 25 km/h in the early afternoon.",
         "icon_code": 12,
@@ -152,6 +110,14 @@
       }
     },
     "2026-10-26": {
+      "2": {
+        "forecast": "Partly cloudy. Winds west to southwesterly 15 to 25 km/h becoming light during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Partly cloudy.",
+        "temp_max": 20,
+        "temp_min": 6
+      },
       "3": {
         "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h tending westerly 15 to 25 km/h during the afternoon then becoming light during the evening.",
         "icon_code": 3,
@@ -186,6 +152,14 @@
       }
     },
     "2026-10-27": {
+      "3": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming southwesterly 15 to 20 km/h during the day then becoming light during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 21,
+        "temp_min": 5
+      },
       "4": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely in the morning and afternoon. Light winds becoming southwesterly 15 to 20 km/h during the morning then becoming light during the evening.",
         "icon_code": 3,
@@ -212,6 +186,14 @@
       }
     },
     "2026-10-28": {
+      "4": {
+        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 23,
+        "temp_min": 5
+      },
       "5": {
         "forecast": "Partly cloudy. Light winds becoming west to southwesterly 15 to 20 km/h during the day.",
         "icon_code": 3,
@@ -230,6 +212,14 @@
       }
     },
     "2026-10-29": {
+      "5": {
+        "forecast": "Mostly sunny. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "10%",
+        "precis": "Mostly sunny.",
+        "temp_max": 24,
+        "temp_min": 8
+      },
       "6": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
@@ -248,6 +238,14 @@
       }
     },
     "2026-10-30": {
+      "6": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 9
+      },
       "7": {
         "forecast": "Partly cloudy. Slight chance of a shower, most likely later in the day. Light winds.",
         "icon_code": 3,
