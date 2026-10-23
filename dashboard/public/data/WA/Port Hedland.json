@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-10-23": {
       "0": {
-        "forecast": "Sunny. Winds westerly 15 to 20 km/h turning north to northwesterly 15 to 25 km/h in the morning then tending west to northwesterly 25 to 35 km/h in the middle of the day.",
+        "forecast": "Sunny. Winds northwesterly 25 to 35 km/h tending westerly 20 to 30 km/h in the evening.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 35,
         "temp_min": 21
@@ -61,12 +61,12 @@
     },
     "2026-10-24": {
       "1": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending south to southwesterly 15 to 20 km/h in the early morning then tending northwest to southwesterly 25 to 35 km/h in the middle of the day.",
+        "forecast": "Sunny. Winds westerly 15 to 25 km/h tending southwesterly 15 to 20 km/h in the early morning then tending northwest to southwesterly 25 to 35 km/h in the middle of the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 37,
-        "temp_min": 21
+        "temp_max": 36,
+        "temp_min": 22
       },
       "2": {
         "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending south to southwesterly 15 to 20 km/h in the early morning then turning west to northwesterly 25 to 35 km/h in the middle of the day.",
@@ -111,12 +111,12 @@
     },
     "2026-10-25": {
       "2": {
-        "forecast": "Sunny. Winds west to southwesterly 20 to 30 km/h tending northeast to southeasterly 25 to 40 km/h during the morning then tending north to northwesterly 20 to 30 km/h during the day.",
+        "forecast": "Sunny. Winds southeasterly 25 to 35 km/h tending north to northeasterly 25 to 30 km/h in the morning then tending northwesterly 20 to 30 km/h in the evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 35,
-        "temp_min": 20
+        "temp_min": 21
       },
       "3": {
         "forecast": "Sunny. Winds west to southwesterly 20 to 30 km/h tending northeast to southeasterly 25 to 40 km/h during the morning then tending north to northwesterly 20 to 30 km/h during the day.",
@@ -153,11 +153,11 @@
     },
     "2026-10-26": {
       "3": {
-        "forecast": "Sunny. Winds north to northwesterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds westerly 15 to 20 km/h turning north to northwesterly 20 to 30 km/h during the morning.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 34,
+        "temp_max": 33,
         "temp_min": 20
       },
       "4": {
@@ -187,12 +187,12 @@
     },
     "2026-10-27": {
       "4": {
-        "forecast": "Sunny. Winds northwesterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds west to northwesterly 15 to 20 km/h tending north to northwesterly 20 to 30 km/h during the morning then tending west to northwesterly during the afternoon.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 33,
-        "temp_min": 20
+        "temp_max": 32,
+        "temp_min": 19
       },
       "5": {
         "forecast": "Mostly sunny. Winds west to northwesterly 20 to 30 km/h.",
@@ -221,12 +221,12 @@
     },
     "2026-10-28": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Partly cloudy. Slight chance of a shower. Winds northwest to southwesterly 20 to 30 km/h.",
         "icon_code": 3,
-        "precipitation_prob": "30%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
-        "temp_max": 33,
-        "temp_min": 20
+        "temp_max": 32,
+        "temp_min": 21
       },
       "6": {
         "forecast": "Partly cloudy. Slight chance of a shower. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h during the morning.",
@@ -239,11 +239,11 @@
     },
     "2026-10-29": {
       "6": {
-        "forecast": "Partly cloudy. Slight chance of a shower. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h during the day.",
+        "forecast": "Cloud clearing. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h during the day.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
-        "precis": "Partly cloudy.",
-        "temp_max": 34,
+        "precipitation_prob": "10%",
+        "precis": "Cloud clearing.",
+        "temp_max": 33,
         "temp_min": 20
       },
       "7": {
@@ -251,6 +251,16 @@
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
+        "temp_max": 33,
+        "temp_min": 20
+      }
+    },
+    "2026-10-30": {
+      "7": {
+        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
         "temp_max": 33,
         "temp_min": 20
       }
