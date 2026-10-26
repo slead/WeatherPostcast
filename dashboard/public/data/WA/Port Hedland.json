@@ -3,9 +3,9 @@
   "forecasts": {
     "2026-10-26": {
       "0": {
-        "forecast": "Sunny. Winds northwesterly 25 to 35 km/h.",
+        "forecast": "Sunny. Winds northwesterly 25 to 35 km/h decreasing to 15 to 20 km/h in the late evening.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 33,
         "temp_min": 21
@@ -61,7 +61,7 @@
     },
     "2026-10-27": {
       "1": {
-        "forecast": "Sunny. Winds northwesterly 20 to 30 km/h increasing to 30 to 35 km/h in the middle of the day then tending westerly 25 to 30 km/h in the evening.",
+        "forecast": "Sunny. Winds northwesterly 20 to 25 km/h increasing to 25 to 35 km/h in the morning then tending westerly 25 to 30 km/h in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -119,7 +119,7 @@
     },
     "2026-10-28": {
       "2": {
-        "forecast": "Partly cloudy. Winds northwest to southwesterly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Winds northwest to southwesterly 25 to 40 km/h.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
@@ -161,12 +161,12 @@
     },
     "2026-10-29": {
       "3": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h turning northwesterly 20 to 30 km/h during the day then tending westerly 20 to 25 km/h during the evening.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h turning northwesterly 25 to 35 km/h during the day then tending westerly 20 to 25 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 32,
-        "temp_min": 17
+        "temp_min": 18
       },
       "4": {
         "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h during the morning.",
@@ -203,11 +203,11 @@
     },
     "2026-10-30": {
       "4": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 20 to 30 km/h during the morning.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h turning northwesterly 25 to 35 km/h during the morning then tending westerly 20 to 25 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
-        "temp_max": 33,
+        "temp_max": 32,
         "temp_min": 18
       },
       "5": {
@@ -237,7 +237,7 @@
     },
     "2026-10-31": {
       "5": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 20 km/h tending west to northwesterly 25 to 35 km/h during the morning.",
+        "forecast": "Sunny. Winds northwest to southwesterly 25 to 35 km/h.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -255,11 +255,21 @@
     },
     "2026-11-01": {
       "6": {
-        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h during the day.",
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 25 to 35 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 36,
+        "temp_min": 20
+      }
+    },
+    "2026-11-02": {
+      "7": {
+        "forecast": "Sunny. Winds west to southwesterly 15 to 25 km/h tending west to northwesterly 20 to 30 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 37,
         "temp_min": 21
       }
     }
