@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-10-27": {
       "0": {
-        "forecast": "Mostly sunny. Light winds becoming south to southwesterly 15 to 20 km/h in the morning then becoming light in the evening.",
+        "forecast": "Mostly clear. Winds southwesterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Mostly clear.",
         "temp_max": 23,
         "temp_min": 6
       },
@@ -69,12 +69,12 @@
     },
     "2026-10-28": {
       "1": {
-        "forecast": "Mostly sunny. Light winds becoming southwesterly 20 to 30 km/h in the morning then becoming light in the evening.",
+        "forecast": "Mostly sunny. Light winds becoming southwesterly 25 to 35 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 3,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 25,
-        "temp_min": 9
+        "temp_min": 8
       },
       "2": {
         "forecast": "Mostly sunny. Light winds becoming southwesterly 20 to 30 km/h in the morning then becoming light in the evening.",
@@ -177,11 +177,11 @@
     },
     "2026-10-30": {
       "3": {
-        "forecast": "Mostly sunny. Light winds becoming east to northeasterly 15 to 20 km/h during the morning then tending northwest to northeasterly during the day.",
+        "forecast": "Mostly sunny. Winds northeast to southeasterly 15 to 20 km/h tending northeasterly during the morning then becoming light during the day.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 29,
+        "temp_max": 30,
         "temp_min": 10
       },
       "4": {
@@ -219,11 +219,11 @@
     },
     "2026-10-31": {
       "4": {
-        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm later in the day. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 25 km/h tending northerly during the morning then becoming light during the evening.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two.",
-        "temp_max": 26,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 25,
         "temp_min": 15
       },
       "5": {
@@ -245,7 +245,7 @@
     },
     "2026-11-01": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming west to northwesterly 15 to 20 km/h during the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming northwest to southwesterly 15 to 20 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -271,11 +271,11 @@
     },
     "2026-11-02": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds becoming west to southwesterly 15 to 20 km/h during the day.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
-        "temp_max": 31,
+        "forecast": "Partly cloudy. Slight chance of a shower. The chance of a thunderstorm. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 30,
         "temp_min": 13
       },
       "7": {
@@ -284,6 +284,16 @@
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
         "temp_max": 31,
+        "temp_min": 14
+      }
+    },
+    "2026-11-03": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Winds northeast to southeasterly 15 to 20 km/h tending northwesterly during the morning.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 30,
         "temp_min": 14
       }
     }
