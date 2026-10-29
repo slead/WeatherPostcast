@@ -5,7 +5,7 @@
       "0": {
         "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
         "temp_max": 28,
         "temp_min": 16
@@ -69,12 +69,12 @@
     },
     "2026-10-30": {
       "1": {
-        "forecast": "Partly cloudy. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
         "temp_max": 26,
-        "temp_min": 15
+        "temp_min": 16
       },
       "2": {
         "forecast": "Partly cloudy. Light winds.",
@@ -127,9 +127,9 @@
     },
     "2026-10-31": {
       "2": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the morning and afternoon. Light winds.",
+        "forecast": "Partly cloudy. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
         "temp_max": 26,
         "temp_min": 15
@@ -169,12 +169,12 @@
     },
     "2026-11-01": {
       "3": {
-        "forecast": "Partly cloudy. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
-        "icon_code": 16,
-        "precipitation_prob": "50%",
-        "precis": "Showers. Possible late storm.",
-        "temp_max": 30,
-        "temp_min": 17
+        "forecast": "Mostly sunny morning. Slight chance of a shower in the afternoon and evening. The chance of a thunderstorm in the evening. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 29,
+        "temp_min": 16
       },
       "4": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
@@ -203,11 +203,11 @@
     },
     "2026-11-02": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "50%",
-        "precis": "Shower or two.",
-        "temp_max": 30,
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "icon_code": 16,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two. Possible storm.",
+        "temp_max": 32,
         "temp_min": 18
       },
       "5": {
@@ -229,11 +229,11 @@
     },
     "2026-11-03": {
       "5": {
-        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
-        "icon_code": 11,
-        "precipitation_prob": "60%",
-        "precis": "Shower or two.",
-        "temp_max": 31,
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds.",
+        "icon_code": 16,
+        "precipitation_prob": "80%",
+        "precis": "Showers. Possible storm.",
+        "temp_max": 29,
         "temp_min": 19
       },
       "6": {
@@ -260,7 +260,7 @@
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
         "temp_max": 31,
-        "temp_min": 20
+        "temp_min": 19
       },
       "7": {
         "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds.",
@@ -268,6 +268,16 @@
         "precipitation_prob": "70%",
         "precis": "Shower or two.",
         "temp_max": 31,
+        "temp_min": 20
+      }
+    },
+    "2026-11-05": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 33,
         "temp_min": 20
       }
     }
