@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-04": {
       "0": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the late afternoon and evening. Snow falling above 1900 metres. The chance of a thunderstorm in the afternoon and evening. Winds west to northwesterly 25 to 40 km/h.",
+        "forecast": "Cloudy. Very high chance of showers. Snow falling above 1900 metres. The chance of a thunderstorm. Winds westerly 25 to 40 km/h.",
         "icon_code": 15,
         "precipitation_prob": "90%",
-        "precis": "Showers or snow increasing.",
+        "precis": "Showers or snow. Windy.",
         "temp_max": 12,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-11-05": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers or snow, most likely in the early morning. Winds westerly 15 to 25 km/h tending southwesterly 25 to 40 km/h in the early morning then becoming light in the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers or snow, most likely in the early morning. Winds westerly 25 to 35 km/h tending southwesterly in the early morning then tending northwest to southwesterly 15 to 25 km/h in the late afternoon.",
         "icon_code": 15,
         "precipitation_prob": "60%",
         "precis": "Snow shower or two.",
@@ -127,7 +127,7 @@
     },
     "2026-11-06": {
       "2": {
-        "forecast": "Mostly sunny. Winds west to northwesterly 15 to 25 km/h increasing to 20 to 30 km/h during the evening.",
+        "forecast": "Mostly sunny. Winds west to northwesterly 15 to 25 km/h increasing to 20 to 30 km/h in the late evening.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
@@ -177,12 +177,12 @@
     },
     "2026-11-07": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers or snow, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds west to northwesterly 25 to 40 km/h shifting southerly during the afternoon.",
+        "forecast": "Cloudy. Very high chance of showers or snow, most likely in the morning and afternoon. Winds west to northwesterly 25 to 40 km/h shifting southerly during the afternoon.",
         "icon_code": 15,
         "precipitation_prob": "95%",
         "precis": "Snow showers. Becoming windy.",
         "temp_max": 6,
-        "temp_min": -1
+        "temp_min": 0
       },
       "4": {
         "forecast": "Cloudy. Very high chance of showers or snow, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon. Winds westerly 30 to 45 km/h decreasing to 20 to 25 km/h during the day then turning southerly 25 to 35 km/h during the afternoon.",
@@ -224,7 +224,7 @@
         "precipitation_prob": "30%",
         "precis": "Cloudy.",
         "temp_max": 5,
-        "temp_min": -7
+        "temp_min": -6
       },
       "5": {
         "forecast": "Partly cloudy. Winds southerly 25 to 35 km/h turning southeasterly 20 to 30 km/h during the morning.",
@@ -253,7 +253,7 @@
     },
     "2026-11-09": {
       "5": {
-        "forecast": "Partly cloudy. Slight chance of a shower or snow. Winds south to southeasterly 20 to 30 km/h shifting north to northwesterly 15 to 20 km/h later.",
+        "forecast": "Partly cloudy. Slight chance of a shower or snow. Winds southeasterly 25 to 40 km/h shifting northwesterly 15 to 20 km/h later.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Partly cloudy.",
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 16,
         "temp_min": 0
+      }
+    },
+    "2026-11-11": {
+      "7": {
+        "forecast": "Cloudy. Medium chance of showers. Winds northwesterly 25 to 35 km/h.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 14,
+        "temp_min": 4
       }
     }
   },

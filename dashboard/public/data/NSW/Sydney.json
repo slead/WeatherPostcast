@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-11-04": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the evening. The chance of a thunderstorm in the evening. Winds southeast to southwesterly 15 to 20 km/h tending east to southeasterly in the early afternoon then becoming light in the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely later in the afternoon and evening. The chance of a thunderstorm in the west in the afternoon and evening. Winds east to southeasterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -69,7 +69,7 @@
     },
     "2026-11-05": {
       "1": {
-        "forecast": "Partly cloudy. Slight chance of a shower in the early morning. Winds west to southwesterly 20 to 30 km/h tending southeast to southwesterly 25 to 35 km/h in the middle of the day then becoming southwesterly 15 to 20 km/h in the late evening.",
+        "forecast": "Partly cloudy. Slight chance of a shower in the early morning. The chance of a thunderstorm in the early morning. Winds west to southwesterly 20 to 30 km/h tending southeast to southwesterly 25 to 35 km/h in the middle of the day then becoming light in the late evening.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -127,7 +127,7 @@
     },
     "2026-11-06": {
       "2": {
-        "forecast": "Sunny. The chance of morning fog in the outer west. Winds southwesterly 15 to 20 km/h becoming light during the morning then becoming east to northeasterly 15 to 25 km/h during the afternoon.",
+        "forecast": "Sunny. The chance of fog in the west in the early morning. Light winds becoming east to northeasterly 15 to 25 km/h in the early afternoon then becoming light in the late evening.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -219,10 +219,10 @@
     },
     "2026-11-08": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds south to southwesterly 25 to 40 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm along the coastal fringe in the morning. Winds southwesterly 15 to 25 km/h tending southerly 30 to 45 km/h during the morning.",
         "icon_code": 11,
         "precipitation_prob": "70%",
-        "precis": "Shower or two.",
+        "precis": "Shower or two. Becoming windy.",
         "temp_max": 19,
         "temp_min": 11
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 24,
         "temp_min": 13
+      }
+    },
+    "2026-11-11": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds becoming east to northeasterly 15 to 25 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
+        "temp_max": 28,
+        "temp_min": 16
       }
     }
   },
