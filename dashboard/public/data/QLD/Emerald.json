@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-11-10": {
       "0": {
-        "forecast": "Partly cloudy. Slight chance of a shower, most likely in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower, becoming less likely later tonight. The chance of a thunderstorm. Light winds.",
         "icon_code": 3,
         "precipitation_prob": "30%",
         "precis": "Partly cloudy.",
@@ -69,10 +69,10 @@
     },
     "2026-11-11": {
       "1": {
-        "forecast": "Mostly sunny day. Slight chance of a shower in the evening. The chance of a thunderstorm in the evening. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming northeasterly 15 to 20 km/h in the late evening.",
-        "icon_code": 16,
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the evening. Winds north to northeasterly 15 to 20 km/h becoming light in the morning then becoming northeasterly 15 to 20 km/h in the late evening.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Possible late storm.",
+        "precis": "Mostly sunny.",
         "temp_max": 37,
         "temp_min": 22
       },
@@ -127,11 +127,11 @@
     },
     "2026-11-12": {
       "2": {
-        "forecast": "Mostly sunny morning. Medium chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Mostly sunny day. Slight chance of a shower in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower or storm.",
-        "temp_max": 37,
+        "precipitation_prob": "30%",
+        "precis": "Possible late storm.",
+        "temp_max": 38,
         "temp_min": 23
       },
       "3": {
@@ -177,11 +177,11 @@
     },
     "2026-11-13": {
       "3": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Light winds.",
+        "forecast": "Sunny morning. High chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "70%",
         "precis": "Showers. Storm developing.",
-        "temp_max": 34,
+        "temp_max": 38,
         "temp_min": 23
       },
       "4": {
@@ -219,12 +219,12 @@
     },
     "2026-11-14": {
       "4": {
-        "forecast": "Partly cloudy. High chance of showers, most likely later in the day. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Possible storm.",
         "temp_max": 33,
-        "temp_min": 22
+        "temp_min": 23
       },
       "5": {
         "forecast": "Partly cloudy. High chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds.",
@@ -253,12 +253,12 @@
     },
     "2026-11-15": {
       "5": {
-        "forecast": "Partly cloudy. High chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "80%",
+        "precipitation_prob": "90%",
         "precis": "Showers. Possible storm.",
         "temp_max": 33,
-        "temp_min": 22
+        "temp_min": 23
       },
       "6": {
         "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm. Light winds.",
@@ -283,8 +283,8 @@
         "icon_code": 16,
         "precipitation_prob": "50%",
         "precis": "Shower or two. Possible storm.",
-        "temp_max": 34,
-        "temp_min": 22
+        "temp_max": 35,
+        "temp_min": 21
       },
       "7": {
         "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds.",
@@ -293,6 +293,16 @@
         "precis": "Shower or two. Possible storm.",
         "temp_max": 34,
         "temp_min": 22
+      }
+    },
+    "2026-11-17": {
+      "7": {
+        "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
+        "icon_code": 1,
+        "precipitation_prob": "20%",
+        "precis": "Sunny.",
+        "temp_max": 35,
+        "temp_min": 21
       }
     }
   },
