@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-11-14": {
       "0": {
-        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h in the early afternoon then becoming light in the evening.",
+        "forecast": "Partly cloudy. Winds southwesterly 15 to 20 km/h becoming light in the evening.",
         "icon_code": 3,
         "precipitation_prob": "0%",
         "precis": "Partly cloudy.",
@@ -127,7 +127,7 @@
     },
     "2026-11-16": {
       "2": {
-        "forecast": "Partly cloudy. Winds southerly 15 to 25 km/h becoming light during the evening.",
+        "forecast": "Partly cloudy. Winds southerly 15 to 20 km/h becoming light before dawn then becoming southerly 15 to 25 km/h in the morning.",
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Partly cloudy.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "50%",
         "precis": "Shower or two.",
         "temp_max": 32,
+        "temp_min": 15
+      }
+    },
+    "2026-11-21": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 17,
+        "precipitation_prob": "40%",
+        "precis": "Possible shower.",
+        "temp_max": 30,
         "temp_min": 15
       }
     }
