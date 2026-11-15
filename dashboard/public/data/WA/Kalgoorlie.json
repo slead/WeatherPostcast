@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-15": {
       "0": {
-        "forecast": "Cloudy. High chance of showers, becoming less likely in the early afternoon. A thunderstorm likely early this morning. Winds east to southeasterly 20 to 30 km/h.",
-        "icon_code": 16,
-        "precipitation_prob": "80%",
-        "precis": "Morning storm. Showers.",
+        "forecast": "Cloudy. Winds east to southeasterly 20 to 30 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "5%",
+        "precis": "Cloudy.",
         "temp_max": 20,
         "temp_min": 13
       },
@@ -69,12 +69,12 @@
     },
     "2026-11-16": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers in the morning. The chance of a thunderstorm in the morning. Winds southeasterly 20 to 25 km/h tending easterly 20 to 30 km/h before dawn.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible morning shower.",
+        "forecast": "Cloudy. Slight chance of a shower in the morning and early afternoon. The chance of a thunderstorm in the morning and early afternoon. Winds east to southeasterly 20 to 30 km/h.",
+        "icon_code": 4,
+        "precipitation_prob": "30%",
+        "precis": "Cloudy.",
         "temp_max": 23,
-        "temp_min": 13
+        "temp_min": 12
       },
       "2": {
         "forecast": "Cloudy. Slight chance of a shower in the morning. The chance of a thunderstorm in the early morning. Winds east to southeasterly 20 to 30 km/h.",
@@ -129,9 +129,9 @@
       "2": {
         "forecast": "Cloudy. Very high chance of showers, most likely in the morning. A thunderstorm likely. Winds east to southeasterly 20 to 30 km/h.",
         "icon_code": 16,
-        "precipitation_prob": "90%",
+        "precipitation_prob": "95%",
         "precis": "Showers easing. Storm.",
-        "temp_max": 22,
+        "temp_max": 23,
         "temp_min": 13
       },
       "3": {
@@ -177,12 +177,12 @@
     },
     "2026-11-18": {
       "3": {
-        "forecast": "Cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds southeasterly 15 to 20 km/h turning south to southwesterly during the day.",
+        "forecast": "Cloudy. High chance of showers, most likely in the morning. The chance of a thunderstorm in the morning. Winds southeasterly 15 to 20 km/h turning south to southwesterly 15 to 25 km/h during the morning then becoming southerly and light during the evening.",
         "icon_code": 16,
-        "precipitation_prob": "60%",
+        "precipitation_prob": "70%",
         "precis": "Possible early storm. Showers.",
         "temp_max": 23,
-        "temp_min": 15
+        "temp_min": 14
       },
       "4": {
         "forecast": "Cloudy. Medium chance of showers, most likely in the morning. The chance of a thunderstorm in the morning and afternoon. Winds southeasterly 15 to 20 km/h tending southerly during the morning then becoming light during the evening.",
@@ -219,11 +219,11 @@
     },
     "2026-11-19": {
       "4": {
-        "forecast": "Partly cloudy. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "forecast": "Partly cloudy. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the evening.",
         "icon_code": 3,
         "precipitation_prob": "10%",
         "precis": "Partly cloudy.",
-        "temp_max": 27,
+        "temp_max": 26,
         "temp_min": 14
       },
       "5": {
@@ -253,11 +253,11 @@
     },
     "2026-11-20": {
       "5": {
-        "forecast": "Sunny. Light winds becoming northwest to southwesterly 15 to 25 km/h during the day.",
+        "forecast": "Sunny. Winds northwesterly 15 to 25 km/h turning southwesterly 15 to 20 km/h later.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
-        "temp_max": 32,
+        "temp_max": 31,
         "temp_min": 16
       },
       "6": {
@@ -283,7 +283,7 @@
         "icon_code": 3,
         "precipitation_prob": "5%",
         "precis": "Mostly sunny.",
-        "temp_max": 28,
+        "temp_max": 27,
         "temp_min": 16
       },
       "7": {
@@ -293,6 +293,16 @@
         "precis": "Mostly sunny.",
         "temp_max": 27,
         "temp_min": 15
+      }
+    },
+    "2026-11-22": {
+      "7": {
+        "forecast": "Sunny. Winds southwesterly 15 to 25 km/h.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 24,
+        "temp_min": 13
       }
     }
   },
