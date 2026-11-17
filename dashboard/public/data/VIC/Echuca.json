@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-17": {
       "0": {
-        "forecast": "Mostly sunny. Light winds.",
-        "icon_code": 3,
+        "forecast": "Clear. Light winds.",
+        "icon_code": 2,
         "precipitation_prob": "0%",
-        "precis": "Mostly sunny.",
+        "precis": "Clear.",
         "temp_max": 26,
         "temp_min": null
       },
@@ -177,7 +177,7 @@
     },
     "2026-11-20": {
       "3": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Thunderstorms. Light winds becoming north to northeasterly 15 to 20 km/h during the morning then becoming light during the evening.",
+        "forecast": "Cloudy. Very high chance of showers, most likely in the morning and afternoon. Thunderstorms, possibly severe with heavy rain which may lead to flash flooding. Light winds becoming northeasterly 15 to 20 km/h during the morning then tending northerly during the day.",
         "icon_code": 16,
         "precipitation_prob": "95%",
         "precis": "Showers. Storms.",
@@ -253,10 +253,10 @@
     },
     "2026-11-22": {
       "5": {
-        "forecast": "Mostly sunny morning. High chance of showers later in the day. The chance of a thunderstorm. Light winds becoming northwest to northeasterly 15 to 25 km/h during the morning.",
+        "forecast": "Mostly sunny morning. High chance of showers, most likely later in the day. The chance of a thunderstorm. Light winds becoming northwest to northeasterly 15 to 25 km/h during the morning.",
         "icon_code": 11,
-        "precipitation_prob": "70%",
-        "precis": "Shower or two developing.",
+        "precipitation_prob": "80%",
+        "precis": "Showers increasing.",
         "temp_max": 34,
         "temp_min": 15
       },
@@ -293,6 +293,16 @@
         "precis": "Possible shower.",
         "temp_max": 27,
         "temp_min": 17
+      }
+    },
+    "2026-11-24": {
+      "7": {
+        "forecast": "Partly cloudy. Light winds becoming southwesterly 15 to 20 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "5%",
+        "precis": "Partly cloudy.",
+        "temp_max": 22,
+        "temp_min": 10
       }
     }
   },
