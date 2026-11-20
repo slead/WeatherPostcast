@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-20": {
       "0": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the afternoon and evening. A thunderstorm likely, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Light winds becoming northwesterly 15 to 20 km/h in the late evening.",
+        "forecast": "Cloudy. Very high chance of showers, becoming less likely later tonight. The chance of a thunderstorm, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Light winds becoming northwesterly 15 to 20 km/h in the late evening.",
         "icon_code": 16,
-        "precipitation_prob": "95%",
-        "precis": "Showers. Storm developing.",
+        "precipitation_prob": "90%",
+        "precis": "Showers. Possible storm.",
         "temp_max": 24,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-11-21": {
       "1": {
-        "forecast": "Cloudy. Medium chance of showers in the morning. Winds northwesterly 15 to 20 km/h tending westerly in the early morning then becoming light in the morning.",
+        "forecast": "Partly cloudy. Medium chance of showers in the morning. Winds west to northwesterly 15 to 20 km/h tending west to southwesterly in the early morning then becoming light in the early afternoon.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible morning shower.",
@@ -127,7 +127,7 @@
     },
     "2026-11-22": {
       "2": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming north to northwesterly 15 to 25 km/h during the morning then tending northwest to southwesterly 15 to 20 km/h during the evening.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the late afternoon and evening, possibly severe with damaging winds and large hail. Light winds becoming northwest to northeasterly 20 to 30 km/h in the morning then tending northwest to southwesterly 15 to 20 km/h in the evening.",
         "icon_code": 16,
         "precipitation_prob": "90%",
         "precis": "Showers. Possible late storm.",
@@ -219,7 +219,7 @@
     },
     "2026-11-24": {
       "4": {
-        "forecast": "Slight chance of a shower during the morning. Mostly sunny afternoon. Winds westerly 20 to 30 km/h tending southwesterly 15 to 20 km/h during the morning.",
+        "forecast": "Slight chance of a shower in the morning. Mostly sunny afternoon. Winds westerly 20 to 30 km/h tending southwesterly 15 to 20 km/h during the morning then becoming light during the day.",
         "icon_code": 3,
         "precipitation_prob": "20%",
         "precis": "Mostly sunny.",
@@ -253,7 +253,7 @@
     },
     "2026-11-25": {
       "5": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h later.",
+        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 13
+      }
+    },
+    "2026-11-27": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Partly cloudy.",
+        "temp_max": 27,
+        "temp_min": 14
       }
     }
   },
