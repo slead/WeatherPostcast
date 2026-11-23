@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-23": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds south to southwesterly 15 to 25 km/h turning westerly in the early afternoon then becoming light in the evening.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm early this evening. Winds westerly 15 to 25 km/h becoming light in the evening.",
         "icon_code": 16,
-        "precipitation_prob": "60%",
-        "precis": "Showers. Possible afternoon storm.",
+        "precipitation_prob": "50%",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 36,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-11-24": {
       "1": {
-        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds becoming westerly 15 to 25 km/h in the middle of the day then tending northwesterly 15 to 20 km/h in the late afternoon.",
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds becoming south to southwesterly 15 to 25 km/h in the middle of the day then shifting northwesterly 15 to 20 km/h in the late afternoon.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Possible storm.",
@@ -127,7 +127,7 @@
     },
     "2026-11-25": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon. Light winds becoming northwesterly 15 to 20 km/h during the day then becoming light during the evening.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then becoming light in the evening.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Possible afternoon storm.",
@@ -219,7 +219,7 @@
     },
     "2026-11-27": {
       "4": {
-        "forecast": "Mostly sunny morning. Medium chance of showers, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming westerly 15 to 20 km/h during the day.",
+        "forecast": "Mostly sunny morning. Medium chance of showers, most likely in the afternoon. The chance of a thunderstorm in the afternoon. Light winds becoming westerly 15 to 20 km/h during the day then becoming light during the afternoon.",
         "icon_code": 16,
         "precipitation_prob": "60%",
         "precis": "Showers. Possible afternoon storm.",
@@ -254,9 +254,9 @@
     "2026-11-28": {
       "5": {
         "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds becoming west to southwesterly 15 to 25 km/h during the day.",
-        "icon_code": 11,
+        "icon_code": 16,
         "precipitation_prob": "80%",
-        "precis": "Showers.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 35,
         "temp_min": 26
       },
@@ -280,9 +280,9 @@
     "2026-11-29": {
       "6": {
         "forecast": "Partly cloudy. Very high chance of showers. The chance of a thunderstorm. Light winds becoming westerly 15 to 25 km/h during the day.",
-        "icon_code": 11,
+        "icon_code": 16,
         "precipitation_prob": "90%",
-        "precis": "Showers.",
+        "precis": "Showers. Possible storm.",
         "temp_max": 35,
         "temp_min": 26
       },
@@ -293,6 +293,16 @@
         "precis": "Showers.",
         "temp_max": 35,
         "temp_min": 26
+      }
+    },
+    "2026-11-30": {
+      "7": {
+        "forecast": "Partly cloudy. High chance of showers. The chance of a thunderstorm. Light winds becoming east to southeasterly 15 to 20 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "80%",
+        "precis": "Showers.",
+        "temp_max": 35,
+        "temp_min": 25
       }
     }
   },
