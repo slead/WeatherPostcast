@@ -3,7 +3,7 @@
   "forecasts": {
     "2026-11-24": {
       "0": {
-        "forecast": "Sunny. Winds southerly 25 to 35 km/h tending southwesterly 30 to 40 km/h in the early afternoon.",
+        "forecast": "Sunny. Winds southerly 20 to 30 km/h tending southwesterly 30 to 40 km/h in the early afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -69,7 +69,7 @@
     },
     "2026-11-25": {
       "1": {
-        "forecast": "Sunny. Winds south to southwesterly 25 to 40 km/h.",
+        "forecast": "Sunny. Winds southerly 25 to 40 km/h tending westerly 25 to 30 km/h in the early afternoon then tending south to southwesterly 25 to 35 km/h in the late afternoon.",
         "icon_code": 9,
         "precipitation_prob": "0%",
         "precis": "Wind easing. Sunny.",
@@ -127,7 +127,7 @@
     },
     "2026-11-26": {
       "2": {
-        "forecast": "Sunny. Winds south to southwesterly 25 to 35 km/h.",
+        "forecast": "Sunny. Winds southerly 25 to 35 km/h turning west to southwesterly 20 to 30 km/h in the early afternoon then tending south to southwesterly 30 to 35 km/h in the late afternoon.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -182,7 +182,7 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 34,
-        "temp_min": 20
+        "temp_min": 19
       },
       "4": {
         "forecast": "Sunny. Winds southerly 25 to 35 km/h tending southwesterly during the afternoon.",
@@ -219,7 +219,7 @@
     },
     "2026-11-28": {
       "4": {
-        "forecast": "Sunny. Winds southerly 20 to 30 km/h turning west to southwesterly 25 to 30 km/h during the day.",
+        "forecast": "Sunny. Winds southerly 20 to 30 km/h turning westerly during the day then tending southwesterly 25 to 30 km/h during the evening.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -253,9 +253,9 @@
     },
     "2026-11-29": {
       "5": {
-        "forecast": "Sunny. Winds southwesterly 20 to 30 km/h.",
+        "forecast": "Sunny. Winds southeast to southwesterly 15 to 25 km/h tending northwest to southwesterly 20 to 30 km/h during the day.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 34,
         "temp_min": 22
@@ -279,7 +279,7 @@
     },
     "2026-11-30": {
       "6": {
-        "forecast": "Sunny. Winds south to southwesterly 20 to 30 km/h tending west to southwesterly during the day.",
+        "forecast": "Sunny. Winds southwesterly 15 to 20 km/h tending northwest to southwesterly 20 to 30 km/h during the day.",
         "icon_code": 1,
         "precipitation_prob": "5%",
         "precis": "Sunny.",
@@ -293,6 +293,16 @@
         "precis": "Sunny.",
         "temp_max": 34,
         "temp_min": 22
+      }
+    },
+    "2026-12-01": {
+      "7": {
+        "forecast": "Sunny. Winds southeast to southwesterly 20 to 30 km/h becoming southwesterly 25 to 30 km/h during the day.",
+        "icon_code": 1,
+        "precipitation_prob": "5%",
+        "precis": "Sunny.",
+        "temp_max": 34,
+        "temp_min": 21
       }
     }
   },

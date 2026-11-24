@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-24": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late afternoon and evening. Winds east to southeasterly 20 to 30 km/h.",
-        "icon_code": 17,
-        "precipitation_prob": "40%",
-        "precis": "Possible shower.",
+        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely at night. The chance of a thunderstorm in the late afternoon and evening. Winds southeasterly 20 to 30 km/h tending easterly 15 to 25 km/h in the late evening.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two.",
         "temp_max": 34,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-11-25": {
       "1": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the evening. Thunderstorms in the late afternoon and evening. Winds easterly 15 to 20 km/h tending northeasterly 20 to 25 km/h in the morning then turning east to southeasterly 15 to 25 km/h in the evening.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the evening. Thunderstorms in the afternoon and evening, possibly severe with damaging winds, large hail and heavy rain which may lead to flash flooding. Winds east to northeasterly 15 to 25 km/h tending north to northeasterly in the middle of the day then tending northeast to southeasterly 15 to 20 km/h in the late afternoon.",
         "icon_code": 16,
         "precipitation_prob": "90%",
         "precis": "Showers. Storms developing.",
@@ -127,7 +127,7 @@
     },
     "2026-11-26": {
       "2": {
-        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds east to northeasterly 15 to 20 km/h shifting west to northwesterly 15 to 25 km/h during the morning then tending southeast to southwesterly 15 to 20 km/h during the afternoon.",
+        "forecast": "Partly cloudy. High chance of showers, most likely in the morning and afternoon. A thunderstorm likely, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Winds east to northeasterly 15 to 25 km/h tending northwest to southwesterly 20 to 25 km/h in the middle of the day then tending southeast to southwesterly 15 to 20 km/h in the late afternoon.",
         "icon_code": 16,
         "precipitation_prob": "80%",
         "precis": "Showers. Storm.",
@@ -177,10 +177,10 @@
     },
     "2026-11-27": {
       "3": {
-        "forecast": "Sunny. Light winds becoming southerly 15 to 20 km/h during the afternoon then becoming light during the evening.",
-        "icon_code": 1,
-        "precipitation_prob": "10%",
-        "precis": "Sunny.",
+        "forecast": "Mostly sunny. Slight chance of a shower. The chance of a thunderstorm in the afternoon and evening. Light winds becoming south to southwesterly 15 to 20 km/h during the afternoon then becoming light during the evening.",
+        "icon_code": 3,
+        "precipitation_prob": "20%",
+        "precis": "Mostly sunny.",
         "temp_max": 34,
         "temp_min": 18
       },
@@ -221,7 +221,7 @@
       "4": {
         "forecast": "Sunny. Light winds becoming south to southeasterly 15 to 25 km/h during the morning.",
         "icon_code": 1,
-        "precipitation_prob": "10%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 35,
         "temp_min": 19
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Sunny. Winds southeasterly 15 to 25 km/h.",
         "icon_code": 1,
-        "precipitation_prob": "5%",
+        "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 32,
         "temp_min": 18
@@ -292,6 +292,16 @@
         "precipitation_prob": "0%",
         "precis": "Sunny.",
         "temp_max": 33,
+        "temp_min": 17
+      }
+    },
+    "2026-12-01": {
+      "7": {
+        "forecast": "Sunny. Light winds becoming easterly 15 to 25 km/h during the morning.",
+        "icon_code": 1,
+        "precipitation_prob": "0%",
+        "precis": "Sunny.",
+        "temp_max": 35,
         "temp_min": 17
       }
     }
