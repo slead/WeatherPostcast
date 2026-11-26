@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-26": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the evening. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely later this evening. The chance of a thunderstorm. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "50%",
-        "precis": "Showers. Possible afternoon storm.",
+        "precipitation_prob": "40%",
+        "precis": "Possible shower or storm.",
         "temp_max": 35,
         "temp_min": null
       },
@@ -127,7 +127,7 @@
     },
     "2026-11-28": {
       "2": {
-        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon. A thunderstorm likely in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Very high chance of showers, most likely in the afternoon and evening. A thunderstorm likely from the late morning. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "90%",
         "precis": "Showers. Storm.",
@@ -219,10 +219,10 @@
     },
     "2026-11-30": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm later in the day. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "60%",
-        "precis": "Showers. Possible afternoon storm.",
+        "precis": "Shower or two. Possible storm.",
         "temp_max": 35,
         "temp_min": 26
       },
@@ -255,7 +255,7 @@
       "5": {
         "forecast": "Mostly sunny. Slight chance of a shower. Light winds.",
         "icon_code": 3,
-        "precipitation_prob": "20%",
+        "precipitation_prob": "30%",
         "precis": "Mostly sunny.",
         "temp_max": 37,
         "temp_min": 26
@@ -293,6 +293,16 @@
         "precis": "Shower or two.",
         "temp_max": 36,
         "temp_min": 26
+      }
+    },
+    "2026-12-03": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Light winds.",
+        "icon_code": 11,
+        "precipitation_prob": "60%",
+        "precis": "Shower or two.",
+        "temp_max": 36,
+        "temp_min": 27
       }
     }
   },

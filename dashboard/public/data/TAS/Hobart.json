@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-26": {
       "0": {
-        "forecast": "Mostly sunny. Winds southeasterly 15 to 25 km/h becoming light in the late evening.",
-        "icon_code": 3,
-        "precipitation_prob": "5%",
-        "precis": "Mostly sunny.",
+        "forecast": "Clear. Winds southeasterly 15 to 25 km/h becoming light in the late evening.",
+        "icon_code": 2,
+        "precipitation_prob": "0%",
+        "precis": "Clear.",
         "temp_max": 23,
         "temp_min": null
       },
@@ -127,9 +127,9 @@
     },
     "2026-11-28": {
       "2": {
-        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Winds east to southeasterly 15 to 20 km/h becoming light during the morning then becoming southwesterly 15 to 25 km/h during the afternoon.",
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning and afternoon. Winds east to southeasterly 15 to 20 km/h becoming light in the morning then becoming southwesterly 15 to 25 km/h in the early afternoon.",
         "icon_code": 12,
-        "precipitation_prob": "95%",
+        "precipitation_prob": "100%",
         "precis": "Rain.",
         "temp_max": 22,
         "temp_min": 17
@@ -219,7 +219,7 @@
     },
     "2026-11-30": {
       "4": {
-        "forecast": "Partly cloudy. Medium chance of showers, most likely during the morning. Winds westerly 25 to 35 km/h.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the morning and afternoon. Winds westerly 25 to 35 km/h.",
         "icon_code": 11,
         "precipitation_prob": "60%",
         "precis": "Shower or two.",
@@ -279,7 +279,7 @@
     },
     "2026-12-02": {
       "6": {
-        "forecast": "Partly cloudy. Medium chance of showers. Winds northwesterly 15 to 25 km/h turning westerly during the day.",
+        "forecast": "Partly cloudy. Medium chance of showers. Winds northwesterly 15 to 25 km/h tending westerly 20 to 30 km/h during the day.",
         "icon_code": 17,
         "precipitation_prob": "40%",
         "precis": "Possible shower.",
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 25,
         "temp_min": 13
+      }
+    },
+    "2026-12-03": {
+      "7": {
+        "forecast": "Partly cloudy. Slight chance of a shower. Light winds becoming northwesterly 15 to 25 km/h during the morning.",
+        "icon_code": 3,
+        "precipitation_prob": "30%",
+        "precis": "Partly cloudy.",
+        "temp_max": 26,
+        "temp_min": 14
       }
     }
   },
