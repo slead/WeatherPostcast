@@ -6,7 +6,7 @@
         "forecast": "Cloudy. Very high chance of rain. The chance of a thunderstorm, possibly severe with heavy rain which may lead to flash flooding. Winds northeasterly 15 to 25 km/h.",
         "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Rain increasing.",
+        "precis": "Rain.",
         "temp_max": 25,
         "temp_min": null
       },
@@ -69,10 +69,10 @@
     },
     "2026-11-28": {
       "1": {
-        "forecast": "Cloudy. Very high chance of showers, most likely in the morning. The chance of a thunderstorm in the morning and afternoon, possibly severe with heavy rain which may lead to flash flooding in the morning and early afternoon. Winds northwest to northeasterly 25 to 35 km/h tending westerly 20 to 30 km/h in the morning then tending southwesterly in the early afternoon.",
-        "icon_code": 11,
+        "forecast": "Cloudy. Very high chance of rain, most likely in the morning. The chance of a thunderstorm in the morning, possibly severe with heavy rain which may lead to flash flooding in the early morning. Winds north to northeasterly 25 to 35 km/h shifting west to southwesterly 20 to 30 km/h in the late morning.",
+        "icon_code": 12,
         "precipitation_prob": "95%",
-        "precis": "Showers easing.",
+        "precis": "Rain easing.",
         "temp_max": 23,
         "temp_min": 19
       },
@@ -127,7 +127,7 @@
     },
     "2026-11-29": {
       "2": {
-        "forecast": "Cloudy. High chance of showers. Winds southwesterly 15 to 20 km/h turning westerly 15 to 25 km/h during the day.",
+        "forecast": "Cloudy. High chance of showers. Winds west to southwesterly 20 to 30 km/h.",
         "icon_code": 11,
         "precipitation_prob": "80%",
         "precis": "Showers.",
@@ -292,6 +292,16 @@
         "precipitation_prob": "10%",
         "precis": "Mostly sunny.",
         "temp_max": 33,
+        "temp_min": 19
+      }
+    },
+    "2026-12-04": {
+      "7": {
+        "forecast": "Partly cloudy. Medium chance of showers. Winds north to northwesterly 20 to 30 km/h shifting southwesterly 15 to 25 km/h during the day.",
+        "icon_code": 11,
+        "precipitation_prob": "50%",
+        "precis": "Shower or two developing.",
+        "temp_max": 31,
         "temp_min": 19
       }
     }

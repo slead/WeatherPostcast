@@ -3,10 +3,10 @@
   "forecasts": {
     "2026-11-27": {
       "0": {
-        "forecast": "Partly cloudy. Medium chance of showers, becoming less likely in the evening. A thunderstorm likely in the afternoon and evening, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Light winds.",
+        "forecast": "Partly cloudy. Slight chance of a shower, becoming less likely later this evening. The chance of a thunderstorm, possibly severe with damaging winds and heavy rain which may lead to flash flooding. Light winds.",
         "icon_code": 16,
-        "precipitation_prob": "60%",
-        "precis": "Showers. Storm developing.",
+        "precipitation_prob": "30%",
+        "precis": "Possible storm.",
         "temp_max": 35,
         "temp_min": null
       },
@@ -69,7 +69,7 @@
     },
     "2026-11-28": {
       "1": {
-        "forecast": "Partly cloudy. Medium chance of showers in the late morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds.",
+        "forecast": "Partly cloudy. Medium chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Light winds.",
         "icon_code": 16,
         "precipitation_prob": "50%",
         "precis": "Shower or two. Possible storm.",
@@ -127,9 +127,9 @@
     },
     "2026-11-29": {
       "2": {
-        "forecast": "Sunny. Winds southerly and light tending south to southeasterly 20 to 30 km/h during the morning then becoming southerly 15 to 20 km/h during the evening.",
+        "forecast": "Sunny. Light winds becoming south to southeasterly 20 to 30 km/h in the morning.",
         "icon_code": 1,
-        "precipitation_prob": "0%",
+        "precipitation_prob": "5%",
         "precis": "Sunny.",
         "temp_max": 38,
         "temp_min": 21
@@ -177,7 +177,7 @@
     },
     "2026-11-30": {
       "3": {
-        "forecast": "Sunny. Light winds becoming south to southeasterly 20 to 30 km/h during the morning.",
+        "forecast": "Sunny. Winds south to southeasterly 20 to 30 km/h.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -219,7 +219,7 @@
     },
     "2026-12-01": {
       "4": {
-        "forecast": "Sunny. Winds southerly 15 to 20 km/h tending southeasterly during the morning.",
+        "forecast": "Sunny. Winds southeasterly 15 to 25 km/h becoming light during the day.",
         "icon_code": 1,
         "precipitation_prob": "0%",
         "precis": "Sunny.",
@@ -253,10 +253,10 @@
     },
     "2026-12-02": {
       "5": {
-        "forecast": "Sunny day. Slight chance of a shower later in the day. Light winds.",
-        "icon_code": 1,
+        "forecast": "Sunny morning. Slight chance of a shower later in the day. The chance of a thunderstorm later in the day. Light winds.",
+        "icon_code": 3,
         "precipitation_prob": "20%",
-        "precis": "Sunny.",
+        "precis": "Partly cloudy.",
         "temp_max": 40,
         "temp_min": 23
       },
@@ -293,6 +293,16 @@
         "precis": "Partly cloudy.",
         "temp_max": 39,
         "temp_min": 22
+      }
+    },
+    "2026-12-04": {
+      "7": {
+        "forecast": "Sunny morning. Slight chance of a shower later in the day. The chance of a thunderstorm later in the day. Light winds.",
+        "icon_code": 16,
+        "precipitation_prob": "30%",
+        "precis": "Sunny morning. Possible storm.",
+        "temp_max": 40,
+        "temp_min": 23
       }
     }
   },
